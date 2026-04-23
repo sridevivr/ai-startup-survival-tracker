@@ -1,0 +1,2897 @@
+{
+  "version": 1,
+  "model": "agent-inline",
+  "generated_at": "2026-04-23T00:00:00Z",
+  "classifications": {
+    "OpenAI": {
+      "sector": "Cross-industry",
+      "function": "Foundation Models",
+      "reasoning": "Frontier LLM lab."
+    },
+    "Anthropic": {
+      "sector": "Cross-industry",
+      "function": "Foundation Models",
+      "reasoning": "Frontier LLM lab."
+    },
+    "Mistral AI": {
+      "sector": "Cross-industry",
+      "function": "Foundation Models",
+      "reasoning": "Open-weight foundation model lab."
+    },
+    "xAI": {
+      "sector": "Cross-industry",
+      "function": "Foundation Models",
+      "reasoning": "Frontier foundation model lab (Grok)."
+    },
+    "Cohere": {
+      "sector": "Cross-industry",
+      "function": "Foundation Models",
+      "reasoning": "Enterprise-focused foundation model lab."
+    },
+    "Perplexity": {
+      "sector": "Consumer",
+      "function": "AI Agent",
+      "reasoning": "Consumer-facing AI search/answer engine."
+    },
+    "Character.AI": {
+      "sector": "Consumer",
+      "function": "Generative Product",
+      "reasoning": "Consumer AI companion/chatbot product."
+    },
+    "Inflection AI": {
+      "sector": "Consumer",
+      "function": "Foundation Models",
+      "reasoning": "Built proprietary models for Pi consumer assistant."
+    },
+    "Adept": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Autonomous action-taking agent on software."
+    },
+    "Stability AI": {
+      "sector": "Cross-industry",
+      "function": "Foundation Models",
+      "reasoning": "Trains open image generation models."
+    },
+    "Jasper": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "AI marketing copy generator."
+    },
+    "Runway": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "AI video generation product."
+    },
+    "ElevenLabs": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "Voice/speech generation product."
+    },
+    "Hugging Face": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Model hub and ML tooling."
+    },
+    "Suno": {
+      "sector": "Consumer",
+      "function": "Generative Product",
+      "reasoning": "Consumer AI music generator."
+    },
+    "Midjourney": {
+      "sector": "Consumer",
+      "function": "Generative Product",
+      "reasoning": "Consumer AI image generator."
+    },
+    "Glean": {
+      "sector": "Cross-industry",
+      "function": "Copilot / Assistant",
+      "reasoning": "Enterprise work assistant and search."
+    },
+    "Harvey": {
+      "sector": "Legal",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI assistant for lawyers."
+    },
+    "Writer": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "Enterprise AI writing platform."
+    },
+    "Synthesia": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "AI video avatar generator."
+    },
+    "Together AI": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Training/inference cloud for AI."
+    },
+    "Replicate": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Model hosting/inference platform."
+    },
+    "Pika": {
+      "sector": "Consumer",
+      "function": "Generative Product",
+      "reasoning": "AI video generation consumer product."
+    },
+    "Luma AI": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "AI video/3D generation."
+    },
+    "Humane": {
+      "sector": "Consumer",
+      "function": "Generative Product",
+      "reasoning": "Consumer AI hardware device (Pin)."
+    },
+    "Rewind AI": {
+      "sector": "Consumer",
+      "function": "Copilot / Assistant",
+      "reasoning": "Personal AI memory/recall assistant."
+    },
+    "Forward Health": {
+      "sector": "Healthcare",
+      "function": "Analytics & Decisioning",
+      "reasoning": "AI-powered primary care clinics."
+    },
+    "Olive AI": {
+      "sector": "Healthcare",
+      "function": "AI Agent",
+      "reasoning": "Automation agent for healthcare RCM workflows."
+    },
+    "Argo AI": {
+      "sector": "Logistics",
+      "function": "AI Agent",
+      "reasoning": "Autonomous driving platform."
+    },
+    "Ghost Autonomy": {
+      "sector": "Logistics",
+      "function": "AI Agent",
+      "reasoning": "Autonomous driving platform."
+    },
+    "Typeface": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "Enterprise brand content generation."
+    },
+    "Hippocratic AI": {
+      "sector": "Healthcare",
+      "function": "AI Agent",
+      "reasoning": "Autonomous healthcare voice agents."
+    },
+    "Sakana AI": {
+      "sector": "Cross-industry",
+      "function": "Research Lab",
+      "reasoning": "AI research lab exploring novel model architectures."
+    },
+    "Magic": {
+      "sector": "Cross-industry",
+      "function": "Foundation Models",
+      "reasoning": "Training code foundation models."
+    },
+    "Poolside": {
+      "sector": "Cross-industry",
+      "function": "Foundation Models",
+      "reasoning": "Training code-focused foundation models."
+    },
+    "Codeium": {
+      "sector": "Cross-industry",
+      "function": "Copilot / Assistant",
+      "reasoning": "Code autocomplete/assistant, later Windsurf IDE."
+    },
+    "Cursor": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Autonomous code editing agent."
+    },
+    "Rivet": {
+      "sector": "Cross-industry",
+      "function": "Copilot / Assistant",
+      "reasoning": "Visual editor that edits production code."
+    },
+    "Openroll": {
+      "sector": "HR",
+      "function": "AI Agent",
+      "reasoning": "AI workforce for People and Finance teams."
+    },
+    "Clicks": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "AI agents for back-office operations."
+    },
+    "DiligenceSquared": {
+      "sector": "Finance",
+      "function": "Analytics & Decisioning",
+      "reasoning": "AI market due-diligence reports for investors."
+    },
+    "Boom AI": {
+      "sector": "E-commerce",
+      "function": "AI Agent",
+      "reasoning": "AI growth team for e-commerce brands."
+    },
+    "Freeport Markets": {
+      "sector": "Finance",
+      "function": "Analytics & Decisioning",
+      "reasoning": "AI-curated signal extraction for investing platform."
+    },
+    "Jarmin": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Autonomous ML engineer employees."
+    },
+    "Exonic": {
+      "sector": "Healthcare",
+      "function": "Foundation Models",
+      "reasoning": "Unsupervised biological AI for precision gene therapy."
+    },
+    "Lemma": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Reliability platform for AI agents."
+    },
+    "Denki": {
+      "sector": "Finance",
+      "function": "AI Agent",
+      "reasoning": "Full-stack AI financial audit firm."
+    },
+    "Arcten": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Building coding agents."
+    },
+    "Primer": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "AI product demo generation for sales teams."
+    },
+    "Philon": {
+      "sector": "Logistics",
+      "function": "AI Agent",
+      "reasoning": "General-purpose robotics."
+    },
+    "Sourcebot": {
+      "sector": "Cross-industry",
+      "function": "Copilot / Assistant",
+      "reasoning": "Helps humans/agents understand codebases."
+    },
+    "Patent Watch": {
+      "sector": "Legal",
+      "function": "Analytics & Decisioning",
+      "reasoning": "AI detection of patent infringements."
+    },
+    "Leadbay": {
+      "sector": "Cross-industry",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Lead discovery and qualification."
+    },
+    "Cortex AI": {
+      "sector": "Cross-industry",
+      "function": "Data Infrastructure",
+      "reasoning": "Real-world robot/human data for embodied AI."
+    },
+    "Inspector": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "AI IDE for front-end development."
+    },
+    "Thesis": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Autonomous ML experiment/training platform."
+    },
+    "Compyle": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Collaborative coding agent."
+    },
+    "Lexi": {
+      "sector": "Legal",
+      "function": "AI Agent",
+      "reasoning": "AI associates for corporate law."
+    },
+    "Rovr": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "AI orchestration for engineering/services teams."
+    },
+    "Redapto": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "GTM orchestration platform with runbooks."
+    },
+    "Helonic": {
+      "sector": "Engineering",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Automatic construction drawing clash detection."
+    },
+    "Aleph Lab": {
+      "sector": "Gaming",
+      "function": "Generative Product",
+      "reasoning": "AI language buddy embedded in kids' games."
+    },
+    "Sciloop": {
+      "sector": "Cross-industry",
+      "function": "Data Infrastructure",
+      "reasoning": "Expert STEM reasoning data for frontier AI labs."
+    },
+    "Allus AI": {
+      "sector": "Engineering",
+      "function": "Foundation Models",
+      "reasoning": "Vision foundation model for manufacturing."
+    },
+    "Unsiloed AI": {
+      "sector": "Cross-industry",
+      "function": "Data Infrastructure",
+      "reasoning": "API for parsing multimodal unstructured data."
+    },
+    "Terrain": {
+      "sector": "Cross-industry",
+      "function": "Copilot / Assistant",
+      "reasoning": "Explicitly stealth, insufficient info."
+    },
+    "SellRaze": {
+      "sector": "E-commerce",
+      "function": "AI Agent",
+      "reasoning": "Automated selling online."
+    },
+    "Mod AI": {
+      "sector": "Finance",
+      "function": "AI Agent",
+      "reasoning": "Touchless AP automation."
+    },
+    "Semble AI": {
+      "sector": "Engineering",
+      "function": "AI Agent",
+      "reasoning": "Autonomous building-system design for construction."
+    },
+    "Nessie": {
+      "sector": "Cross-industry",
+      "function": "Copilot / Assistant",
+      "reasoning": "Syncs AI conversations into reusable shareable contexts."
+    },
+    "Trelium": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Agent that builds other agents."
+    },
+    "Norra": {
+      "sector": "Healthcare",
+      "function": "AI Agent",
+      "reasoning": "Automates equipment operations for nursing facilities."
+    },
+    "Soren": {
+      "sector": "Cross-industry",
+      "function": "Copilot / Assistant",
+      "reasoning": "Horizontal private AI deployment for regulated industries."
+    },
+    "The Context Company": {
+      "sector": "Cross-industry",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Monitor AI agents and understand user behavior."
+    },
+    "Scoop": {
+      "sector": "Healthcare",
+      "function": "AI Agent",
+      "reasoning": "Automating regulatory submissions for life sciences."
+    },
+    "Hyperspell": {
+      "sector": "Cross-industry",
+      "function": "Data Infrastructure",
+      "reasoning": "Memory for AI agents."
+    },
+    "Bolna AI": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Voice AI for India's consumer/business calls."
+    },
+    "Nexus": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "No-code AI agent builder."
+    },
+    "Structured AI": {
+      "sector": "Engineering",
+      "function": "AI Agent",
+      "reasoning": "AI workforce for construction engineering."
+    },
+    "Uplane": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Replaces marketing agencies with AI."
+    },
+    "Lapis": {
+      "sector": "E-commerce",
+      "function": "Generative Product",
+      "reasoning": "On-brand image ad generator."
+    },
+    "Mixy": {
+      "sector": "Consumer",
+      "function": "Generative Product",
+      "reasoning": "Consumer app for making music mashups."
+    },
+    "Paloma": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "AI-native CRM automating post-sales ops."
+    },
+    "Freya": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Enterprise voice AI agents."
+    },
+    "NOSO LABS": {
+      "sector": "Healthcare",
+      "function": "AI Agent",
+      "reasoning": "AI agents for field technicians to diagnose."
+    },
+    "RowFlow": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Converts forms into conversational AI intake."
+    },
+    "TectoAI": {
+      "sector": "Security",
+      "function": "Analytics & Decisioning",
+      "reasoning": "AI governance, PII redaction, compliance monitoring."
+    },
+    "Fleetline": {
+      "sector": "Logistics",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Fleet planning optimization."
+    },
+    "stagewise": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Coding agent built for the web."
+    },
+    "Reacher": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Automates creator marketing for brands."
+    },
+    "Certus AI": {
+      "sector": "Customer Support",
+      "function": "AI Agent",
+      "reasoning": "Voice AI replacing restaurant phone lines."
+    },
+    "Pally": {
+      "sector": "Cross-industry",
+      "function": "Copilot / Assistant",
+      "reasoning": "Unified inbox + personal CRM."
+    },
+    "Locata": {
+      "sector": "Healthcare",
+      "function": "AI Agent",
+      "reasoning": "AI referral automation for primary care clinics."
+    },
+    "Pleom": {
+      "sector": "Cross-industry",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Agentic business intelligence."
+    },
+    "Eden": {
+      "sector": "Cross-industry",
+      "function": "Data Infrastructure",
+      "reasoning": "Synthetic data + simulators for sales demos."
+    },
+    "Humoniq": {
+      "sector": "Customer Support",
+      "function": "AI Agent",
+      "reasoning": "Voice AI contact center for travel industry."
+    },
+    "Palace": {
+      "sector": "Logistics",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Truck fleet load plan optimization."
+    },
+    "Floot": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "No-code app generator for non-coders."
+    },
+    "Alara": {
+      "sector": "Healthcare",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Procurement platform for dental offices."
+    },
+    "Omnara": {
+      "sector": "Cross-industry",
+      "function": "Copilot / Assistant",
+      "reasoning": "Mobile/web interface for Claude Code & Codex."
+    },
+    "Knowlify": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "AI explainer video maker."
+    },
+    "Autosana": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "AI agents for mobile/web E2E testing."
+    },
+    "Finto": {
+      "sector": "Finance",
+      "function": "AI Agent",
+      "reasoning": "AI accounting for enterprise finance teams."
+    },
+    "Manufact (formerly mcp-use)": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Open source SDK/cloud for MCP servers."
+    },
+    "Phases": {
+      "sector": "Healthcare",
+      "function": "AI Agent",
+      "reasoning": "Automates clinical trial patient recruitment."
+    },
+    "Mimos": {
+      "sector": "Cross-industry",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Helps companies rank in AI search."
+    },
+    "Normal": {
+      "sector": "Engineering",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Testing and certifying hardware."
+    },
+    "GhostEye": {
+      "sector": "Security",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Vulnerability management for the human layer."
+    },
+    "Channel3": {
+      "sector": "E-commerce",
+      "function": "Data Infrastructure",
+      "reasoning": "Database of every product on the internet."
+    },
+    "Embedder": {
+      "sector": "Engineering",
+      "function": "AI Agent",
+      "reasoning": "AI firmware engineer."
+    },
+    "Doe": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Agent that acts across user's tools."
+    },
+    "Riverbank": {
+      "sector": "Security",
+      "function": "AI Agent",
+      "reasoning": "AI-native red teaming / offensive security."
+    },
+    "Stellon Labs": {
+      "sector": "Cross-industry",
+      "function": "Foundation Models",
+      "reasoning": "Building tiny frontier models for edge devices."
+    },
+    "AgentHub": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Simulation and evaluation engine for agents."
+    },
+    "Slashy": {
+      "sector": "Cross-industry",
+      "function": "Copilot / Assistant",
+      "reasoning": "'Cursor for Email' \u2014 human-in-the-loop."
+    },
+    "Wedge": {
+      "sector": "Healthcare",
+      "function": "AI Agent",
+      "reasoning": "'Palantir for Healthcare AI Agents'."
+    },
+    "CareSwift": {
+      "sector": "Healthcare",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI scribe for ambulance reports."
+    },
+    "DeepAware AI": {
+      "sector": "Cross-industry",
+      "function": "Data Infrastructure",
+      "reasoning": "Robots/parts/RL environments for training."
+    },
+    "Magnitude": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Open source coding agent."
+    },
+    "Nori": {
+      "sector": "Healthcare",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI health coach for consumers."
+    },
+    "Frizzle": {
+      "sector": "Education",
+      "function": "Analytics & Decisioning",
+      "reasoning": "AI grading for teachers."
+    },
+    "Alter": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Access control/authorization for agent workflows."
+    },
+    "Cyberdesk": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Self-learning computer-use agent for developers."
+    },
+    "Panels": {
+      "sector": "Cross-industry",
+      "function": "Data Infrastructure",
+      "reasoning": "Audio data for AI labs."
+    },
+    "Monarcha": {
+      "sector": "Cross-industry",
+      "function": "Data Infrastructure",
+      "reasoning": "Turns maps into structured data."
+    },
+    "Lotas": {
+      "sector": "Cross-industry",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI for data science and 3D work."
+    },
+    "Design Arena": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Crowdsourced benchmark for AI-generated design."
+    },
+    "Datafruit": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "AI workspace for software implementations."
+    },
+    "Liva AI": {
+      "sector": "Cross-industry",
+      "function": "Data Infrastructure",
+      "reasoning": "Audio/video data marketplace."
+    },
+    "Lanesurf": {
+      "sector": "Logistics",
+      "function": "AI Agent",
+      "reasoning": "Voice AI for booking freight."
+    },
+    "Astor": {
+      "sector": "Finance",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI advisor for retail investors."
+    },
+    "truthsystems": {
+      "sector": "Security",
+      "function": "AI Agent",
+      "reasoning": "Real-time governance agents blocking risky behavior."
+    },
+    "MangoDesk": {
+      "sector": "Cross-industry",
+      "function": "Data Infrastructure",
+      "reasoning": "RL environments for software engineering."
+    },
+    "Closera": {
+      "sector": "Real Estate",
+      "function": "AI Agent",
+      "reasoning": "AI employees for commercial real estate."
+    },
+    "Meteor": {
+      "sector": "Consumer",
+      "function": "AI Agent",
+      "reasoning": "AI-native browser with agent."
+    },
+    "Prox": {
+      "sector": "Customer Support",
+      "function": "AI Agent",
+      "reasoning": "AI technical support agents."
+    },
+    "Autonomous Technologies Group": {
+      "sector": "Finance",
+      "function": "AI Agent",
+      "reasoning": "Superintelligent financial advisor."
+    },
+    "Docket": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "AI agents for web testing."
+    },
+    "Aegis": {
+      "sector": "Healthcare",
+      "function": "AI Agent",
+      "reasoning": "AI agents to win denied insurance claims."
+    },
+    "Text.ai": {
+      "sector": "Consumer",
+      "function": "Copilot / Assistant",
+      "reasoning": "Group chat assistant with social skills."
+    },
+    "StarSling": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "'Cursor for DevOps' \u2014 agent."
+    },
+    "Wavedash": {
+      "sector": "Gaming",
+      "function": "Generative Product",
+      "reasoning": "Browser game streaming."
+    },
+    "Cactus (Home Services)": {
+      "sector": "Customer Support",
+      "function": "AI Agent",
+      "reasoning": "24/7 AI call center for home services."
+    },
+    "Cactus (Compute)": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "On-device AI inference engine for mobile/wearables."
+    },
+    "Vision Lab": {
+      "sector": "Cross-industry",
+      "function": "Data Infrastructure",
+      "reasoning": "Industrial data layer for robotics training."
+    },
+    "Code Four": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Modernizing police workflow."
+    },
+    "Lumari": {
+      "sector": "Logistics",
+      "function": "AI Agent",
+      "reasoning": "AI digital workers for supply chain."
+    },
+    "Moby Analytics": {
+      "sector": "Finance",
+      "function": "Analytics & Decisioning",
+      "reasoning": "AI financial auditors."
+    },
+    "Mesmer": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "'Cursor for CTOs' \u2014 engineering leadership agent."
+    },
+    "Orchid (Work Agent)": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Proactive agent for work tasks."
+    },
+    "Scalar Field": {
+      "sector": "Finance",
+      "function": "AI Agent",
+      "reasoning": "Intelligent agent-based trading terminal."
+    },
+    "Boost Robotics": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Robots for data center inspection/maintenance."
+    },
+    "KlavisAI": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Live environments for training AI agents."
+    },
+    "Besimple AI": {
+      "sector": "Cross-industry",
+      "function": "Data Infrastructure",
+      "reasoning": "Voice data for AI."
+    },
+    "Human Behavior": {
+      "sector": "Cross-industry",
+      "function": "Analytics & Decisioning",
+      "reasoning": "AI-native product analytics with session replays."
+    },
+    "QualGent": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "AI mobile QA tester agent."
+    },
+    "Theta": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Trains specialized agents via simulation."
+    },
+    "Cleon": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "AI agents for hotels and resorts."
+    },
+    "Crimson": {
+      "sector": "Legal",
+      "function": "AI Agent",
+      "reasoning": "AI associate for litigation lawyers."
+    },
+    "Morphik": {
+      "sector": "Cross-industry",
+      "function": "Data Infrastructure",
+      "reasoning": "Open-source multimodal search for AI apps."
+    },
+    "Clidey": {
+      "sector": "Cross-industry",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Real-time organization modeling."
+    },
+    "Sixtyfour": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Research agents mapping entity relationships/risk."
+    },
+    "Tegore": {
+      "sector": "Education",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI math tutor."
+    },
+    "Freesolo": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Helps enterprises instrument and improve AI."
+    },
+    "Bluejay": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Test/monitor/improve voice and chat AI agents."
+    },
+    "Kestral": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Automates product development lifecycle."
+    },
+    "Percival": {
+      "sector": "Cross-industry",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Accelerating data analysis for research."
+    },
+    "Sim": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Open source platform to build AI agent workflows."
+    },
+    "Clarm": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "AI inbound conversion engine for visitors."
+    },
+    "Beluga": {
+      "sector": "Cross-industry",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Influencer marketing optimization."
+    },
+    "Zeon Systems": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "AI-powered robotics for lab automation."
+    },
+    "Chonkie": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Deep research on autopilot."
+    },
+    "Ralo": {
+      "sector": "Real Estate",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Finds best mortgage deals."
+    },
+    "Serafis": {
+      "sector": "Finance",
+      "function": "Data Infrastructure",
+      "reasoning": "AI knowledge graph for institutional investors."
+    },
+    "Golf": {
+      "sector": "Security",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Agentic AI security and governance."
+    },
+    "BitBoard": {
+      "sector": "Cross-industry",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI for spreadsheets."
+    },
+    "Blaxel": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Persistent sandbox runtime for AI agents."
+    },
+    "Mentra": {
+      "sector": "Consumer",
+      "function": "Generative Product",
+      "reasoning": "Open source OS for smart glasses."
+    },
+    "Dex": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "AI coworker in Chrome."
+    },
+    "Browser Use": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Open-source web browsing agent."
+    },
+    "TamLabs": {
+      "sector": "Cross-industry",
+      "function": "Research Lab",
+      "reasoning": "Applied research lab redesigning knowledge work."
+    },
+    "Ergo": {
+      "sector": "Cross-industry",
+      "function": "Data Infrastructure",
+      "reasoning": "Unified data layer for revenue teams + agents."
+    },
+    "CopyCat": {
+      "sector": "Finance",
+      "function": "AI Agent",
+      "reasoning": "AI agents for insurance."
+    },
+    "Spott": {
+      "sector": "HR",
+      "function": "AI Agent",
+      "reasoning": "AI-native ATS/CRM for recruiting firms."
+    },
+    "Woz": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Claude Code plugin reducing token cost."
+    },
+    "Proception Inc": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "Humanoid robotic hands hardware."
+    },
+    "Wildcard": {
+      "sector": "E-commerce",
+      "function": "AI Agent",
+      "reasoning": "Sells products in ChatGPT Shopping."
+    },
+    "Pinch": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "Real-time voice translation API."
+    },
+    "Mastra": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "JavaScript framework for building AI agents."
+    },
+    "AfterQuery": {
+      "sector": "Cross-industry",
+      "function": "Data Infrastructure",
+      "reasoning": "Applied research lab curating training data."
+    },
+    "Artificial Societies": {
+      "sector": "Cross-industry",
+      "function": "Analytics & Decisioning",
+      "reasoning": "AI personas simulating stakeholder opinions."
+    },
+    "Sennu AI": {
+      "sector": "Cross-industry",
+      "function": "Copilot / Assistant",
+      "reasoning": "Enterprise AI rollout services firm."
+    },
+    "Outlit": {
+      "sector": "Cross-industry",
+      "function": "Data Infrastructure",
+      "reasoning": "Customer context for agents."
+    },
+    "Calltree": {
+      "sector": "Customer Support",
+      "function": "AI Agent",
+      "reasoning": "Enterprise AI support reps for call centers."
+    },
+    "Nitrode": {
+      "sector": "Cross-industry",
+      "function": "Data Infrastructure",
+      "reasoning": "Data for reasoning agents in dynamic environments."
+    },
+    "Exla": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "SDK to run transformer models anywhere."
+    },
+    "Confident AI": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "LLM eval and observability platform."
+    },
+    "Trata": {
+      "sector": "Finance",
+      "function": "Analytics & Decisioning",
+      "reasoning": "AI research desk for hedge funds."
+    },
+    "Haleum": {
+      "sector": "Security",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Human Risk Intelligence for AI-era."
+    },
+    "Lucidic AI": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "AI agent training via simulations."
+    },
+    "Mundo AI": {
+      "sector": "Cross-industry",
+      "function": "Data Infrastructure",
+      "reasoning": "Multilingual training data."
+    },
+    "Pluto": {
+      "sector": "Finance",
+      "function": "AI Agent",
+      "reasoning": "Regulated derivatives exchange."
+    },
+    "Lopus AI": {
+      "sector": "Cross-industry",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Growth analytics."
+    },
+    "Cenote": {
+      "sector": "Healthcare",
+      "function": "AI Agent",
+      "reasoning": "AI agents converting/retaining patients for clinics."
+    },
+    "Harbera": {
+      "sector": "Healthcare",
+      "function": "AI Agent",
+      "reasoning": "AI healthcare provider credentialing."
+    },
+    "Stillwind": {
+      "sector": "Engineering",
+      "function": "AI Agent",
+      "reasoning": "Autonomous electrical engineering."
+    },
+    "Pickle": {
+      "sector": "Consumer",
+      "function": "Data Infrastructure",
+      "reasoning": "Personal AI memory layer for consumer assistants."
+    },
+    "Asteroid": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "AI browser workforce for operations teams."
+    },
+    "Gale": {
+      "sector": "Legal",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Data-driven immigration platform."
+    },
+    "Olive": {
+      "sector": "Consumer",
+      "function": "Copilot / Assistant",
+      "reasoning": "Consumer lifestyle/context app."
+    },
+    "Cuckoo Labs": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "Real-time AI translator for sales/marketing."
+    },
+    "Mecha Health": {
+      "sector": "Healthcare",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Foundation models for x-ray analysis."
+    },
+    "Osmosis": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "RL for AI agents."
+    },
+    "Swerve": {
+      "sector": "Consumer",
+      "function": "Generative Product",
+      "reasoning": "Consumer app for chatting with AI characters."
+    },
+    "Cifrato": {
+      "sector": "Finance",
+      "function": "AI Agent",
+      "reasoning": "AI accountant for accounting firms."
+    },
+    "Cardamon": {
+      "sector": "Finance",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI compliance co-pilot for financial businesses."
+    },
+    "Trim": {
+      "sector": "Engineering",
+      "function": "Foundation Models",
+      "reasoning": "Foundation model for physics."
+    },
+    "SalesPatriot": {
+      "sector": "Legal",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Helps defense firms win Pentagon contracts."
+    },
+    "Maive": {
+      "sector": "Real Estate",
+      "function": "AI Agent",
+      "reasoning": "AI workforce for roofing / home services."
+    },
+    "Weave": {
+      "sector": "Cross-industry",
+      "function": "Analytics & Decisioning",
+      "reasoning": "AI to understand engineering work."
+    },
+    "Caseflood.ai": {
+      "sector": "Legal",
+      "function": "AI Agent",
+      "reasoning": "Automated law firm intake."
+    },
+    "Tejas AI": {
+      "sector": "Finance",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Risk decisioning platform for banks."
+    },
+    "Toothy AI": {
+      "sector": "Healthcare",
+      "function": "AI Agent",
+      "reasoning": "AI for insurance verification at dental clinics."
+    },
+    "Truffle AI": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "AWS-like platform for AI agents."
+    },
+    "Closure": {
+      "sector": "Legal",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Helps law enforcement solve crime."
+    },
+    "Promptless": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "AI teammate updating customer docs."
+    },
+    "Scout": {
+      "sector": "Education",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI student information system for K-12."
+    },
+    "Vocality Health": {
+      "sector": "Healthcare",
+      "function": "Generative Product",
+      "reasoning": "Voice AI for medical language translation."
+    },
+    "Alice.tech": {
+      "sector": "Education",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI-driven exam prep."
+    },
+    "Praxim": {
+      "sector": "Cross-industry",
+      "function": "Copilot / Assistant",
+      "reasoning": "Agentic AI editor for Microsoft Word."
+    },
+    "Tweeks.io": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "Lovable for Chrome plugins \u2014 no-code builder."
+    },
+    "Leaping AI": {
+      "sector": "Customer Support",
+      "function": "AI Agent",
+      "reasoning": "Voice AI agents automating call centers."
+    },
+    "Vetnio": {
+      "sector": "Healthcare",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI copilot for veterinary admin."
+    },
+    "Candor": {
+      "sector": "Cross-industry",
+      "function": "Copilot / Assistant",
+      "reasoning": "Helps companies win government funding with AI."
+    },
+    "Outship": {
+      "sector": "HR",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Evaluates engineers by how they use AI."
+    },
+    "Edexia": {
+      "sector": "Education",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI teacher assistant for grading essays."
+    },
+    "Quantstruct": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "AI documentation engineer."
+    },
+    "SRE.ai": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "AI DevOps agents."
+    },
+    "Melder": {
+      "sector": "Cross-industry",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI Excel analyst for spreadsheets."
+    },
+    "Forerunner AI": {
+      "sector": "Engineering",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI that speeds aircraft certification."
+    },
+    "Struct": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Automates on-call runbooks."
+    },
+    "ArchiLabs": {
+      "sector": "Engineering",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI copilot for architects."
+    },
+    "Diffusion Studio": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "Professional browser-based video editing."
+    },
+    "BrowserBook": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Browser automation IDE."
+    },
+    "AutoComputer": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Desktop RPA with AI computer use."
+    },
+    "vly.ai": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "Lovable/Replit-style app generator."
+    },
+    "HYBRD": {
+      "sector": "Consumer",
+      "function": "Copilot / Assistant",
+      "reasoning": "Consumer fitness app with hybrid training plans."
+    },
+    "Lingo.dev": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "Localization engineering platform."
+    },
+    "Luthor": {
+      "sector": "Cross-industry",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Marketing approval platform for regulated industries."
+    },
+    "Keye": {
+      "sector": "Finance",
+      "function": "Analytics & Decisioning",
+      "reasoning": "AI private equity investor."
+    },
+    "RiskCube": {
+      "sector": "Finance",
+      "function": "AI Agent",
+      "reasoning": "AI-native insurance broker for startups."
+    },
+    "CTGT": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Deterministic layer for frontier intelligence."
+    },
+    "Endstack": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Cloud desktop OS for humans and agents."
+    },
+    "Revyl": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "AI-native mobile testing."
+    },
+    "Raycaster": {
+      "sector": "Healthcare",
+      "function": "Analytics & Decisioning",
+      "reasoning": "AI for life sciences documents."
+    },
+    "Darkgrade": {
+      "sector": "Cross-industry",
+      "function": "Foundation Models",
+      "reasoning": "Protocol for LLMs to interface with image sensors."
+    },
+    "Candle": {
+      "sector": "Consumer",
+      "function": "Copilot / Assistant",
+      "reasoning": "App to help friends/couples grow closer."
+    },
+    "Galini": {
+      "sector": "Security",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Compliance guardrails-as-a-service for AI apps."
+    },
+    "Riveter": {
+      "sector": "Cross-industry",
+      "function": "Data Infrastructure",
+      "reasoning": "Turns web into structured data."
+    },
+    "Onlook": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "'Cursor for Designers' \u2014 design-to-code."
+    },
+    "DreamRP": {
+      "sector": "Consumer",
+      "function": "Generative Product",
+      "reasoning": "Platforms for human creators/entertainment."
+    },
+    "Conductor": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Runs a team of coding agents on Mac."
+    },
+    "PathPilot": {
+      "sector": "Finance",
+      "function": "AI Agent",
+      "reasoning": "AI agents for lending operations."
+    },
+    "Affil.ai": {
+      "sector": "Finance",
+      "function": "Analytics & Decisioning",
+      "reasoning": "AI affiliate network for financial companies."
+    },
+    "Overlap": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "Multimodal AI agents for video creation."
+    },
+    "Void": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Open source Cursor alternative."
+    },
+    "Anglera": {
+      "sector": "E-commerce",
+      "function": "Data Infrastructure",
+      "reasoning": "AI-powered product data enrichment."
+    },
+    "Pipeshift": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Inference for real-time production workloads."
+    },
+    "Vera Health": {
+      "sector": "Healthcare",
+      "function": "Analytics & Decisioning",
+      "reasoning": "AI clinical decision support."
+    },
+    "Keet": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Authentication for AI agents."
+    },
+    "Usul": {
+      "sector": "Legal",
+      "function": "Analytics & Decisioning",
+      "reasoning": "AI platform for winning defense contracts."
+    },
+    "Oway": {
+      "sector": "Logistics",
+      "function": "Analytics & Decisioning",
+      "reasoning": "AI infrastructure for empty truck space."
+    },
+    "Voker": {
+      "sector": "Cross-industry",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Agent analytics platform."
+    },
+    "Rastro": {
+      "sector": "E-commerce",
+      "function": "AI Agent",
+      "reasoning": "Fast product catalog launcher."
+    },
+    "Quetzal": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "LLM-first translation/internationalization."
+    },
+    "Typa": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "AI content engine driving growth."
+    },
+    "Sterling Labs, Inc": {
+      "sector": "Consumer",
+      "function": "Copilot / Assistant",
+      "reasoning": "FocusBuddy productivity coach."
+    },
+    "Orca Launcher": {
+      "sector": "Gaming",
+      "function": "Generative Product",
+      "reasoning": "Launcher turning Minecraft into Roblox-style platform."
+    },
+    "Assembly HOA": {
+      "sector": "Real Estate",
+      "function": "AI Agent",
+      "reasoning": "AI-native HOA management."
+    },
+    "Polymet": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "AI product designer."
+    },
+    "Propaya": {
+      "sector": "Real Estate",
+      "function": "Analytics & Decisioning",
+      "reasoning": "AI commercial lease abstraction/review."
+    },
+    "ZeroPath": {
+      "sector": "Security",
+      "function": "AI Agent",
+      "reasoning": "Automatically finds/fixes software vulnerabilities."
+    },
+    "bluedoor": {
+      "sector": "Finance",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Professional-grade stock research in terminal."
+    },
+    "Handled": {
+      "sector": "E-commerce",
+      "function": "AI Agent",
+      "reasoning": "Automates post-order ops for e-commerce."
+    },
+    "Baseline AI": {
+      "sector": "Healthcare",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI document creation for clinical trials."
+    },
+    "Cartage": {
+      "sector": "Logistics",
+      "function": "AI Agent",
+      "reasoning": "Autonomous freight coordination."
+    },
+    "Palmier": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "Cinematic AI marketing videos."
+    },
+    "Simple AI": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "AI voice that sells."
+    },
+    "Sensei": {
+      "sector": "Cross-industry",
+      "function": "Data Infrastructure",
+      "reasoning": "Robotic training data at scale."
+    },
+    "Presti AI": {
+      "sector": "E-commerce",
+      "function": "Generative Product",
+      "reasoning": "Visual production for furniture retailers."
+    },
+    "The Forecasting Company": {
+      "sector": "Cross-industry",
+      "function": "Foundation Models",
+      "reasoning": "Foundation models for time series."
+    },
+    "Zettascale": {
+      "sector": "ClimateTech",
+      "function": "ML Infrastructure",
+      "reasoning": "Energy-efficient chips for AI."
+    },
+    "Brighterway": {
+      "sector": "Healthcare",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Medical record review for workers comp."
+    },
+    "Soff": {
+      "sector": "E-commerce",
+      "function": "AI Agent",
+      "reasoning": "AI agents for distributors."
+    },
+    "Parley": {
+      "sector": "Legal",
+      "function": "AI Agent",
+      "reasoning": "Automates flat-fee legal work (visas)."
+    },
+    "Thunder Compute": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Cheap GPU cloud."
+    },
+    "Kura AI": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "State-of-the-art browser agents."
+    },
+    "Piggy Robotics": {
+      "sector": "Consumer",
+      "function": "Generative Product",
+      "reasoning": "Affordable humanoid robots for chores."
+    },
+    "Mage Legal": {
+      "sector": "Legal",
+      "function": "AI Agent",
+      "reasoning": "Automatic AI legal diligence."
+    },
+    "winfunc": {
+      "sector": "Security",
+      "function": "AI Agent",
+      "reasoning": "AI-native security engineering."
+    },
+    "Seals AI": {
+      "sector": "E-commerce",
+      "function": "AI Agent",
+      "reasoning": "AI employees for wholesalers/distributors."
+    },
+    "Drillbit": {
+      "sector": "Real Estate",
+      "function": "AI Agent",
+      "reasoning": "AI workforce for residential contractors."
+    },
+    "Sharpe": {
+      "sector": "Finance",
+      "function": "AI Agent",
+      "reasoning": "Agents for quant research/financial data science."
+    },
+    "Planbase": {
+      "sector": "Healthcare",
+      "function": "AI Agent",
+      "reasoning": "AI workforce management for healthcare."
+    },
+    "Clearly AI": {
+      "sector": "Security",
+      "function": "AI Agent",
+      "reasoning": "Automates security/privacy reviews."
+    },
+    "Overstand Labs": {
+      "sector": "Cross-industry",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Navigates large datasets quickly."
+    },
+    "Ontra Mobility": {
+      "sector": "Logistics",
+      "function": "Analytics & Decisioning",
+      "reasoning": "City transit optimization platform."
+    },
+    "Aluna": {
+      "sector": "Healthcare",
+      "function": "Data Infrastructure",
+      "reasoning": "Data for biomedical AI."
+    },
+    "Anthrogen": {
+      "sector": "Healthcare",
+      "function": "Foundation Models",
+      "reasoning": "Protein foundation models."
+    },
+    "Benchify": {
+      "sector": "Healthcare",
+      "function": "AI Agent",
+      "reasoning": "Executable healthcare contracts."
+    },
+    "TaxGPT": {
+      "sector": "Finance",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI tax assistant for professionals."
+    },
+    "Lighthouz AI": {
+      "sector": "Logistics",
+      "function": "AI Agent",
+      "reasoning": "Freight bill audits and AP/AR automation."
+    },
+    "Modus": {
+      "sector": "HR",
+      "function": "Analytics & Decisioning",
+      "reasoning": "AI-powered headcount management."
+    },
+    "Plume": {
+      "sector": "ClimateTech",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Renewable infrastructure deployment."
+    },
+    "Stormy AI": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "AI social marketing platform."
+    },
+    "Gauge": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Marketing agent across organic/paid/AI search."
+    },
+    "Kenley": {
+      "sector": "Finance",
+      "function": "AI Agent",
+      "reasoning": "AI agents for advisory/financial services."
+    },
+    "Tivara": {
+      "sector": "Healthcare",
+      "function": "AI Agent",
+      "reasoning": "AI workforce for medical groups."
+    },
+    "Lore": {
+      "sector": "Consumer",
+      "function": "Generative Product",
+      "reasoning": "Turns iMessage history into visual stories."
+    },
+    "CodeViz": {
+      "sector": "Cross-industry",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Living model of software architecture."
+    },
+    "Elevate": {
+      "sector": "Cross-industry",
+      "function": "Data Infrastructure",
+      "reasoning": "Automated AI data integrations for roll-ups."
+    },
+    "Storia AI": {
+      "sector": "Cross-industry",
+      "function": "Copilot / Assistant",
+      "reasoning": "Open source code copilot with company context."
+    },
+    "Scape": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "AI-native CRM capturing conversations."
+    },
+    "Willow": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "Voice interface replacing keyboards."
+    },
+    "NetworkOcean": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Underwater data centers."
+    },
+    "Silurian": {
+      "sector": "ClimateTech",
+      "function": "Foundation Models",
+      "reasoning": "Foundation models simulating Earth/weather."
+    },
+    "Unbound": {
+      "sector": "Security",
+      "function": "ML Infrastructure",
+      "reasoning": "Use AI tools without data leakage."
+    },
+    "Decisional AI": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Self-healing background automation agents."
+    },
+    "FirstWork": {
+      "sector": "HR",
+      "function": "Copilot / Assistant",
+      "reasoning": "Rippling for seasonal workers."
+    },
+    "Sorcerer": {
+      "sector": "ClimateTech",
+      "function": "Data Infrastructure",
+      "reasoning": "Atmospheric nervous system / weather sensing."
+    },
+    "Wordware": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Platform to build reliable AI agents."
+    },
+    "Maitai": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Enterprise LLM platform with fine-tuning."
+    },
+    "Corgi Insurance": {
+      "sector": "Finance",
+      "function": "AI Agent",
+      "reasoning": "AI financial infrastructure / insurance."
+    },
+    "Sage Care": {
+      "sector": "Healthcare",
+      "function": "AI Agent",
+      "reasoning": "Automates home care agency operations."
+    },
+    "Codes Health": {
+      "sector": "Healthcare",
+      "function": "AI Agent",
+      "reasoning": "Automated medical record retrieval."
+    },
+    "Entangl": {
+      "sector": "Engineering",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Data center engineering issue resolution."
+    },
+    "ProhostAI": {
+      "sector": "Real Estate",
+      "function": "AI Agent",
+      "reasoning": "AI property manager for Airbnb hosts."
+    },
+    "Educato": {
+      "sector": "Education",
+      "function": "Copilot / Assistant",
+      "reasoning": "Worldwide exam-prep platform."
+    },
+    "Saphira AI": {
+      "sector": "Engineering",
+      "function": "Copilot / Assistant",
+      "reasoning": "Vanta for Hardware \u2014 compliance for hardware."
+    },
+    "Mem0": {
+      "sector": "Cross-industry",
+      "function": "Data Infrastructure",
+      "reasoning": "Memory layer for AI apps."
+    },
+    "Superunit": {
+      "sector": "HR",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Faster AI background checks."
+    },
+    "\u00c5ngstr\u00f6m AI": {
+      "sector": "Healthcare",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Gen AI molecular simulations reproducing wetlab results."
+    },
+    "Marr Labs": {
+      "sector": "Customer Support",
+      "function": "AI Agent",
+      "reasoning": "Human-indistinguishable voice agents."
+    },
+    "Forge Rewards": {
+      "sector": "E-commerce",
+      "function": "Copilot / Assistant",
+      "reasoning": "Loyalty and ordering platform for restaurants."
+    },
+    "Same": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "Build products without coding."
+    },
+    "GetCrux": {
+      "sector": "Cross-industry",
+      "function": "Analytics & Decisioning",
+      "reasoning": "AI creative strategist."
+    },
+    "InspectMind AI": {
+      "sector": "Engineering",
+      "function": "AI Agent",
+      "reasoning": "AI agent for construction drawings review."
+    },
+    "kater.ai": {
+      "sector": "Cross-industry",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Delivers data analysis from a single question."
+    },
+    "Integuru": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "Generates APIs from any website."
+    },
+    "VoxOps AI": {
+      "sector": "Customer Support",
+      "function": "AI Agent",
+      "reasoning": "Voice AI for automotive."
+    },
+    "Evolvere BioSciences": {
+      "sector": "Healthcare",
+      "function": "Research Lab",
+      "reasoning": "Next-gen antibiotic research."
+    },
+    "Silogy": {
+      "sector": "Engineering",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI test/debug platform for chip developers."
+    },
+    "Senso": {
+      "sector": "Cross-industry",
+      "function": "Data Infrastructure",
+      "reasoning": "Context layer / verified KB for AI agents."
+    },
+    "Magic Hour": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "Platform for AI video generation."
+    },
+    "Veles": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "CPQ for humans and agents."
+    },
+    "Fluently": {
+      "sector": "Education",
+      "function": "Copilot / Assistant",
+      "reasoning": "Personal English tutor."
+    },
+    "Basepilot": {
+      "sector": "Finance",
+      "function": "AI Agent",
+      "reasoning": "AI agents for insurance claims."
+    },
+    "Aqua Voice": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "Voice input, write 4x faster."
+    },
+    "Adapted": {
+      "sector": "Healthcare",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI physical therapy for athletes."
+    },
+    "Ocular AI": {
+      "sector": "Cross-industry",
+      "function": "Data Infrastructure",
+      "reasoning": "AI-native data engine for LLMs/CV."
+    },
+    "Retell AI": {
+      "sector": "Customer Support",
+      "function": "AI Agent",
+      "reasoning": "AI phone agents for contact centers."
+    },
+    "Rove": {
+      "sector": "Consumer",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Consumer travel rewards platform."
+    },
+    "Downlink": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Makes LLMs 3x faster."
+    },
+    "Shepherd": {
+      "sector": "Education",
+      "function": "Copilot / Assistant",
+      "reasoning": "Personalized learning assistant for students."
+    },
+    "Openmart": {
+      "sector": "Cross-industry",
+      "function": "Data Infrastructure",
+      "reasoning": "Local business data intelligence platform."
+    },
+    "Alai": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "AI presentation maker."
+    },
+    "Brainbase Labs": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "AI labor company, generalist AI employees."
+    },
+    "Focal": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "AI video creation for TV/movies."
+    },
+    "Ligo Biosciences": {
+      "sector": "Healthcare",
+      "function": "Foundation Models",
+      "reasoning": "Enzyme design models."
+    },
+    "Model ML": {
+      "sector": "Finance",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI workspace for financial services."
+    },
+    "BetterBasket": {
+      "sector": "E-commerce",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Smart grocery pricing with AI."
+    },
+    "Risotto": {
+      "sector": "Customer Support",
+      "function": "AI Agent",
+      "reasoning": "Auto-solves IT support requests."
+    },
+    "Diana": {
+      "sector": "HR",
+      "function": "AI Agent",
+      "reasoning": "Gives employees an AI employee."
+    },
+    "Raindrop": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Sentry for AI agents \u2014 monitoring."
+    },
+    "Manifold Freight": {
+      "sector": "Logistics",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Aggregates spot freight for carriers."
+    },
+    "OffDeal": {
+      "sector": "Finance",
+      "function": "AI Agent",
+      "reasoning": "AI-native investment bank for SMBs."
+    },
+    "Overeasy": {
+      "sector": "Cross-industry",
+      "function": "Copilot / Assistant",
+      "reasoning": "Site unreachable, insufficient info."
+    },
+    "Andy AI": {
+      "sector": "Healthcare",
+      "function": "Copilot / Assistant",
+      "reasoning": "Clinical documentation for home health nurses."
+    },
+    "Conduit": {
+      "sector": "Customer Support",
+      "function": "AI Agent",
+      "reasoning": "Conversational AI agents for customer service."
+    },
+    "Preloop": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Translates experimental scripts into ML services."
+    },
+    "Superagent": {
+      "sector": "Security",
+      "function": "ML Infrastructure",
+      "reasoning": "Red teaming for AI agents."
+    },
+    "SevnAI": {
+      "sector": "Gaming",
+      "function": "Generative Product",
+      "reasoning": "AI gaming."
+    },
+    "Ellipsis": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "AI code reviews and bug fixes."
+    },
+    "Solari AI": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Out-of-box agents for non-technical teams."
+    },
+    "Centralize": {
+      "sector": "Cross-industry",
+      "function": "Analytics & Decisioning",
+      "reasoning": "AI deal collaboration for revenue teams."
+    },
+    "phospho": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Gives brains to robots."
+    },
+    "Firebender": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Coding agent for Android engineers."
+    },
+    "Aether": {
+      "sector": "Real Estate",
+      "function": "AI Agent",
+      "reasoning": "AI sales platform for home services."
+    },
+    "Fuse": {
+      "sector": "Healthcare",
+      "function": "AI Agent",
+      "reasoning": "AI helpers for patient intake."
+    },
+    "PandasAI": {
+      "sector": "Cross-industry",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Conversational data analysis platform."
+    },
+    "14.ai": {
+      "sector": "Consumer",
+      "function": "AI Agent",
+      "reasoning": "AI engine powering autonomous brands."
+    },
+    "Tamarind Bio": {
+      "sector": "Healthcare",
+      "function": "ML Infrastructure",
+      "reasoning": "AI inference platform for drug discovery."
+    },
+    "Decipher AI": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "QA agents that write tests."
+    },
+    "Respan": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Observability/evals for AI agents."
+    },
+    "Meticulate": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "B2B sales outbound automation."
+    },
+    "Tusk": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "AI agent generating unit/integration tests."
+    },
+    "TokenOwl": {
+      "sector": "Finance",
+      "function": "Analytics & Decisioning",
+      "reasoning": "AI portfolio tools for finance."
+    },
+    "Ecliptor": {
+      "sector": "Cross-industry",
+      "function": "Data Infrastructure",
+      "reasoning": "AI and embeddings infrastructure."
+    },
+    "Greenboard": {
+      "sector": "Finance",
+      "function": "Copilot / Assistant",
+      "reasoning": "Modern OS for financial back office."
+    },
+    "Eggnog": {
+      "sector": "Consumer",
+      "function": "Generative Product",
+      "reasoning": "Fun with AI video."
+    },
+    "Arini": {
+      "sector": "Healthcare",
+      "function": "AI Agent",
+      "reasoning": "AI receptionist for dentists."
+    },
+    "AveryIQ": {
+      "sector": "Real Estate",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI copilot for property managers."
+    },
+    "Agentic Labs": {
+      "sector": "Cross-industry",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI system design tools for dev teams."
+    },
+    "nCompass Technologies": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Optimizes performance on GPUs."
+    },
+    "Pretzel AI": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Cord \u2014 cloud background coding agent."
+    },
+    "Reducto": {
+      "sector": "Cross-industry",
+      "function": "Data Infrastructure",
+      "reasoning": "API to parse documents."
+    },
+    "Andon Labs": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Autonomous organizations without human oversight."
+    },
+    "Poka Labs": {
+      "sector": "Engineering",
+      "function": "Copilot / Assistant",
+      "reasoning": "Modern OS for chemical manufacturing."
+    },
+    "Nuanced": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Makes coding agents smarter with static analysis."
+    },
+    "Tracecat": {
+      "sector": "Security",
+      "function": "AI Agent",
+      "reasoning": "Open source AI-native security automation."
+    },
+    "Sonia": {
+      "sector": "Healthcare",
+      "function": "Copilot / Assistant",
+      "reasoning": "Validated mental health support app."
+    },
+    "Duckie": {
+      "sector": "Customer Support",
+      "function": "AI Agent",
+      "reasoning": "Build AI support agents."
+    },
+    "Happenstance": {
+      "sector": "Cross-industry",
+      "function": "Analytics & Decisioning",
+      "reasoning": "People search powered by AI."
+    },
+    "Greptile": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "AI code review agent with codebase context."
+    },
+    "ego": {
+      "sector": "Gaming",
+      "function": "Generative Product",
+      "reasoning": "Persistent AI characters in 3D worlds."
+    },
+    "Legora": {
+      "sector": "Legal",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI workspace for lawyers."
+    },
+    "Scritch": {
+      "sector": "Healthcare",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI operating system for veterinary care."
+    },
+    "DryMerge": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "AI that updates CRM automatically."
+    },
+    "Navier AI": {
+      "sector": "Engineering",
+      "function": "AI Agent",
+      "reasoning": "Agent-driven engineering simulations."
+    },
+    "Upsolve AI": {
+      "sector": "Cross-industry",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Embed GenBI in SaaS apps."
+    },
+    "Letterbook": {
+      "sector": "Customer Support",
+      "function": "AI Agent",
+      "reasoning": "AI-native customer support platform."
+    },
+    "Orbio Earth": {
+      "sector": "ClimateTech",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Tracks methane emissions via satellites."
+    },
+    "jo": {
+      "sector": "Consumer",
+      "function": "Copilot / Assistant",
+      "reasoning": "Personal AI that knows you."
+    },
+    "Tempo": {
+      "sector": "Cross-industry",
+      "function": "Copilot / Assistant",
+      "reasoning": "Visual editor for React powered by AI."
+    },
+    "Cognitio Labs": {
+      "sector": "Healthcare",
+      "function": "Analytics & Decisioning",
+      "reasoning": "FDA-grade traceability with sensors/AI."
+    },
+    "truemetrics": {
+      "sector": "Logistics",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Parking/entry guidance for couriers."
+    },
+    "Wattson Health": {
+      "sector": "Healthcare",
+      "function": "AI Agent",
+      "reasoning": "AI voice/SMS agents for healthcare."
+    },
+    "Morph": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Subagents/tools improving coding agents."
+    },
+    "Nowadays": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "AI event planner for corporate offsites."
+    },
+    "Waldium": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "AI-native CMS for content publishing."
+    },
+    "Mocha": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "Build/publish web apps, no coding."
+    },
+    "Simbie AI": {
+      "sector": "Healthcare",
+      "function": "AI Agent",
+      "reasoning": "Gets patients to their next appointment."
+    },
+    "AiSDR": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "AI sales prospecting replacing SDRs."
+    },
+    "Giga": {
+      "sector": "Customer Support",
+      "function": "AI Agent",
+      "reasoning": "AI support agent for enterprises."
+    },
+    "Inconvo": {
+      "sector": "Cross-industry",
+      "function": "Data Infrastructure",
+      "reasoning": "Chat-with-data agents for customer apps."
+    },
+    "Roame": {
+      "sector": "Consumer",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Flight search using points/miles."
+    },
+    "dili": {
+      "sector": "Security",
+      "function": "AI Agent",
+      "reasoning": "Automates PWA compliance and diligence."
+    },
+    "Webhound": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Long-horizon research agents."
+    },
+    "Cair Health": {
+      "sector": "Healthcare",
+      "function": "AI Agent",
+      "reasoning": "AI agents for healthcare RCM."
+    },
+    "Quill Bills": {
+      "sector": "Healthcare",
+      "function": "AI Agent",
+      "reasoning": "AI-powered medical billing."
+    },
+    "Strada": {
+      "sector": "Finance",
+      "function": "AI Agent",
+      "reasoning": "AI agents running insurance operations."
+    },
+    "Minded": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Cursor for AI Agents \u2014 builder."
+    },
+    "Terracotta AI": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "AI-powered IaC PR reviews."
+    },
+    "Cedalio": {
+      "sector": "ClimateTech",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Turns utility bills into decisions."
+    },
+    "Langdock": {
+      "sector": "Cross-industry",
+      "function": "Copilot / Assistant",
+      "reasoning": "Enterprise AI adoption platform."
+    },
+    "sudocode": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Orchestrates coding agents."
+    },
+    "Sweep": {
+      "sector": "Cross-industry",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI coding assistant for JetBrains."
+    },
+    "Silimate": {
+      "sector": "Engineering",
+      "function": "Copilot / Assistant",
+      "reasoning": "Copilot for chip designers."
+    },
+    "Andromeda Surgical": {
+      "sector": "Healthcare",
+      "function": "AI Agent",
+      "reasoning": "Autonomous surgical robots."
+    },
+    "DisputeNinja": {
+      "sector": "E-commerce",
+      "function": "AI Agent",
+      "reasoning": "AI agents automating chargebacks."
+    },
+    "Baserun": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Observability/evaluation for LLM apps."
+    },
+    "Sola": {
+      "sector": "Cross-industry",
+      "function": "Copilot / Assistant",
+      "reasoning": "Copilot for RPA."
+    },
+    "Rankai": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "AI-native SEO/GEO agency."
+    },
+    "Inlet": {
+      "sector": "Legal",
+      "function": "Analytics & Decisioning",
+      "reasoning": "AI timekeeping for law firms."
+    },
+    "Slicker": {
+      "sector": "Finance",
+      "function": "AI Agent",
+      "reasoning": "Recovers payment failures to maximize revenue."
+    },
+    "Gleam": {
+      "sector": "Healthcare",
+      "function": "AI Agent",
+      "reasoning": "Automates data entry for clinical trials."
+    },
+    "sizeless": {
+      "sector": "Real Estate",
+      "function": "Generative Product",
+      "reasoning": "Instant 3D digital twins for real estate."
+    },
+    "Continue": {
+      "sector": "Cross-industry",
+      "function": "Copilot / Assistant",
+      "reasoning": "Quality control for software dev (AI code copilot)."
+    },
+    "Respaid": {
+      "sector": "Finance",
+      "function": "AI Agent",
+      "reasoning": "B2B debt collection powered by AI."
+    },
+    "MediSearch": {
+      "sector": "Healthcare",
+      "function": "AI Agent",
+      "reasoning": "Trustworthy medical search engine."
+    },
+    "Numen": {
+      "sector": "Healthcare",
+      "function": "Research Lab",
+      "reasoning": "Engineering a future without cancer deaths."
+    },
+    "Decoda Health": {
+      "sector": "Healthcare",
+      "function": "Copilot / Assistant",
+      "reasoning": "All-in-one EMR for med spas."
+    },
+    "Skyvern": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Open source AI agent for browser workflows."
+    },
+    "Rocketeer": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Claude Code for GTM teams."
+    },
+    "Serra": {
+      "sector": "HR",
+      "function": "AI Agent",
+      "reasoning": "24/7 AI recruiter."
+    },
+    "Arcimus": {
+      "sector": "HR",
+      "function": "Copilot / Assistant",
+      "reasoning": "Technical recruiting service sourcing engineers."
+    },
+    "Bronco AI": {
+      "sector": "Engineering",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI for ASIC design verification."
+    },
+    "Venta AI": {
+      "sector": "Cross-industry",
+      "function": "Copilot / Assistant",
+      "reasoning": "Compliant AI colleague for sales teams in Europe."
+    },
+    "Alguna": {
+      "sector": "Finance",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI-native CPQ and billing."
+    },
+    "SID": {
+      "sector": "Cross-industry",
+      "function": "Research Lab",
+      "reasoning": "AI research lab for retrieval."
+    },
+    "Spine AI": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Manages swarms of AI agents."
+    },
+    "CORE": {
+      "sector": "Consumer",
+      "function": "AI Agent",
+      "reasoning": "Personal AI butler executing tasks."
+    },
+    "Talc": {
+      "sector": "Healthcare",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Event extraction for medical researchers."
+    },
+    "OpenTools": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "API for LLM tool use."
+    },
+    "Readily": {
+      "sector": "Healthcare",
+      "function": "Analytics & Decisioning",
+      "reasoning": "AI compliance platform for healthcare."
+    },
+    "Pointhound": {
+      "sector": "Consumer",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Earn/redeem credit card points."
+    },
+    "Diligent": {
+      "sector": "Finance",
+      "function": "AI Agent",
+      "reasoning": "AI agents for fintech risk/compliance."
+    },
+    "Sohar Health": {
+      "sector": "Healthcare",
+      "function": "AI Agent",
+      "reasoning": "AI insurance verification for patient conversion."
+    },
+    "Elyos AI": {
+      "sector": "Customer Support",
+      "function": "AI Agent",
+      "reasoning": "AI customer service agents for trades."
+    },
+    "Clearest Health": {
+      "sector": "Healthcare",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Rebuilding trust in health insurance."
+    },
+    "Reworkd": {
+      "sector": "Cross-industry",
+      "function": "Data Infrastructure",
+      "reasoning": "Web data extraction at scale."
+    },
+    "Kino AI": {
+      "sector": "Cross-industry",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI media manager and video editor."
+    },
+    "kapa.ai": {
+      "sector": "Customer Support",
+      "function": "AI Agent",
+      "reasoning": "AI assistants from technical docs for support."
+    },
+    "Vaero": {
+      "sector": "Cross-industry",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI for human writing."
+    },
+    "Yuma AI": {
+      "sector": "Customer Support",
+      "function": "AI Agent",
+      "reasoning": "AI support agent for ecommerce."
+    },
+    "Automat": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "AI-enabled RPA with computer vision."
+    },
+    "Adri AI": {
+      "sector": "Security",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Vanta for AI \u2014 governance/compliance."
+    },
+    "Vendora": {
+      "sector": "E-commerce",
+      "function": "Copilot / Assistant",
+      "reasoning": "All-in-one software for grocery industry."
+    },
+    "Type": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "AI-first document editor/book writer."
+    },
+    "Metal": {
+      "sector": "Finance",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Institutional intelligence for PE."
+    },
+    "Pier": {
+      "sector": "Finance",
+      "function": "Copilot / Assistant",
+      "reasoning": "Credit compliance partner."
+    },
+    "Benchmark": {
+      "sector": "Finance",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Decision infrastructure for investment firms."
+    },
+    "rex.fit": {
+      "sector": "Consumer",
+      "function": "Copilot / Assistant",
+      "reasoning": "Automates nutrition tracking."
+    },
+    "Berry": {
+      "sector": "Customer Support",
+      "function": "AI Agent",
+      "reasoning": "Scales customer success/onboarding."
+    },
+    "Decohere": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Real-time generative AI infrastructure."
+    },
+    "CorgiLabs": {
+      "sector": "Finance",
+      "function": "Analytics & Decisioning",
+      "reasoning": "AI to increase payment acceptance, reduce fraud."
+    },
+    "Coldreach": {
+      "sector": "Cross-industry",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Finds leads with custom intent signals."
+    },
+    "SuperKalam": {
+      "sector": "Education",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI mentor for UPSC test prep."
+    },
+    "CombineHealth": {
+      "sector": "Healthcare",
+      "function": "AI Agent",
+      "reasoning": "Automates healthcare RCM."
+    },
+    "Hippo Scribe": {
+      "sector": "Healthcare",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI documentation for PT/OT/SLP."
+    },
+    "Finic": {
+      "sector": "Finance",
+      "function": "AI Agent",
+      "reasoning": "Proactively hunts fraud."
+    },
+    "Shortbread": {
+      "sector": "Consumer",
+      "function": "Generative Product",
+      "reasoning": "Read AI-generated romance comics."
+    },
+    "Boundary": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Programming language for AI."
+    },
+    "222": {
+      "sector": "Consumer",
+      "function": "AI Agent",
+      "reasoning": "AI social facilitator for offline interactions."
+    },
+    "1stCollab": {
+      "sector": "Cross-industry",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Performance-optimized influencer marketing."
+    },
+    "Orchid (Mental Health EHR)": {
+      "sector": "Healthcare",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI-powered EHR for mental health providers."
+    },
+    "Truewind": {
+      "sector": "Finance",
+      "function": "AI Agent",
+      "reasoning": "AI-powered accounting."
+    },
+    "Velos": {
+      "sector": "Finance",
+      "function": "AI Agent",
+      "reasoning": "AI automation for finance/insurance back-office."
+    },
+    "Iliad": {
+      "sector": "Gaming",
+      "function": "Generative Product",
+      "reasoning": "AI-accelerated procedural material/texture tools."
+    },
+    "co.dev": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "Turns ideas into full-stack apps."
+    },
+    "DataSuite": {
+      "sector": "Cross-industry",
+      "function": "Data Infrastructure",
+      "reasoning": "Dataset management for AI trainers."
+    },
+    "No Cap": {
+      "sector": "Finance",
+      "function": "AI Agent",
+      "reasoning": "AI startup investor."
+    },
+    "Gooseworks": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "AI coworkers for GTM teams."
+    },
+    "Cosine": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Fully agentic SWE."
+    },
+    "PoplarML": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Deploy ML models with one command."
+    },
+    "infra.new": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "AI agent for cloud infrastructure."
+    },
+    "Gluetrail": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "Creates step-by-step articles with screenshots."
+    },
+    "JustPaid": {
+      "sector": "Finance",
+      "function": "AI Agent",
+      "reasoning": "Billing automation for B2B."
+    },
+    "Narrative": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "AI agents for end-to-end testing."
+    },
+    "Versive": {
+      "sector": "Cross-industry",
+      "function": "Analytics & Decisioning",
+      "reasoning": "AI-moderated user research platform."
+    },
+    "Glass Health": {
+      "sector": "Healthcare",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI clinical decision support and scribing."
+    },
+    "Double \u2013 Coding Copilot": {
+      "sector": "Cross-industry",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI coding copilot."
+    },
+    "Ohm": {
+      "sector": "Engineering",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI for engineering test labs."
+    },
+    "Pair AI": {
+      "sector": "Education",
+      "function": "Generative Product",
+      "reasoning": "Short-form video education with AI."
+    },
+    "Backdrop": {
+      "sector": "Finance",
+      "function": "AI Agent",
+      "reasoning": "AI finance agent automating AP/reconciliation."
+    },
+    "Latent": {
+      "sector": "Healthcare",
+      "function": "Foundation Models",
+      "reasoning": "Medical language models automating ops."
+    },
+    "Concourse": {
+      "sector": "Finance",
+      "function": "AI Agent",
+      "reasoning": "AI agents for corporate finance."
+    },
+    "Novelcare": {
+      "sector": "Healthcare",
+      "function": "Copilot / Assistant",
+      "reasoning": "Empowers doctors/patients in research."
+    },
+    "Rollstack": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "Automates data-driven slide decks."
+    },
+    "Linum": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "Text-to-video generation."
+    },
+    "Reflex": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "Open-source Python framework with AI code gen."
+    },
+    "StackAI": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Enterprise AI transformation platform."
+    },
+    "Chima": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Enterprise gen AI platform deploying agents."
+    },
+    "Unify": {
+      "sector": "HR",
+      "function": "AI Agent",
+      "reasoning": "Hire AI \u2014 Not APIs."
+    },
+    "Gander": {
+      "sector": "Logistics",
+      "function": "AI Agent",
+      "reasoning": "Automation system for global aviation."
+    },
+    "Thyme": {
+      "sector": "Finance",
+      "function": "Copilot / Assistant",
+      "reasoning": "OS for financial advisors."
+    },
+    "Remade": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "AI-native canvas for creative workflows."
+    },
+    "Arcane": {
+      "sector": "Gaming",
+      "function": "Generative Product",
+      "reasoning": "AI-powered games."
+    },
+    "Resonance": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "Self-improving content bank for marketing."
+    },
+    "Speck": {
+      "sector": "Cross-industry",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI wingman / sales notetaker with research."
+    },
+    "StarJar": {
+      "sector": "Healthcare",
+      "function": "AI Agent",
+      "reasoning": "Automates inbound document processing for hospitals."
+    },
+    "OpenPipe": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Turns expensive prompts into fine-tuned models."
+    },
+    "Autotab": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Reliable AI agents for real work."
+    },
+    "FlowiseAI": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Open source GenAI development platform."
+    },
+    "Inari": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Junior AI PM turning feedback into ideas."
+    },
+    "Pincites": {
+      "sector": "Legal",
+      "function": "Copilot / Assistant",
+      "reasoning": "AI for contract negotiation."
+    },
+    "Deasy Labs": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Metadata for GenAI workflows."
+    },
+    "Xeol": {
+      "sector": "Security",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Closes outdated dependency attack vectors."
+    },
+    "DAGWorks Inc.": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Tools for reliable AI agents/apps."
+    },
+    "Fintool": {
+      "sector": "Finance",
+      "function": "Copilot / Assistant",
+      "reasoning": "Financial copilot for institutional investors."
+    },
+    "Booth AI": {
+      "sector": "E-commerce",
+      "function": "Generative Product",
+      "reasoning": "Generative AI photographer for e-commerce."
+    },
+    "Langfuse": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Open source LLM engineering platform."
+    },
+    "Nuntius": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "'Making Models Follow Rules' \u2014 rules/alignment tooling."
+    },
+    "Zeroframe": {
+      "sector": "Cross-industry",
+      "function": "Data Infrastructure",
+      "reasoning": "Video datasets for world models / robotics."
+    },
+    "Invaria": {
+      "sector": "Cross-industry",
+      "function": "Data Infrastructure",
+      "reasoning": "Next-gen logging/observability platform."
+    },
+    "Lumona": {
+      "sector": "Consumer",
+      "function": "AI Agent",
+      "reasoning": "AI search with social media insights."
+    },
+    "Thorntale": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "AI-powered presentation editor."
+    },
+    "Abel": {
+      "sector": "Legal",
+      "function": "AI Agent",
+      "reasoning": "Transforms document review for litigation."
+    },
+    "Toolify": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "Builds internal tools with AI."
+    },
+    "Engines": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "Setup any repo with one command."
+    },
+    "Quary": {
+      "sector": "Cross-industry",
+      "function": "Analytics & Decisioning",
+      "reasoning": "In-browser analytics engineering."
+    },
+    "RadMate AI": {
+      "sector": "Healthcare",
+      "function": "Copilot / Assistant",
+      "reasoning": "Copilot for radiologists."
+    },
+    "Lantern": {
+      "sector": "Cross-industry",
+      "function": "Data Infrastructure",
+      "reasoning": "Postgres vector database extension."
+    },
+    "Kips Health": {
+      "sector": "Healthcare",
+      "function": "Copilot / Assistant",
+      "reasoning": "Patient engagement software; no URL to verify."
+    },
+    "Movley": {
+      "sector": "E-commerce",
+      "function": "Analytics & Decisioning",
+      "reasoning": "E-commerce product quality control."
+    },
+    "Vizly": {
+      "sector": "Cross-industry",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Data to insights in seconds."
+    },
+    "Lysto": {
+      "sector": "Cross-industry",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Revenue intelligence for startups."
+    },
+    "GreenTally": {
+      "sector": "ClimateTech",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Affordable carbon tracking."
+    },
+    "Atla": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Improvement engine for AI agents."
+    },
+    "Branch AI": {
+      "sector": "Cross-industry",
+      "function": "Analytics & Decisioning",
+      "reasoning": "AI overview search as a service."
+    },
+    "Interlock": {
+      "sector": "Cross-industry",
+      "function": "Copilot / Assistant",
+      "reasoning": "Explicitly stealth, insufficient info."
+    },
+    "CodeParrot AI": {
+      "sector": "Cross-industry",
+      "function": "Generative Product",
+      "reasoning": "Helps developers build UI fast."
+    },
+    "Magicflow \ud800\udc82": {
+      "sector": "Cross-industry",
+      "function": "ML Infrastructure",
+      "reasoning": "Gen AI evaluation and curation platform."
+    },
+    "Rubber Ducky Labs": {
+      "sector": "E-commerce",
+      "function": "Analytics & Decisioning",
+      "reasoning": "AI-powered product discovery."
+    },
+    "Lynx": {
+      "sector": "Cross-industry",
+      "function": "AI Agent",
+      "reasoning": "AI for investigating engineering incidents."
+    },
+    "Layup": {
+      "sector": "Customer Support",
+      "function": "Copilot / Assistant",
+      "reasoning": "In-app AI guidance/onboarding deflecting tickets."
+    },
+    "Fathom": {
+      "sector": "Cross-industry",
+      "function": "Copilot / Assistant",
+      "reasoning": "No URL provided, insufficient info."
+    },
+    "HockeyStack": {
+      "sector": "Cross-industry",
+      "function": "Analytics & Decisioning",
+      "reasoning": "Marketing/revenue analytics."
+    }
+  }
+}

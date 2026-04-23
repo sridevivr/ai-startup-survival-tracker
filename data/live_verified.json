@@ -1,0 +1,73 @@
+{
+  "_description": "Signals verified via TWO independent methods on 2026-04-20: (1) direct browser navigation to the company website, (2) Google News search for corroborating press coverage. Both sources are cited per entry. When generate_sample_data.py runs, these overrides replace curated values and add a verification note.",
+  "_verified_at": "2026-04-20",
+  "_verification_methods": [
+    "Live browser navigation (Claude-in-Chrome) — actual HTTP response, redirects, page content",
+    "Google News cross-check — independent multi-source press confirmation"
+  ],
+  "verifications": {
+    "Humane": {
+      "http_status": 301,
+      "wayback_days": 20,
+      "feed_days": null,
+      "github_commits_90d": null,
+      "careers_page_found": false,
+      "jobs_detected": 0,
+      "verified_note": "VERIFIED 2026-04-20 · site: humane.com → hp-iq.com (HP AI orchestrator) · news: HP acquired Humane Feb 18, 2025 for $116M (raised $240M), AI Pin discontinued — sources: NYT, Verge, Fortune, Bloomberg/Yahoo, CNBC, TechCrunch"
+    },
+    "Inflection AI": {
+      "http_status": 200,
+      "wayback_days": 10,
+      "feed_days": null,
+      "github_commits_90d": null,
+      "careers_page_found": false,
+      "jobs_detected": 0,
+      "verified_note": "VERIFIED 2026-04-20 · site: up, pitching Pi + enterprise API · news: $650M MSFT licensing deal Mar 2024; founders/most staff joined Microsoft; FTC/UK CMA/German FCO all reviewed; Pi added usage caps Aug 2024; CEO said Nov 2024 they're 'done trying to make next-generation AI models' — sources: Fortune, Reuters, TechCrunch, Quartz"
+    },
+    "Adept": {
+      "http_status": 200,
+      "wayback_days": 45,
+      "feed_days": null,
+      "github_commits_90d": null,
+      "careers_page_found": false,
+      "jobs_detected": 0,
+      "verified_note": "VERIFIED 2026-04-20 · site: up, enterprise pitch preserved, no careers · news: Amazon reverse-acquihire June 2024 (raised $400M total); investors reportedly repaid; David Luan (Adept founder, headed Amazon AGI Lab) then left Amazon March 2026 — sources: TechCrunch, Verge, Semafor, GeekWire, CNBC"
+    },
+    "Codeium": {
+      "http_status": 301,
+      "wayback_days": 5,
+      "feed_days": 14,
+      "github_commits_90d": null,
+      "careers_page_found": true,
+      "jobs_detected": 55,
+      "verified_note": "VERIFIED 2026-04-20 · site: codeium.com → windsurf.com, blog post Apr 6 2026, hiring · NEWS CORRECTION: OpenAI $3B acquisition fell through (Apr 2025), Google DeepMind instead paid $2.4B to acquihire CEO Varun Mohan + co-founder + top researchers (Jul 2025), Cognition AI acquired the remainder — brand is alive but founding team is gone (same pattern as Inflection/Adept). Reclassify as Pivoted, not Thriving — sources: CNBC, Bloomberg, Fast Company, Neowin, Klover.ai"
+    },
+    "Rewind AI": {
+      "http_status": 500,
+      "wayback_days": 90,
+      "feed_days": null,
+      "github_commits_90d": null,
+      "careers_page_found": false,
+      "jobs_detected": 0,
+      "verified_note": "VERIFIED 2026-04-20 · site: error page (abandoned) · news: pivot to Limitless AI wearable confirmed (Forbes Mar 2025) — sources: Forbes"
+    },
+    "Argo AI": {
+      "http_status": null,
+      "wayback_days": 800,
+      "feed_days": null,
+      "github_commits_90d": null,
+      "careers_page_found": false,
+      "jobs_detected": 0,
+      "verified_note": "VERIFIED 2026-04-20 · site: failed to load · news: shut down Oct 26 2022; $3.6B raised; Ford + VW pulled backing; assets absorbed by backers — sources: TechCrunch, Reuters, Verge, Autoweek, CNBC"
+    },
+    "Olive AI": {
+      "http_status": 301,
+      "wayback_days": 300,
+      "feed_days": null,
+      "github_commits_90d": null,
+      "careers_page_found": false,
+      "jobs_detected": 0,
+      "verified_note": "VERIFIED 2026-04-20 · site: oliveai.com → waystar.com · news: shut down Nov 1 2023 after selling last core business lines; domain redirect to Waystar confirmed by Columbus Business First Nov 3 2023; 'mass extinction event' coverage — sources: Healthcare Dive, Columbus Business First, Fierce Healthcare, Business Insider"
+    }
+  }
+}

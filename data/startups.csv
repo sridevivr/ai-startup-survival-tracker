@@ -1,0 +1,579 @@
+name,website,category,original_category,founded,github_org,twitter_handle,notes,batch,yc_status,ph_slug,tagline,sources,sector,function
+OpenAI,https://openai.com,Foundation Models,,2015,openai,OpenAI,,,,,,curated,Cross-industry,Foundation Models
+Anthropic,https://anthropic.com,Foundation Models,,2021,anthropics,AnthropicAI,,,,,,curated,Cross-industry,Foundation Models
+Mistral AI,https://mistral.ai,Foundation Models,,2023,mistralai,MistralAI,,,,,,curated,Cross-industry,Foundation Models
+xAI,https://x.ai,Foundation Models,,2023,xai-org,xai,,,,,,curated,Cross-industry,Foundation Models
+Cohere,https://cohere.com,Foundation Models,,2019,cohere-ai,cohere,,,,,,curated,Cross-industry,Foundation Models
+Perplexity,https://perplexity.ai,AI Search,,2022,,perplexity_ai,,,,,,curated,Consumer,AI Agent
+Character.AI,https://character.ai,Consumer AI,,2022,,character_ai,Google licensing deal Aug 2024,,,,,curated,Consumer,Generative Product
+Inflection AI,https://inflection.ai,Consumer AI,,2022,,inflectionAI,Microsoft acquihire March 2024,,,,,curated,Consumer,Foundation Models
+Adept,https://adept.ai,AI Agents,,2022,,AdeptAILabs,Amazon acquihire June 2024,,,,,curated,Cross-industry,AI Agent
+Stability AI,https://stability.ai,Image AI,Image Generation,2020,stability-ai,StabilityAI,Leadership turmoil 2024,,,,,curated,Cross-industry,Foundation Models
+Jasper,https://jasper.ai,AI Writing,,2021,,heyjasperai,Layoffs 2023-2024,,,,,curated,Cross-industry,Generative Product
+Runway,https://runwayml.com,Video AI,Video Generation,2018,runwayml,runwayml,,,,,,curated,Cross-industry,Generative Product
+ElevenLabs,https://elevenlabs.io,Voice AI,,2022,elevenlabs,elevenlabsio,,,,,,curated,Cross-industry,Generative Product
+Hugging Face,https://huggingface.co,ML Infrastructure,,2016,huggingface,huggingface,,,,,,curated,Cross-industry,ML Infrastructure
+Suno,https://suno.com,Music AI,Music Generation,2022,,SunoMusic,RIAA lawsuits 2024,,,,,curated,Consumer,Generative Product
+Midjourney,https://midjourney.com,Image AI,Image Generation,2021,,midjourney,,,,,,curated,Consumer,Generative Product
+Glean,https://glean.com,AI Search,Enterprise Search,2019,,glean,,,,,,curated,Cross-industry,Copilot / Assistant
+Harvey,https://harvey.ai,Legal AI,,2022,,harvey__ai,,,,,,curated,Legal,Copilot / Assistant
+Writer,https://writer.com,AI Writing,Enterprise Writing,2020,,getwriterai,,,,,,curated,Cross-industry,Generative Product
+Synthesia,https://synthesia.io,Video AI,Video Generation,2017,,synthesiaIO,,,,,,curated,Cross-industry,Generative Product
+Together AI,https://together.ai,ML Infrastructure,,2022,togethercomputer,togethercompute,,,,,,curated,Cross-industry,ML Infrastructure
+Replicate,https://replicate.com,ML Infrastructure,,2019,replicate,replicate,,,,,,curated,Cross-industry,ML Infrastructure
+Pika,https://pika.art,Video AI,Video Generation,2023,,pika_labs,,,,,,curated,Consumer,Generative Product
+Luma AI,https://lumalabs.ai,Video AI,Video Generation,2021,,LumaLabsAI,,,,,,curated,Cross-industry,Generative Product
+Humane,https://humane.com,Engineering AI,AI Hardware,2018,,Humane,HP acquisition Feb 2025 after Pin flop,,,,,curated,Consumer,Generative Product
+Rewind AI,https://rewind.ai,Productivity AI,Personal AI,2020,,rewindai,Pivoted to Limitless Pendant,,,,,curated,Consumer,Copilot / Assistant
+Forward Health,https://goforward.com,Healthcare AI,AI Health,2016,,goforward,Shut down CarePod Nov 2024,,,,,curated,Healthcare,Analytics & Decisioning
+Olive AI,https://oliveai.com,Healthcare AI,,2012,,oliveaihq,Shut down Oct 2023,,,,,curated,Healthcare,AI Agent
+Argo AI,https://argo.ai,Robotics,Autonomous Driving,2016,,argoai,Shut down Oct 2022,,,,,curated,Logistics,AI Agent
+Ghost Autonomy,https://driveghost.com,Robotics,Autonomous Driving,2017,,driveghost,Shut down April 2024,,,,,curated,Logistics,AI Agent
+Typeface,https://typeface.ai,Foundation Models,Enterprise Gen AI,2022,,typefaceai,Salesforce acquisition talks 2024,,,,,curated,Cross-industry,Generative Product
+Hippocratic AI,https://hippocraticai.com,Healthcare AI,,2023,,HippocraticAI,,,,,,curated,Healthcare,AI Agent
+Sakana AI,https://sakana.ai,AI Research,,2023,SakanaAI,SakanaAILabs,,,,,,curated,Cross-industry,Research Lab
+Magic,https://magic.dev,Code AI,,2022,,magicailabs,,,,,,curated,Cross-industry,Foundation Models
+Poolside,https://poolside.ai,Code AI,,2023,,poolsideai,,,,,,curated,Cross-industry,Foundation Models
+Codeium,https://codeium.com,Code AI,,2021,Exafunction,codeiumdev,Rebranded to Windsurf 2024; Google DeepMind acquihired founding team $2.4B Jul 2025; Cognition AI acquired remainder,,,,,curated,Cross-industry,Copilot / Assistant
+Cursor,https://cursor.com,Code AI,,2022,getcursor,cursor_ai,,,,,,curated,Cross-industry,AI Agent
+Rivet,https://rivet.design/,Code AI,,2025,,,,Fall 2025,Active,,Visual editor to design in production code,ycombinator,Cross-industry,Copilot / Assistant
+Openroll,https://www.openroll.com,Finance AI,AI,2025,,,,Fall 2025,Active,,The AI workforce for People and Finance teams,ycombinator,HR,AI Agent
+Clicks,https://goclicks.ai/,AI Agents,AI,2025,,,,Fall 2025,Active,,AI agents for your back-office operations.,ycombinator,Cross-industry,AI Agent
+DiligenceSquared,https://diligencesquared.com/,Finance AI,AI,2025,,,,Fall 2025,Active,,AI-powered market due diligence for investment decisions,ycombinator,Finance,Analytics & Decisioning
+Boom AI,https://useboom.ai,E-commerce AI,AI,2025,,,,Fall 2025,Active,,AI growth team for e-commerce brands,ycombinator,E-commerce,AI Agent
+Freeport Markets,https://www.freeportmarkets.com/,Finance AI,AI,2025,,,,Fall 2025,Active,,Tradable Twitter Feed ,ycombinator,Finance,Analytics & Decisioning
+Jarmin,https://jarmin.ai/,Code AI,,2025,,,,Fall 2025,Active,,24/7 Machine Learning Engineer employees,ycombinator,Cross-industry,AI Agent
+Exonic,https://exonic.ai,Healthcare AI,AI,2025,,,,Fall 2025,Active,,Unsupervised Biological AI,ycombinator,Healthcare,Foundation Models
+Lemma,https://www.uselemma.ai/,ML Infrastructure,AI,2025,,,,Fall 2025,Active,,Reliability platform for AI agents,ycombinator,Cross-industry,ML Infrastructure
+Denki,https://denki.ai,Finance AI,AI,2025,,,,Fall 2025,Active,,The full-stack AI financial audit firm,ycombinator,Finance,AI Agent
+Arcten,https://arcten.com,Code AI,AI,2025,,,,Fall 2025,Active,,Building the best coding agents.,ycombinator,Cross-industry,AI Agent
+Primer,https://www.startprimer.com,Go-to-Market AI,AI,2025,,,,Fall 2025,Active,,AI Product Demos,ycombinator,Cross-industry,Generative Product
+Philon,https://philon.ai/,Robotics,AI,2025,,,,Fall 2025,Active,,General Purpose Robots,ycombinator,Logistics,AI Agent
+Sourcebot,https://www.sourcebot.dev/,AI Agents,AI,2025,,,,Fall 2025,Active,,Helping humans and AI agents understand massive codebases,ycombinator,Cross-industry,Copilot / Assistant
+Patent Watch,https://www.patentwatch.ai/,Legal AI,AI,2025,,,,Fall 2025,Active,,AI for detecting patent infringements,ycombinator,Legal,Analytics & Decisioning
+Leadbay,https://leadbay.ai/,Go-to-Market AI,AI,2025,,,,Fall 2025,Active,,Discover and qualify SMB leads that couldn't be found before.,ycombinator,Cross-industry,Analytics & Decisioning
+Cortex AI,https://cortexrobot.ai/,Data Infrastructure,,2025,,,,Fall 2025,Active,,Large-scale real-world robot & human data for embodied AI,ycombinator,Cross-industry,Data Infrastructure
+Inspector,https://www.tryinspector.com,Code AI,,2025,,,,Fall 2025,Active,,AI IDE for front-end development,ycombinator,Cross-industry,AI Agent
+Thesis,https://thesislabs.ai,ML Infrastructure,AI,2025,,,,Fall 2025,Active,,Accelerating AI research,ycombinator,Cross-industry,ML Infrastructure
+Compyle,https://compyle.ai,AI Agents,,2025,,,,Fall 2025,Active,,The coding agent that actually collaborates with you,ycombinator,Cross-industry,AI Agent
+Lexi,https://getlexi.io/,Legal AI,,2025,,,,Fall 2025,Active,,AI Associates for Corporate Law,ycombinator,Legal,AI Agent
+Rovr,https://www.withrovr.com/,AI Agents,AI,2025,,,,Fall 2025,Active,,AI FDE Engine that runs yourengineering workflows,ycombinator,Cross-industry,AI Agent
+Redapto,https://www.redapto.com/,Go-to-Market AI,AI,2025,,,,Fall 2025,Active,,,ycombinator,Cross-industry,AI Agent
+Helonic,https://helonic.com,Engineering AI,AI,2025,,,,Fall 2025,Active,,Automatic Construction Drawing Clash Detection ,ycombinator,Engineering,Analytics & Decisioning
+Aleph Lab,http://alephlab.ai/,Gaming AI,AI,2025,,,,Fall 2025,Active,,AI language buddy in the games kids love,ycombinator,Gaming,Generative Product
+Sciloop,https://sciloop.dev,Data Infrastructure,,2025,,,,Fall 2025,Active,,Expert STEM reasoning data for frontier AI labs.,ycombinator,Cross-industry,Data Infrastructure
+Allus AI,https://allus.ai,ML Infrastructure,,2025,,,,Fall 2025,Active,,Transforming manufacturing with our next-gen Vision Foundation Model,ycombinator,Engineering,Foundation Models
+Unsiloed AI,https://www.unsiloed.ai/,Data Infrastructure,,2025,,,,Fall 2025,Active,,API for parsing multimodal unstructured data,ycombinator,Cross-industry,Data Infrastructure
+Terrain,https://onterrain.ai/,General AI,AI,2025,,,,Fall 2025,Active,,Stealth,ycombinator,Cross-industry,Copilot / Assistant
+SellRaze,https://sellraze.com,E-commerce AI,AI,2025,,,,Fall 2025,Active,,The fastest way to sell online.,ycombinator,E-commerce,AI Agent
+Mod AI,https://usemod.ai,Finance AI,AI,2025,,,,Fall 2025,Active,,Touchless AP Automation,ycombinator,Finance,AI Agent
+Semble AI,https://www.sembleai.com,AI Agents,,2025,,,,Fall 2025,Active,,Autonomous building-system design for construction companies.,ycombinator,Engineering,AI Agent
+Nessie,https://nessielabs.com/,Productivity AI,AI,2025,,,,Fall 2025,Active,,Shareable AI Brains for Everyone,ycombinator,Cross-industry,Copilot / Assistant
+Trelium,https://www.trelium.com,AI Agents,AI,2025,,,,Fall 2025,Active,,TheAgent to Build Your Agents,ycombinator,Cross-industry,AI Agent
+Norra,https://www.norra.io,Healthcare AI,AI,2025,,,,Fall 2025,Active,,Automating equipment operations for nursing facilities,ycombinator,Healthcare,AI Agent
+Soren,https://soren-ai.com,General AI,AI,2025,,,,Fall 2025,Active,,Private AI forRegulated Industries,ycombinator,Cross-industry,Copilot / Assistant
+The Context Company,https://thecontext.company,AI Agents,AI,2025,,,,Fall 2025,Active,,Monitor AI agents and understand user behavior,ycombinator,Cross-industry,Analytics & Decisioning
+Scoop,https://scooplabs.ai,Healthcare AI,AI,2025,,,,Fall 2025,Active,,Automating regulatory submissions for life sciences,ycombinator,Healthcare,AI Agent
+Hyperspell,https://hyperspell.com,AI Agents,AI,2025,,,,Fall 2025,Active,,Memory for AI Agents,ycombinator,Cross-industry,Data Infrastructure
+Bolna AI,https://bolna.ai,Voice AI,,2025,,,,Fall 2025,Active,,Voice AIto enable India's next billion,ycombinator,Cross-industry,AI Agent
+Nexus,https://agent.nexus,AI Agents,AI,2025,,,,Fall 2025,Active,,We help non-technical teams build AI agents without engineers,ycombinator,Cross-industry,AI Agent
+Structured AI,https://www.getstructured.ai/,Engineering AI,AI,2025,,,,Fall 2025,Active,,AI workforce for Construction Engineering,ycombinator,Engineering,AI Agent
+Uplane,https://uplane.com,Go-to-Market AI,,2025,,,,Fall 2025,Active,,Replace marketing agencies with AI,ycombinator,Cross-industry,AI Agent
+Lapis,https://www.trylapis.com/,Image AI,Image Gen,2025,,,,Fall 2025,Active,,AI that creates on-brand image ads,ycombinator,E-commerce,Generative Product
+Mixy,https://usemixy.com,Consumer AI,AI,2025,,,,Fall 2025,Active,,Make mashups without knowing how to DJ,ycombinator,Consumer,Generative Product
+Paloma,https://getpaloma.ai/,Go-to-Market AI,,2025,,,,Summer 2025,Active,,AI-native CRM for putting post-sales operations on autopilot,ycombinator,Cross-industry,AI Agent
+Freya,https://freyavoice.ai/,Voice AI,,2025,,,,Summer 2025,Active,,Voice AI for Enterprises,ycombinator,Cross-industry,AI Agent
+NOSO LABS,https://noso.so,Healthcare AI,AI,2025,,,,Summer 2025,Active,,Build AI agents for field technicians to diagnose and sell 10x better,ycombinator,Healthcare,AI Agent
+RowFlow,https://rowflow.ai,Productivity AI,AI,2025,,,,Summer 2025,Active,,Replacing forms with AI conversations,ycombinator,Cross-industry,AI Agent
+TectoAI,https://www.tecto.ai/,Security AI,AI,2025,,,,Summer 2025,Active,,APlatform for AI Governance,ycombinator,Security,Analytics & Decisioning
+Fleetline,https://fleetline.ai,Data Infrastructure,,2025,,,,Summer 2025,Active,,Optimizing fleet planning with data driven algorithms,ycombinator,Logistics,Analytics & Decisioning
+stagewise,https://stagewise.io,AI Agents,,2025,,,,Summer 2025,Active,,The coding agent built for the web,ycombinator,Cross-industry,AI Agent
+Reacher,https://reacherapp.com/,Go-to-Market AI,,2025,,,,Summer 2025,Active,,We automate creator marketing for the world's largest brands,ycombinator,Cross-industry,AI Agent
+Certus AI,https://www.certus-ai.com/,Voice AI,,2025,,,,Summer 2025,Active,,Replacing the restaurant phone line with Voice AI,ycombinator,Customer Support,AI Agent
+Pally,https://pally.com,Go-to-Market AI,,2025,,,,Summer 2025,Active,,Intelligent Unified Inbox + Personal CRM,ycombinator,Cross-industry,Copilot / Assistant
+Locata,https://www.locatahealth.com/,Healthcare AI,AI,2025,,,,Summer 2025,Active,,AI Referral Automation for Primary Care Clinics,ycombinator,Healthcare,AI Agent
+Pleom,https://pleom.com,Analytics,AI,2025,,,,Summer 2025,Active,,AgenticBusiness Intelligence,ycombinator,Cross-industry,Analytics & Decisioning
+Eden,https://edenhq.com,Go-to-Market AI,,2025,,,,Summer 2025,Active,,Synthetic data + simulators for sales demos,ycombinator,Cross-industry,Data Infrastructure
+Humoniq,https://humoniq.ai,Customer Support AI,AI,2025,,,,Summer 2025,Active,,AI-Native BPO for travel & transport,ycombinator,Customer Support,AI Agent
+Palace,https://www.palace.so,Logistics AI,AI,2025,,,,Summer 2025,Active,,Palace lets commercial truck fleet optimize load plans in less time,ycombinator,Logistics,Analytics & Decisioning
+Floot,https://floot.com,Code AI,AI,2025,,,,Summer 2025,Active,,The easiest wayfor non-coders to build apps with AI.,ycombinator,Cross-industry,Generative Product
+Alara,http://alaradental.com,Healthcare AI,AI,2025,,,,Summer 2025,Active,,Procurement Platform for Dental Offices,ycombinator,Healthcare,Analytics & Decisioning
+Omnara,https://omnara.com,Code AI,,2025,,,,Summer 2025,Active,,Mobile & Web Interface for Claude Code & Codex,ycombinator,Cross-industry,Copilot / Assistant
+Knowlify,https://www.knowlify.com/,Video AI,,2025,,,,Summer 2025,Active,,The AI Explainer Video Maker,ycombinator,Cross-industry,Generative Product
+Autosana,https://autosana.ai,AI Agents,AI,2025,,,,Summer 2025,Active,,AI agents for E2Etesting across mobile & web,ycombinator,Cross-industry,AI Agent
+Finto,https://www.gofinto.com/,Finance AI,AI,2025,,,,Summer 2025,Active,,AI accounting for enterprise finance teams,ycombinator,Finance,AI Agent
+Manufact (formerly mcp-use),https://manufact.com,Code AI,AI,2025,,,,Summer 2025,Active,,Open source SDK & cloud infrastructure for MCP Servers & ChatGPT Apps ,ycombinator,Cross-industry,ML Infrastructure
+Phases,https://phases.ai,Healthcare AI,,2025,,,,Summer 2025,Active,,"""Automating clinical trials, starting with patient recruitment.""",ycombinator,Healthcare,AI Agent
+Mimos,https://www.trymimos.com/,AI Search,,2025,,,,Summer 2025,Active,,Helping companies rankin AI search,ycombinator,Cross-industry,Analytics & Decisioning
+Normal,https://www.normalfactory.com/,Engineering AI,AI,2025,,,,Summer 2025,Active,,Testing and certifying the hardware of the future,ycombinator,Engineering,Analytics & Decisioning
+GhostEye,https://ghosteye.ai,Security AI,,2025,,,,Summer 2025,Active,,Vulnerability Management for the Human Layer ,ycombinator,Security,Analytics & Decisioning
+Channel3,https://trychannel3.com,Data Infrastructure,AI,2025,,,,Summer 2025,Active,,Database of every product on the internet,ycombinator,E-commerce,Data Infrastructure
+Embedder,https://www.embedder.com,Code AI,,2025,,,,Summer 2025,Active,,AIFirmware Engineer,ycombinator,Engineering,AI Agent
+Doe,https://doe.so/,AI Agents,AI,2025,,,,Summer 2025,Active,,"""The boring stuff, handled. Everything else, supercharged.""",ycombinator,Cross-industry,AI Agent
+Riverbank,https://www.riverbank.sh/,Security AI,,2025,,,,Summer 2025,Active,,AI-native RedTeaming and Offensive Security ,ycombinator,Security,AI Agent
+Stellon Labs,https://stellonlabs.com/,ML Infrastructure,AI,2025,,,,Summer 2025,Active,,Building tiny frontier AI models that run on edge devices,ycombinator,Cross-industry,Foundation Models
+AgentHub,https://www.agenthublabs.com,ML Infrastructure,AI,2025,,,,Summer 2025,Active,,The simulation and evaluation engine for AI agents,ycombinator,Cross-industry,ML Infrastructure
+Slashy,https://www.slashy.com/,Code AI,AI,2025,,,,Summer 2025,Active,,Cursor for Email,ycombinator,Cross-industry,Copilot / Assistant
+Wedge,https://www.wedge.health,Healthcare AI,AI,2025,,,,Summer 2025,Active,,Palantir for Healthcare AI Agents,ycombinator,Healthcare,AI Agent
+CareSwift,https://www.careswift.com/,Analytics,AI,2025,,,,Summer 2025,Active,,AI scribe for Ambulance Reports,ycombinator,Healthcare,Copilot / Assistant
+DeepAware AI,https://roboticscenter.ai/,Robotics,AI,2025,,,,Summer 2025,Active,,"""Robots, parts & RL environments - delivered in 72 hrs or pickup in SF.""",ycombinator,Cross-industry,Data Infrastructure
+Magnitude,https://magnitude.dev,AI Agents,,2025,,,,Summer 2025,Active,,Open source coding agent,ycombinator,Cross-industry,AI Agent
+Nori,https://nori.ai,Healthcare AI,,2025,,,,Fall 2025,Active,,AI health coach in your pocket,ycombinator,Healthcare,Copilot / Assistant
+Frizzle,https://www.frizzle.com,Education AI,AI,2025,,,,Summer 2025,Active,,AI Grading for Teachers,ycombinator,Education,Analytics & Decisioning
+Alter,https://alterai.dev,AI Agents,,2025,,,,Summer 2025,Active,,Secure access control and authorization platform for agent workflows,ycombinator,Cross-industry,ML Infrastructure
+Cyberdesk,https://www.cyberdesk.io,AI Agents,,2025,,,,Summer 2025,Active,,Self learning computer use agent for developers,ycombinator,Cross-industry,AI Agent
+Panels,https://www.usepanels.com/,Voice AI,,2025,,,,Summer 2025,Active,,Audio Data for AI Labs,ycombinator,Cross-industry,Data Infrastructure
+Monarcha,https://monarcha.ai,Data Infrastructure,,2025,,,,Summer 2025,Active,,Turn maps into data,ycombinator,Cross-industry,Data Infrastructure
+Lotas,https://www.lotas.ai,Data Infrastructure,,2025,,,,Summer 2025,Active,,AI for Data Science and 3D,ycombinator,Cross-industry,Copilot / Assistant
+Design Arena,https://www.designarena.ai/,Design AI,,2025,,,,Summer 2025,Active,,World's largest crowdsourced benchmark for AI-generated design,ycombinator,Cross-industry,ML Infrastructure
+Datafruit,https://datafruit.ai/,Code AI,AI,2025,,,,Summer 2025,Active,,The AI workspace for software implementations,ycombinator,Cross-industry,AI Agent
+Liva AI,https://www.theliva.ai,Voice AI,,2025,,,,Summer 2025,Active,,Audio & Video Data,ycombinator,Cross-industry,Data Infrastructure
+Lanesurf,https://www.lanesurf.com/,Voice AI,,2025,,,,Summer 2025,Active,,Voice AI for booking freight,ycombinator,Logistics,AI Agent
+Astor,https://astor.app/,Finance AI,AI,2025,,,,Summer 2025,Active,,AI advisor for retail investors,ycombinator,Finance,Copilot / Assistant
+truthsystems,https://www.truthsystems.ai,AI Agents,AI,2025,,,,Summer 2025,Active,,Automatically blocking risky behavior with real-time governance agents,ycombinator,Security,AI Agent
+MangoDesk,https://www.mangodesk.com/,Code AI,AI,2025,,,,Summer 2025,Active,,RL environments for software engineering,ycombinator,Cross-industry,Data Infrastructure
+Closera,https://closera.com,Real Estate AI,AI,2025,,,,Summer 2025,Active,,AI employees for commercial real estate,ycombinator,Real Estate,AI Agent
+Meteor,https://browse.dev,AI Agents,AI,2025,,,,Summer 2025,Active,,An AI-Native Browser,ycombinator,Consumer,AI Agent
+Prox,https://useprox.com,Customer Support AI,AI,2025,,,,Fall 2025,Active,,AI technical support for complex physical products,ycombinator,Customer Support,AI Agent
+Autonomous Technologies Group,https://becomeautonomous.com/,AI Agents,,2025,,,,Fall 2025,Active,,Superintelligentfinancial advisor,ycombinator,Finance,AI Agent
+Docket,https://docketqa.com,AI Agents,AI,2025,,,,Spring 2025,Active,,AI agents for web testing,ycombinator,Cross-industry,AI Agent
+Aegis,https://aegishealth.us/,Healthcare AI,,2025,,,,Spring 2025,Active,,AI Agents to win denied health insurance claims.,ycombinator,Healthcare,AI Agent
+Text.ai,https://www.text.ai/,Consumer AI,AI,2025,,,,Spring 2025,Active,,Alfi - your group chat with social skills to bring friends closer,ycombinator,Consumer,Copilot / Assistant
+StarSling,https://www.starsling.dev/,Code AI,AI,2025,,,,Spring 2025,Active,,Cursor for DevOps,ycombinator,Cross-industry,AI Agent
+Wavedash,https://wavedash.com,Gaming AI,AI,2025,,,,Spring 2025,Active,,Play the latest games in your browser with no downloads,ycombinator,Gaming,Generative Product
+Cactus,https://oncactus.com,Customer Support AI,AI,2025,,,,Spring 2025,Active,,24/7 AI Call Center for Home Services,ycombinator,Customer Support,AI Agent
+Vision Lab,https://thevisionlab.ai/,Data Infrastructure,,2025,,,,Spring 2025,Active,,Industrial data layer for robotics training,ycombinator,Cross-industry,Data Infrastructure
+Code Four,https://codefour.us/,Code AI,,2025,,,,Spring 2025,Active,,Modernizing the police workflow.,ycombinator,Cross-industry,AI Agent
+Lumari,https://www.lumari.io/,Logistics AI,AI,2025,,,,Spring 2025,Active,,AI Digital Workers for Supply Chain ,ycombinator,Logistics,AI Agent
+Moby Analytics,https://www.mobyanalytics.com/,Analytics,,2025,,,,Spring 2025,Active,,AI financial auditors,ycombinator,Finance,Analytics & Decisioning
+Mesmer,https://mesmer.co,Code AI,AI,2025,,,,Spring 2025,Active,,Cursor for CTOs,ycombinator,Cross-industry,AI Agent
+Orchid,https://orchid.ai,AI Agents,,2025,,,,Spring 2025,Active,,Proactive agent for work,ycombinator,Cross-industry,AI Agent
+Scalar Field,https://www.scalarfield.io/,AI Agents,,2025,,,,Spring 2025,Active,,Reinventing the trading terminal — one intelligent agent at a time.,ycombinator,Finance,AI Agent
+Cactus,https://www.cactuscompute.com/,ML Infrastructure,AI,2025,,,,Summer 2025,Active,,Low-latency AI engine for mobile devices & wearables,ycombinator,Customer Support,AI Agent
+Boost Robotics,https://www.boostrobotics.ai,Data Infrastructure,,2025,,,,Spring 2025,Active,,Robots for the inspection and maintenance of data centers,ycombinator,Cross-industry,AI Agent
+KlavisAI,https://www.klavis.ai/,AI Agents,AI,2025,,,,Spring 2025,Active,,Live Environments for Training AI Agents,ycombinator,Cross-industry,ML Infrastructure
+Besimple AI,https://besimple.ai,Voice AI,,2025,,,,Spring 2025,Active,,Voice data for AI,ycombinator,Cross-industry,Data Infrastructure
+Human Behavior,https://www.humanbehavior.co/,Analytics,AI,2025,,,,Spring 2025,Active,,Understand your users beyondthe numbers,ycombinator,Cross-industry,Analytics & Decisioning
+QualGent,https://www.qualgent.ai,Code AI,AI,2025,,,,Spring 2025,Active,,AI Mobile App Quality Assurance Tester,ycombinator,Cross-industry,AI Agent
+Theta,https://thetasoftware.com,AI Agents,AI,2025,,,,Spring 2025,Active,,Specialized AI forEvery Job,ycombinator,Cross-industry,AI Agent
+Cleon,https://getcleon.ai,AI Agents,AI,2025,,,,Spring 2025,Active,,AI agents for hotels & resorts,ycombinator,Cross-industry,AI Agent
+Crimson,https://crimson.law,Legal AI,,2025,,,,Spring 2025,Active,,The AI Associate for Litigation Lawyers,ycombinator,Legal,AI Agent
+Morphik,https://morphik.ai,AI Search,,2025,,,,Spring 2025,Active,,Open-source multimodal search for AI apps,ycombinator,Cross-industry,Data Infrastructure
+Clidey,https://clidey.com,ML Infrastructure,,2025,,,,Spring 2025,Active,,Model your organization. Run it in real time.,ycombinator,Cross-industry,Analytics & Decisioning
+Sixtyfour,https://www.sixtyfour.ai/,AI Agents,AI,2025,,,,Spring 2025,Active,,IntelligenceInfrastructure on People and Entities,ycombinator,Cross-industry,AI Agent
+Tegore,https://tegore.ai/,Education AI,AI,2025,,,,Spring 2025,Active,,Your new AI-powered math tutor.,ycombinator,Education,Copilot / Assistant
+Freesolo,https://freesolo.co,ML Infrastructure,AI,2025,,,,Spring 2025,Active,,Product Native Models,ycombinator,Cross-industry,ML Infrastructure
+Bluejay,https://getbluejay.ai/,Voice AI,,2025,,,,Spring 2025,Active,,"""Test, monitor, and improve your voice and chat AI agents""",ycombinator,Cross-industry,ML Infrastructure
+Kestral,https://kestral.ai,Productivity AI,AI,2025,,,,Spring 2025,Active,,We automate your entire product development lifecycle.,ycombinator,Cross-industry,AI Agent
+Percival,https://percy.tech,Data Infrastructure,,2025,,,,Spring 2025,Active,,Accelerating data analysis for research,ycombinator,Cross-industry,Analytics & Decisioning
+Sim,https://sim.ai,AI Agents,,2025,,,,Spring 2025,Active,,Open source platform tobuild AI agent workflows,ycombinator,Cross-industry,AI Agent
+Clarm,https://www.clarm.com,Go-to-Market AI,AI,2025,,,,Spring 2025,Active,,Capture inbound revenue whilst you build,ycombinator,Cross-industry,AI Agent
+Beluga,https://www.trybeluga.ai/,Go-to-Market AI,,2025,,,,Spring 2025,Active,,Influencer marketing that converts,ycombinator,Cross-industry,Analytics & Decisioning
+Zeon Systems,https://www.zeonsystems.ai/,Robotics,AI,2025,,,,Spring 2025,Active,,AI-powered robotics for scientific lab automation.,ycombinator,Cross-industry,AI Agent
+Chonkie,https://www.chonkie.ai,AI Search,AI,2025,,,,Spring 2025,Active,,Deepresearch on autopilot,ycombinator,Cross-industry,AI Agent
+Ralo,https://www.ralo.com/,Real Estate AI,AI,2025,,,,Spring 2025,Active,,Find Your Best Mortgage Deal,ycombinator,Real Estate,Analytics & Decisioning
+Serafis,https://serafis.ai,Data Infrastructure,AI,2025,,,,Summer 2025,Active,,The AI knowledge graph for institutionalinvestors,ycombinator,Finance,Data Infrastructure
+Golf,https://golf.dev/,Security AI,,2025,,,,Spring 2025,Active,,Agentic AI Security and Governance,ycombinator,Security,Analytics & Decisioning
+BitBoard,https://bitboard.work/,Productivity AI,AI,2025,,,,Spring 2025,Active,,The best way to use AI for spreadsheets.,ycombinator,Cross-industry,Copilot / Assistant
+Blaxel,https://blaxel.ai,ML Infrastructure,AI,2025,,,,Spring 2025,Active,,The perpetual sandbox platform,ycombinator,Cross-industry,ML Infrastructure
+Mentra,https://mentra.glass,Consumer AI,AI,2025,,,,Winter 2025,Active,,Building the open source smart glasses operating system.,ycombinator,Consumer,Generative Product
+Dex,https://joindex.com,AI Agents,AI,2025,,,,Winter 2025,Active,,The AI Coworker in Chrome,ycombinator,Cross-industry,AI Agent
+Browser Use,https://browser-use.com,AI Agents,,2024,,,,Winter 2025,Active,,Leading open-source web agent project with 50k stars in 3 months,ycombinator,Cross-industry,AI Agent
+TamLabs,https://tamlabs.ai,General AI,AI,2025,,,,Winter 2025,Active,,AIfor Professional Services,ycombinator,Cross-industry,Research Lab
+Ergo,https://joinergo.com,Data Infrastructure,,2025,,,,Winter 2025,Active,,AI agents and unified data layer for revenue teams,ycombinator,Cross-industry,Data Infrastructure
+CopyCat,https://runcopycat.com,Finance AI,AI,2024,,,,Winter 2025,Active,,AI agents built for insurance. ,ycombinator,Finance,AI Agent
+Spott,https://spott.io,Go-to-Market AI,,2025,,,,Winter 2025,Active,,AI-native ATS/CRM for recruiting firms,ycombinator,HR,AI Agent
+Woz,https://www.wozcode.com/,Code AI,,2025,,,,Winter 2025,Active,,Claude Code plugin that reduces token consumption and cost by 50%,ycombinator,Cross-industry,ML Infrastructure
+Proception Inc,https://proception.ai/,Robotics,AI,2025,,,,Winter 2025,Active,,Making humanoids dexterous enough to thread aneedle,ycombinator,Cross-industry,Generative Product
+Wildcard,https://wild-card.ai,E-commerce AI,AI,2025,,,,Winter 2025,Active,,Sell Products in ChatGPT Shopping,ycombinator,E-commerce,AI Agent
+Pinch,https://startpinch.com,Voice AI,,2025,,,,Winter 2025,Active,,Real-time AI Voice Translation for Developers,ycombinator,Cross-industry,Generative Product
+Mastra,https://mastra.ai,AI Agents,AI,2025,,,,Winter 2025,Active,,"""The Javascript framework for building AI agents, from the Gatsby devs""",ycombinator,Cross-industry,ML Infrastructure
+AfterQuery,https://afterquery.com,ML Infrastructure,,2025,,,,Winter 2025,Active,,Applied research lab curating data solutions for foundation model…,ycombinator,Cross-industry,Data Infrastructure
+Artificial Societies,https://societies.io,Go-to-Market AI,AI,2025,,,,Winter 2025,Active,,We build networks of AI personas that simulate stakeholder opinions,ycombinator,Cross-industry,Analytics & Decisioning
+Sennu AI,https://www.sennu.ai,General AI,AI,2025,,,,Winter 2025,Active,,We turn traditional companies into AI companies,ycombinator,Cross-industry,Copilot / Assistant
+Outlit,https://outlit.ai/,AI Agents,AI,2025,,,,Winter 2025,Active,,Customer Context for Agents,ycombinator,Cross-industry,Data Infrastructure
+Calltree,https://calltree.ai,Customer Support AI,AI,2025,,,,Winter 2025,Active,,Enterprise-grade AIsupport reps for call centers,ycombinator,Customer Support,AI Agent
+Nitrode,https://www.nitrode.com,Data Infrastructure,,2025,,,,Winter 2025,Active,,Data for reasoning agents in dynamic environments,ycombinator,Cross-industry,Data Infrastructure
+Exla,https://exla.ai/,ML Infrastructure,AI,2025,,,,Winter 2025,Active,,An SDK to run transformer models anywhere,ycombinator,Cross-industry,ML Infrastructure
+Confident AI,https://confident-ai.com,ML Infrastructure,,2025,,,,Winter 2025,Active,,The LLM Eval and Observability Platform forAI Quality,ycombinator,Cross-industry,ML Infrastructure
+Trata,https://www.trytrata.com/,Finance AI,AI,2025,,,,Winter 2025,Active,,AI-powered research desk for hedge funds,ycombinator,Finance,Analytics & Decisioning
+Haleum,https://haleum.ai/,Security AI,AI,2025,,,,Winter 2025,Active,,Human Risk Intelligence for the AI-era,ycombinator,Security,Analytics & Decisioning
+Lucidic AI,https://lucidic.ai,AI Agents,,2025,,,,Winter 2025,Active,,AI Agent Training via Simulations,ycombinator,Cross-industry,ML Infrastructure
+Mundo AI,https://mundoai.world,Data Infrastructure,,2025,,,,Winter 2025,Active,,High Quality Multilingual Training Data for AI Models,ycombinator,Cross-industry,Data Infrastructure
+Pluto,https://www.pluto.trade,Finance AI,AI,2025,,,,Winter 2025,Active,,Regulated derivatives exchange,ycombinator,Finance,AI Agent
+Lopus AI,https://lopus.ai,Analytics,,2025,,,,Winter 2025,Active,,Analytics built for Growth,ycombinator,Cross-industry,Analytics & Decisioning
+Cenote,https://www.joincenote.com/,Healthcare AI,AI,2025,,,,Winter 2025,Active,,AI agents that convert and retain patients for digital clinics,ycombinator,Healthcare,AI Agent
+Harbera,https://harbera.com/,Healthcare AI,AI,2025,,,,Winter 2025,Active,,AI Healthcare Provider Credentialing Software,ycombinator,Healthcare,AI Agent
+Stillwind,https://stillwind.ai,AI Agents,,2025,,,,Winter 2025,Active,,Autonomous Electrical Engineering,ycombinator,Engineering,AI Agent
+Pickle,https://www.pickle.com,Consumer AI,AI,2025,,,,Winter 2025,Active,,Where your life context becomesunderstanding.,ycombinator,Consumer,Data Infrastructure
+Asteroid,https://asteroid.ai,HR AI,AI,2024,,,,Winter 2025,Active,,AI Browser Workforce for Operations Teams,ycombinator,Cross-industry,AI Agent
+Gale,https://galevisa.com,Data Infrastructure,,2025,,,,Winter 2025,Active,,Fast and Data-Driven Immigration Platform,ycombinator,Legal,Analytics & Decisioning
+Olive,https://fromolive.com,Consumer AI,AI,2025,,,,Winter 2025,Active,,The context layer for your team,ycombinator,Consumer,Copilot / Assistant
+Cuckoo Labs,https://www.cuckoo.so/,Go-to-Market AI,,2025,,,,Winter 2025,Active,,Real-time AI translator for global sales and marketing,ycombinator,Cross-industry,Generative Product
+Mecha Health,https://www.mecha-health.ai/,Healthcare AI,,2025,,,,Winter 2025,Active,,Foundation models to automate x-ray analysis for radiologists,ycombinator,Healthcare,Analytics & Decisioning
+Osmosis,https://osmosis.ai/,AI Agents,AI,2025,,,,Winter 2025,Active,,Reinforcement Learning (RL) for AI Agents,ycombinator,Cross-industry,ML Infrastructure
+Swerve,https://www.getswerve.com/,Consumer AI,AI,2025,,,,Winter 2025,Active,,Chat with AI Characters,ycombinator,Consumer,Generative Product
+Cifrato,https://cifrato.ai,Finance AI,AI,2025,,,,Winter 2025,Active,,AI Accountant for Accounting Firms,ycombinator,Finance,AI Agent
+Cardamon,https://cardamon.ai/,Security AI,,2025,,,,Winter 2025,Active,,AI compliance co-pilot for regulated financial businesses,ycombinator,Finance,Copilot / Assistant
+Trim,https://trimresearch.com,ML Infrastructure,,2025,,,,Winter 2025,Active,,A foundation model for physics.,ycombinator,Engineering,Foundation Models
+SalesPatriot,https://www.salespatriot.com/,Legal AI,AI,2025,,,,Winter 2025,Active,,We help defense firms win more contracts with the Pentagon,ycombinator,Legal,Analytics & Decisioning
+Maive,https://maive.ai,Real Estate AI,AI,2025,,,,Winter 2025,Active,,AI for Home Services,ycombinator,Real Estate,AI Agent
+Weave,https://workweave.dev,Code AI,AI,2025,,,,Winter 2025,Active,,AI to understand engineering work,ycombinator,Cross-industry,Analytics & Decisioning
+Caseflood.ai,https://caseflood.ai,Legal AI,AI,2025,,,,Winter 2025,Active,,How elitelaw firms do intake,ycombinator,Legal,AI Agent
+Tejas AI,https://www.trytejas.ai/,Finance AI,AI,2025,,,,Winter 2025,Active,,Risk Decisioning Platform for Banks,ycombinator,Finance,Analytics & Decisioning
+Toothy AI,https://www.toothy.ai/,Healthcare AI,AI,2025,,,,Winter 2025,Active,,AI for insurance verification & billing at dental clinics,ycombinator,Healthcare,AI Agent
+Truffle AI,https://www.trytruffle.ai/,AI Agents,AI,2025,,,,Winter 2025,Active,,AWS for AI Agents,ycombinator,Cross-industry,ML Infrastructure
+Closure,https://closure-intel.com/,Legal AI,,2025,,,,Winter 2025,Active,,Wehelp law enforcement solve crime,ycombinator,Legal,Analytics & Decisioning
+Promptless,https://promptless.ai/,AI Agents,AI,2024,,,,Winter 2025,Active,,An AI teammate that automatically updates your customer-facing docs,ycombinator,Cross-industry,AI Agent
+Scout,https://scoutforschools.com/,Education AI,AI,2025,,,,Winter 2025,Active,,AI-powered student information system for K-12 schools,ycombinator,Education,Copilot / Assistant
+Vocality Health,https://www.vocalityhealth.com,Healthcare AI,,2025,,,,Winter 2025,Active,,Voice AI for medical language translation,ycombinator,Healthcare,Generative Product
+Alice.tech,https://www.alice.tech/,Education AI,AI,2025,,,,Winter 2025,Active,,AI-driven exam prep,ycombinator,Education,Copilot / Assistant
+Praxim,https://www.praxim.ai/,AI Writing,AI,2025,,,,Winter 2025,Active,,The agentic AI Word editor,ycombinator,Cross-industry,Copilot / Assistant
+Tweeks.io,https://tweeks.io,Code AI,AI,2025,,,,Winter 2025,Active,,Lovable for Chrome Plugins,ycombinator,Cross-industry,Generative Product
+Leaping AI,https://www.leapingai.com,Voice AI,,2025,,,,Winter 2025,Active,,Voice AI agents to automate call centers (digital call center workers),ycombinator,Customer Support,AI Agent
+Vetnio,https://vetnio.com/,Healthcare AI,AI,2025,,,,Winter 2025,Active,,AI Copilot that automates admin work for veterinary professionals,ycombinator,Healthcare,Copilot / Assistant
+Candor,https://www.usecandor.ai,Go-to-Market AI,AI,2025,,,,Winter 2025,Active,,We help companies win government funding with AI,ycombinator,Cross-industry,Copilot / Assistant
+Outship,https://outship.ai,HR AI,AI,2025,,,,Winter 2025,Active,,Hire amazing engineers by seeing how they use AI,ycombinator,HR,Analytics & Decisioning
+Edexia,https://www.edexia.com/,Education AI,AI,2024,,,,Winter 2025,Active,,AI Teacher Assistant for Grading Essays,ycombinator,Education,Copilot / Assistant
+Quantstruct,https://quantstruct.com,Code AI,,2025,,,,Winter 2025,Active,,AI documentation engineer – test & autoimprove stale product docs,ycombinator,Cross-industry,AI Agent
+SRE.ai,https://sre.ai,AI Agents,AI,2024,,,,Fall 2024,Active,,AI DevOps Agents,ycombinator,Cross-industry,AI Agent
+Melder,https://melder.io,Productivity AI,AI,2024,,,,Fall 2024,Active,,AI formulas and document support for Microsoft Excel,ycombinator,Cross-industry,Copilot / Assistant
+Forerunner AI,https://tryforerunner.com,Engineering AI,AI,2024,,,,Fall 2024,Active,,AI that gets aircraft flying faster,ycombinator,Engineering,Copilot / Assistant
+Struct,https://struct.ai,Code AI,AI,2024,,,,Fall 2024,Active,,Automate your on-call runbook,ycombinator,Cross-industry,AI Agent
+ArchiLabs,https://archilabs.ai,Engineering AI,AI,2024,,,,Fall 2024,Active,,AI Copilot for Architects,ycombinator,Engineering,Copilot / Assistant
+Diffusion Studio,https://diffusion.studio/,Video AI,,2024,,,,Fall 2024,Active,,"""Professional-grade video editing, in your browser.""",ycombinator,Cross-industry,Generative Product
+BrowserBook,https://www.browserbook.com,Code AI,,2024,,,,Fall 2024,Active,,The Browser Automation IDE,ycombinator,Cross-industry,AI Agent
+AutoComputer,https://www.autocomputer.ai/,AI Agents,AI,2024,,,,Fall 2024,Active,,Desktop RPA with AI computer use,ycombinator,Cross-industry,AI Agent
+vly.ai,https://vly.ai,Code AI,AI,2024,,,,Fall 2024,Active,,The Lovable & Replit killers,ycombinator,Cross-industry,Generative Product
+HYBRD,https://www.hybrd.com/,Consumer AI,AI,2024,,,,Fall 2024,Active,,Getfaster & stronger,ycombinator,Consumer,Copilot / Assistant
+Lingo.dev,https://lingo.dev,AI Writing,AI,2024,,,,Fall 2024,Active,,"""Localization engineering platform for consistent, quality translations""",ycombinator,Cross-industry,Generative Product
+Luthor,https://luthor.ai,Go-to-Market AI,,2024,,,,Fall 2024,Active,,Marketing Approval Platform for Regulated Industries,ycombinator,Cross-industry,Analytics & Decisioning
+Keye,https://www.keye.co,Finance AI,AI,2024,,,,Fall 2024,Active,,The Smartest Private Equity Investor,ycombinator,Finance,Analytics & Decisioning
+RiskCube,https://riskcube.com,Finance AI,AI,2024,,,,Fall 2024,Active,,AI-native insurance broker for startups — from Earth to the Moon.,ycombinator,Finance,AI Agent
+CTGT,https://www.ctgt.ai/,ML Infrastructure,AI,2024,,,,Fall 2024,Active,,The deterministic layer for frontier intelligence,ycombinator,Cross-industry,ML Infrastructure
+Endstack,https://www.endstack.com,AI Agents,AI,2024,,,,Fall 2024,Active,,Cloud desktop OS for humans and agents,ycombinator,Cross-industry,ML Infrastructure
+Revyl,https://www.revyl.ai,Code AI,AI,2024,,,,Fall 2024,Active,,AI-Native Mobile Testing,ycombinator,Cross-industry,AI Agent
+Raycaster,https://raycaster.ai,Healthcare AI,AI,2024,,,,Fall 2024,Active,,AI for life sciences documents,ycombinator,Healthcare,Analytics & Decisioning
+Darkgrade,https://darkgrade.com,Image AI,AI,2024,,,,Fall 2024,Active,,Let your camera understand the world,ycombinator,Cross-industry,Foundation Models
+Candle,https://www.trycandle.app/,Consumer AI,AI,2024,,,,Fall 2024,Active,,Candle helps friends and couples grow closer daily in just 5 minutes.,ycombinator,Consumer,Copilot / Assistant
+Galini,https://www.galini.ai/,Security AI,,2024,,,,Fall 2024,Active,,Compliance guardrails-as-a-servicefor AI applications,ycombinator,Security,Analytics & Decisioning
+Riveter,https://www.riveterhq.com/,Data Infrastructure,,2024,,,,Fall 2024,Active,,Turn the web into structured data,ycombinator,Cross-industry,Data Infrastructure
+Onlook,https://onlook.com/,Code AI,AI,2025,,,,Winter 2025,Active,,Cursor for Designers,ycombinator,Cross-industry,Generative Product
+DreamRP,https://www.dreamrp.com/,Consumer AI,AI,2024,,,,Summer 2024,Active,,Tech andplatforms for human creators and the entertainment industry,ycombinator,Consumer,Generative Product
+Conductor,https://conductor.build,Code AI,AI,2024,,,,Summer 2024,Active,,Run a team of coding agents on your Mac,ycombinator,Cross-industry,AI Agent
+PathPilot,https://www.getpathpilot.com/,Finance AI,AI,2024,,,,Summer 2024,Active,,AI Agents for Lending Operations,ycombinator,Finance,AI Agent
+Affil.ai,https://affil.ai/,Finance AI,AI,2024,,,,Summer 2024,Active,,AI Affiliate Network For Financial Companies,ycombinator,Finance,Analytics & Decisioning
+Overlap,https://www.overlap.ai,Video AI,,2024,,,,Summer 2024,Active,,Multimodal AI agents for video,ycombinator,Cross-industry,Generative Product
+Void,https://useglass.ai,Code AI,AI,2024,,,,Summer 2024,Active,,The open source Cursor alternative,ycombinator,Cross-industry,AI Agent
+Anglera,https://www.anglera.com/,Data Infrastructure,,2024,,,,Summer 2024,Active,,AI-Powered Product Data Enrichment,ycombinator,E-commerce,Data Infrastructure
+Pipeshift,https://pipeshift.com,ML Infrastructure,AI,2024,,,,Summer 2024,Active,,Inference for real-time production workloads,ycombinator,Cross-industry,ML Infrastructure
+Vera Health,https://www.vera-health.ai,Healthcare AI,,2024,,,,Summer 2024,Active,,AI-powered clinical decision support for healthcare providers,ycombinator,Healthcare,Analytics & Decisioning
+Keet,https://trykeet.com,AI Agents,AI,2024,,,,Summer 2024,Active,,Authentication for AI Agents,ycombinator,Cross-industry,ML Infrastructure
+Usul,https://www.usul.com,Legal AI,AI,2024,,,,Summer 2024,Active,,AI Platform for Winning Defense & Government Contracts,ycombinator,Legal,Analytics & Decisioning
+Oway,https://www.shipoway.com,Logistics AI,AI,2024,,,,Summer 2024,Active,,AI Infrastructure for America’s Empty Truck Space,ycombinator,Logistics,Analytics & Decisioning
+Voker,https://voker.ai,AI Agents,,2024,,,,Summer 2024,Active,,The Agent Analytics Platform,ycombinator,Cross-industry,Analytics & Decisioning
+Rastro,https://rastro.ai,E-commerce AI,AI,2024,,,,Summer 2024,Active,,The fastest way to launch product catalogs.,ycombinator,E-commerce,AI Agent
+Quetzal,https://getquetzal.com/,ML Infrastructure,,2024,,,,Summer 2024,Active,,"""Simple, LLM-first translation and internationalization for software""",ycombinator,Cross-industry,Generative Product
+Typa,https://typa.ai,Go-to-Market AI,AI,2024,,,,Summer 2024,Active,,The content engine that wins attention and drives growth.,ycombinator,Cross-industry,Generative Product
+"Sterling Labs, Inc",https://www.focusbuddy.ai/?ref=yc,Productivity AI,AI,2024,,,,Summer 2024,Active,,Currently in stealth - previously FocusBuddy,ycombinator,Consumer,Copilot / Assistant
+Orca Launcher,https://orcalauncher.com,Gaming AI,AI,2024,,,,Summer 2024,Active,,A launcher that turns Minecraft into a game platform like Roblox ,ycombinator,Gaming,Generative Product
+Assembly HOA,https://assemblyhoa.com,Real Estate AI,AI,2024,,,,Summer 2024,Active,,AI-native HOA Management Company,ycombinator,Real Estate,AI Agent
+Polymet,https://polymet.ai,Design AI,AI,2024,,,,Summer 2024,Active,,AI Product Designer,ycombinator,Cross-industry,Generative Product
+Propaya,https://www.propaya.com,Real Estate AI,AI,2024,,,,Summer 2024,Active,,AI commercial lease abstractions and review,ycombinator,Real Estate,Analytics & Decisioning
+ZeroPath,https://zeropath.com,Code AI,AI,2024,,,,Summer 2024,Active,,Automatically find andfix your software vulnerabilities,ycombinator,Security,AI Agent
+bluedoor,https://bluedoor.sh/,Finance AI,AI,2024,,,,Summer 2024,Active,,Professional-grade stock research in your terminal.,ycombinator,Finance,Analytics & Decisioning
+Handled,https://www.itshandled.ai,E-commerce AI,AI,2024,,,,Summer 2024,Active,,Automating post-order operations for e-commerce brands and 3PLs,ycombinator,E-commerce,AI Agent
+Baseline AI,https://www.baselinetrials.com/,Healthcare AI,,2024,,,,Summer 2024,Active,,AI document creation and data management for clinical trials,ycombinator,Healthcare,Copilot / Assistant
+Cartage,https://cartage.ai,AI Agents,,2024,,,,Summer 2024,Active,,Autonomous freight coordination,ycombinator,Logistics,AI Agent
+Palmier,https://www.palmier.io,Go-to-Market AI,,2024,,,,Summer 2024,Active,,Cinematic AI Marketing Videos,ycombinator,Cross-industry,Generative Product
+Simple AI,https://www.usesimple.ai,Voice AI,,2024,,,,Summer 2024,Active,,AI voice that sells,ycombinator,Cross-industry,AI Agent
+Sensei,https://senseirobotics.com,Data Infrastructure,,2024,,,,Summer 2024,Active,,Robotic Training Data at Scale,ycombinator,Cross-industry,Data Infrastructure
+Presti AI,https://www.presti.ai/,E-commerce AI,AI,2024,,,,Summer 2024,Active,,Helping furniture companies create product visuals with AI,ycombinator,E-commerce,Generative Product
+The Forecasting Company,https://www.theforecastingcompany.com,ML Infrastructure,,2024,,,,Summer 2024,Active,,Foundation models for time series,ycombinator,Cross-industry,Foundation Models
+Zettascale,https://zscc.ai,ClimateTech AI,AI,2024,,,,Summer 2024,Active,,Energy efficient chips for AI,ycombinator,ClimateTech,ML Infrastructure
+Brighterway,https://www.brighterway.ai/,Healthcare AI,,2024,,,,Summer 2024,Active,,Streamlining the medical record review process in workers comp,ycombinator,Healthcare,Analytics & Decisioning
+Soff,https://soff.ai,AI Agents,AI,2024,,,,Summer 2024,Active,,AI Agents for Distributors,ycombinator,E-commerce,AI Agent
+Parley,https://parley.so,Legal AI,,2024,,,,Summer 2024,Active,,"""Automating flat-fee legal work, startingwith work visas + green cards""",ycombinator,Legal,AI Agent
+Thunder Compute,https://www.thundercompute.com,ML Infrastructure,AI,2024,,,,Summer 2024,Active,,The world's cheapest GPU cloud,ycombinator,Cross-industry,ML Infrastructure
+Kura AI,https://trykura.com,AI Agents,AI,2024,,,,Summer 2024,Active,,New State of the Art for Browser Agents,ycombinator,Cross-industry,AI Agent
+Piggy Robotics,https://piggyrobotics.com,Robotics,AI,2025,,,,Fall 2025,Active,,Humanoid robots that do your chores for the price of an iPhone!,ycombinator,Consumer,Generative Product
+Mage Legal,https://magelegal.com,Legal AI,,2024,,,,Summer 2024,Active,,Automatic AI Legal Diligence,ycombinator,Legal,AI Agent
+winfunc,https://winfunc.com,Security AI,,2024,,,,Summer 2024,Active,,ai-native security engineering for mission critical codebases,ycombinator,Security,AI Agent
+Seals AI,https://www.hireseals.ai/,AI Agents,AI,2024,,,,Summer 2024,Active,,AI Employees for Wholesalers & Distributors,ycombinator,E-commerce,AI Agent
+Drillbit,https://www.drillbit.com,Real Estate AI,AI,2024,,,,Summer 2024,Active,,Automating Office Work for Residential Contractors.,ycombinator,Real Estate,AI Agent
+Sharpe,https://sharpe.sh,Data Infrastructure,,2024,,,,Summer 2024,Active,,Agents for quantitative research and financial data science.,ycombinator,Finance,AI Agent
+Planbase,https://www.joinplanbase.com/,Healthcare AI,AI,2024,,,,Summer 2024,Active,,AI workforce management for healthcare ,ycombinator,Healthcare,AI Agent
+Clearly AI,https://clearly-ai.com,Security AI,,2024,,,,Summer 2024,Active,,Automate security and privacy reviews,ycombinator,Security,AI Agent
+Overstand Labs,https://overstandlabs.com,Data Infrastructure,,2024,,,,Winter 2025,Active,,Navigate anyset of data - no matter how large - in minutes.,ycombinator,Cross-industry,Analytics & Decisioning
+Ontra Mobility,https://www.ontramobility.com,Logistics AI,AI,2024,,,,Summer 2024,Active,,Platform for cities to optimize transit ,ycombinator,Logistics,Analytics & Decisioning
+Aluna,https://alunadata.com,Data Infrastructure,,2024,,,,Summer 2024,Active,,Data for biomedical AI,ycombinator,Healthcare,Data Infrastructure
+Anthrogen,https://anthrogen.com,ML Infrastructure,,2024,,,,Summer 2024,Active,,We're training the next generation of protein foundation models.,ycombinator,Healthcare,Foundation Models
+Benchify,https://www.benchify.com,Healthcare AI,AI,2024,,,,Summer 2024,Active,,Executable healthcare contracts,ycombinator,Healthcare,AI Agent
+TaxGPT,https://www.taxgpt.com,Finance AI,AI,2024,,,,Summer 2024,Active,,AI tax assistant for professionals and businesses,ycombinator,Finance,Copilot / Assistant
+Lighthouz AI,https://lighthouz.ai/,Finance AI,AI,2024,,,,Summer 2024,Active,,"""Freight bill audits, AP, AR automation for freight brokers with…""",ycombinator,Logistics,AI Agent
+Modus,https://himodus.com,HR AI,AI,2024,,,,Summer 2024,Active,,Unlock revenue per employee with AI-powered headcount management,ycombinator,HR,Analytics & Decisioning
+Plume,http://www.plumefinder.com,ClimateTech AI,AI,2024,,,,Summer 2024,Active,,Renewable infrastructure deployment at scale.,ycombinator,ClimateTech,Analytics & Decisioning
+Stormy AI,https://stormy.ai,Go-to-Market AI,,2024,,,,Summer 2025,Active,,Al platform that makessocial marketing as easy as running a Google…,ycombinator,Cross-industry,Generative Product
+Gauge,https://withgauge.com,AI Agents,,2024,,,,Summer 2024,Active,,"""Your marketing agent for organic, paid, and AI search.""",ycombinator,Cross-industry,AI Agent
+Kenley,https://kenley.ai/,Finance AI,AI,2024,,,,Summer 2024,Active,,AI Agents for Advisory & Financial Services.,ycombinator,Finance,AI Agent
+Tivara,https://tivara.com,HR AI,AI,2024,,,,Summer 2024,Active,,The AI workforce for medicalgroups,ycombinator,Healthcare,AI Agent
+Lore,https://joinlore.app/,Consumer AI,AI,2024,,,,Summer 2024,Active,,Transform your iMessage conversations into shareable stories,ycombinator,Consumer,Generative Product
+CodeViz,https://www.codeviz.ai/,Engineering AI,AI,2024,,,,Summer 2024,Active,,One living modelof your software architecture,ycombinator,Cross-industry,Analytics & Decisioning
+Elevate,https://www.useelevate.dev/,Data Infrastructure,,2024,,,,Summer 2024,Active,,Automated AI data integrations for roll-ups,ycombinator,Cross-industry,Data Infrastructure
+Storia AI,https://storia.ai,Code AI,,2024,,,,Summer 2024,Active,,Opensource AI copilot that knows your company's code and its context,ycombinator,Cross-industry,Copilot / Assistant
+Scape,https://scape.app,Go-to-Market AI,,2024,,,,Summer 2024,Active,,AI-native CRM that captures all your conversations,ycombinator,Cross-industry,AI Agent
+Willow,https://willowvoice.com/,Voice AI,,2024,,,,Spring 2025,Active,,The voice interface replacing your keyboard,ycombinator,Cross-industry,Generative Product
+NetworkOcean,https://networkocean.io/,Data Infrastructure,,2024,,,,Summer 2024,Active,,Webuild and operate underwater data centers.,ycombinator,Cross-industry,ML Infrastructure
+Silurian,https://silurian.ai/,ML Infrastructure,,2024,,,,Summer 2024,Active,,"""Foundation models to simulate Earth, starting with weather.""",ycombinator,ClimateTech,Foundation Models
+Unbound,https://getunbound.ai/,Data Infrastructure,,2024,,,,Summer 2024,Active,,Use AI tools without fear of data leakage,ycombinator,Security,ML Infrastructure
+Decisional AI,https://www.decisional.com/,AI Agents,AI,2024,,,,Summer 2024,Active,,Self healing automation agents that run in the background.,ycombinator,Cross-industry,AI Agent
+FirstWork,https://firstwork.com,HR AI,AI,2024,,,,Summer 2024,Active,,Rippling for seasonal workers,ycombinator,HR,Copilot / Assistant
+Sorcerer,https://sorcerer.earth,ClimateTech AI,AI,2024,,,,Summer 2024,Active,,Building a nervous system for the atmosphere,ycombinator,ClimateTech,Data Infrastructure
+Wordware,https://wordware.ai/,AI Agents,AI,2024,,,,Summer 2024,Active,,AI agents you canrely on,ycombinator,Cross-industry,ML Infrastructure
+Maitai,https://trymaitai.com,ML Infrastructure,AI,2024,,,,Summer 2024,Active,,"""Reliable, self-improving enterprise AI""",ycombinator,Cross-industry,ML Infrastructure
+Corgi Insurance,https://corgi.insure,Finance AI,AI,2024,,,,Summer 2024,Active,,Corgi is building an AI financial infrastructure company,ycombinator,Finance,AI Agent
+Sage Care,https://sagecare.ai,Healthcare AI,AI,2024,,,,Summer 2024,Active,,Automating home care agency operations withAI,ycombinator,Healthcare,AI Agent
+Codes Health,https://www.getcodeshealth.com/,Healthcare AI,,2024,,,,Summer 2024,Active,,Medical Record Retrieval with Zero Human Error,ycombinator,Healthcare,AI Agent
+Entangl,https://www.entangl.com/,Data Infrastructure,,2024,,,,Summer 2024,Active,,Find & resolve issues in data center engineering & operations using AI,ycombinator,Engineering,Analytics & Decisioning
+ProhostAI,https://www.prohost.ai/,Real Estate AI,AI,2024,,,,Summer 2024,Active,,AI Property Manager for Airbnb & Short-Term Rental Hosts,ycombinator,Real Estate,AI Agent
+Educato,https://www.educato.com/,Education AI,AI,2024,,,,Summer 2024,Active,,Worldwide exam-prep platform,ycombinator,Education,Copilot / Assistant
+Saphira AI,https://saphira.ai,Engineering AI,AI,2024,,,,Summer 2024,Active,,Vanta for Hardware,ycombinator,Engineering,Copilot / Assistant
+Mem0,https://mem0.ai,ML Infrastructure,AI,2024,,,,Summer 2024,Active,,The Memory layer for your AI apps,ycombinator,Cross-industry,Data Infrastructure
+Superunit,http://superunit.ai,HR AI,AI,2024,,,,Summer 2024,Active,,"""Faster, more profitable background checks withAI""",ycombinator,HR,Analytics & Decisioning
+Ångström AI,https://www.angstrom-ai.com,Healthcare AI,AI,2024,,,,Summer 2024,Active,,Gen AI molecular simulations that reproduce wetlab results,ycombinator,Healthcare,Analytics & Decisioning
+Marr Labs,https://www.marrlabs.com/,Voice AI,,2024,,,,Winter 2024,Active,,AI-voice agents that are indistinguishable from humans.,ycombinator,Customer Support,AI Agent
+Forge Rewards,https://www.joinforge.app/,E-commerce AI,AI,2024,,,,Winter 2024,Active,,Starbucks app for restaurants,ycombinator,E-commerce,Copilot / Assistant
+Same,https://same.new,Code AI,AI,2023,,,,Winter 2024,Active,,Build products without coding,ycombinator,Cross-industry,Generative Product
+GetCrux,http://getcrux.ai/,Design AI,AI,2024,,,,Winter 2024,Active,,AI Creative Strategist,ycombinator,Cross-industry,Analytics & Decisioning
+InspectMind AI,https://www.inspectmind.ai,AI Agents,,2024,,,,Winter 2024,Active,,AI agent for construction drawings review,ycombinator,Engineering,AI Agent
+kater.ai,https://www.kater.ai,Data Infrastructure,,2024,,,,Winter 2024,Active,,Deliver complete data analysis from a singlequestion,ycombinator,Cross-industry,Analytics & Decisioning
+Integuru,https://www.integuru.ai,Code AI,AI,2024,,,,Winter 2024,Active,,Generate the most robust APIs with any website,ycombinator,Cross-industry,Generative Product
+VoxOps AI,https://www.voxopsai.com/,Voice AI,,2023,,,,Winter 2024,Active,,Voice AI for Automotive,ycombinator,Customer Support,AI Agent
+Evolvere BioSciences,https://www.evolverebiosciences.com/,Healthcare AI,AI,2024,,,,Summer 2024,Active,,Making Next-Generation Antibiotics that Outpace Bacterial Evolution,ycombinator,Healthcare,Research Lab
+Silogy,https://silogy.io,Code AI,AI,2023,,,,Winter 2024,Active,,An AI-powered test and debug platform for chip developers,ycombinator,Engineering,Copilot / Assistant
+Senso,http://www.senso.ai,Data Infrastructure,AI,2024,,,,Winter 2024,Active,,Control what AI says about you,ycombinator,Cross-industry,Data Infrastructure
+Magic Hour,https://magichour.ai,Video AI,,2023,,,,Winter 2024,Active,,Platform for AI video generation.,ycombinator,Cross-industry,Generative Product
+Veles,http://www.getveles.com,AI Agents,AI,2024,,,,Winter 2024,Active,,CPQ for humansand agents,ycombinator,Cross-industry,AI Agent
+Fluently,https://getfluently.app/,Education AI,AI,2024,,,,Winter 2024,Active,,Your personal English tutor,ycombinator,Education,Copilot / Assistant
+Basepilot,https://www.basepilot.com/,Finance AI,AI,2024,,,,Winter 2024,Active,,AI agents for insurance claims,ycombinator,Finance,AI Agent
+Aqua Voice,https://aquavoice.com,Voice AI,,2024,,,,Winter 2024,Active,,Frontier Voice Input - write 4x faster than typing.,ycombinator,Cross-industry,Generative Product
+Adapted,https://adapted.app,Healthcare AI,AI,2023,,,,Winter 2024,Active,,AI physical therapy for athletes,ycombinator,Healthcare,Copilot / Assistant
+Ocular AI,https://useocular.com,Data Infrastructure,,2024,,,,Winter 2024,Active,,"""AI-Native Data Engine for LLMs, Computer Vision, & Enterprise AI""",ycombinator,Cross-industry,Data Infrastructure
+Retell AI,https://retellai.com,AI Agents,AI,2023,,,,Winter 2024,Active,,Supercharge Your Contact Center Operations with AI Phone Agents,ycombinator,Customer Support,AI Agent
+Rove,https://rove.com,Consumer AI,AI,2023,,,,Winter 2024,Active,,Travel the world for free.,ycombinator,Consumer,Analytics & Decisioning
+Downlink,https://downlink.dev/,Foundation Models,AI,2024,,,,Winter 2024,Active,,Make yourLLMs 3x faster.,ycombinator,Cross-industry,ML Infrastructure
+Shepherd,https://www.shepherd.study,Education AI,AI,2024,,,,Winter 2024,Active,,Every student's personalized learning assistant,ycombinator,Education,Copilot / Assistant
+Openmart,https://www.openmart.com,Data Infrastructure,,2024,,,,Winter 2024,Active,,Localbusiness data intelligence platform,ycombinator,Cross-industry,Data Infrastructure
+Alai,https://getalai.com,Productivity AI,AI,2024,,,,Winter 2024,Active,,Create high quality presentations quickly using AI,ycombinator,Cross-industry,Generative Product
+Brainbase Labs,https://brainbaselabs.com,AI Agents,AI,2024,,,,Winter 2024,Active,,The AI Labor Company,ycombinator,Cross-industry,AI Agent
+Focal,https://focalml.com,Video AI,,2024,,,,Winter 2024,Active,,AI video creation tool for TV shows and movies,ycombinator,Cross-industry,Generative Product
+Ligo Biosciences,https://www.ligo.bio,Design AI,,2024,,,,Summer 2024,Active,,Enzyme design models.,ycombinator,Healthcare,Foundation Models
+Model ML,https://www.modelml.com/,ML Infrastructure,,2023,,,,Winter 2024,Active,,AI Workspace for Financial Services.,ycombinator,Finance,Copilot / Assistant
+BetterBasket,http://www.betterbasket.com,E-commerce AI,AI,2024,,,,Winter 2024,Active,,Smart grocery pricing with AI,ycombinator,E-commerce,Analytics & Decisioning
+Risotto,https://tryrisotto.com,Customer Support AI,AI,2024,,,,Winter 2024,Active,,Risotto auto-solves IT support requests using AI,ycombinator,Customer Support,AI Agent
+Diana,https://getdiana.com/,HR AI,AI,2024,,,,Winter 2024,Active,,Give Your Employee An Employee,ycombinator,HR,AI Agent
+Raindrop,https://www.raindrop.ai,AI Agents,AI,2024,,,,Winter 2024,Active,,Sentry for AI Agents,ycombinator,Cross-industry,ML Infrastructure
+Manifold Freight,https://www.manifoldfreight.com/,Logistics AI,AI,2024,,,,Winter 2024,Active,,Aggregating Spot Freight Opportunities for Carriers,ycombinator,Logistics,Analytics & Decisioning
+OffDeal,https://offdeal.io,Finance AI,AI,2024,,,,Winter 2024,Active,,AI-native investment bank for small businesses,ycombinator,Finance,AI Agent
+Overeasy,https://overeasy.sh/,General AI,AI,2024,,,,Summer 2024,Active,,,ycombinator,Cross-industry,Copilot / Assistant
+Andy AI,https://with-andy.com,Healthcare AI,,2024,,,,Winter 2024,Active,,Faster clinical documentation for home health nurses,ycombinator,Healthcare,Copilot / Assistant
+Conduit,https://conduit.ai/?utm_source=referral&utm_medium=organic&utm_campaign=ycombinator,Customer Support AI,AI,2024,,,,Winter 2024,Active,,Conversational AI agents for Customer Service.,ycombinator,Customer Support,AI Agent
+Preloop,https://www.preloop.com,ML Infrastructure,AI,2023,,,,Winter 2024,Active,,Translate your experimental scripts into production ML services,ycombinator,Cross-industry,ML Infrastructure
+Superagent,https://superagent.sh/,AI Agents,AI,2023,,,,Winter 2024,Active,,Red teaming for AI agents,ycombinator,Security,ML Infrastructure
+SevnAI,https://sevn.ai/,Gaming AI,AI,2023,,,,Winter 2024,Active,,AI Gaming,ycombinator,Gaming,Generative Product
+Ellipsis,https://ellipsis.dev,Code AI,,2024,,,,Winter 2024,Active,,AI code reviews & bug fixes,ycombinator,Cross-industry,AI Agent
+Solari AI,https://www.usesolari.ai/,AI Agents,AI,2024,,,,Winter 2024,Active,,Gives non-technical team members agents that work right out of the box,ycombinator,Cross-industry,AI Agent
+Centralize,https://www.usecentralize.com/,Analytics,AI,2023,,,,Winter 2024,Active,,The AI-powered deal collaboration platform for high ACV revenue teams,ycombinator,Cross-industry,Analytics & Decisioning
+phospho,https://phospho.ai,Robotics,AI,2024,,,,Winter 2024,Active,,Give brains to robots,ycombinator,Cross-industry,ML Infrastructure
+Firebender,https://firebender.com,AI Agents,,2024,,,,Winter 2024,Active,,Most powerful coding agent for Android engineers,ycombinator,Cross-industry,AI Agent
+Aether,https://www.tryaether.co/,Go-to-Market AI,,2024,,,,Winter 2024,Active,,AI sales platform for home services,ycombinator,Real Estate,AI Agent
+Fuse,http://www.fuseinsight.com,Healthcare AI,,2024,,,,Summer 2024,Active,,AI helpers for patient intake and benefits checks,ycombinator,Healthcare,AI Agent
+PandasAI,https://pandas-ai.com,Data Infrastructure,,2024,,,,Winter 2024,Active,,PandasAI is an open-source conversational data analysis platform with…,ycombinator,Cross-industry,Analytics & Decisioning
+14.ai,https://14.ai,AI Agents,,2023,,,,Winter 2024,Active,,AI engine powering autonomous brands startingwith gloglo.com,ycombinator,Consumer,AI Agent
+Tamarind Bio,https://www.tamarind.bio,Healthcare AI,AI,2023,,,,Winter 2024,Active,,AI Inference Platform for Drug Discovery,ycombinator,Healthcare,ML Infrastructure
+Decipher AI,https://getdecipher.com,AI Agents,AI,2024,,,,Winter 2024,Active,,QA agents that write tests 10x faster with zero maintenance,ycombinator,Cross-industry,AI Agent
+Respan,https://respan.ai,Robotics,AI,2024,,,,Winter 2024,Active,,"""Self-driving observability, evals, and gateway for AI agents""",ycombinator,Cross-industry,ML Infrastructure
+Meticulate,https://meticulate.ai/,Go-to-Market AI,,2024,,,,Winter 2024,Active,,Making it easy for B2B sales teams to send stellar outbound,ycombinator,Cross-industry,AI Agent
+Tusk,https://usetusk.ai,AI Agents,,2023,,,,Winter 2024,Active,,AI agent that generates unit and integration tests,ycombinator,Cross-industry,AI Agent
+TokenOwl,https://tokenowl.ai,Finance AI,AI,2024,,,,Winter 2024,Active,,AI portfolio tools for thenext generation of finance,ycombinator,Finance,Analytics & Decisioning
+Ecliptor,https://ecliptor.ai,ML Infrastructure,AI,2024,,,,Winter 2024,Active,,AI and Embeddings. ,ycombinator,Cross-industry,Data Infrastructure
+Greenboard,https://www.greenboard.com,Finance AI,AI,2023,,,,Winter 2024,Active,,Modern OS for the financial back office. ,ycombinator,Finance,Copilot / Assistant
+Eggnog,https://www.eggnog.ai,Video AI,,2024,,,,Winter 2024,Active,,Fun with AI video,ycombinator,Consumer,Generative Product
+Arini,https://www.arini.ai,Healthcare AI,AI,2024,,,,Winter 2024,Active,,AI receptionist for dentists,ycombinator,Healthcare,AI Agent
+AveryIQ,https://callavery.com,Real Estate AI,AI,2024,,,,Winter 2024,Active,,AI Copilot for Property Managers and Landlords,ycombinator,Real Estate,Copilot / Assistant
+Agentic Labs,https://agenticlabs.com,Design AI,,2024,,,,Winter 2024,Active,,AI system design tools for dev teams,ycombinator,Cross-industry,Copilot / Assistant
+nCompass Technologies,https://www.ncompass.tech,ML Infrastructure,AI,2024,,,,Winter 2024,Active,,Optimize performance on GPUs - 10x faster,ycombinator,Cross-industry,ML Infrastructure
+Pretzel AI,https://withpretzel.com,Code AI,AI,2024,,,,Winter 2024,Active,,AI tooling,ycombinator,Cross-industry,AI Agent
+Reducto,https://reducto.ai,Code AI,AI,2024,,,,Winter 2024,Active,,The most accurate API to parse documents,ycombinator,Cross-industry,Data Infrastructure
+Andon Labs,https://andonlabs.com/,AI Agents,,2023,,,,Winter 2024,Active,,Autonomous organizations without humans inthe loop,ycombinator,Cross-industry,AI Agent
+Poka Labs,https://www.pokalabs.com/,Engineering AI,AI,2024,,,,Summer 2024,Active,,The modern operating system for chemical manufacturing.,ycombinator,Engineering,Copilot / Assistant
+Nuanced,https://www.nuanced.dev/,Code AI,AI,2024,,,,Winter 2024,Active,,Nuanced makes AI coding agents and tools smarter with static analysis.,ycombinator,Cross-industry,ML Infrastructure
+Tracecat,https://tracecat.com,Security AI,,2024,,,,Winter 2024,Active,,The open sourceAI-native security automation platform,ycombinator,Security,AI Agent
+Sonia,https://soniahealth.com,Healthcare AI,,2024,,,,Winter 2024,Active,,"""Validated mental health support in your pocket, anytime. """,ycombinator,Healthcare,Copilot / Assistant
+Duckie,https://duckie.ai/,Customer Support AI,AI,2023,,,,Winter 2024,Active,,Build AI Support Agents in Minutes,ycombinator,Customer Support,AI Agent
+Happenstance,https://happenstance.ai,AI Search,,2024,,,,Winter 2024,Active,,People search powered by AI,ycombinator,Cross-industry,Analytics & Decisioning
+Greptile,https://www.greptile.com,Code AI,,2023,,,,Winter 2024,Active,,AI code review agent with complete context of your codebase,ycombinator,Cross-industry,AI Agent
+ego,https://egoai.com,Gaming AI,AI,2024,,,,Winter 2024,Active,,"""Character AI + Roblox :persistent, sapient AI characters in 3D worlds """,ycombinator,Gaming,Generative Product
+Legora,https://www.legora.com/,Legal AI,AI,2023,,,,Winter 2024,Active,,The AI workspace for lawyers,ycombinator,Legal,Copilot / Assistant
+Scritch,https://www.scritchai.com,Healthcare AI,AI,2024,,,,Winter 2024,Active,,AI operating system for veterinary care,ycombinator,Healthcare,Copilot / Assistant
+DryMerge,https://www.drymerge.com,Go-to-Market AI,,2023,,,,Winter 2024,Active,,AI that updates your CRM for you,ycombinator,Cross-industry,AI Agent
+Navier AI,http://navier.ai,AI Agents,,2024,,,,Winter 2024,Active,,Agent-Driven Engineering,ycombinator,Engineering,AI Agent
+Upsolve AI,https://upsolve.ai/,Analytics,AI,2023,,,,Winter 2024,Active,,Embed GenBI in Your SaaS App,ycombinator,Cross-industry,Analytics & Decisioning
+Letterbook,https://www.letterbook.ai/,Customer Support AI,AI,2023,,,,Summer 2023,Active,,AI-native customer support platform,ycombinator,Customer Support,AI Agent
+Orbio Earth,https://www.orbio.earth/,ClimateTech AI,AI,2023,,,,Summer 2023,Active,,Tracking methane emissions with satellites,ycombinator,ClimateTech,Analytics & Decisioning
+jo,https://askjo.ai,Consumer AI,AI,2024,,,,Winter 2024,Active,,A new personal AI that actuallyknows you.,ycombinator,Consumer,Copilot / Assistant
+Tempo,https://www.tempo.new,Code AI,AI,2023,,,,Summer 2023,Active,,"""Visual Editor for React, powered by AI""",ycombinator,Cross-industry,Copilot / Assistant
+Cognitio Labs,https://cognitioiq.com,Healthcare AI,AI,2023,,,,Summer 2023,Active,,Automating FDA-grade Traceability Requirements with Sensors and AI.,ycombinator,Healthcare,Analytics & Decisioning
+truemetrics,https://www.truemetrics.io/,Logistics AI,AI,2023,,,,Summer 2023,Active,,We show couriers where to parkand enter a building.,ycombinator,Logistics,Analytics & Decisioning
+Wattson Health,https://www.wattsonhealth.com,Healthcare AI,,2023,,,,Summer 2023,Active,,AI Voice and SMS Agents for Healthcare,ycombinator,Healthcare,AI Agent
+Morph,https://morphllm.com,Code AI,AI,2023,,,,Summer 2023,Active,,Subagents and tools that improve coding agents,ycombinator,Cross-industry,ML Infrastructure
+Nowadays,http://nowadays.ai/,Productivity AI,AI,2023,,,,Summer 2023,Active,,AI co-pilot for corporate retreat andevent planning,ycombinator,Cross-industry,AI Agent
+Waldium,https://www.waldium.com/,AI Writing,AI,2023,,,,Summer 2023,Active,,The publishing layer for the AI-native web,ycombinator,Cross-industry,Generative Product
+Mocha,https://getmocha.com,Code AI,AI,2023,,,,Summer 2023,Active,,Build and publish web apps in minutes. No coding required.,ycombinator,Cross-industry,Generative Product
+Simbie AI,http://www.simbie.ai,Healthcare AI,AI,2023,,,,Summer 2023,Active,,We get patients to their next appointment,ycombinator,Healthcare,AI Agent
+AiSDR,https://aisdr.com/,Go-to-Market AI,,2023,,,,Summer 2023,Active,,AI sales prospecting. Replace your SDR with AiSDR,ycombinator,Cross-industry,AI Agent
+Giga,https://giga.ai/,AI Agents,,2023,,,,Summer 2023,Active,,AI Support Agent for Enterprises.,ycombinator,Customer Support,AI Agent
+Inconvo,https://inconvo.com,Data Infrastructure,,2023,,,,Summer 2023,Active,,Build chat-with-data agents for customer-facing applications,ycombinator,Cross-industry,Data Infrastructure
+Roame,https://roame.travel/,AI Search,,2023,,,,Summer 2023,Active,,Flight search engine using credit card points and miles,ycombinator,Consumer,Analytics & Decisioning
+dili,https://www.dili.com,Security AI,,2023,,,,Summer 2023,Active,,Automating PWA Compliance and Diligence,ycombinator,Security,AI Agent
+Webhound,https://webhound.ai,AI Agents,AI,2023,,,,Summer 2023,Active,,Long-horizon research agents,ycombinator,Cross-industry,AI Agent
+Cair Health,https://www.cairhealth.com/,Healthcare AI,,2023,,,,Summer 2023,Active,,AI Agents for Healthcare RCM,ycombinator,Healthcare,AI Agent
+Quill Bills,https://quillbills.com,Healthcare AI,,2023,,,,Summer 2023,Active,,AI-Powered Medical Billing,ycombinator,Healthcare,AI Agent
+Strada,https://www.getstrada.com/,Finance AI,AI,2023,,,,Summer 2023,Active,,AI agents that run insurance operations,ycombinator,Finance,AI Agent
+Minded,https://www.minded.com/,Code AI,AI,2023,,,,Summer 2023,Active,,Cursor for AI Agents,ycombinator,Cross-industry,AI Agent
+Terracotta AI,https://tryterracotta.com,Code AI,,2023,,,,Summer 2023,Active,,AI-powered Infrastructure as Code PR reviews,ycombinator,Cross-industry,AI Agent
+Cedalio,https://cedalio.com/,ClimateTech AI,AI,2023,,,,Summer 2023,Active,,Turn your utility bills into smart decisions with AI,ycombinator,ClimateTech,Analytics & Decisioning
+Langdock,https://langdock.com,General AI,AI,2023,,,,Summer 2023,Active,,The all-in-one AI platform for companies.,ycombinator,Cross-industry,Copilot / Assistant
+sudocode,https://sudocode.ai,Code AI,AI,2023,,,,Summer 2023,Active,,orchestrate your coding agents with sudocode,ycombinator,Cross-industry,AI Agent
+Sweep,https://sweep.dev/,Code AI,AI,2023,,,,Summer 2023,Active,,The best AIcoding assistant for JetBrains,ycombinator,Cross-industry,Copilot / Assistant
+Silimate,https://www.silimate.com,Engineering AI,AI,2023,,,,Summer 2023,Active,,The copilot for chip designers,ycombinator,Engineering,Copilot / Assistant
+Andromeda Surgical,http://www.andromedasurgical.com,AI Agents,,2023,,,,Summer 2023,Active,,Autonomous surgical robots,ycombinator,Healthcare,AI Agent
+DisputeNinja,https://www.disputeninja.ai,AI Agents,AI,2023,,,,Summer 2023,Active,,Automate your chargebacks with AI agents,ycombinator,E-commerce,AI Agent
+Baserun,https://baserun.ai,ML Infrastructure,,2023,,,,Summer 2023,Active,,Observability and evaluation platform for LLM apps.,ycombinator,Cross-industry,ML Infrastructure
+Sola,https://www.sola-solutions.com/,Robotics,AI,2023,,,,Summer 2023,Active,,Copilot forRobotic Process Automation,ycombinator,Cross-industry,Copilot / Assistant
+Rankai,https://rankai.ai/,Go-to-Market AI,AI,2024,,,,Summer 2023,Active,,AI-Native Agency for Organic Growth (SEO & GEO) ,ycombinator,Cross-industry,AI Agent
+Inlet,https://inletai.com,Legal AI,AI,2023,,,,Summer 2023,Active,,AI timekeeping forlegal professionals.,ycombinator,Legal,Analytics & Decisioning
+Slicker,https://www.slickerhq.com,Finance AI,AI,2023,,,,Summer 2023,Active,,Recover payment failures and maximize subscription Revenue,ycombinator,Finance,AI Agent
+Gleam,https://joingleam.com,Healthcare AI,,2023,,,,Summer 2023,Active,,Automating Data Entry for Clinical Trials,ycombinator,Healthcare,AI Agent
+sizeless,https://www.sizeless.co,Real Estate AI,AI,2023,,,,Summer 2023,Active,,Instant 3D Digital Twins for Smarter RealEstate.,ycombinator,Real Estate,Generative Product
+Continue,https://continue.dev,Code AI,AI,2023,,,,Summer 2023,Active,,Quality control for your software factory,ycombinator,Cross-industry,Copilot / Assistant
+Respaid,https://www.respaid.com,Finance AI,AI,2023,,,,Summer 2023,Active,,"""Respectful B2B Debt Collection, Powered by AI""",ycombinator,Finance,AI Agent
+MediSearch,https://medisearch.io,Healthcare AI,,2023,,,,Summer 2023,Active,,Search engine for trustworthy medical information.,ycombinator,Healthcare,AI Agent
+Numen,https://www.numen.com,Healthcare AI,AI,2023,,,,Summer 2023,Active,,Engineering a future without cancer deaths.,ycombinator,Healthcare,Research Lab
+Decoda Health,https://decodahealth.com/,Healthcare AI,,2023,,,,Summer 2023,Active,,The all-in-one EMR built for med spasand elective care,ycombinator,Healthcare,Copilot / Assistant
+Skyvern,https://www.skyvern.com/,AI Agents,,2023,,,,Summer 2023,Active,,Open Source AI Agent to automate browser workflows viaan API,ycombinator,Cross-industry,AI Agent
+Rocketeer,https://rocketeer.build,Code AI,,2023,,,,Summer 2023,Active,,Claude Code for GTM,ycombinator,Cross-industry,AI Agent
+Serra,https://www.serra.io/,HR AI,AI,2023,,,,Summer 2023,Active,,Your 24/7 AI Recruiter,ycombinator,HR,AI Agent
+Arcimus,https://www.arcimus.com/,HR AI,AI,2023,,,,Summer 2023,Active,,A stream of engineering candidates who ship.,ycombinator,HR,Copilot / Assistant
+Bronco AI,https://www.bronco.ai/,Design AI,,2023,,,,Summer 2023,Active,,AI for ASIC Design Verification,ycombinator,Engineering,Copilot / Assistant
+Venta AI,https://www.getventa.ai,Go-to-Market AI,,2023,,,,Summer 2023,Active,,The compliant AI colleague for sales teams in Europe,ycombinator,Cross-industry,Copilot / Assistant
+Alguna,https://alguna.com,Finance AI,AI,2023,,,,Summer 2023,Active,,AI-Native CPQ & Billing for Modern Pricing Models,ycombinator,Finance,Copilot / Assistant
+SID,https://www.sid.ai,AI Search,AI,2023,,,,Summer 2023,Active,,AI research lab forretrieval,ycombinator,Cross-industry,Research Lab
+Spine AI,https://www.getspine.ai,AI Agents,AI,2023,,,,Summer 2023,Active,,Manage a swarm of AI agents to get real work done,ycombinator,Cross-industry,AI Agent
+CORE,https://getcore.me,Consumer AI,AI,2023,,,,Summer 2023,Active,,Your AI butler that understands you really well and proactively acts…,ycombinator,Consumer,AI Agent
+Talc,https://talc.ai,Healthcare AI,,2023,,,,Summer 2023,Active,,Event extraction for Medical Researchers,ycombinator,Healthcare,Analytics & Decisioning
+OpenTools,https://opentools.com,ML Infrastructure,,2023,,,,Summer 2023,Active,,The API for LLM tool use,ycombinator,Cross-industry,ML Infrastructure
+Readily,https://readily.co,Security AI,,2023,,,,Summer 2023,Active,,AI Compliance Platform for Healthcare Organizations,ycombinator,Healthcare,Analytics & Decisioning
+Pointhound,http://www.pointhound.com,Finance AI,AI,2023,,,,Summer 2023,Active,,Earn and redeem credit card points for free flights,ycombinator,Consumer,Analytics & Decisioning
+Diligent,https://godiligent.ai,Security AI,,2024,,,,Summer 2023,Active,,AI agents for fintech risk and compliance operations,ycombinator,Finance,AI Agent
+Sohar Health,https://www.soharhealth.com,Healthcare AI,,2023,,,,Summer 2023,Active,,AI-powered insurance verification to boost patient conversion.,ycombinator,Healthcare,AI Agent
+Elyos AI,https://www.elyos.ai/,Customer Support AI,AI,2023,,,,Summer 2023,Active,,AI Customer Service Agents for trades and field services,ycombinator,Customer Support,AI Agent
+Clearest Health,https://clearesthealth.com/,Healthcare AI,,2023,,,,Summer 2023,Active,,Rebuilding trust in American health insurance.,ycombinator,Healthcare,Analytics & Decisioning
+Reworkd,https://reworkd.ai,Data Infrastructure,,2023,,,,Summer 2023,Active,,The simplest way to extract web data at scale,ycombinator,Cross-industry,Data Infrastructure
+Kino AI,https://kino.ai,Video AI,,2023,,,,Summer 2023,Active,,Kino is an AI media manager and video editor for humans and agents.,ycombinator,Cross-industry,Copilot / Assistant
+kapa.ai,https://www.kapa.ai,Customer Support AI,AI,2023,,,,Summer 2023,Active,,The fastest way to build AI assistants on technical content,ycombinator,Customer Support,AI Agent
+Vaero,https://vaero.ai,AI Writing,AI,2023,,,,Winter 2023,Active,,AI for Human Writing,ycombinator,Cross-industry,Copilot / Assistant
+Yuma AI,https://yuma.ai,AI Agents,,2023,,,,Winter 2023,Active,,The AI Support Agent for Ecommerce,ycombinator,Customer Support,AI Agent
+Automat,https://www.runautomat.com/,AI Agents,AI,2023,,,,Winter 2023,Active,,AI enabled RPA using ChatGPT and computer vision,ycombinator,Cross-industry,AI Agent
+Adri AI,https://www.getadri.ai/,Security AI,AI,2023,,,,Winter 2023,Active,,Vanta for AI,ycombinator,Security,Analytics & Decisioning
+Vendora,https://www.vendora.io/,E-commerce AI,AI,2023,,,,Winter 2023,Active,,All-in-One Software for the $1T Grocery Industry,ycombinator,E-commerce,Copilot / Assistant
+Type,https://type.ai,AI Writing,AI,2023,,,,Winter 2023,Active,,The AI-first document editor.,ycombinator,Cross-industry,Generative Product
+Metal,https://metal.ai/,Finance AI,AI,2023,,,,Winter 2023,Active,,Institutional Intelligence for Private Equity,ycombinator,Finance,Analytics & Decisioning
+Pier,http://www.pier-finance.com,Security AI,,2023,,,,Winter 2023,Active,,Stripe for Credit - Trusted Credit Compliance Partner,ycombinator,Finance,Copilot / Assistant
+Benchmark,https://withbenchmark.com/,Finance AI,AI,2023,,,,Winter 2023,Active,,Decision infrastructure for investment firms,ycombinator,Finance,Analytics & Decisioning
+rex.fit,https://www.rex.fit,Healthcare AI,AI,2023,,,,Winter 2023,Active,,Automating nutrition tracking.,ycombinator,Consumer,Copilot / Assistant
+Berry,https://berryai.com/,HR AI,AI,2023,,,,Winter 2023,Active,,Scale customersuccess and onboarding with AI ,ycombinator,Customer Support,AI Agent
+Decohere,https://decohere.ai,ML Infrastructure,AI,2023,,,,Winter 2023,Active,,Real-time generative AI,ycombinator,Cross-industry,ML Infrastructure
+CorgiLabs,https://www.corgilabs.ai,Finance AI,AI,2023,,,,Winter 2023,Active,,AI to increase payment acceptance and reduce fraud for businesses,ycombinator,Finance,Analytics & Decisioning
+Coldreach,https://coldreach.ai/,Go-to-Market AI,AI,2023,,,,Winter 2023,Active,,Find the best leads with custom intent signals,ycombinator,Cross-industry,Analytics & Decisioning
+SuperKalam,https://superkalam.com,Education AI,AI,2023,,,,Winter 2023,Active,,AI-Powered Super Mentor for Test Prep,ycombinator,Education,Copilot / Assistant
+CombineHealth,https://www.combinehealth.ai/,Healthcare AI,AI,2023,,,,Winter 2023,Active,,Automating Healthcare Revenue Cycle Management with AI Workforce,ycombinator,Healthcare,AI Agent
+Hippo Scribe,https://gethipposcribe.com,Healthcare AI,AI,2024,,,,Winter 2023,Active,,AI assisted documentation for PT/OT/SLP,ycombinator,Healthcare,Copilot / Assistant
+Finic,https://www.finic.ai,Finance AI,AI,2023,,,,Winter 2023,Active,,Proactively hunt down fraud with AI,ycombinator,Finance,AI Agent
+Shortbread,https://www.shortbread.ai/,Consumer AI,AI,2023,,,,Winter 2023,Active,,Read romance comics.,ycombinator,Consumer,Generative Product
+Boundary,https://www.boundaryml.com,Code AI,AI,2023,,,,Winter 2023,Active,,The programming language for AI,ycombinator,Cross-industry,ML Infrastructure
+222,https://222.place,Consumer AI,AI,2022,,,,Winter 2023,Active,,the AI social facilitator for offlinehuman to human interactions,ycombinator,Consumer,AI Agent
+1stCollab,https://1stcollab.com/,Go-to-Market AI,,2022,,,,Winter 2023,Active,,Performance-Optimized Influencer Marketing at Scale,ycombinator,Cross-industry,Analytics & Decisioning
+Orchid,https://orchid.health,Healthcare AI,,2023,,,,Winter 2023,Active,,AI-powered EHR for independent mental health professionals,ycombinator,Cross-industry,AI Agent
+Truewind,https://www.trytruewind.com,Finance AI,AI,2023,,,,Winter 2023,Active,,AI-Powered Accounting,ycombinator,Finance,AI Agent
+Velos,https://www.tryvelos.com,Finance AI,AI,2023,,,,Winter 2023,Active,,Platform to automate manual back-office work,ycombinator,Finance,AI Agent
+Iliad,https://iliad.ai,Gaming AI,AI,2023,,,,Winter 2023,Active,,AI-accelerated procedural material and texture tools.,ycombinator,Gaming,Generative Product
+co.dev,https://co.dev/?ref=YC,Code AI,AI,2023,,,,Winter 2023,Active,,Turn your ideas into full-stack apps,ycombinator,Cross-industry,Generative Product
+DataSuite,https://truthsuite.com,ML Infrastructure,AI,2022,,,,Winter 2023,Active,,Dataset Management for AI Trainers,ycombinator,Cross-industry,Data Infrastructure
+No Cap,https://www.nocap.so,Finance AI,AI,2023,,,,Winter 2023,Active,,"""AIstartup investor, No Cap""",ycombinator,Finance,AI Agent
+Gooseworks,https://gooseworks.ai/,Go-to-Market AI,AI,2022,,,,Winter 2023,Active,,OpenClaw-style AI coworkers for GTM teams,ycombinator,Cross-industry,AI Agent
+Cosine,http://www.cosine.sh,Code AI,AI,2022,,,,Winter 2023,Active,,Fully Agentic SWE,ycombinator,Cross-industry,AI Agent
+PoplarML,http://poplarml.com,ML Infrastructure,AI,2023,,,,Winter 2023,Active,,Deploy Machine Learning Models with One Command,ycombinator,Cross-industry,ML Infrastructure
+infra.new,https://infra.new,AI Agents,,2023,,,,Winter 2023,Active,,AI Agent for Cloud Infrastructure,ycombinator,Cross-industry,AI Agent
+Gluetrail,https://www.gluetrail.com,Productivity AI,AI,2022,,,,Winter 2023,Active,,Create step by step articles with screenshots and videos 10x faster,ycombinator,Cross-industry,Generative Product
+JustPaid,https://www.justpaid.ai,Finance AI,AI,2023,,,,Winter 2023,Active,,Billing Automation for B2B that actually works.,ycombinator,Finance,AI Agent
+Narrative,https://www.trynarrative.com/,AI Agents,AI,2023,,,,Winter 2023,Active,,AI agents for end-to-end testing,ycombinator,Cross-industry,AI Agent
+Versive,https://www.getversive.com/,Productivity AI,AI,2023,,,,Winter 2023,Active,,AI-first user research platform,ycombinator,Cross-industry,Analytics & Decisioning
+Glass Health,https://glass.health,Healthcare AI,,2022,,,,Winter 2023,Active,,AI-Powered Clinical Decision Support & Ambient Scribing,ycombinator,Healthcare,Copilot / Assistant
+Double – Coding Copilot,https://double.bot,Code AI,AI,2023,,,,Winter 2023,Active,,AI coding copilot engineered for performance,ycombinator,Cross-industry,Copilot / Assistant
+Ohm,https://www.ohm.ai,Engineering AI,AI,2023,,,,Winter 2023,Active,,"""Ohm helps engineering labs develop better products faster, with AI.""",ycombinator,Engineering,Copilot / Assistant
+Pair AI,https://www.pairai.com/,Video AI,,2023,,,,Winter 2023,Active,,Reimagining education with short form video and AI,ycombinator,Education,Generative Product
+Backdrop,https://www.joinbackdrop.com,Finance AI,AI,2023,,,,Winter 2023,Active,,Building what’s next with AI.,ycombinator,Finance,AI Agent
+Latent,https://latenthealth.com,Healthcare AI,,2023,,,,Winter 2023,Active,,Medical language models to automate healthcare operations,ycombinator,Healthcare,Foundation Models
+Concourse,https://concourse.co/,Finance AI,AI,2023,,,,Winter 2023,Active,,AI Agents forcorporate finance teams,ycombinator,Finance,AI Agent
+Novelcare,https://www.novel.care,Healthcare AI,,2023,,,,Winter 2023,Active,,Empowering every doctor and every patient to participate in research,ycombinator,Healthcare,Copilot / Assistant
+Rollstack,https://www.rollstack.com,Data Infrastructure,,2022,,,,Winter 2023,Active,,Automate data-driven slide decks and documents with AI,ycombinator,Cross-industry,Generative Product
+Linum,https://www.linum.ai/,Video AI,,2023,,,,Winter 2023,Active,,"""type text, dream video""",ycombinator,Cross-industry,Generative Product
+Reflex,https://reflex.dev,Code AI,AI,2023,,,,Winter 2023,Active,,The operating system for building mission-critical enterprise apps.,ycombinator,Cross-industry,Generative Product
+StackAI,https://www.stack-ai.com,General AI,AI,2023,,,,Winter 2023,Active,,The Enterprise AI Transformation Platform,ycombinator,Cross-industry,AI Agent
+Chima,https://www.withchima.com/,General AI,AI,2023,,,,Winter 2023,Active,,Building infrastructure tools tohelp large companies customize their…,ycombinator,Cross-industry,AI Agent
+Unify,https://unify.ai,Code AI,AI,2022,,,,Winter 2023,Active,,Hire AI — Not APIs ✨,ycombinator,HR,AI Agent
+Gander,https://usegander.com,Logistics AI,AI,2024,,,YC marked Acquired (batch: Fall 2024),Fall 2024,Acquired,,Automation System for Global Aviation,ycombinator,Logistics,AI Agent
+Thyme,https://www.meetthyme.com/,Finance AI,AI,2024,,,YC marked Acquired (batch: Summer 2024),Summer 2024,Acquired,,The OS for financial advisors,ycombinator,Finance,Copilot / Assistant
+Remade,https://www.remade.ai/?utm_source=YC&utm_medium=YC&utm_campaign=YC_profile&utm_content=YC_profile,Design AI,,2024,,,YC marked Acquired (batch: Summer 2024),Summer 2024,Acquired,,AI-native canvas for creative workflows.,ycombinator,Cross-industry,Generative Product
+Arcane,https://www.rohanmehta.com/,Gaming AI,AI,2024,,,YC marked Acquired (batch: Winter 2024),Winter 2024,Acquired,,AI powered games,ycombinator,Gaming,Generative Product
+Resonance,https://www.useresonance.com/,Go-to-Market AI,,2024,,,YC marked Acquired (batch: Winter 2024),Winter 2024,Acquired,,Self-improving content bank for marketing,ycombinator,Cross-industry,Generative Product
+Speck,https://speck.sh,Go-to-Market AI,AI,2024,,,YC marked Acquired (batch: Winter 2024),Winter 2024,Acquired,,AI Notetaker that automates all your admin work,ycombinator,Cross-industry,Copilot / Assistant
+StarJar,https://www.starjar.io/,Healthcare AI,AI,2025,,,YC marked Acquired (batch: Winter 2024),Winter 2024,Acquired,,Starjar automates inbound document processing workflowsfor hospitals,ycombinator,Healthcare,AI Agent
+OpenPipe,https://openpipe.ai/,ML Infrastructure,AI,2023,,,YC marked Acquired (batch: Summer 2023),Summer 2023,Acquired,,Turn expensive prompts into cheap fine-tuned models,ycombinator,Cross-industry,ML Infrastructure
+Autotab,https://autotab.com,AI Agents,AI,2023,,,YC marked Acquired (batch: Summer 2023),Summer 2023,Acquired,,AI agents reliable enough to do real work,ycombinator,Cross-industry,AI Agent
+FlowiseAI,https://flowiseai.com,ML Infrastructure,AI,2023,,,YC marked Acquired (batch: Summer 2023),Summer 2023,Acquired,,Open source GenAI development platform,ycombinator,Cross-industry,ML Infrastructure
+Inari,https://useinari.com,Productivity AI,AI,2023,,,YC marked Acquired (batch: Summer 2023),Summer 2023,Acquired,,Your juniorAI product manager,ycombinator,Cross-industry,AI Agent
+Pincites,https://www.pincites.com/,Legal AI,,2023,,,YC marked Acquired (batch: Summer 2023),Summer 2023,Acquired,,Close deals faster with AI for contract negotiation,ycombinator,Legal,Copilot / Assistant
+Deasy Labs,https://www.deasylabs.com/,ML Infrastructure,AI,2023,,,YC marked Acquired (batch: Summer 2023),Summer 2023,Acquired,,Metadata for GenAI workflows,ycombinator,Cross-industry,ML Infrastructure
+Xeol,https://www.xeol.io/,Security AI,AI,2023,,,YC marked Acquired (batch: Summer 2023),Summer 2023,Acquired,,Close your outdated dependency attack vector,ycombinator,Security,Analytics & Decisioning
+DAGWorks Inc.,https://www.dagworks.io/,AI Agents,AI,2023,,,YC marked Acquired (batch: Winter 2023),Winter 2023,Acquired,,Open source tools & services for reliable AI Agents & AI Applications,ycombinator,Cross-industry,ML Infrastructure
+Fintool,https://www.fintool.com/,Finance AI,AI,2022,,,YC marked Acquired (batch: Winter 2023),Winter 2023,Acquired,,Financial copilot for institutional investors,ycombinator,Finance,Copilot / Assistant
+Booth AI,https://booth.ai,E-commerce AI,AI,2023,,,YC marked Acquired (batch: Winter 2023),Winter 2023,Acquired,,Generative AI Photographer for E-Commerce,ycombinator,E-commerce,Generative Product
+Langfuse,https://langfuse.com,ML Infrastructure,,2023,,,YC marked Acquired (batch: Winter 2023),Winter 2023,Acquired,,Open source LLM engineering platform,ycombinator,Cross-industry,ML Infrastructure
+Nuntius,https://www.nuntius.ai,General AI,AI,2025,,,YC marked Inactive (batch: Summer 2025); presumed shut down,Summer 2025,Inactive,,Making Models Follow Rules.,ycombinator,Cross-industry,ML Infrastructure
+Zeroframe,https://zeroframe.ai,Data Infrastructure,AI,2024,,,YC marked Inactive (batch: Fall 2024); presumed shut down,Fall 2024,Inactive,,Pushingthe boundaries of AI,ycombinator,Cross-industry,Data Infrastructure
+Invaria,https://invaria.com,Data Infrastructure,AI,2024,,,YC marked Inactive (batch: Summer 2024); presumed shut down,Summer 2024,Inactive,,The next generation logging and observability platform,ycombinator,Cross-industry,Data Infrastructure
+Lumona,https://www.lumona.ai,AI Search,,2023,,,YC marked Inactive (batch: Winter 2024); presumed shut down,Winter 2024,Inactive,,AI-enabled search engine featuring insights from social media.,ycombinator,Consumer,AI Agent
+Thorntale,https://thorntale.com,Productivity AI,AI,2024,,,YC marked Inactive (batch: Winter 2024); presumed shut down,Winter 2024,Inactive,,"""The world's best presentation editor, powered by AI.""",ycombinator,Cross-industry,Generative Product
+Abel,https://www.tryabel.com,Legal AI,,2023,,,YC marked Inactive (batch: Winter 2024); presumed shut down,Winter 2024,Inactive,,Transforming document review for litigation teams,ycombinator,Legal,AI Agent
+Toolify,https://toolify.sh,Code AI,AI,2024,,,YC marked Inactive (batch: Winter 2024); presumed shut down,Winter 2024,Inactive,,Build internal tools with AI,ycombinator,Cross-industry,Generative Product
+Engines,https://engines.dev,Code AI,,2024,,,YC marked Inactive (batch: Winter 2024); presumed shut down,Winter 2024,Inactive,,Setup any repo with one command,ycombinator,Cross-industry,AI Agent
+Quary,https://www.quary.dev,Analytics,,2024,,,YC marked Inactive (batch: Winter 2024); presumed shut down,Winter 2024,Inactive,,The first in-browser analytics engineering platform,ycombinator,Cross-industry,Analytics & Decisioning
+RadMate AI,https://www.radmate.ai,Healthcare AI,AI,2024,,,YC marked Inactive (batch: Winter 2024); presumed shut down,Winter 2024,Inactive,,Copilot for radiologists,ycombinator,Healthcare,Copilot / Assistant
+Lantern,http://lantern.dev,Data Infrastructure,AI,2023,,,YC marked Inactive (batch: Winter 2024); presumed shut down,Winter 2024,Inactive,,Postgres vector databaseextension to build AI applications,ycombinator,Cross-industry,Data Infrastructure
+Kips Health,,Healthcare AI,,2023,,,YC marked Inactive (batch: Summer 2023); presumed shut down,Summer 2023,Inactive,,The only patient engagement software that pays you.,ycombinator,Healthcare,Copilot / Assistant
+Movley,https://movley.com/,E-commerce AI,AI,2023,,,YC marked Inactive (batch: Summer 2023); presumed shut down,Summer 2023,Inactive,,Your e-commerce brand's product quality control department.,ycombinator,E-commerce,Analytics & Decisioning
+Vizly,https://vizly.fyi,Data Infrastructure,,2023,,,YC marked Inactive (batch: Summer 2023); presumed shut down,Summer 2023,Inactive,,Data to insights in seconds,ycombinator,Cross-industry,Analytics & Decisioning
+Lysto,https://lysto.ai/,Analytics,AI,2024,,,YC marked Inactive (batch: Summer 2023); presumed shut down,Summer 2023,Inactive,,Revenue intelligence platforms for startups,ycombinator,Cross-industry,Analytics & Decisioning
+GreenTally,https://www.greentally.ai,ClimateTech AI,AI,2023,,,YC marked Inactive (batch: Summer 2023); presumed shut down,Summer 2023,Inactive,,Affordable carbon tracking solution for all businesses,ycombinator,ClimateTech,Analytics & Decisioning
+Atla,https://www.atla-ai.com/,AI Agents,AI,2023,,,YC marked Inactive (batch: Summer 2023); presumed shut down,Summer 2023,Inactive,,The improvement engine for AI agents,ycombinator,Cross-industry,ML Infrastructure
+Branch AI,https://www.branch-ai.com,AI Search,,2024,,,YC marked Inactive (batch: Summer 2023); presumed shut down,Summer 2023,Inactive,,"""AI Overview Search, as aService""",ycombinator,Cross-industry,Analytics & Decisioning
+Interlock,https://www.tryinterlock.com/,General AI,AI,2023,,,YC marked Inactive (batch: Winter 2023); presumed shut down,Winter 2023,Inactive,,We are still in stealth mode.,ycombinator,Cross-industry,Copilot / Assistant
+CodeParrot AI,https://codeparrot.ai/,Design AI,,2023,,,YC marked Inactive (batch: Winter 2023); presumed shut down,Winter 2023,Inactive,,Helps Developers build stunning UI Lightning Fast ⚡️,ycombinator,Cross-industry,Generative Product
+Magicflow 𐂂,https://magicflow.ai,ML Infrastructure,AI,2023,,,YC marked Inactive (batch: Winter 2023); presumed shut down,Winter 2023,Inactive,,The Gen AI evaluation and curation platform,ycombinator,Cross-industry,ML Infrastructure
+Rubber Ducky Labs,https://www.rubberduckylabs.io/,E-commerce AI,AI,2022,,,YC marked Inactive (batch: Winter 2023); presumed shut down,Winter 2023,Inactive,,AI Powered Product Discovery,ycombinator,E-commerce,Analytics & Decisioning
+Lynx,https://uselynx.ai,Finance AI,AI,2023,,,YC marked Inactive (batch: Winter 2023); presumed shut down,Winter 2023,Inactive,,AI platform for investigating and resolving engineering incidents,ycombinator,Cross-industry,AI Agent
+Layup,http://www.layuplabs.ai,Customer Support AI,AI,2023,,,YC marked Inactive (batch: Winter 2023); presumed shut down,Winter 2023,Inactive,,Guide your users. Right in your product.,ycombinator,Customer Support,Copilot / Assistant
+Fathom,,General AI,AI,,,,,,,fathom,,producthunt,Cross-industry,Copilot / Assistant
+HockeyStack,https://hockeystack.com,Go-to-Market AI,,2022,,,,S23,Active,,,curated,Cross-industry,Analytics & Decisioning

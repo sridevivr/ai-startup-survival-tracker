@@ -1,0 +1,578 @@
+snapshot_date,name,normalized_website,status,survival_score,signal_coverage,website,category
+2026-04-22,OpenAI,openai.com,Healthy,66.2,0.71,https://openai.com,Foundation Models
+2026-04-22,Anthropic,anthropic.com,Thriving,88.8,0.71,https://anthropic.com,Foundation Models
+2026-04-22,Mistral AI,mistral.ai,Thriving,94.3,0.57,https://mistral.ai,Foundation Models
+2026-04-22,xAI,x.ai,Watchlist,50.9,0.43,https://x.ai,Foundation Models
+2026-04-22,Cohere,cohere.com,Thriving,86.2,0.57,https://cohere.com,Foundation Models
+2026-04-22,Perplexity,perplexity.ai,Likely Dead,35.4,0.57,https://perplexity.ai,AI Search
+2026-04-22,Character.AI,character.ai,Pivoted / Absorbed,66.7,0.71,https://character.ai,Consumer AI
+2026-04-22,Inflection AI,inflection.ai,Pivoted / Absorbed,53.3,0.71,https://inflection.ai,Consumer AI
+2026-04-22,Adept,adept.ai,Pivoted / Absorbed,64.0,0.71,https://adept.ai,AI Agents
+2026-04-22,Stability AI,stability.ai,Watchlist,60.0,0.43,https://stability.ai,Image Generation
+2026-04-22,Jasper,jasper.ai,Watchlist,61.8,0.43,https://jasper.ai,AI Writing
+2026-04-22,Runway,runwayml.com,Thriving,86.2,0.57,https://runwayml.com,Video Generation
+2026-04-22,ElevenLabs,elevenlabs.io,Thriving,80.0,0.57,https://elevenlabs.io,Voice AI
+2026-04-22,Hugging Face,huggingface.co,Healthy,71.4,0.43,https://huggingface.co,ML Infrastructure
+2026-04-22,Suno,suno.com,Likely Dead,56.4,0.43,https://suno.com,Music Generation
+2026-04-22,Midjourney,midjourney.com,Dormant,29.1,0.43,https://midjourney.com,Image Generation
+2026-04-22,Glean,glean.com,Healthy,76.4,0.43,https://glean.com,Enterprise Search
+2026-04-22,Harvey,harvey.ai,Thriving,80.0,0.57,https://harvey.ai,Legal AI
+2026-04-22,Writer,writer.com,Thriving,88.0,0.71,https://writer.com,Enterprise Writing
+2026-04-22,Synthesia,synthesia.io,Thriving,80.0,0.57,https://synthesia.io,Video Generation
+2026-04-22,Together AI,together.ai,Thriving,81.4,0.57,https://together.ai,ML Infrastructure
+2026-04-22,Replicate,replicate.com,Thriving,87.1,0.57,https://replicate.com,ML Infrastructure
+2026-04-22,Pika,pika.art,Watchlist,61.8,0.43,https://pika.art,Video Generation
+2026-04-22,Luma AI,lumalabs.ai,Healthy,73.8,0.57,https://lumalabs.ai,Video Generation
+2026-04-22,Humane,humane.com,Pivoted / Absorbed,63.3,0.71,https://humane.com,AI Hardware
+2026-04-22,Rewind AI,rewind.ai,Pivoted / Absorbed,21.3,0.71,https://rewind.ai,Personal AI
+2026-04-22,Forward Health,goforward.com,Likely Dead,32.7,0.57,https://goforward.com,AI Health
+2026-04-22,Olive AI,oliveai.com,Likely Dead,32.7,0.71,https://oliveai.com,Healthcare AI
+2026-04-22,Argo AI,argo.ai,Likely Dead,10.9,0.57,https://argo.ai,Autonomous Driving
+2026-04-22,Ghost Autonomy,driveghost.com,Likely Dead,16.0,0.71,https://driveghost.com,Autonomous Driving
+2026-04-22,Typeface,typeface.ai,Pivoted / Absorbed,58.5,0.57,https://typeface.ai,Enterprise Gen AI
+2026-04-22,Hippocratic AI,hippocraticai.com,Healthy,73.8,0.57,https://hippocraticai.com,Healthcare AI
+2026-04-22,Sakana AI,sakana.ai,Thriving,86.2,0.57,https://sakana.ai,AI Research
+2026-04-22,Magic,magic.dev,Thriving,92.7,0.43,https://magic.dev,Code AI
+2026-04-22,Poolside,poolside.ai,Thriving,80.0,0.57,https://poolside.ai,Code AI
+2026-04-22,Codeium,codeium.com,Pivoted / Absorbed,75.3,0.86,https://codeium.com,Code AI
+2026-04-22,Cursor,cursor.com,Thriving,100.0,0.43,https://cursor.com,Code AI
+2026-04-22,Rivet,rivet.design,Watchlist,54.5,0.43,https://rivet.design/,Code AI
+2026-04-22,Openroll,openroll.com,Watchlist,54.5,0.43,https://www.openroll.com,AI
+2026-04-22,Clicks,goclicks.ai,Healthy,69.1,0.43,https://goclicks.ai/,AI
+2026-04-22,DiligenceSquared,diligencesquared.com,Healthy,67.7,0.57,https://diligencesquared.com/,AI
+2026-04-22,Boom AI,useboom.ai,Watchlist,47.3,0.43,https://useboom.ai,AI
+2026-04-22,Freeport Markets,freeportmarkets.com,Watchlist,47.3,0.43,https://www.freeportmarkets.com/,AI
+2026-04-22,Jarmin,jarmin.ai,Watchlist,47.3,0.43,https://jarmin.ai/,Code AI
+2026-04-22,Exonic,exonic.ai,Watchlist,54.5,0.43,https://exonic.ai,AI
+2026-04-22,Lemma,uselemma.ai,Watchlist,49.2,0.57,https://www.uselemma.ai/,AI
+2026-04-22,Denki,denki.ai,Healthy,76.4,0.43,https://denki.ai,AI
+2026-04-22,Arcten,arcten.com,Watchlist,49.2,0.57,https://arcten.com,AI
+2026-04-22,Primer,startprimer.com,Healthy,67.7,0.57,https://www.startprimer.com,AI
+2026-04-22,Philon,philon.ai,Watchlist,48.5,0.57,https://philon.ai/,AI
+2026-04-22,Sourcebot,sourcebot.dev,Watchlist,47.3,0.43,https://www.sourcebot.dev/,AI
+2026-04-22,Patent Watch,patentwatch.ai,Watchlist,47.3,0.43,https://www.patentwatch.ai/,AI
+2026-04-22,Leadbay,leadbay.ai,Watchlist,49.2,0.57,https://leadbay.ai/,AI
+2026-04-22,Cortex AI,cortexrobot.ai,Watchlist,54.5,0.43,https://cortexrobot.ai/,Data Infrastructure
+2026-04-22,Inspector,tryinspector.com,Healthy,69.1,0.43,https://www.tryinspector.com,Code AI
+2026-04-22,Thesis,thesislabs.ai,Healthy,76.4,0.43,https://thesislabs.ai,AI
+2026-04-22,Compyle,compyle.ai,Watchlist,47.3,0.43,https://compyle.ai,AI Agents
+2026-04-22,Lexi,getlexi.io,Watchlist,47.3,0.43,https://getlexi.io/,Legal AI
+2026-04-22,Rovr,withrovr.com,Watchlist,47.3,0.43,https://www.withrovr.com/,AI
+2026-04-22,Redapto,redapto.com,Watchlist,47.3,0.43,https://www.redapto.com/,AI
+2026-04-22,Helonic,helonic.com,Dormant,40.0,0.57,https://helonic.com,AI
+2026-04-22,Aleph Lab,alephlab.ai,Watchlist,47.3,0.43,http://alephlab.ai/,AI
+2026-04-22,Sciloop,sciloop.dev,Watchlist,47.3,0.43,https://sciloop.dev,Data Infrastructure
+2026-04-22,Allus AI,allus.ai,Watchlist,49.2,0.57,https://allus.ai,ML Infrastructure
+2026-04-22,Unsiloed AI,unsiloed.ai,Watchlist,55.4,0.57,https://www.unsiloed.ai/,Data Infrastructure
+2026-04-22,Terrain,onterrain.ai,Healthy,69.1,0.43,https://onterrain.ai/,AI
+2026-04-22,SellRaze,sellraze.com,Watchlist,54.5,0.43,https://sellraze.com,AI
+2026-04-22,Mod AI,usemod.ai,Watchlist,55.4,0.57,https://usemod.ai,AI
+2026-04-22,Semble AI,sembleai.com,Watchlist,54.5,0.43,https://www.sembleai.com,AI Agents
+2026-04-22,Nessie,nessielabs.com,Watchlist,49.2,0.57,https://nessielabs.com/,AI
+2026-04-22,Trelium,trelium.com,Watchlist,47.3,0.43,https://www.trelium.com,AI
+2026-04-22,Norra,norra.io,Watchlist,47.3,0.43,https://www.norra.io,AI
+2026-04-22,Soren,soren-ai.com,Watchlist,61.8,0.43,https://soren-ai.com,AI
+2026-04-22,The Context Company,thecontext.company,Watchlist,54.5,0.43,https://thecontext.company,AI
+2026-04-22,Scoop,scooplabs.ai,Likely Dead,41.8,0.43,https://scooplabs.ai,AI
+2026-04-22,Hyperspell,hyperspell.com,Watchlist,47.3,0.43,https://hyperspell.com,AI
+2026-04-22,Bolna AI,bolna.ai,Watchlist,54.5,0.43,https://bolna.ai,Voice AI
+2026-04-22,Nexus,agent.nexus,Healthy,69.1,0.43,https://agent.nexus,AI
+2026-04-22,Structured AI,getstructured.ai,Thriving,92.7,0.43,https://www.getstructured.ai/,AI
+2026-04-22,Uplane,uplane.com,Watchlist,47.3,0.43,https://uplane.com,Go-to-Market AI
+2026-04-22,Lapis,trylapis.com,Watchlist,47.3,0.43,https://www.trylapis.com/,Image Gen
+2026-04-22,Mixy,usemixy.com,Watchlist,47.3,0.43,https://usemixy.com,AI
+2026-04-22,Paloma,getpaloma.ai,Watchlist,49.2,0.57,https://getpaloma.ai/,Go-to-Market AI
+2026-04-22,Freya,freyavoice.ai,Watchlist,55.4,0.57,https://freyavoice.ai/,Voice AI
+2026-04-22,NOSO LABS,noso.so,Watchlist,54.5,0.43,https://noso.so,AI
+2026-04-22,RowFlow,rowflow.ai,Watchlist,47.3,0.43,https://rowflow.ai,AI
+2026-04-22,TectoAI,tecto.ai,Watchlist,47.3,0.43,https://www.tecto.ai/,AI
+2026-04-22,Fleetline,fleetline.ai,Watchlist,54.5,0.43,https://fleetline.ai,Data Infrastructure
+2026-04-22,stagewise,stagewise.io,Watchlist,49.2,0.57,https://stagewise.io,AI Agents
+2026-04-22,Reacher,reacherapp.com,Watchlist,53.1,0.57,https://reacherapp.com/,Go-to-Market AI
+2026-04-22,Certus AI,certus-ai.com,Watchlist,61.8,0.43,https://www.certus-ai.com/,Voice AI
+2026-04-22,Pally,pally.com,Watchlist,61.8,0.43,https://pally.com,Go-to-Market AI
+2026-04-22,Locata,locatahealth.com,Watchlist,47.3,0.43,https://www.locatahealth.com/,AI
+2026-04-22,Pleom,pleom.com,Watchlist,49.2,0.57,https://pleom.com,AI
+2026-04-22,Eden,edenhq.com,Healthy,69.1,0.43,https://edenhq.com,Go-to-Market AI
+2026-04-22,Humoniq,humoniq.ai,Watchlist,47.3,0.43,https://humoniq.ai,AI
+2026-04-22,Palace,palace.so,Watchlist,60.0,0.43,https://www.palace.so,AI
+2026-04-22,Floot,floot.com,Healthy,67.7,0.57,https://floot.com,AI
+2026-04-22,Alara,alaradental.com,Likely Dead,24.6,0.57,http://alaradental.com,AI
+2026-04-22,Omnara,omnara.com,Watchlist,55.4,0.57,https://omnara.com,Code AI
+2026-04-22,Knowlify,knowlify.com,Watchlist,47.3,0.43,https://www.knowlify.com/,Video AI
+2026-04-22,Autosana,autosana.ai,Healthy,69.6,0.57,https://autosana.ai,AI
+2026-04-22,Finto,gofinto.com,Watchlist,47.3,0.43,https://www.gofinto.com/,AI
+2026-04-22,Manufact (formerly mcp-use),manufact.com,Watchlist,61.8,0.43,https://manufact.com,AI
+2026-04-22,Phases,phases.ai,Watchlist,47.3,0.43,https://phases.ai,Healthcare AI
+2026-04-22,Mimos,trymimos.com,Watchlist,47.3,0.43,https://www.trymimos.com/,AI Search
+2026-04-22,Normal,normalfactory.com,Likely Dead,49.1,0.43,https://www.normalfactory.com/,AI
+2026-04-22,GhostEye,ghosteye.ai,Watchlist,54.5,0.43,https://ghosteye.ai,Security AI
+2026-04-22,Channel3,trychannel3.com,Healthy,69.1,0.43,https://trychannel3.com,AI
+2026-04-22,Embedder,embedder.com,Watchlist,47.3,0.43,https://www.embedder.com,Code AI
+2026-04-22,Doe,doe.so,Watchlist,56.8,0.43,https://doe.so/,AI
+2026-04-22,Riverbank,riverbank.sh,Watchlist,54.5,0.43,https://www.riverbank.sh/,Security AI
+2026-04-22,Stellon Labs,stellonlabs.com,Watchlist,54.5,0.43,https://stellonlabs.com/,AI
+2026-04-22,AgentHub,agenthublabs.com,Healthy,76.4,0.43,https://www.agenthublabs.com,AI
+2026-04-22,Slashy,slashy.com,Watchlist,54.5,0.43,https://www.slashy.com/,AI
+2026-04-22,Wedge,wedge.health,Watchlist,49.2,0.57,https://www.wedge.health,AI
+2026-04-22,CareSwift,careswift.com,Dormant,42.3,0.57,https://www.careswift.com/,AI
+2026-04-22,DeepAware AI,roboticscenter.ai,Watchlist,54.5,0.43,https://roboticscenter.ai/,AI
+2026-04-22,Magnitude,magnitude.dev,Watchlist,47.3,0.43,https://magnitude.dev,AI Agents
+2026-04-22,Nori,nori.ai,Watchlist,47.3,0.43,https://nori.ai,Healthcare AI
+2026-04-22,Frizzle,frizzle.com,Watchlist,56.8,0.43,https://www.frizzle.com,AI
+2026-04-22,Alter,alterai.dev,Watchlist,47.3,0.43,https://alterai.dev,AI Agents
+2026-04-22,Cyberdesk,cyberdesk.io,Watchlist,47.3,0.43,https://www.cyberdesk.io,AI Agents
+2026-04-22,Panels,usepanels.com,Healthy,67.7,0.57,https://www.usepanels.com/,Voice AI
+2026-04-22,Monarcha,monarcha.ai,Watchlist,47.3,0.43,https://monarcha.ai,Data Infrastructure
+2026-04-22,Lotas,lotas.ai,Watchlist,47.3,0.43,https://www.lotas.ai,Data Infrastructure
+2026-04-22,Design Arena,designarena.ai,Watchlist,55.4,0.57,https://www.designarena.ai/,Design AI
+2026-04-22,Datafruit,datafruit.ai,Watchlist,47.3,0.43,https://datafruit.ai/,AI
+2026-04-22,Liva AI,theliva.ai,Watchlist,51.5,0.57,https://www.theliva.ai,Voice AI
+2026-04-22,Lanesurf,lanesurf.com,Watchlist,47.3,0.43,https://www.lanesurf.com/,Voice AI
+2026-04-22,Astor,astor.app,Watchlist,47.3,0.43,https://astor.app/,AI
+2026-04-22,truthsystems,truthsystems.ai,Watchlist,53.1,0.57,https://www.truthsystems.ai,AI
+2026-04-22,MangoDesk,mangodesk.com,Watchlist,55.4,0.57,https://www.mangodesk.com/,AI
+2026-04-22,Closera,closera.com,Watchlist,49.2,0.57,https://closera.com,AI
+2026-04-22,Meteor,browse.dev,Watchlist,47.3,0.43,https://browse.dev,AI
+2026-04-22,Prox,useprox.com,Watchlist,54.5,0.43,https://useprox.com,AI
+2026-04-22,Autonomous Technologies Group,becomeautonomous.com,Watchlist,47.3,0.43,https://becomeautonomous.com/,AI Agents
+2026-04-22,Docket,docketqa.com,Watchlist,49.2,0.57,https://docketqa.com,AI
+2026-04-22,Aegis,aegishealth.us,Watchlist,47.3,0.43,https://aegishealth.us/,Healthcare AI
+2026-04-22,Text.ai,text.ai,Watchlist,47.3,0.43,https://www.text.ai/,AI
+2026-04-22,StarSling,starsling.dev,Watchlist,47.3,0.43,https://www.starsling.dev/,AI
+2026-04-22,Wavedash,wavedash.com,Watchlist,46.2,0.57,https://wavedash.com,AI
+2026-04-22,Cactus,oncactus.com,Healthy,69.1,0.43,https://oncactus.com,AI
+2026-04-22,Vision Lab,thevisionlab.ai,Watchlist,47.3,0.43,https://thevisionlab.ai/,Data Infrastructure
+2026-04-22,Code Four,codefour.us,Watchlist,47.3,0.43,https://codefour.us/,Code AI
+2026-04-22,Lumari,lumari.io,Watchlist,61.8,0.43,https://www.lumari.io/,AI
+2026-04-22,Moby Analytics,mobyanalytics.com,Watchlist,54.5,0.43,https://www.mobyanalytics.com/,Analytics
+2026-04-22,Mesmer,mesmer.co,Watchlist,47.3,0.43,https://mesmer.co,AI
+2026-04-22,Orchid,orchid.ai,Watchlist,47.3,0.43,https://orchid.ai,AI Agents
+2026-04-22,Scalar Field,scalarfield.io,Watchlist,49.2,0.57,https://www.scalarfield.io/,AI Agents
+2026-04-22,Cactus,cactuscompute.com,Healthy,69.1,0.43,https://www.cactuscompute.com/,AI
+2026-04-22,Boost Robotics,boostrobotics.ai,Watchlist,47.3,0.43,https://www.boostrobotics.ai,Data Infrastructure
+2026-04-22,KlavisAI,klavis.ai,Watchlist,47.3,0.43,https://www.klavis.ai/,AI
+2026-04-22,Besimple AI,besimple.ai,Watchlist,47.3,0.43,https://besimple.ai,Voice AI
+2026-04-22,Human Behavior,humanbehavior.co,Healthy,69.1,0.43,https://www.humanbehavior.co/,AI
+2026-04-22,QualGent,qualgent.ai,Watchlist,49.2,0.57,https://www.qualgent.ai,AI
+2026-04-22,Theta,thetasoftware.com,Watchlist,59.2,0.57,https://thetasoftware.com,AI
+2026-04-22,Cleon,getcleon.ai,Dormant,26.7,0.43,https://getcleon.ai,AI
+2026-04-22,Crimson,crimson.law,Watchlist,61.8,0.43,https://crimson.law,Legal AI
+2026-04-22,Morphik,morphik.ai,Watchlist,59.2,0.57,https://morphik.ai,AI Search
+2026-04-22,Clidey,clidey.com,Watchlist,55.4,0.57,https://clidey.com,ML Infrastructure
+2026-04-22,Sixtyfour,sixtyfour.ai,Watchlist,53.1,0.57,https://www.sixtyfour.ai/,AI
+2026-04-22,Tegore,tegore.ai,Watchlist,47.3,0.43,https://tegore.ai/,AI
+2026-04-22,Freesolo,freesolo.co,Watchlist,49.2,0.57,https://freesolo.co,AI
+2026-04-22,Bluejay,getbluejay.ai,Healthy,69.1,0.43,https://getbluejay.ai/,Voice AI
+2026-04-22,Kestral,kestral.ai,Watchlist,54.5,0.43,https://kestral.ai,AI
+2026-04-22,Percival,percy.tech,Watchlist,47.3,0.43,https://percy.tech,Data Infrastructure
+2026-04-22,Sim,sim.ai,Thriving,86.2,0.57,https://sim.ai,AI Agents
+2026-04-22,Clarm,clarm.com,Watchlist,47.3,0.43,https://www.clarm.com,AI
+2026-04-22,Beluga,trybeluga.ai,Watchlist,54.5,0.43,https://www.trybeluga.ai/,Go-to-Market AI
+2026-04-22,Zeon Systems,zeonsystems.ai,Watchlist,56.2,0.57,https://www.zeonsystems.ai/,AI
+2026-04-22,Chonkie,chonkie.ai,Watchlist,53.1,0.57,https://www.chonkie.ai,AI
+2026-04-22,Ralo,ralo.com,Watchlist,47.3,0.43,https://www.ralo.com/,AI
+2026-04-22,Serafis,serafis.ai,Watchlist,47.3,0.43,https://serafis.ai,AI
+2026-04-22,Golf,golf.dev,Healthy,69.1,0.43,https://golf.dev/,Security AI
+2026-04-22,BitBoard,bitboard.work,Watchlist,47.3,0.43,https://bitboard.work/,AI
+2026-04-22,Blaxel,blaxel.ai,Healthy,65.4,0.57,https://blaxel.ai,AI
+2026-04-22,Mentra,mentra.glass,Watchlist,54.5,0.43,https://mentra.glass,AI
+2026-04-22,Dex,joindex.com,Watchlist,47.3,0.43,https://joindex.com,AI
+2026-04-22,Browser Use,browser-use.com,Watchlist,60.0,0.43,https://browser-use.com,AI Agents
+2026-04-22,TamLabs,tamlabs.ai,Watchlist,47.3,0.43,https://tamlabs.ai,AI
+2026-04-22,Ergo,joinergo.com,Watchlist,53.8,0.57,https://joinergo.com,Data Infrastructure
+2026-04-22,CopyCat,runcopycat.com,Watchlist,60.0,0.57,https://runcopycat.com,AI
+2026-04-22,Spott,spott.io,Healthy,70.9,0.43,https://spott.io,Go-to-Market AI
+2026-04-22,Woz,wozcode.com,Watchlist,47.3,0.43,https://www.wozcode.com/,Code AI
+2026-04-22,Proception Inc,proception.ai,Watchlist,54.5,0.43,https://proception.ai/,AI
+2026-04-22,Wildcard,wild-card.ai,Healthy,69.1,0.43,https://wild-card.ai,AI
+2026-04-22,Pinch,startpinch.com,Healthy,76.4,0.43,https://startpinch.com,Voice AI
+2026-04-22,Mastra,mastra.ai,Watchlist,54.5,0.43,https://mastra.ai,AI
+2026-04-22,AfterQuery,afterquery.com,Thriving,100.0,0.57,https://afterquery.com,ML Infrastructure
+2026-04-22,Artificial Societies,societies.io,Healthy,68.2,0.43,https://societies.io,AI
+2026-04-22,Sennu AI,sennu.ai,Watchlist,54.5,0.43,https://www.sennu.ai,AI
+2026-04-22,Outlit,outlit.ai,Watchlist,47.3,0.43,https://outlit.ai/,AI
+2026-04-22,Calltree,calltree.ai,Watchlist,47.3,0.43,https://calltree.ai,AI
+2026-04-22,Nitrode,nitrode.com,Watchlist,47.3,0.43,https://www.nitrode.com,Data Infrastructure
+2026-04-22,Exla,exla.ai,Watchlist,54.5,0.43,https://exla.ai/,AI
+2026-04-22,Confident AI,confident-ai.com,Watchlist,54.5,0.43,https://confident-ai.com,ML Infrastructure
+2026-04-22,Trata,trytrata.com,Watchlist,54.5,0.43,https://www.trytrata.com/,AI
+2026-04-22,Haleum,haleum.ai,Watchlist,45.4,0.57,https://haleum.ai/,AI
+2026-04-22,Lucidic AI,lucidic.ai,Healthy,70.9,0.43,https://lucidic.ai,AI Agents
+2026-04-22,Mundo AI,mundoai.world,Watchlist,54.5,0.43,https://mundoai.world,Data Infrastructure
+2026-04-22,Pluto,pluto.trade,Healthy,76.4,0.43,https://www.pluto.trade,AI
+2026-04-22,Lopus AI,lopus.ai,Watchlist,47.3,0.43,https://lopus.ai,Analytics
+2026-04-22,Cenote,joincenote.com,Watchlist,54.5,0.43,https://www.joincenote.com/,AI
+2026-04-22,Harbera,harbera.com,Watchlist,45.4,0.57,https://harbera.com/,AI
+2026-04-22,Stillwind,stillwind.ai,Watchlist,47.3,0.43,https://stillwind.ai,AI Agents
+2026-04-22,Pickle,pickle.com,Watchlist,60.0,0.57,https://www.pickle.com,AI
+2026-04-22,Asteroid,asteroid.ai,Watchlist,61.8,0.43,https://asteroid.ai,AI
+2026-04-22,Gale,galevisa.com,Dormant,29.1,0.43,https://galevisa.com,Data Infrastructure
+2026-04-22,Olive,fromolive.com,Healthy,69.1,0.43,https://fromolive.com,AI
+2026-04-22,Cuckoo Labs,cuckoo.so,Watchlist,47.3,0.43,https://www.cuckoo.so/,Go-to-Market AI
+2026-04-22,Mecha Health,mecha-health.ai,Watchlist,47.3,0.43,https://www.mecha-health.ai/,Healthcare AI
+2026-04-22,Osmosis,osmosis.ai,Healthy,67.7,0.57,https://osmosis.ai/,AI
+2026-04-22,Swerve,getswerve.com,Watchlist,49.2,0.57,https://www.getswerve.com/,AI
+2026-04-22,Cifrato,cifrato.ai,Watchlist,49.2,0.57,https://cifrato.ai,AI
+2026-04-22,Cardamon,cardamon.ai,Watchlist,47.3,0.43,https://cardamon.ai/,Security AI
+2026-04-22,Trim,trimresearch.com,Watchlist,61.3,0.71,https://trimresearch.com,ML Infrastructure
+2026-04-22,SalesPatriot,salespatriot.com,Watchlist,61.8,0.43,https://www.salespatriot.com/,AI
+2026-04-22,Maive,maive.ai,Watchlist,47.3,0.43,https://maive.ai,AI
+2026-04-22,Weave,workweave.dev,Healthy,73.8,0.57,https://workweave.dev,AI
+2026-04-22,Caseflood.ai,caseflood.ai,Watchlist,47.3,0.43,https://caseflood.ai,AI
+2026-04-22,Tejas AI,trytejas.ai,Watchlist,54.5,0.43,https://www.trytejas.ai/,AI
+2026-04-22,Toothy AI,toothy.ai,Watchlist,54.5,0.43,https://www.toothy.ai/,AI
+2026-04-22,Truffle AI,trytruffle.ai,Watchlist,49.2,0.57,https://www.trytruffle.ai/,AI
+2026-04-22,Closure,closure-intel.com,Likely Dead,41.8,0.43,https://closure-intel.com/,Legal AI
+2026-04-22,Promptless,promptless.ai,Watchlist,61.8,0.43,https://promptless.ai/,AI
+2026-04-22,Scout,scoutforschools.com,Healthy,69.1,0.43,https://scoutforschools.com/,AI
+2026-04-22,Vocality Health,vocalityhealth.com,Watchlist,49.2,0.57,https://www.vocalityhealth.com,Healthcare AI
+2026-04-22,Alice.tech,alice.tech,Watchlist,54.5,0.43,https://www.alice.tech/,AI
+2026-04-22,Praxim,praxim.ai,Watchlist,47.3,0.43,https://www.praxim.ai/,AI
+2026-04-22,Tweeks.io,tweeks.io,Watchlist,55.4,0.57,https://tweeks.io,AI
+2026-04-22,Leaping AI,leapingai.com,Watchlist,47.3,0.43,https://www.leapingai.com,Voice AI
+2026-04-22,Vetnio,vetnio.com,Watchlist,47.3,0.43,https://vetnio.com/,AI
+2026-04-22,Candor,usecandor.ai,Likely Dead,18.2,0.43,https://www.usecandor.ai,AI
+2026-04-22,Outship,outship.ai,Watchlist,47.3,0.43,https://outship.ai,AI
+2026-04-22,Edexia,edexia.com,Watchlist,47.3,0.43,https://www.edexia.com/,AI
+2026-04-22,Quantstruct,quantstruct.com,Watchlist,47.3,0.43,https://quantstruct.com,Code AI
+2026-04-22,SRE.ai,sre.ai,Watchlist,56.8,0.43,https://sre.ai,AI
+2026-04-22,Melder,melder.io,Watchlist,45.4,0.57,https://melder.io,AI
+2026-04-22,Forerunner AI,tryforerunner.com,Likely Dead,20.8,0.57,https://tryforerunner.com,AI
+2026-04-22,Struct,struct.ai,Watchlist,54.5,0.43,https://struct.ai,AI
+2026-04-22,ArchiLabs,archilabs.ai,Watchlist,49.2,0.57,https://archilabs.ai,AI
+2026-04-22,Diffusion Studio,diffusion.studio,Watchlist,49.2,0.57,https://diffusion.studio/,Video AI
+2026-04-22,BrowserBook,browserbook.com,Watchlist,47.3,0.43,https://www.browserbook.com,Code AI
+2026-04-22,AutoComputer,autocomputer.ai,Likely Dead,24.6,0.57,https://www.autocomputer.ai/,AI
+2026-04-22,vly.ai,vly.ai,Watchlist,47.3,0.43,https://vly.ai,AI
+2026-04-22,HYBRD,hybrd.com,Dormant,40.0,0.57,https://www.hybrd.com/,AI
+2026-04-22,Lingo.dev,lingo.dev,Watchlist,54.5,0.43,https://lingo.dev,AI
+2026-04-22,Luthor,luthor.ai,Watchlist,47.3,0.43,https://luthor.ai,Go-to-Market AI
+2026-04-22,Keye,keye.co,Watchlist,45.4,0.57,https://www.keye.co,AI
+2026-04-22,RiskCube,riskcube.com,Watchlist,55.4,0.57,https://riskcube.com,AI
+2026-04-22,CTGT,ctgt.ai,Watchlist,47.3,0.43,https://www.ctgt.ai/,AI
+2026-04-22,Endstack,endstack.com,Watchlist,47.3,0.43,https://www.endstack.com,AI
+2026-04-22,Revyl,revyl.ai,Watchlist,51.5,0.57,https://www.revyl.ai,AI
+2026-04-22,Raycaster,raycaster.ai,Watchlist,55.4,0.57,https://raycaster.ai,AI
+2026-04-22,Darkgrade,darkgrade.com,Watchlist,49.2,0.57,https://darkgrade.com,AI
+2026-04-22,Candle,trycandle.app,Healthy,69.1,0.43,https://www.trycandle.app/,AI
+2026-04-22,Galini,galini.ai,Watchlist,54.5,0.43,https://www.galini.ai/,Security AI
+2026-04-22,Riveter,riveterhq.com,Watchlist,47.3,0.43,https://www.riveterhq.com/,Data Infrastructure
+2026-04-22,Onlook,onlook.com,Watchlist,53.1,0.57,https://onlook.com/,AI
+2026-04-22,DreamRP,dreamrp.com,Watchlist,54.5,0.43,https://www.dreamrp.com/,AI
+2026-04-22,Conductor,conductor.build,Healthy,69.1,0.43,https://conductor.build,AI
+2026-04-22,PathPilot,getpathpilot.com,Watchlist,47.3,0.43,https://www.getpathpilot.com/,AI
+2026-04-22,Affil.ai,affil.ai,Watchlist,47.3,0.43,https://affil.ai/,AI
+2026-04-22,Overlap,overlap.ai,Watchlist,60.8,0.57,https://www.overlap.ai,Video AI
+2026-04-22,Void,useglass.ai,Likely Dead,44.6,0.57,https://useglass.ai,AI
+2026-04-22,Anglera,anglera.com,Watchlist,54.5,0.43,https://www.anglera.com/,Data Infrastructure
+2026-04-22,Pipeshift,pipeshift.com,Watchlist,47.3,0.43,https://pipeshift.com,AI
+2026-04-22,Vera Health,vera-health.ai,Dormant,42.3,0.57,https://www.vera-health.ai,Healthcare AI
+2026-04-22,Keet,trykeet.com,Watchlist,47.3,0.43,https://trykeet.com,AI
+2026-04-22,Usul,usul.com,Watchlist,47.3,0.43,https://www.usul.com,AI
+2026-04-22,Oway,shipoway.com,Watchlist,47.3,0.43,https://www.shipoway.com,AI
+2026-04-22,Voker,voker.ai,Watchlist,47.3,0.43,https://voker.ai,AI Agents
+2026-04-22,Rastro,rastro.ai,Watchlist,47.3,0.43,https://rastro.ai,AI
+2026-04-22,Quetzal,getquetzal.com,Watchlist,47.3,0.43,https://getquetzal.com/,ML Infrastructure
+2026-04-22,Typa,typa.ai,Watchlist,47.3,0.43,https://typa.ai,AI
+2026-04-22,"Sterling Labs, Inc",focusbuddy.ai,Watchlist,45.4,0.57,https://www.focusbuddy.ai/?ref=yc,AI
+2026-04-22,Orca Launcher,orcalauncher.com,Watchlist,47.3,0.43,https://orcalauncher.com,AI
+2026-04-22,Assembly HOA,assemblyhoa.com,Watchlist,45.4,0.57,https://assemblyhoa.com,AI
+2026-04-22,Polymet,polymet.ai,Watchlist,47.3,0.43,https://polymet.ai,AI
+2026-04-22,Propaya,propaya.com,Watchlist,49.2,0.57,https://www.propaya.com,AI
+2026-04-22,ZeroPath,zeropath.com,Healthy,75.4,0.57,https://zeropath.com,AI
+2026-04-22,bluedoor,bluedoor.sh,Watchlist,47.3,0.43,https://bluedoor.sh/,AI
+2026-04-22,Handled,itshandled.ai,Watchlist,55.4,0.57,https://www.itshandled.ai,AI
+2026-04-22,Baseline AI,baselinetrials.com,Likely Dead,24.6,0.57,https://www.baselinetrials.com/,Healthcare AI
+2026-04-22,Cartage,cartage.ai,Healthy,67.7,0.57,https://cartage.ai,AI Agents
+2026-04-22,Palmier,palmier.io,Watchlist,47.3,0.43,https://www.palmier.io,Go-to-Market AI
+2026-04-22,Simple AI,usesimple.ai,Healthy,77.3,0.57,https://www.usesimple.ai,Voice AI
+2026-04-22,Sensei,senseirobotics.com,Healthy,69.1,0.43,https://senseirobotics.com,Data Infrastructure
+2026-04-22,Presti AI,presti.ai,Watchlist,47.3,0.43,https://www.presti.ai/,AI
+2026-04-22,The Forecasting Company,theforecastingcompany.com,Watchlist,56.9,0.57,https://www.theforecastingcompany.com,ML Infrastructure
+2026-04-22,Zettascale,zscc.ai,Watchlist,49.2,0.57,https://zscc.ai,AI
+2026-04-22,Brighterway,brighterway.ai,Watchlist,49.2,0.57,https://www.brighterway.ai/,Healthcare AI
+2026-04-22,Soff,soff.ai,Healthy,69.2,0.57,https://soff.ai,AI
+2026-04-22,Parley,parley.so,Watchlist,49.2,0.57,https://parley.so,Legal AI
+2026-04-22,Thunder Compute,thundercompute.com,Watchlist,47.3,0.43,https://www.thundercompute.com,AI
+2026-04-22,Kura AI,trykura.com,Watchlist,55.4,0.57,https://trykura.com,AI
+2026-04-22,Piggy Robotics,piggyrobotics.com,Watchlist,47.3,0.43,https://piggyrobotics.com,AI
+2026-04-22,Mage Legal,magelegal.com,Watchlist,49.2,0.57,https://magelegal.com,Legal AI
+2026-04-22,winfunc,winfunc.com,Watchlist,49.2,0.57,https://winfunc.com,Security AI
+2026-04-22,Seals AI,hireseals.ai,Watchlist,51.5,0.57,https://www.hireseals.ai/,AI
+2026-04-22,Drillbit,drillbit.com,Watchlist,49.2,0.57,https://www.drillbit.com,AI
+2026-04-22,Sharpe,sharpe.sh,Watchlist,54.5,0.43,https://sharpe.sh,Data Infrastructure
+2026-04-22,Planbase,joinplanbase.com,Healthy,77.7,0.57,https://www.joinplanbase.com/,AI
+2026-04-22,Clearly AI,clearly-ai.com,Watchlist,47.3,0.43,https://clearly-ai.com,Security AI
+2026-04-22,Overstand Labs,overstandlabs.com,Watchlist,61.5,0.57,https://overstandlabs.com,Data Infrastructure
+2026-04-22,Ontra Mobility,ontramobility.com,Watchlist,49.2,0.57,https://www.ontramobility.com,AI
+2026-04-22,Aluna,alunadata.com,Watchlist,49.2,0.57,https://alunadata.com,Data Infrastructure
+2026-04-22,Anthrogen,anthrogen.com,Watchlist,47.3,0.43,https://anthrogen.com,ML Infrastructure
+2026-04-22,Benchify,benchify.com,Watchlist,47.3,0.43,https://www.benchify.com,AI
+2026-04-22,TaxGPT,taxgpt.com,Thriving,92.7,0.43,https://www.taxgpt.com,AI
+2026-04-22,Lighthouz AI,lighthouz.ai,Watchlist,49.2,0.57,https://lighthouz.ai/,AI
+2026-04-22,Modus,himodus.com,Healthy,67.7,0.57,https://himodus.com,AI
+2026-04-22,Plume,plumefinder.com,Healthy,76.4,0.43,http://www.plumefinder.com,AI
+2026-04-22,Stormy AI,stormy.ai,Watchlist,54.5,0.43,https://stormy.ai,Go-to-Market AI
+2026-04-22,Gauge,withgauge.com,Healthy,69.1,0.43,https://withgauge.com,AI Agents
+2026-04-22,Kenley,kenley.ai,Watchlist,61.8,0.43,https://kenley.ai/,AI
+2026-04-22,Tivara,tivara.com,Watchlist,47.3,0.43,https://tivara.com,AI
+2026-04-22,Lore,joinlore.app,Healthy,69.1,0.43,https://joinlore.app/,AI
+2026-04-22,CodeViz,codeviz.ai,Watchlist,49.2,0.57,https://www.codeviz.ai/,AI
+2026-04-22,Elevate,useelevate.dev,Thriving,80.0,0.57,https://www.useelevate.dev/,Data Infrastructure
+2026-04-22,Storia AI,storia.ai,Watchlist,54.5,0.43,https://storia.ai,Code AI
+2026-04-22,Scape,scape.app,Watchlist,59.2,0.57,https://scape.app,Go-to-Market AI
+2026-04-22,Willow,willowvoice.com,Watchlist,61.8,0.43,https://willowvoice.com/,Voice AI
+2026-04-22,NetworkOcean,networkocean.io,Watchlist,49.2,0.57,https://networkocean.io/,Data Infrastructure
+2026-04-22,Silurian,silurian.ai,Watchlist,54.5,0.43,https://silurian.ai/,ML Infrastructure
+2026-04-22,Unbound,getunbound.ai,Watchlist,61.8,0.43,https://getunbound.ai/,Data Infrastructure
+2026-04-22,Decisional AI,decisional.com,Watchlist,53.1,0.57,https://www.decisional.com/,AI
+2026-04-22,FirstWork,firstwork.com,Watchlist,47.3,0.43,https://firstwork.com,AI
+2026-04-22,Sorcerer,sorcerer.earth,Watchlist,61.5,0.57,https://sorcerer.earth,AI
+2026-04-22,Wordware,wordware.ai,Watchlist,54.5,0.43,https://wordware.ai/,AI
+2026-04-22,Maitai,trymaitai.com,Watchlist,47.3,0.43,https://trymaitai.com,AI
+2026-04-22,Corgi Insurance,corgi.insure,Thriving,100.0,0.57,https://corgi.insure,AI
+2026-04-22,Sage Care,sagecare.ai,Watchlist,47.3,0.43,https://sagecare.ai,AI
+2026-04-22,Codes Health,getcodeshealth.com,Watchlist,45.4,0.57,https://www.getcodeshealth.com/,Healthcare AI
+2026-04-22,Entangl,entangl.com,Watchlist,47.3,0.43,https://www.entangl.com/,Data Infrastructure
+2026-04-22,ProhostAI,prohost.ai,Watchlist,47.3,0.43,https://www.prohost.ai/,AI
+2026-04-22,Educato,educato.com,Watchlist,54.5,0.43,https://www.educato.com/,AI
+2026-04-22,Saphira AI,saphira.ai,Watchlist,49.2,0.57,https://saphira.ai,AI
+2026-04-22,Mem0,mem0.ai,Thriving,83.6,0.43,https://mem0.ai,AI
+2026-04-22,Superunit,superunit.ai,Watchlist,47.3,0.43,http://superunit.ai,AI
+2026-04-22,Ångström AI,angstrom-ai.com,Watchlist,49.2,0.57,https://www.angstrom-ai.com,AI
+2026-04-22,Marr Labs,marrlabs.com,Watchlist,53.1,0.57,https://www.marrlabs.com/,Voice AI
+2026-04-22,Forge Rewards,joinforge.app,Watchlist,54.5,0.43,https://www.joinforge.app/,AI
+2026-04-22,Same,same.new,Dormant,40.0,0.43,https://same.new,AI
+2026-04-22,GetCrux,getcrux.ai,Watchlist,47.3,0.43,http://getcrux.ai/,AI
+2026-04-22,InspectMind AI,inspectmind.ai,Watchlist,55.4,0.57,https://www.inspectmind.ai,AI Agents
+2026-04-22,kater.ai,kater.ai,Watchlist,47.3,0.43,https://www.kater.ai,Data Infrastructure
+2026-04-22,Integuru,integuru.ai,Watchlist,47.3,0.43,https://www.integuru.ai,AI
+2026-04-22,VoxOps AI,voxopsai.com,Likely Dead,18.2,0.43,https://www.voxopsai.com/,Voice AI
+2026-04-22,Evolvere BioSciences,evolverebiosciences.com,Watchlist,55.4,0.57,https://www.evolverebiosciences.com/,AI
+2026-04-22,Silogy,silogy.io,Watchlist,45.4,0.57,https://silogy.io,AI
+2026-04-22,Senso,senso.ai,Watchlist,49.2,0.57,http://www.senso.ai,AI
+2026-04-22,Magic Hour,magichour.ai,Watchlist,47.3,0.43,https://magichour.ai,Video AI
+2026-04-22,Veles,getveles.com,Watchlist,49.2,0.57,http://www.getveles.com,AI
+2026-04-22,Fluently,getfluently.app,Watchlist,55.4,0.57,https://getfluently.app/,AI
+2026-04-22,Basepilot,basepilot.com,Watchlist,47.3,0.43,https://www.basepilot.com/,AI
+2026-04-22,Aqua Voice,aquavoice.com,Watchlist,53.1,0.57,https://aquavoice.com,Voice AI
+2026-04-22,Adapted,adapted.app,Dormant,42.3,0.57,https://adapted.app,AI
+2026-04-22,Ocular AI,useocular.com,Watchlist,54.5,0.43,https://useocular.com,Data Infrastructure
+2026-04-22,Retell AI,retellai.com,Healthy,66.2,0.57,https://retellai.com,AI
+2026-04-22,Rove,rove.com,Watchlist,61.8,0.43,https://rove.com,AI
+2026-04-22,Downlink,downlink.dev,Dormant,42.3,0.57,https://downlink.dev/,AI
+2026-04-22,Shepherd,shepherd.study,Healthy,76.4,0.43,https://www.shepherd.study,AI
+2026-04-22,Openmart,openmart.com,Watchlist,53.1,0.57,https://www.openmart.com,Data Infrastructure
+2026-04-22,Alai,getalai.com,Healthy,69.1,0.43,https://getalai.com,AI
+2026-04-22,Brainbase Labs,brainbaselabs.com,Watchlist,59.2,0.57,https://brainbaselabs.com,AI
+2026-04-22,Focal,focalml.com,Healthy,69.1,0.43,https://focalml.com,Video AI
+2026-04-22,Ligo Biosciences,ligo.bio,Watchlist,47.3,0.43,https://www.ligo.bio,Design AI
+2026-04-22,Model ML,modelml.com,Healthy,73.8,0.57,https://www.modelml.com/,ML Infrastructure
+2026-04-22,BetterBasket,betterbasket.com,Watchlist,47.3,0.43,http://www.betterbasket.com,AI
+2026-04-22,Risotto,tryrisotto.com,Healthy,69.1,0.43,https://tryrisotto.com,AI
+2026-04-22,Diana,getdiana.com,Watchlist,54.2,0.57,https://getdiana.com/,AI
+2026-04-22,Raindrop,raindrop.ai,Healthy,76.4,0.43,https://www.raindrop.ai,AI
+2026-04-22,Manifold Freight,manifoldfreight.com,Dormant,42.3,0.57,https://www.manifoldfreight.com/,AI
+2026-04-22,OffDeal,offdeal.io,Watchlist,61.5,0.57,https://offdeal.io,AI
+2026-04-22,Overeasy,overeasy.sh,Likely Dead,17.1,0.29,https://overeasy.sh/,AI
+2026-04-22,Andy AI,with-andy.com,Watchlist,61.8,0.43,https://with-andy.com,Healthcare AI
+2026-04-22,Conduit,conduit.ai,Healthy,69.1,0.43,https://conduit.ai/?utm_source=referral&utm_medium=organic&utm_campaign=ycombinator,AI
+2026-04-22,Preloop,preloop.com,Likely Dead,13.3,0.43,https://www.preloop.com,AI
+2026-04-22,Superagent,superagent.sh,Healthy,67.7,0.57,https://superagent.sh/,AI
+2026-04-22,SevnAI,sevn.ai,Watchlist,47.3,0.43,https://sevn.ai/,AI
+2026-04-22,Ellipsis,ellipsis.dev,Watchlist,47.3,0.43,https://ellipsis.dev,Code AI
+2026-04-22,Solari AI,usesolari.ai,Watchlist,49.2,0.57,https://www.usesolari.ai/,AI
+2026-04-22,Centralize,usecentralize.com,Watchlist,47.3,0.43,https://www.usecentralize.com/,AI
+2026-04-22,phospho,phospho.ai,Watchlist,49.2,0.57,https://phospho.ai,AI
+2026-04-22,Firebender,firebender.com,Watchlist,47.3,0.43,https://firebender.com,AI Agents
+2026-04-22,Aether,tryaether.co,Healthy,69.1,0.43,https://www.tryaether.co/,Go-to-Market AI
+2026-04-22,Fuse,fuseinsight.com,Healthy,69.1,0.43,http://www.fuseinsight.com,Healthcare AI
+2026-04-22,PandasAI,pandas-ai.com,Watchlist,47.3,0.43,https://pandas-ai.com,Data Infrastructure
+2026-04-22,14.ai,14.ai,Likely Dead,44.6,0.57,https://14.ai,AI Agents
+2026-04-22,Tamarind Bio,tamarind.bio,Healthy,69.2,0.57,https://www.tamarind.bio,AI
+2026-04-22,Decipher AI,getdecipher.com,Watchlist,49.2,0.57,https://getdecipher.com,AI
+2026-04-22,Respan,respan.ai,Thriving,93.8,0.57,https://respan.ai,AI
+2026-04-22,Meticulate,meticulate.ai,Watchlist,47.3,0.43,https://meticulate.ai/,Go-to-Market AI
+2026-04-22,Tusk,usetusk.ai,Watchlist,47.3,0.43,https://usetusk.ai,AI Agents
+2026-04-22,TokenOwl,tokenowl.ai,Watchlist,49.2,0.57,https://tokenowl.ai,AI
+2026-04-22,Ecliptor,ecliptor.ai,Watchlist,49.2,0.57,https://ecliptor.ai,AI
+2026-04-22,Greenboard,greenboard.com,Healthy,65.4,0.57,https://www.greenboard.com,AI
+2026-04-22,Eggnog,eggnog.ai,Healthy,73.8,0.57,https://www.eggnog.ai,Video AI
+2026-04-22,Arini,arini.ai,Watchlist,55.4,0.57,https://www.arini.ai,AI
+2026-04-22,AveryIQ,callavery.com,Watchlist,54.5,0.43,https://callavery.com,AI
+2026-04-22,Agentic Labs,agenticlabs.com,Watchlist,47.3,0.43,https://agenticlabs.com,Design AI
+2026-04-22,nCompass Technologies,ncompass.tech,Watchlist,54.5,0.43,https://www.ncompass.tech,AI
+2026-04-22,Pretzel AI,withpretzel.com,Watchlist,47.3,0.43,https://withpretzel.com,AI
+2026-04-22,Reducto,reducto.ai,Thriving,81.5,0.57,https://reducto.ai,AI
+2026-04-22,Andon Labs,andonlabs.com,Watchlist,61.5,0.57,https://andonlabs.com/,AI Agents
+2026-04-22,Poka Labs,pokalabs.com,Watchlist,47.3,0.43,https://www.pokalabs.com/,AI
+2026-04-22,Nuanced,nuanced.dev,Watchlist,47.3,0.43,https://www.nuanced.dev/,AI
+2026-04-22,Tracecat,tracecat.com,Watchlist,47.3,0.43,https://tracecat.com,Security AI
+2026-04-22,Sonia,soniahealth.com,Watchlist,47.3,0.43,https://soniahealth.com,Healthcare AI
+2026-04-22,Duckie,duckie.ai,Watchlist,47.3,0.43,https://duckie.ai/,AI
+2026-04-22,Happenstance,happenstance.ai,Watchlist,61.5,0.57,https://happenstance.ai,AI Search
+2026-04-22,Greptile,greptile.com,Healthy,70.9,0.43,https://www.greptile.com,Code AI
+2026-04-22,ego,egoai.com,Watchlist,61.5,0.57,https://egoai.com,AI
+2026-04-22,Legora,legora.com,Healthy,76.4,0.43,https://www.legora.com/,AI
+2026-04-22,Scritch,scritchai.com,Watchlist,47.3,0.43,https://www.scritchai.com,AI
+2026-04-22,DryMerge,drymerge.com,Watchlist,53.1,0.57,https://www.drymerge.com,Go-to-Market AI
+2026-04-22,Navier AI,navier.ai,Healthy,76.4,0.43,http://navier.ai,AI Agents
+2026-04-22,Upsolve AI,upsolve.ai,Watchlist,56.8,0.43,https://upsolve.ai/,AI
+2026-04-22,Letterbook,letterbook.ai,Watchlist,47.3,0.43,https://www.letterbook.ai/,AI
+2026-04-22,Orbio Earth,orbio.earth,Watchlist,54.5,0.43,https://www.orbio.earth/,AI
+2026-04-22,jo,askjo.ai,Watchlist,49.2,0.57,https://askjo.ai,AI
+2026-04-22,Tempo,tempo.new,Healthy,69.1,0.43,https://www.tempo.new,AI
+2026-04-22,Cognitio Labs,cognitioiq.com,Watchlist,47.3,0.43,https://cognitioiq.com,AI
+2026-04-22,truemetrics,truemetrics.io,Watchlist,49.2,0.57,https://www.truemetrics.io/,AI
+2026-04-22,Wattson Health,wattsonhealth.com,Watchlist,47.3,0.43,https://www.wattsonhealth.com,Healthcare AI
+2026-04-22,Morph,morphllm.com,Watchlist,61.8,0.43,https://morphllm.com,AI
+2026-04-22,Nowadays,nowadays.ai,Watchlist,54.5,0.43,http://nowadays.ai/,AI
+2026-04-22,Waldium,waldium.com,Watchlist,49.2,0.57,https://www.waldium.com/,AI
+2026-04-22,Mocha,getmocha.com,Watchlist,54.5,0.43,https://getmocha.com,AI
+2026-04-22,Simbie AI,simbie.ai,Watchlist,61.5,0.57,http://www.simbie.ai,AI
+2026-04-22,AiSDR,aisdr.com,Watchlist,59.3,0.71,https://aisdr.com/,Go-to-Market AI
+2026-04-22,Giga,giga.ai,Thriving,100.0,0.43,https://giga.ai/,AI Agents
+2026-04-22,Inconvo,inconvo.com,Watchlist,49.2,0.57,https://inconvo.com,Data Infrastructure
+2026-04-22,Roame,roame.travel,Watchlist,47.3,0.43,https://roame.travel/,AI Search
+2026-04-22,dili,dili.com,Watchlist,47.3,0.43,https://www.dili.com,Security AI
+2026-04-22,Webhound,webhound.ai,Watchlist,49.2,0.57,https://webhound.ai,AI
+2026-04-22,Cair Health,cairhealth.com,Watchlist,45.4,0.57,https://www.cairhealth.com/,Healthcare AI
+2026-04-22,Quill Bills,quillbills.com,Watchlist,49.2,0.57,https://quillbills.com,Healthcare AI
+2026-04-22,Strada,getstrada.com,Watchlist,49.2,0.57,https://www.getstrada.com/,AI
+2026-04-22,Minded,minded.com,Healthy,69.1,0.43,https://www.minded.com/,AI
+2026-04-22,Terracotta AI,tryterracotta.com,Watchlist,54.5,0.43,https://tryterracotta.com,Code AI
+2026-04-22,Cedalio,cedalio.com,Watchlist,49.2,0.57,https://cedalio.com/,AI
+2026-04-22,Langdock,langdock.com,Watchlist,55.4,0.57,https://langdock.com,AI
+2026-04-22,sudocode,sudocode.ai,Watchlist,54.5,0.43,https://sudocode.ai,AI
+2026-04-22,Sweep,sweep.dev,Likely Dead,56.9,0.57,https://sweep.dev/,AI
+2026-04-22,Silimate,silimate.com,Watchlist,55.4,0.57,https://www.silimate.com,AI
+2026-04-22,Andromeda Surgical,andromedasurgical.com,Watchlist,49.2,0.57,http://www.andromedasurgical.com,AI Agents
+2026-04-22,DisputeNinja,disputeninja.ai,Watchlist,47.3,0.43,https://www.disputeninja.ai,AI
+2026-04-22,Baserun,baserun.ai,Likely Dead,13.3,0.43,https://baserun.ai,ML Infrastructure
+2026-04-22,Sola,sola-solutions.com,Watchlist,52.3,0.57,https://www.sola-solutions.com/,AI
+2026-04-22,Rankai,rankai.ai,Watchlist,47.3,0.43,https://rankai.ai/,AI
+2026-04-22,Inlet,inletai.com,Watchlist,47.3,0.43,https://inletai.com,AI
+2026-04-22,Slicker,slickerhq.com,Watchlist,47.3,0.43,https://www.slickerhq.com,AI
+2026-04-22,Gleam,joingleam.com,Watchlist,47.3,0.43,https://joingleam.com,Healthcare AI
+2026-04-22,sizeless,sizeless.co,Watchlist,47.3,0.43,https://www.sizeless.co,AI
+2026-04-22,Continue,continue.dev,Likely Dead,56.9,0.57,https://continue.dev,AI
+2026-04-22,Respaid,respaid.com,Watchlist,54.5,0.43,https://www.respaid.com,AI
+2026-04-22,MediSearch,medisearch.io,Watchlist,55.4,0.57,https://medisearch.io,Healthcare AI
+2026-04-22,Numen,numen.com,Watchlist,47.3,0.43,https://www.numen.com,AI
+2026-04-22,Decoda Health,decodahealth.com,Watchlist,61.5,0.57,https://decodahealth.com/,Healthcare AI
+2026-04-22,Skyvern,skyvern.com,Watchlist,54.5,0.43,https://www.skyvern.com/,AI Agents
+2026-04-22,Rocketeer,rocketeer.build,Watchlist,49.2,0.57,https://rocketeer.build,Code AI
+2026-04-22,Serra,serra.io,Healthy,66.9,0.57,https://www.serra.io/,AI
+2026-04-22,Arcimus,arcimus.com,Watchlist,49.2,0.57,https://www.arcimus.com/,AI
+2026-04-22,Bronco AI,bronco.ai,Watchlist,54.5,0.43,https://www.bronco.ai/,Design AI
+2026-04-22,Venta AI,getventa.ai,Watchlist,47.3,0.43,https://www.getventa.ai,Go-to-Market AI
+2026-04-22,Alguna,alguna.com,Watchlist,54.5,0.43,https://alguna.com,AI
+2026-04-22,SID,sid.ai,Watchlist,49.2,0.57,https://www.sid.ai,AI
+2026-04-22,Spine AI,getspine.ai,Watchlist,54.5,0.43,https://www.getspine.ai,AI
+2026-04-22,CORE,getcore.me,Healthy,69.1,0.43,https://getcore.me,AI
+2026-04-22,Talc,talc.ai,Watchlist,64.1,0.43,https://talc.ai,Healthcare AI
+2026-04-22,OpenTools,opentools.com,Watchlist,47.3,0.43,https://opentools.com,ML Infrastructure
+2026-04-22,Readily,readily.co,Watchlist,49.2,0.57,https://readily.co,Security AI
+2026-04-22,Pointhound,pointhound.com,Watchlist,47.3,0.43,http://www.pointhound.com,AI
+2026-04-22,Diligent,godiligent.ai,Healthy,67.7,0.57,https://godiligent.ai,Security AI
+2026-04-22,Sohar Health,soharhealth.com,Watchlist,49.2,0.57,https://www.soharhealth.com,Healthcare AI
+2026-04-22,Elyos AI,elyos.ai,Watchlist,59.2,0.57,https://www.elyos.ai/,AI
+2026-04-22,Clearest Health,clearesthealth.com,Watchlist,51.5,0.57,https://clearesthealth.com/,Healthcare AI
+2026-04-22,Reworkd,reworkd.ai,Watchlist,47.3,0.43,https://reworkd.ai,Data Infrastructure
+2026-04-22,Kino AI,kino.ai,Watchlist,61.5,0.57,https://kino.ai,Video AI
+2026-04-22,kapa.ai,kapa.ai,Watchlist,47.3,0.43,https://www.kapa.ai,AI
+2026-04-22,Vaero,vaero.ai,Watchlist,45.4,0.57,https://vaero.ai,AI
+2026-04-22,Yuma AI,yuma.ai,Watchlist,53.1,0.57,https://yuma.ai,AI Agents
+2026-04-22,Automat,runautomat.com,Healthy,76.4,0.43,https://www.runautomat.com/,AI
+2026-04-22,Adri AI,getadri.ai,Watchlist,47.3,0.43,https://www.getadri.ai/,AI
+2026-04-22,Vendora,vendora.io,Watchlist,45.4,0.57,https://www.vendora.io/,AI
+2026-04-22,Type,type.ai,Healthy,67.7,0.57,https://type.ai,AI
+2026-04-22,Metal,metal.ai,Healthy,69.1,0.43,https://metal.ai/,AI
+2026-04-22,Pier,pier-finance.com,Healthy,68.2,0.43,http://www.pier-finance.com,Security AI
+2026-04-22,Benchmark,withbenchmark.com,Healthy,69.1,0.43,https://withbenchmark.com/,AI
+2026-04-22,rex.fit,rex.fit,Watchlist,49.2,0.57,https://www.rex.fit,AI
+2026-04-22,Berry,berryai.com,Healthy,69.1,0.43,https://berryai.com/,AI
+2026-04-22,Decohere,decohere.ai,Watchlist,47.3,0.43,https://decohere.ai,AI
+2026-04-22,CorgiLabs,corgilabs.ai,Watchlist,55.4,0.57,https://www.corgilabs.ai,AI
+2026-04-22,Coldreach,coldreach.ai,Watchlist,47.3,0.43,https://coldreach.ai/,AI
+2026-04-22,SuperKalam,superkalam.com,Healthy,69.2,0.57,https://superkalam.com,AI
+2026-04-22,CombineHealth,combinehealth.ai,Watchlist,55.4,0.57,https://www.combinehealth.ai/,AI
+2026-04-22,Hippo Scribe,gethipposcribe.com,Watchlist,49.2,0.57,https://gethipposcribe.com,AI
+2026-04-22,Finic,finic.ai,Watchlist,47.3,0.43,https://www.finic.ai,AI
+2026-04-22,Shortbread,shortbread.ai,Healthy,67.7,0.57,https://www.shortbread.ai/,AI
+2026-04-22,Boundary,boundaryml.com,Watchlist,61.5,0.57,https://www.boundaryml.com,AI
+2026-04-22,222,222.place,Watchlist,61.8,0.43,https://222.place,AI
+2026-04-22,1stCollab,1stcollab.com,Watchlist,47.3,0.43,https://1stcollab.com/,Go-to-Market AI
+2026-04-22,Orchid,orchid.health,Watchlist,54.5,0.43,https://orchid.health,Healthcare AI
+2026-04-22,Truewind,trytruewind.com,Healthy,76.4,0.43,https://www.trytruewind.com,AI
+2026-04-22,Velos,tryvelos.com,Watchlist,47.3,0.43,https://www.tryvelos.com,AI
+2026-04-22,Iliad,iliad.ai,Healthy,67.7,0.57,https://iliad.ai,AI
+2026-04-22,co.dev,co.dev,Watchlist,47.3,0.43,https://co.dev/?ref=YC,AI
+2026-04-22,DataSuite,truthsuite.com,Watchlist,54.5,0.43,https://truthsuite.com,AI
+2026-04-22,No Cap,nocap.so,Watchlist,47.3,0.43,https://www.nocap.so,AI
+2026-04-22,Gooseworks,gooseworks.ai,Watchlist,47.3,0.43,https://gooseworks.ai/,AI
+2026-04-22,Cosine,cosine.sh,Watchlist,61.5,0.57,http://www.cosine.sh,AI
+2026-04-22,PoplarML,poplarml.com,Likely Dead,17.1,0.29,http://poplarml.com,AI
+2026-04-22,infra.new,infra.new,Watchlist,54.5,0.43,https://infra.new,AI Agents
+2026-04-22,Gluetrail,gluetrail.com,Likely Dead,17.1,0.29,https://www.gluetrail.com,AI
+2026-04-22,JustPaid,justpaid.ai,Thriving,87.7,0.57,https://www.justpaid.ai,AI
+2026-04-22,Narrative,trynarrative.com,Likely Dead,44.6,0.57,https://www.trynarrative.com/,AI
+2026-04-22,Versive,getversive.com,Watchlist,49.2,0.57,https://www.getversive.com/,AI
+2026-04-22,Glass Health,glass.health,Watchlist,53.1,0.57,https://glass.health,Healthcare AI
+2026-04-22,Double – Coding Copilot,double.bot,Watchlist,54.5,0.43,https://double.bot,AI
+2026-04-22,Ohm,ohm.ai,Watchlist,64.1,0.43,https://www.ohm.ai,AI
+2026-04-22,Pair AI,pairai.com,Watchlist,47.3,0.43,https://www.pairai.com/,Video AI
+2026-04-22,Backdrop,joinbackdrop.com,Watchlist,49.2,0.57,https://www.joinbackdrop.com,AI
+2026-04-22,Latent,latenthealth.com,Healthy,77.7,0.57,https://latenthealth.com,Healthcare AI
+2026-04-22,Concourse,concourse.co,Thriving,83.6,0.43,https://concourse.co/,AI
+2026-04-22,Novelcare,novel.care,Watchlist,47.3,0.43,https://www.novel.care,Healthcare AI
+2026-04-22,Rollstack,rollstack.com,Watchlist,61.5,0.57,https://www.rollstack.com,Data Infrastructure
+2026-04-22,Linum,linum.ai,Watchlist,49.2,0.57,https://www.linum.ai/,Video AI
+2026-04-22,Reflex,reflex.dev,Healthy,71.5,0.57,https://reflex.dev,AI
+2026-04-22,StackAI,stack-ai.com,Watchlist,61.8,0.43,https://www.stack-ai.com,AI
+2026-04-22,Chima,withchima.com,Watchlist,54.5,0.43,https://www.withchima.com/,AI
+2026-04-22,Unify,unify.ai,Healthy,67.7,0.57,https://unify.ai,AI
+2026-04-22,Gander,usegander.com,Pivoted / Absorbed,44.7,0.71,https://usegander.com,AI
+2026-04-22,Thyme,meetthyme.com,Pivoted / Absorbed,64.6,0.57,https://www.meetthyme.com/,AI
+2026-04-22,Remade,remade.ai,Pivoted / Absorbed,60.7,0.71,https://www.remade.ai/?utm_source=YC&utm_medium=YC&utm_campaign=YC_profile&utm_content=YC_profile,Design AI
+2026-04-22,Arcane,rohanmehta.com,Pivoted / Absorbed,45.3,0.71,https://www.rohanmehta.com/,AI
+2026-04-22,Resonance,useresonance.com,Pivoted / Absorbed,64.6,0.57,https://www.useresonance.com/,Go-to-Market AI
+2026-04-22,Speck,speck.sh,Pivoted / Absorbed,51.3,0.71,https://speck.sh,AI
+2026-04-22,StarJar,starjar.io,Pivoted / Absorbed,22.2,0.43,https://www.starjar.io/,AI
+2026-04-22,OpenPipe,openpipe.ai,Pivoted / Absorbed,52.3,0.57,https://openpipe.ai/,AI
+2026-04-22,Autotab,autotab.com,Pivoted / Absorbed,48.0,0.71,https://autotab.com,AI
+2026-04-22,FlowiseAI,flowiseai.com,Pivoted / Absorbed,51.3,0.71,https://flowiseai.com,AI
+2026-04-22,Inari,useinari.com,Pivoted / Absorbed,53.3,0.71,https://useinari.com,AI
+2026-04-22,Pincites,pincites.com,Pivoted / Absorbed,64.0,0.71,https://www.pincites.com/,Legal AI
+2026-04-22,Deasy Labs,deasylabs.com,Pivoted / Absorbed,52.3,0.57,https://www.deasylabs.com/,AI
+2026-04-22,Xeol,xeol.io,Pivoted / Absorbed,53.3,0.71,https://www.xeol.io/,AI
+2026-04-22,DAGWorks Inc.,dagworks.io,Pivoted / Absorbed,52.3,0.57,https://www.dagworks.io/,AI
+2026-04-22,Fintool,fintool.com,Pivoted / Absorbed,52.3,0.57,https://www.fintool.com/,AI
+2026-04-22,Booth AI,booth.ai,Pivoted / Absorbed,30.8,0.57,https://booth.ai,AI
+2026-04-22,Langfuse,langfuse.com,Pivoted / Absorbed,76.9,0.57,https://langfuse.com,ML Infrastructure
+2026-04-22,Nuntius,nuntius.ai,Likely Dead,40.0,0.57,https://www.nuntius.ai,AI
+2026-04-22,Zeroframe,zeroframe.ai,Likely Dead,40.0,0.57,https://zeroframe.ai,AI
+2026-04-22,Invaria,invaria.com,Likely Dead,46.2,0.57,https://invaria.com,AI
+2026-04-22,Lumona,lumona.ai,Likely Dead,18.0,0.71,https://www.lumona.ai,AI Search
+2026-04-22,Thorntale,thorntale.com,Likely Dead,40.0,0.57,https://thorntale.com,AI
+2026-04-22,Abel,tryabel.com,Likely Dead,46.2,0.57,https://www.tryabel.com,Legal AI
+2026-04-22,Toolify,toolify.sh,Likely Dead,46.2,0.57,https://toolify.sh,AI
+2026-04-22,Engines,engines.dev,Likely Dead,58.7,0.71,https://engines.dev,Code AI
+2026-04-22,Quary,quary.dev,Likely Dead,13.3,0.43,https://www.quary.dev,Analytics
+2026-04-22,RadMate AI,radmate.ai,Likely Dead,13.6,0.57,https://www.radmate.ai,AI
+2026-04-22,Lantern,lantern.dev,Likely Dead,42.7,0.71,http://lantern.dev,AI
+2026-04-22,Kips Health,kips health,Likely Dead,13.3,0.43,,Healthcare AI
+2026-04-22,Movley,movley.com,Likely Dead,46.2,0.57,https://movley.com/,AI
+2026-04-22,Vizly,vizly.fyi,Likely Dead,13.3,0.43,https://vizly.fyi,Data Infrastructure
+2026-04-22,Lysto,lysto.ai,Likely Dead,44.7,0.71,https://lysto.ai/,AI
+2026-04-22,GreenTally,greentally.ai,Likely Dead,40.0,0.57,https://www.greentally.ai,AI
+2026-04-22,Atla,atla-ai.com,Likely Dead,21.8,0.57,https://www.atla-ai.com/,AI
+2026-04-22,Branch AI,branch-ai.com,Likely Dead,15.4,0.57,https://www.branch-ai.com,AI Search
+2026-04-22,Interlock,tryinterlock.com,Likely Dead,64.6,0.57,https://www.tryinterlock.com/,AI
+2026-04-22,CodeParrot AI,codeparrot.ai,Likely Dead,48.0,0.71,https://codeparrot.ai/,Design AI
+2026-04-22,Magicflow 𐂂,magicflow.ai,Likely Dead,21.8,0.57,https://magicflow.ai,AI
+2026-04-22,Rubber Ducky Labs,rubberduckylabs.io,Likely Dead,40.0,0.57,https://www.rubberduckylabs.io/,AI
+2026-04-22,Lynx,uselynx.ai,Likely Dead,39.1,0.57,https://uselynx.ai,AI
+2026-04-22,Layup,layuplabs.ai,Likely Dead,46.0,0.71,http://www.layuplabs.ai,AI
+2026-04-22,Fathom,fathom,Watchlist,51.4,0.29,,AI

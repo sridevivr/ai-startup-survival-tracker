@@ -1,0 +1,27 @@
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# macOS / editor cruft
+.DS_Store
+*.swp
+.vscode/
+.idea/
+
+# Environment secrets (just in case)
+.env
+.env.local
+
+# Keep the seed data, keep output artifacts (GitHub Pages serves index.html + output/),
+# keep snapshots so the weekly deltas are preserved across runs.
+
+# Local per-session scratch
+/tmp/

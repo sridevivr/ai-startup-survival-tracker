@@ -1,0 +1,38 @@
+name,website,category,founded,github_org,twitter_handle,notes
+OpenAI,https://openai.com,Foundation Models,2015,openai,OpenAI,
+Anthropic,https://anthropic.com,Foundation Models,2021,anthropics,AnthropicAI,
+Mistral AI,https://mistral.ai,Foundation Models,2023,mistralai,MistralAI,
+xAI,https://x.ai,Foundation Models,2023,xai-org,xai,
+Cohere,https://cohere.com,Foundation Models,2019,cohere-ai,cohere,
+Perplexity,https://perplexity.ai,AI Search,2022,,perplexity_ai,
+Character.AI,https://character.ai,Consumer AI,2022,,character_ai,Google licensing deal Aug 2024
+Inflection AI,https://inflection.ai,Consumer AI,2022,,inflectionAI,Microsoft acquihire March 2024
+Adept,https://adept.ai,AI Agents,2022,,AdeptAILabs,Amazon acquihire June 2024
+Stability AI,https://stability.ai,Image Generation,2020,stability-ai,StabilityAI,Leadership turmoil 2024
+Jasper,https://jasper.ai,AI Writing,2021,,heyjasperai,Layoffs 2023-2024
+Runway,https://runwayml.com,Video Generation,2018,runwayml,runwayml,
+ElevenLabs,https://elevenlabs.io,Voice AI,2022,elevenlabs,elevenlabsio,
+Hugging Face,https://huggingface.co,ML Infrastructure,2016,huggingface,huggingface,
+Suno,https://suno.com,Music Generation,2022,,SunoMusic,RIAA lawsuits 2024
+Midjourney,https://midjourney.com,Image Generation,2021,,midjourney,
+Glean,https://glean.com,Enterprise Search,2019,,glean,
+Harvey,https://harvey.ai,Legal AI,2022,,harvey__ai,
+Writer,https://writer.com,Enterprise Writing,2020,,getwriterai,
+Synthesia,https://synthesia.io,Video Generation,2017,,synthesiaIO,
+Together AI,https://together.ai,ML Infrastructure,2022,togethercomputer,togethercompute,
+Replicate,https://replicate.com,ML Infrastructure,2019,replicate,replicate,
+Pika,https://pika.art,Video Generation,2023,,pika_labs,
+Luma AI,https://lumalabs.ai,Video Generation,2021,,LumaLabsAI,
+Humane,https://humane.com,AI Hardware,2018,,Humane,HP acquisition Feb 2025 after Pin flop
+Rewind AI,https://rewind.ai,Personal AI,2020,,rewindai,Pivoted to Limitless Pendant
+Forward Health,https://goforward.com,AI Health,2016,,goforward,Shut down CarePod Nov 2024
+Olive AI,https://oliveai.com,Healthcare AI,2012,,oliveaihq,Shut down Oct 2023
+Argo AI,https://argo.ai,Autonomous Driving,2016,,argoai,Shut down Oct 2022
+Ghost Autonomy,https://driveghost.com,Autonomous Driving,2017,,driveghost,Shut down April 2024
+Typeface,https://typeface.ai,Enterprise Gen AI,2022,,typefaceai,Salesforce acquisition talks 2024
+Hippocratic AI,https://hippocraticai.com,Healthcare AI,2023,,HippocraticAI,
+Sakana AI,https://sakana.ai,AI Research,2023,SakanaAI,SakanaAILabs,
+Magic,https://magic.dev,Code AI,2022,,magicailabs,
+Poolside,https://poolside.ai,Code AI,2023,,poolsideai,
+Codeium,https://codeium.com,Code AI,2021,Exafunction,codeiumdev,Rebranded to Windsurf 2024; Google DeepMind acquihired founding team $2.4B Jul 2025; Cognition AI acquired remainder
+Cursor,https://cursor.com,Code AI,2022,getcursor,cursor_ai,

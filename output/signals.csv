@@ -1,0 +1,118 @@
+name,category,founded,status,survival_score,signal_coverage,http_status,wayback_last_snapshot_days,feed_last_post_days,github_commits_90d,careers_page_found,jobs_detected,notes
+OpenAI,Foundation Models,2015,Thriving,100.0,0.67,200,3,7,,True,180,
+Anthropic,Foundation Models,2021,Thriving,100.0,0.67,200,2,5,,True,210,
+Mistral AI,Foundation Models,2023,Thriving,100.0,0.83,200,4,14,320,True,65,
+xAI,Foundation Models,2023,Thriving,100.0,0.67,200,5,21,,True,55,
+Cohere,Foundation Models,2019,Thriving,96.7,0.83,200,6,18,45,True,40,
+Perplexity,AI Search,2022,Thriving,100.0,0.67,200,3,10,,True,85,
+Character.AI,Consumer AI,2022,Pivoted / Absorbed,85.7,0.67,200,8,,,True,5,Google licensing deal Aug 2024
+Inflection AI,Consumer AI,2022,Pivoted / Absorbed,67.1,0.67,200,10,,,False,0,"Microsoft acquihire March 2024; VERIFIED 2026-04-20 · site: up, pitching Pi + enterprise API · news: $650M MSFT licensing deal Mar 2024; founders/most staff joined Microsoft; FTC/UK CMA/German FCO all reviewed; Pi added usage caps Aug 2024; CEO said Nov 2024 they're 'done trying to make next-generation AI models' — sources: Fortune, Reuters, TechCrunch, Quartz"
+Adept,AI Agents,2022,Pivoted / Absorbed,58.6,0.67,200,45,,,False,0,"Amazon acquihire June 2024; VERIFIED 2026-04-20 · site: up, enterprise pitch preserved, no careers · news: Amazon reverse-acquihire June 2024 (raised $400M total); investors reportedly repaid; David Luan (Adept founder, headed Amazon AGI Lab) then left Amazon March 2026 — sources: TechCrunch, Verge, Semafor, GeekWire, CNBC"
+Stability AI,Image Generation,2020,Healthy,78.1,0.83,200,14,95,12,True,8,Leadership turmoil 2024
+Jasper,AI Writing,2021,Thriving,89.7,0.67,200,10,60,,True,12,Layoffs 2023-2024
+Runway,Video Generation,2018,Thriving,100.0,0.67,200,4,18,,True,38,
+ElevenLabs,Voice AI,2022,Thriving,100.0,0.83,200,3,9,180,True,70,
+Hugging Face,ML Infrastructure,2016,Thriving,100.0,0.83,200,1,3,900,True,55,
+Suno,Music Generation,2022,Thriving,100.0,0.67,200,6,22,,True,28,RIAA lawsuits 2024
+Midjourney,Image Generation,2021,Healthy,72.3,0.67,200,5,45,,False,,
+Glean,Enterprise Search,2019,Thriving,100.0,0.67,200,7,20,,True,95,
+Harvey,Legal AI,2022,Thriving,100.0,0.67,200,5,14,,True,60,
+Writer,Enterprise Writing,2020,Thriving,100.0,0.67,200,6,12,,True,45,
+Synthesia,Video Generation,2017,Thriving,100.0,0.67,200,4,16,,True,75,
+Together AI,ML Infrastructure,2022,Thriving,100.0,0.83,200,3,11,240,True,40,
+Replicate,ML Infrastructure,2019,Thriving,100.0,0.83,200,4,25,150,True,22,
+Pika,Video Generation,2023,Thriving,89.7,0.67,200,8,35,,True,18,
+Luma AI,Video Generation,2021,Thriving,100.0,0.67,200,5,22,,True,30,
+Humane,AI Hardware,2018,Pivoted / Absorbed,58.6,0.67,301,20,,,False,0,"HP acquisition Feb 2025 after Pin flop; VERIFIED 2026-04-20 · site: humane.com → hp-iq.com (HP AI orchestrator) · news: HP acquired Humane Feb 18, 2025 for $116M (raised $240M), AI Pin discontinued — sources: NYT, Verge, Fortune, Bloomberg/Yahoo, CNBC, TechCrunch"
+Rewind AI,Personal AI,2020,Pivoted / Absorbed,22.9,0.67,500,90,,,False,0,Pivoted to Limitless Pendant; VERIFIED 2026-04-20 · site: error page (abandoned) · news: pivot to Limitless AI wearable confirmed (Forbes Mar 2025) — sources: Forbes
+Forward Health,AI Health,2016,Likely Dead,52.9,0.67,200,40,,,False,,Shut down CarePod Nov 2024
+Olive AI,Healthcare AI,2012,Likely Dead,37.9,0.67,301,300,,,False,0,"Shut down Oct 2023; VERIFIED 2026-04-20 · site: oliveai.com → waystar.com · news: shut down Nov 1 2023 after selling last core business lines; domain redirect to Waystar confirmed by Columbus Business First Nov 3 2023; 'mass extinction event' coverage — sources: Healthcare Dive, Columbus Business First, Fierce Healthcare, Business Insider"
+Argo AI,Autonomous Driving,2016,Likely Dead,6.7,0.5,,800,,,False,0,"Shut down Oct 2022; VERIFIED 2026-04-20 · site: failed to load · news: shut down Oct 26 2022; $3.6B raised; Ford + VW pulled backing; assets absorbed by backers — sources: TechCrunch, Reuters, Verge, Autoweek, CNBC"
+Ghost Autonomy,Autonomous Driving,2017,Likely Dead,11.7,0.5,,300,,,False,,Shut down April 2024
+Typeface,Enterprise Gen AI,2022,Pivoted / Absorbed,70.0,0.83,200,20,180,,True,4,Salesforce acquisition talks 2024
+Hippocratic AI,Healthcare AI,2023,Thriving,95.0,0.67,200,7,35,,True,42,
+Sakana AI,AI Research,2023,Thriving,92.2,0.83,200,10,28,35,True,18,
+Magic,Code AI,2022,Thriving,93.3,0.5,200,14,,,True,15,
+Poolside,Code AI,2023,Thriving,95.0,0.67,200,8,45,,True,25,
+Codeium,Code AI,2021,Pivoted / Absorbed,88.5,0.83,301,5,14,,True,55,"Rebranded to Windsurf 2024; Google DeepMind acquihired founding team $2.4B Jul 2025; Cognition AI acquired remainder; VERIFIED 2026-04-20 · site: codeium.com → windsurf.com, blog post Apr 6 2026, hiring · NEWS CORRECTION: OpenAI $3B acquisition fell through (Apr 2025), Google DeepMind instead paid $2.4B to acquihire CEO Varun Mohan + co-founder + top researchers (Jul 2025), Cognition AI acquired the remainder — brand is alive but founding team is gone (same pattern as Inflection/Adept). Reclassify as Pivoted, not Thriving — sources: CNBC, Bloomberg, Fast Company, Neowin, Klover.ai"
+Cursor,Code AI,2022,Thriving,100.0,0.67,200,2,12,,True,48,
+Gander,AI,2024,Pivoted / Absorbed,40.0,0.17,,,,,,,YC marked Acquired (batch: Fall 2024)
+Thyme,AI,2024,Pivoted / Absorbed,40.0,0.17,,,,,,,YC marked Acquired (batch: Summer 2024)
+Remade,Design AI,2024,Pivoted / Absorbed,40.0,0.17,,,,,,,YC marked Acquired (batch: Summer 2024)
+Arcane,AI,2024,Pivoted / Absorbed,40.0,0.17,,,,,,,YC marked Acquired (batch: Winter 2024)
+Resonance,Go-to-Market AI,2024,Pivoted / Absorbed,40.0,0.17,,,,,,,YC marked Acquired (batch: Winter 2024)
+Speck,AI,2024,Pivoted / Absorbed,40.0,0.17,,,,,,,YC marked Acquired (batch: Winter 2024)
+StarJar,AI,2025,Pivoted / Absorbed,40.0,0.17,,,,,,,YC marked Acquired (batch: Winter 2024)
+OpenPipe,AI,2023,Pivoted / Absorbed,40.0,0.17,,,,,,,YC marked Acquired (batch: Summer 2023)
+Autotab,AI,2023,Pivoted / Absorbed,40.0,0.17,,,,,,,YC marked Acquired (batch: Summer 2023)
+FlowiseAI,AI,2023,Pivoted / Absorbed,40.0,0.17,,,,,,,YC marked Acquired (batch: Summer 2023)
+Inari,AI,2023,Pivoted / Absorbed,40.0,0.17,,,,,,,YC marked Acquired (batch: Summer 2023)
+Pincites,Legal AI,2023,Pivoted / Absorbed,40.0,0.17,,,,,,,YC marked Acquired (batch: Summer 2023)
+Deasy Labs,AI,2023,Pivoted / Absorbed,40.0,0.17,,,,,,,YC marked Acquired (batch: Summer 2023)
+Xeol,AI,2023,Pivoted / Absorbed,40.0,0.17,,,,,,,YC marked Acquired (batch: Summer 2023)
+DAGWorks Inc.,AI,2023,Pivoted / Absorbed,40.0,0.17,,,,,,,YC marked Acquired (batch: Winter 2023)
+Fintool,AI,2022,Pivoted / Absorbed,40.0,0.17,,,,,,,YC marked Acquired (batch: Winter 2023)
+Booth AI,AI,2023,Pivoted / Absorbed,40.0,0.17,,,,,,,YC marked Acquired (batch: Winter 2023)
+Langfuse,ML Infrastructure,2023,Pivoted / Absorbed,40.0,0.17,,,,,,,YC marked Acquired (batch: Winter 2023)
+Nuntius,AI,2025,Likely Dead,0.0,0.17,,,,,,,YC marked Inactive (batch: Summer 2025); presumed shut down
+Zeroframe,AI,2024,Likely Dead,0.0,0.17,,,,,,,YC marked Inactive (batch: Fall 2024); presumed shut down
+Invaria,AI,2024,Likely Dead,0.0,0.17,,,,,,,YC marked Inactive (batch: Summer 2024); presumed shut down
+Lumona,AI Search,2023,Likely Dead,0.0,0.17,,,,,,,YC marked Inactive (batch: Winter 2024); presumed shut down
+Thorntale,AI,2024,Likely Dead,0.0,0.17,,,,,,,YC marked Inactive (batch: Winter 2024); presumed shut down
+Abel,Legal AI,2023,Likely Dead,0.0,0.17,,,,,,,YC marked Inactive (batch: Winter 2024); presumed shut down
+Toolify,AI,2024,Likely Dead,0.0,0.17,,,,,,,YC marked Inactive (batch: Winter 2024); presumed shut down
+Engines,Code AI,2024,Likely Dead,0.0,0.17,,,,,,,YC marked Inactive (batch: Winter 2024); presumed shut down
+Quary,Analytics,2024,Likely Dead,0.0,0.17,,,,,,,YC marked Inactive (batch: Winter 2024); presumed shut down
+RadMate AI,AI,2024,Likely Dead,0.0,0.17,,,,,,,YC marked Inactive (batch: Winter 2024); presumed shut down
+Lantern,AI,2023,Likely Dead,0.0,0.17,,,,,,,YC marked Inactive (batch: Winter 2024); presumed shut down
+Kips Health,Healthcare AI,2023,Likely Dead,0.0,0.17,,,,,,,YC marked Inactive (batch: Summer 2023); presumed shut down
+Movley,AI,2023,Likely Dead,0.0,0.17,,,,,,,YC marked Inactive (batch: Summer 2023); presumed shut down
+Vizly,Data Infrastructure,2023,Likely Dead,0.0,0.17,,,,,,,YC marked Inactive (batch: Summer 2023); presumed shut down
+Lysto,AI,2024,Likely Dead,0.0,0.17,,,,,,,YC marked Inactive (batch: Summer 2023); presumed shut down
+GreenTally,AI,2023,Likely Dead,0.0,0.17,,,,,,,YC marked Inactive (batch: Summer 2023); presumed shut down
+Atla,AI,2023,Likely Dead,0.0,0.17,,,,,,,YC marked Inactive (batch: Summer 2023); presumed shut down
+Branch AI,AI Search,2024,Likely Dead,0.0,0.17,,,,,,,YC marked Inactive (batch: Summer 2023); presumed shut down
+Interlock,AI,2023,Likely Dead,0.0,0.17,,,,,,,YC marked Inactive (batch: Winter 2023); presumed shut down
+CodeParrot AI,Design AI,2023,Likely Dead,0.0,0.17,,,,,,,YC marked Inactive (batch: Winter 2023); presumed shut down
+Magicflow,AI,2023,Likely Dead,0.0,0.17,,,,,,,YC marked Inactive (batch: Winter 2023); presumed shut down
+Rubber Ducky Labs,AI,2023,Likely Dead,0.0,0.17,,,,,,,YC marked Inactive (batch: Winter 2023); presumed shut down
+Lynx,AI,2023,Likely Dead,0.0,0.17,,,,,,,YC marked Inactive (batch: Winter 2023); presumed shut down
+Layup,AI,2023,Likely Dead,0.0,0.17,,,,,,,YC marked Inactive (batch: Winter 2023); presumed shut down
+Fathom,AI,,Not Yet Enriched,0.0,0.0,,,,,,,
+Klariqo AI Voice Assistants,Voice AI,,Not Yet Enriched,0.0,0.0,,,,,,,
+AI Browser,AI,,Not Yet Enriched,0.0,0.0,,,,,,,
+Figma,Design AI,,Not Yet Enriched,0.0,0.0,,,,,,,
+Screen Studio,AI,,Not Yet Enriched,0.0,0.0,,,,,,,
+Mixpanel,AI,,Not Yet Enriched,0.0,0.0,,,,,,,
+Bubble,AI,,Not Yet Enriched,0.0,0.0,,,,,,,
+Notion,AI,,Not Yet Enriched,0.0,0.0,,,,,,,
+Product Hunt,AI,,Not Yet Enriched,0.0,0.0,,,,,,,
+Remy Ai,AI,,Not Yet Enriched,0.0,0.0,,,,,,,
+Vercel,AI,,Not Yet Enriched,0.0,0.0,,,,,,,
+Next.js,AI,,Not Yet Enriched,0.0,0.0,,,,,,,
+Cal,AI,,Not Yet Enriched,0.0,0.0,,,,,,,
+Deepgram,AI,,Not Yet Enriched,0.0,0.0,,,,,,,
+Amplitude,AI,,Not Yet Enriched,0.0,0.0,,,,,,,
+Supabase,AI,,Not Yet Enriched,0.0,0.0,,,,,,,
+Lovable,Code AI,,Not Yet Enriched,0.0,0.0,,,,,,,
+Beforesunset,AI,,Not Yet Enriched,0.0,0.0,,,,,,,
+Claude by Anthropic,AI,,Not Yet Enriched,0.0,0.0,,,,,,,
+Raycast,AI,,Not Yet Enriched,0.0,0.0,,,,,,,
+Slack,AI,,Not Yet Enriched,0.0,0.0,,,,,,,
+Findr 5,AI,,Not Yet Enriched,0.0,0.0,,,,,,,
+ChatGPT by OpenAI,AI,,Not Yet Enriched,0.0,0.0,,,,,,,
+GPT-4o,ML Infrastructure,,Not Yet Enriched,0.0,0.0,,,,,,,
+Warp,AI,,Not Yet Enriched,0.0,0.0,,,,,,,
+GitHub,AI,,Not Yet Enriched,0.0,0.0,,,,,,,
+Polar 6,AI,,Not Yet Enriched,0.0,0.0,,,,,,,
+Welltory,AI,,Not Yet Enriched,0.0,0.0,,,,,,,
+Jetbrains,AI,,Not Yet Enriched,0.0,0.0,,,,,,,
+Stripe,AI,,Not Yet Enriched,0.0,0.0,,,,,,,
+Daily,AI,,Not Yet Enriched,0.0,0.0,,,,,,,
+Claude Code,Code AI,,Not Yet Enriched,0.0,0.0,,,,,,,
+Happycapy,AI,,Not Yet Enriched,0.0,0.0,,,,,,,
+Daily Dev,AI,,Not Yet Enriched,0.0,0.0,,,,,,,
+AWS,AI,,Not Yet Enriched,0.0,0.0,,,,,,,
+Miro,AI,,Not Yet Enriched,0.0,0.0,,,,,,,
+D Id,AI,,Not Yet Enriched,0.0,0.0,,,,,,,
+Dodo Payments,AI,,Not Yet Enriched,0.0,0.0,,,,,,,
