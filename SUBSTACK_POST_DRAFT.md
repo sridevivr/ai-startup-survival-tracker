@@ -10,9 +10,9 @@ Every day there's a new AI startup. LinkedIn, podcasts, the group chat, my inbox
 
 Which ones are still shipping? Which ones have quietly gone dark? Which ones were absorbed in an acquihire that didn't make the news? The AI industry has been booming for a couple of years now. The interesting question at this point is who's still here twelve months later.
 
-I'm a program manager by background, not an engineer. My first instinct was to find someone else's list. But the real lists don't exist. TechCrunch covers the top of the funnel, Crunchbase is paywalled, YC tells you who joined but not who stayed. So I decided to build one, using AI as my co-builder.
+I'm a program manager by background. My first instinct was to find someone else's list. The real lists don't exist. TechCrunch covers the top of the funnel, Crunchbase is paywalled, YC tells you who joined but not who stayed. So I built one, using AI as my co-builder.
 
-This post isn't really about what the tool found. The findings are [on the live dashboard → *your URL*]. This is about what it looked like to build it. The moments where the AI did what I needed, and the moments where I had to push back.
+What the tool found is [on the live dashboard](https://sridevivr.github.io/ai-startup-survival-tracker/). This post is about what it looked like to build it. The moments where the AI did what I needed, and the moments where I had to push back.
 
 ---
 
@@ -31,7 +31,9 @@ The AI proposed six public signals anyone could check by hand. Website uptime, W
 
 ## 3. Trust is something you design
 
-The fix was an allowlist. I sat with the AI and we built it in four buckets: startup and VC press, business and financial, tech press, and primary sources like SEC filings and wire services. Thirty-three domains total. I added a second rule too. An untrusted death headline can lower a company's score, but it cannot flip the label to "Likely Dead." That privilege is reserved for trusted sources and curated notes.
+The fix was to build a list of trusted news sources whose coverage could meaningfully change a startup's score. Four buckets: VC press, business and financial, tech press, and primary sources like SEC filings and wire services. 33 domains in total.
+
+A second rule had to go in too. Not every trusted publication covers every small startup, so untrusted outlets couldn't be ignored entirely. I allowed an untrusted source to nudge the signal slightly lower if it reported bad news, but it could never flip a label to "Likely Dead." That privilege was reserved for trusted sources and curated notes.
 
 **Worked:** The AI helped me think through edge cases and surfaced outlets I'd missed.
 **Broke:** The first list was too permissive. Trust has to be designed deliberately.
@@ -43,21 +45,17 @@ I didn't want to run the pipeline against all 577 companies on the first pass. T
 **Worked:** Using the AI to patch each bug as it surfaced.
 **Broke:** Every "let's just run the whole thing" impulse.
 
-## 5. What do the signals actually mean?
+## 5. One axis wasn't enough
 
-Flowing data is one thing. Deciding what it means is another. The AI's first scoring draft counted missing signals as zeros, so a company that never had a blog got penalized for not having one. Quiet-but-alive companies scored too low. I asked the AI to drop missing signals from the weighted average instead, and the distribution looked sensible within an hour.
+The dataset started with one tag per company, and for most of them that tag was just "AI." Not useful. A keyword pass against each tagline turned most of those into something specific like Finance or Healthcare or Legal. For the ambiguous rows, I ran a scraper against each company's homepage and used an LLM to assign a tag from the content.
 
-**Worked:** The AI is good at taking a spec and building it.
-**Broke:** The default behavior the AI reached for was wrong for my case. If I'd trusted the first run, the scoring would have been subtly wrong for the long tail.
+Then I looked at the distribution and noticed a problem. About half the cohort landed in what I was going to call Cross-industry: developer tools, agent platforms, foundation models, general LLM infrastructure. Products sold across industries rather than to one vertical. A single-tag view was going to hide half the story.
 
-## 6. "Verified" was the wrong word
+The fix was a second axis. **Sector** names the industry a company serves (Healthcare, Finance, Legal, Consumer, and so on, with Cross-industry for the cross-vertical tools). **Function** names where the company sits in the AI stack: Foundation Models, ML Infrastructure, Data Infrastructure, AI Agent, Copilot, Generative Product, Analytics, Research Lab. With both axes populated, the heatmap told a real story. About half the cohort is Cross-industry. Inside that half, AI Agents dominate. The vertical plays concentrate in Healthcare and Finance. A one-axis view would have flattened all of that.
 
-Late in the project, the dashboard showed a badge: "7 companies verified." It meant that for seven entries, a Claude-in-Chrome session had navigated to each company's site and cross-referenced its status against press coverage. One of the seven was Codeium. I didn't remember verifying Codeium. That triggered the question: what does "verified" mean here?
+**Worked:** A Python scraper (requests plus BeautifulSoup) pulled each homepage's title, h1, and first paragraph in parallel. One batched LLM call classified all 577 companies on both axes in under a minute. Cheap and repeatable.
 
-The honest answer was that a Claude-in-Chrome session verified it. Not me. Someone looking at my dashboard would reasonably assume I had personally reviewed each case. I hadn't. So we renamed it to **AI cross-checked**. It was one of the most important edits in the whole project, and it came from noticing a single word that felt off.
-
-**Worked:** Claude-in-Chrome is a strong tool for this kind of check.
-**Broke:** "Verified" overstated what happened. "AI cross-checked" described it accurately.
+**Broke:** The first version of the classifier worked only from the tagline, which was often a single line like "The AI workforce for finance teams." Not enough signal to tell if the product was an agent, a copilot, or a decision tool. Adding homepage content fixed it.
 
 ---
 
@@ -65,10 +63,14 @@ The honest answer was that a Claude-in-Chrome session verified it. Not me. Someo
 
 The tracker is live. 577 companies, seven signals each, a weekly snapshot so I can watch the deltas over time.
 
-What working on this taught me, three things. **AI produces excellent first drafts; getting to the right answer takes more work.** Every time I accepted the first framing I got a demo. **Trust has to be designed.** The AI built each layer of the trust model fine. I had to specify what trust meant. **Honest language is cheap and important.** Catching "verified" came from knowing which specific cases the word would apply to.
+Three things I'll carry forward:
+
+- **AI produces excellent first drafts; getting to the right answer takes more work.** Every time I accepted the first framing I got a demo, not an answer.
+- **Trust has to be designed.** The AI built each layer of the trust model cleanly. Specifying what trust meant was mine to do.
+- **One label isn't enough.** Most single-axis classifications hide as much as they reveal. Pairing sector with function changed what I could actually see in the data.
 
 The first real delta report lands seven days from now.
 
 ---
 
-*[Live dashboard →](your-url)  ·  [Source code on GitHub →](your-url)  ·  [Portfolio →](https://sridevivr.com)*
+*[Live dashboard →](https://sridevivr.github.io/ai-startup-survival-tracker/)  ·  [Source code on GitHub →](https://github.com/sridevivr/ai-startup-survival-tracker)  ·  [Portfolio →](https://sridevivr.com)*

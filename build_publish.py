@@ -509,12 +509,14 @@ def _top5(rows: list[dict]) -> str:
     return (
         f'<div class="scorecard">'
         f'<h4>Top 5 in this bucket</h4>'
+        f'<div class="scorecard-table-wrap">'
         f'<table><thead><tr>'
         f'<th class="rank">#</th><th>Company</th>'
         f'<th class="num">Score</th><th>Sector</th><th>Function</th>'
         f'</tr></thead><tbody>'
         f'{"".join(cells)}'
         f'</tbody></table>'
+        f'</div>'
         f'</div>'
     )
 
@@ -588,6 +590,12 @@ def _bucket_section(status: str, rows: list[dict], bucket_id: str,
         f'</details>'
     )
 
+    back_to_top = (
+        '<div class="back-to-top">'
+        '<a href="#top">&uarr;&nbsp; Back to top</a>'
+        '</div>'
+    )
+
     return (
         f'<section class="bucket" id="{bucket_id}">'
         f'{header}'
@@ -596,6 +604,7 @@ def _bucket_section(status: str, rows: list[dict], bucket_id: str,
         f'{insight_block}'
         f'{filter_block}'
         f'{list_block}'
+        f'{back_to_top}'
         f'</section>'
     )
 
@@ -1027,6 +1036,99 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
   }}
   .section-head h2 {{ margin-top: 0; }}
 
+  html {{ scroll-behavior: smooth; }}
+  h1 {{ scroll-margin-top: 16px; }}
+
+  /* Per-section "Back to top" link, sits at the bottom of each bucket. */
+  .back-to-top {{
+    border-top: 0.5px solid var(--border);
+    margin-top: 18px;
+    padding-top: 10px;
+    text-align: right;
+  }}
+  .back-to-top a {{
+    font-size: 0.74rem;
+    color: var(--accent-2);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-weight: 600;
+  }}
+  .back-to-top a:hover {{ color: var(--fg); }}
+
+  /* Mobile inline section index. Hidden on desktop (where the sticky rail
+     is visible instead). */
+  .toc-mobile {{
+    display: none;
+    background: var(--card);
+    border-radius: 10px;
+    padding: 14px 18px;
+    margin: 0 0 22px;
+    box-shadow: 0 1px 3px rgba(40,60,30,.06);
+  }}
+  .toc-mobile-label {{
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: var(--accent-2);
+    margin-bottom: 10px;
+  }}
+  .toc-mobile-list {{ list-style: none; padding: 0; margin: 0 0 8px; }}
+  .toc-mobile-list li {{ margin: 0; }}
+  .toc-mobile-list a {{
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 8px 0;
+    color: var(--fg); text-decoration: none;
+    font-size: 0.95rem;
+    border-bottom: 0.5px solid var(--border);
+  }}
+  .toc-mobile-list li:last-child a {{ border-bottom: none; }}
+  .toc-mobile-list .chev {{ color: #b5c7b0; font-size: 1.1rem; }}
+  .toc-mobile-substatus {{
+    font-size: 0.95rem; font-weight: 500;
+    margin: 10px 0 8px; color: var(--fg);
+  }}
+  .toc-mobile-pills {{ display: flex; flex-wrap: wrap; gap: 6px; }}
+  .toc-pill {{
+    font-size: 0.78rem;
+    padding: 4px 10px;
+    background: #f5faf1;
+    border: 0.5px solid var(--border);
+    border-radius: 999px;
+    color: var(--fg);
+    text-decoration: none;
+  }}
+  .toc-pill:hover {{ background: var(--accent); color: #fff; border-color: var(--accent); }}
+  @media (max-width: 900px) {{ .toc-mobile {{ display: block; }} }}
+
+  /* Floating "back to top" button. Mobile only, appears after scrolling. */
+  #back-to-top-fab {{
+    display: none;
+    position: fixed;
+    right: 16px; bottom: 18px;
+    width: 46px; height: 46px;
+    border-radius: 999px;
+    background: var(--card);
+    color: var(--accent-2);
+    border: 0.5px solid var(--border);
+    box-shadow: 0 2px 10px rgba(40,60,30,.18);
+    text-decoration: none;
+    text-align: center;
+    line-height: 46px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    z-index: 50;
+    opacity: 0;
+    transition: opacity .2s ease;
+  }}
+  #back-to-top-fab.visible {{ opacity: 1; }}
+  @media (max-width: 900px) {{ #back-to-top-fab {{ display: block; }} }}
+
+  /* Bucket title gets a slightly heavier weight to keep it readable
+     against the bucket's white card. */
+  .bucket-title {{ font-weight: 600; }}
+
   /* Sticky left-hand table of contents (desktop only) */
   .toc {{
     position: fixed;
@@ -1143,6 +1245,14 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
   .scorecard tbody tr:last-child td {{ border-bottom: none; }}
   .scorecard a {{ color: var(--fg); text-decoration: none; font-weight: 600; }}
   .scorecard a:hover {{ color: var(--accent); text-decoration: underline; }}
+  .scorecard-table-wrap {{ overflow-x: auto; -webkit-overflow-scrolling: touch; }}
+  @media (max-width: 700px) {{
+    .scorecard {{ font-size: 0.85rem; }}
+    .scorecard thead th {{ padding: 6px 8px; font-size: 0.7rem; }}
+    .scorecard tbody td {{ padding: 6px 8px; }}
+    .scorecard table {{ font-size: 0.85rem; }}
+    .scorecard th.rank, .scorecard td.rank {{ width: 22px; }}
+  }}
 
   .bucket-insight {{ margin-bottom: 18px; }}
   .bucket-insight p {{
@@ -1284,12 +1394,30 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
   </ul>
 </aside>
 <div class="container">
-  <h1>AI Startup Survival Tracker</h1>
+  <h1 id="top">AI Startup Survival Tracker</h1>
   <p class="lede">{summary}</p>
   <p class="meta">Refreshed {refreshed}. 7 public signals per company. <a href="METHODOLOGY.md">Methodology</a>. <a href="https://github.com/sridevivr/ai-startup-survival-tracker">Code</a>.</p>
   {banner_html}
 
   {hero_stats_html}
+
+  <nav class="toc-mobile" aria-label="Page navigation">
+    <div class="toc-mobile-label">On this page</div>
+    <ul class="toc-mobile-list">
+      <li><a href="#intro">Overview<span class="chev">&rsaquo;</span></a></li>
+      <li><a href="#snapshot">Snapshot<span class="chev">&rsaquo;</span></a></li>
+      <li><a href="#sector-function">Sector × Function<span class="chev">&rsaquo;</span></a></li>
+    </ul>
+    <div class="toc-mobile-substatus">By status</div>
+    <div class="toc-mobile-pills">
+      <a href="#bucket-thriving" class="toc-pill">Thriving</a>
+      <a href="#bucket-healthy" class="toc-pill">Healthy</a>
+      <a href="#bucket-watchlist" class="toc-pill">Watchlist</a>
+      <a href="#bucket-dormant" class="toc-pill">Dormant</a>
+      <a href="#bucket-likely-dead" class="toc-pill">Likely Dead</a>
+      <a href="#bucket-pivoted-absorbed" class="toc-pill">Pivoted</a>
+    </div>
+  </nav>
 
   <hr class="section-rule"/>
   <section class="intro section-head" id="intro">
@@ -1405,8 +1533,21 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
     }}, {{ rootMargin: "-20% 0px -60% 0px", threshold: 0 }});
     targets.forEach(function(t) {{ observer.observe(t.el); }});
   }}
+
+  // Mobile floating "back to top" button. Appears once the user scrolls
+  // past the hero stats; clicking smooth-scrolls back to #top.
+  var fab = document.getElementById("back-to-top-fab");
+  if (fab) {{
+    function toggleFab() {{
+      if (window.scrollY > 600) fab.classList.add("visible");
+      else fab.classList.remove("visible");
+    }}
+    window.addEventListener("scroll", toggleFab, {{ passive: true }});
+    toggleFab();
+  }}
 }})();
 </script>
+<a href="#top" id="back-to-top-fab" aria-label="Back to top">&uarr;</a>
 </body>
 </html>
 """
