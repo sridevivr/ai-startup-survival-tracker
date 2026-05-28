@@ -1,4 +1,4 @@
-# AI Startup Survival Tracker
+# AI Startup Tracker
 
 A public-signals survival tracker for the 2023–2025 AI startup cohort. Collects seven cheap, reproducible signals per company (website uptime, Wayback freshness, blog cadence, GitHub velocity, hiring pulse, trusted news coverage, and curated overrides), blends them into a 0–100 triage score, and surfaces which companies are thriving, pivoting, or quietly fading.
 
