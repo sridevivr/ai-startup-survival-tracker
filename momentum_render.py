@@ -1,14 +1,11 @@
 """Build output/momentum.html from data/master.csv.
 
-Fresh visual design — NOT inheriting from build_publish.py.
-
-Aesthetic direction: quiet editorial. Warm off-white background, display
-serif (Fraunces) for the hero, Geist for body, one confident accent
-(terracotta) used sparingly. Generous whitespace. Large tiles, tabular
-numerals, micro-typography for labels.
+Magazine-spread aesthetic — denser, multi-column, text-driven.
+Opens with a vocabulary primer (the eight functions of AI, with icons)
+before showing data.
 
 Grows step by step:
-  Step 1 (current):  cohort summary + count heatmap (sector × functionality)
+  Step 1 (current):  vocabulary primer + cohort math + density heatmap
   Step 2 (later):    signal-strength indicators per cell
   Step 3 (later):    view toggle for funding
   Step 4 (later):    "Inside Cross-industry" mini-grid
@@ -27,7 +24,6 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 MASTER_CSV = os.path.join(ROOT, "data", "master.csv")
 OUT_HTML = os.path.join(ROOT, "output", "momentum.html")
 
-# Canonical ordering (defined locally — no import from build_publish).
 FUNCTION_ORDER = [
     "Foundation Models",
     "ML Infrastructure",
@@ -49,7 +45,88 @@ FUNCTION_SHORT = {
     "Research Lab":            "Research",
 }
 
-# One accent color, used sparingly. Terracotta.
+# Short, recruiter-readable descriptions. Read like magazine micro-copy.
+FUNCTION_DESCRIPTIONS = {
+    "Foundation Models":
+        "Companies training the underlying models themselves — GPT-style transformers, multimodal models, specialized LLMs. Few players. Capital-intensive.",
+    "ML Infrastructure":
+        "Tooling that makes training, fine-tuning, deploying, and orchestrating models possible. Pipelines, evals, GPU orchestration. Sells to ML teams.",
+    "Data Infrastructure":
+        "Data plumbing for AI — synthetic data, labeling, training sets, RAG pipelines, vector stores. Sells across ML and product alike.",
+    "AI Agent":
+        "Autonomous or semi-autonomous systems that take actions on a user's behalf. Books meetings, files tickets, runs audits. The headline post-ChatGPT category.",
+    "Copilot / Assistant":
+        "Embedded helpers that augment a human workflow rather than replace it. Suggests, drafts, reviews. Always in-the-loop.",
+    "Generative Product":
+        "End-user products where the AI output IS the product — images, video, decks, code scaffolds. Consumer- or creator-shaped.",
+    "Analytics & Decisioning":
+        "AI applied to reasoning over data — search, summarization, scoring, recommendations. Sells to business users who need answers, not artifacts.",
+    "Research Lab":
+        "Companies positioning as research orgs first, products second. Long-horizon, paper-publishing, often a talent vehicle.",
+}
+
+# Hand-drawn line-icon SVGs. Each is 40×40, stroke="currentColor"
+# so they pick up the accent or text color via CSS.
+def _icon(svg_body: str) -> str:
+    return (
+        '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" '
+        'stroke-width="1.5" stroke-linecap="round" '
+        f'stroke-linejoin="round" aria-hidden="true">{svg_body}</svg>'
+    )
+
+FUNCTION_ICONS = {
+    "Foundation Models": _icon(
+        '<rect x="6" y="26" width="28" height="8" rx="0.5"/>'
+        '<rect x="10" y="17" width="20" height="8" rx="0.5"/>'
+        '<rect x="14" y="8" width="12" height="8" rx="0.5"/>'
+    ),
+    "ML Infrastructure": _icon(
+        '<circle cx="10" cy="10" r="2.6"/>'
+        '<circle cx="30" cy="10" r="2.6"/>'
+        '<circle cx="20" cy="20" r="2.6"/>'
+        '<circle cx="10" cy="30" r="2.6"/>'
+        '<circle cx="30" cy="30" r="2.6"/>'
+        '<line x1="12" y1="12" x2="18" y2="18"/>'
+        '<line x1="28" y1="12" x2="22" y2="18"/>'
+        '<line x1="18" y1="22" x2="12" y2="28"/>'
+        '<line x1="22" y1="22" x2="28" y2="28"/>'
+    ),
+    "Data Infrastructure": _icon(
+        '<ellipse cx="20" cy="9" rx="12" ry="3"/>'
+        '<path d="M 8 9 L 8 31 C 8 33 13 34 20 34 C 27 34 32 33 32 31 L 32 9"/>'
+        '<path d="M 8 17 C 8 19 13 20 20 20 C 27 20 32 19 32 17"/>'
+        '<path d="M 8 24 C 8 26 13 27 20 27 C 27 27 32 26 32 24"/>'
+    ),
+    "AI Agent": _icon(
+        '<circle cx="20" cy="20" r="5"/>'
+        '<path d="M 20 6 L 20 9 M 20 31 L 20 34 M 6 20 L 9 20 M 31 20 L 34 20"/>'
+        '<path d="M 10 10 L 12.5 12.5 M 28 10 L 25.5 12.5 M 10 30 L 12.5 27.5 M 28 30 L 25.5 27.5"/>'
+    ),
+    "Copilot / Assistant": _icon(
+        '<path d="M 8 10 L 32 10 C 33.5 10 34 10.5 34 12 L 34 24 C 34 25.5 33.5 26 32 26 L 19 26 L 13 31 L 13 26 L 8 26 C 6.5 26 6 25.5 6 24 L 6 12 C 6 10.5 6.5 10 8 10 Z"/>'
+        '<circle cx="14" cy="18" r="1.2" fill="currentColor"/>'
+        '<circle cx="20" cy="18" r="1.2" fill="currentColor"/>'
+        '<circle cx="26" cy="18" r="1.2" fill="currentColor"/>'
+    ),
+    "Generative Product": _icon(
+        '<path d="M 20 6 L 21.6 17.6 L 34 20 L 21.6 22.4 L 20 34 L 18.4 22.4 L 6 20 L 18.4 17.6 Z"/>'
+        '<circle cx="20" cy="20" r="1.4"/>'
+    ),
+    "Analytics & Decisioning": _icon(
+        '<line x1="6" y1="34" x2="34" y2="34"/>'
+        '<rect x="10" y="22" width="5" height="11" rx="0.5"/>'
+        '<rect x="17.5" y="14" width="5" height="19" rx="0.5"/>'
+        '<rect x="25" y="8" width="5" height="25" rx="0.5"/>'
+    ),
+    "Research Lab": _icon(
+        '<line x1="14" y1="6" x2="14" y2="16"/>'
+        '<line x1="26" y1="6" x2="26" y2="16"/>'
+        '<line x1="12" y1="6" x2="28" y2="6"/>'
+        '<path d="M 14 16 L 7 31 C 6 33.5 7.5 35 10 35 L 30 35 C 32.5 35 34 33.5 33 31 L 26 16"/>'
+        '<line x1="11" y1="26" x2="29" y2="26"/>'
+    ),
+}
+
 ACCENT = "#C24A2C"
 
 CSS = """
@@ -64,171 +141,298 @@ body {
   font-family: 'Geist', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
   font-size: 16px;
   line-height: 1.6;
-  font-feature-settings: 'tnum' 1, 'cv11' 1;
+  font-feature-settings: 'tnum' 1, 'ss01' 1, 'cv11' 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.wrap { max-width: 1180px; margin: 0 auto; padding: 64px 36px 96px; }
 
-.wrap { max-width: 1180px; margin: 0 auto; padding: 96px 36px 120px; }
-.col  { max-width: 680px; }
+/* ─── Masthead ──────────────────────────────────────────────────── */
 
-/* ─── Header ────────────────────────────────────────────────────── */
-
-.eyebrow {
+.masthead {
+  display: flex; justify-content: space-between; align-items: baseline;
   font-family: 'Geist Mono', monospace;
-  font-size: 11px;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
+  font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase;
   color: #8a7e6c;
-  margin: 0 0 28px;
-  display: flex;
-  align-items: center;
-  gap: 14px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #1a1612;
+  margin-bottom: 56px;
 }
-.eyebrow::after {
-  content: '';
-  display: inline-block;
-  height: 1px;
-  flex: 1;
-  background: #d8cfbe;
-  max-width: 220px;
+.masthead .title { color: #1a1612; font-weight: 500; }
+.masthead .issue { font-style: normal; }
+
+/* ─── Hero (two-column with sidebar) ───────────────────────────── */
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 8fr) minmax(0, 4fr);
+  gap: 56px;
+  margin-bottom: 96px;
+  padding-bottom: 64px;
+  border-bottom: 1px solid #d8cfbe;
 }
 
-h1 {
+.hero h1 {
   font-family: 'Fraunces', Georgia, serif;
   font-weight: 400;
-  font-size: 68px;
-  line-height: 1.02;
-  letter-spacing: -0.025em;
-  margin: 0 0 24px;
-  font-variation-settings: 'opsz' 144, 'SOFT' 50;
+  font-size: 96px;
+  line-height: 0.95;
+  letter-spacing: -0.035em;
+  margin: 0 0 36px;
+  font-variation-settings: 'opsz' 144, 'SOFT' 30;
   color: #1a1612;
 }
-h1 em {
+.hero h1 em {
   font-style: italic;
   font-weight: 400;
   color: """ + ACCENT + """;
   font-variation-settings: 'opsz' 144, 'SOFT' 100;
 }
-
-.lede {
+.hero .lede {
   font-family: 'Fraunces', Georgia, serif;
-  font-size: 22px;
   font-weight: 300;
-  line-height: 1.45;
-  letter-spacing: -0.005em;
-  color: #4a4239;
-  margin: 0 0 44px;
-  max-width: 660px;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #2a241c;
+  max-width: 580px;
+  margin: 0;
 }
-
-.meta {
-  display: flex;
-  gap: 36px;
-  flex-wrap: wrap;
-  padding: 18px 0;
-  border-top: 1px solid #e5dcc8;
-  border-bottom: 1px solid #e5dcc8;
-  font-family: 'Geist Mono', monospace;
-  font-size: 12px;
-  letter-spacing: 0.04em;
-  color: #6a5e4a;
-  margin-bottom: 80px;
-}
-.meta-item { display: flex; align-items: baseline; gap: 8px; }
-.meta-label { text-transform: uppercase; color: #9a8e7a; font-size: 10px; letter-spacing: 0.12em; }
-.meta-value { color: #1a1612; font-weight: 500; }
-.meta-value b {
+.hero .lede::first-letter {
   font-family: 'Fraunces', Georgia, serif;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 64px;
+  line-height: 0.85;
+  float: left;
+  padding: 6px 12px 0 0;
   color: """ + ACCENT + """;
+  font-variation-settings: 'opsz' 144, 'SOFT' 100;
 }
 
-/* ─── Section ───────────────────────────────────────────────────── */
+/* sidebar / at-a-glance */
+.glance {
+  border-left: 1px solid #d8cfbe;
+  padding-left: 32px;
+}
+.glance-title {
+  font-family: 'Geist Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #8a7e6c;
+  margin: 0 0 22px;
+}
+.glance-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 14px 0;
+  border-bottom: 1px dotted #d8cfbe;
+  gap: 12px;
+}
+.glance-row:last-child { border-bottom: none; }
+.glance-key {
+  font-family: 'Geist Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #8a7e6c;
+  flex-shrink: 0;
+}
+.glance-val {
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 19px;
+  line-height: 1.1;
+  font-weight: 500;
+  color: #1a1612;
+  text-align: right;
+  font-variation-settings: 'opsz' 36;
+}
+.glance-val .accent { color: """ + ACCENT + """; }
+.glance-val small {
+  display: block;
+  font-family: 'Geist Mono', monospace;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  color: #8a7e6c;
+  margin-top: 4px;
+}
 
-section { margin-bottom: 96px; }
-.section-label {
+/* ─── Section header ────────────────────────────────────────────── */
+
+section { margin-bottom: 88px; }
+.section-head {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 4fr);
+  align-items: baseline;
+  gap: 32px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #1a1612;
+  margin-bottom: 36px;
+}
+.section-num {
+  font-family: 'Fraunces', Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 34px;
+  color: """ + ACCENT + """;
+  font-variation-settings: 'opsz' 144;
+  line-height: 1;
+}
+.section-num .roman {
+  font-family: 'Geist Mono', monospace;
+  font-style: normal;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #8a7e6c;
+  margin-right: 14px;
+  vertical-align: middle;
+}
+.section-sub {
   font-family: 'Geist Mono', monospace;
   font-size: 11px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: #8a7e6c;
-  margin: 0 0 32px;
-  padding-bottom: 14px;
-  border-bottom: 1px solid #e5dcc8;
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-}
-.section-label .num {
-  font-family: 'Fraunces', Georgia, serif;
-  font-size: 13px;
-  color: """ + ACCENT + """;
-  font-style: italic;
+  text-align: right;
 }
 
-.prose {
-  font-size: 17px;
+/* ─── Vocabulary cards ──────────────────────────────────────────── */
+
+.vocab {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  border-top: 1px solid #d8cfbe;
+  border-left: 1px solid #d8cfbe;
+}
+.vocab-card {
+  padding: 28px 22px;
+  border-right: 1px solid #d8cfbe;
+  border-bottom: 1px solid #d8cfbe;
+  display: flex;
+  flex-direction: column;
+  background: #fcfaf5;
+}
+.vocab-icon {
+  color: """ + ACCENT + """;
+  width: 36px;
+  height: 36px;
+  margin-bottom: 18px;
+}
+.vocab-icon svg { width: 100%; height: 100%; display: block; }
+.vocab-title {
+  font-family: 'Geist', sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #1a1612;
+  margin: 0 0 4px;
+}
+.vocab-count {
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 13px;
+  font-style: italic;
+  color: #8a7e6c;
+  margin-bottom: 14px;
+  font-variation-settings: 'opsz' 36;
+}
+.vocab-count b { color: """ + ACCENT + """; font-style: normal; font-weight: 500; }
+.vocab-desc {
+  font-size: 13.5px;
+  line-height: 1.55;
+  color: #3a3128;
+  margin: 0;
+}
+
+/* ─── Cohort math (multi-column body) ──────────────────────────── */
+
+.math-body {
+  font-size: 16px;
   line-height: 1.7;
   color: #2a241c;
-  max-width: 660px;
-  font-weight: 400;
+  column-count: 2;
+  column-gap: 48px;
+  column-rule: 1px solid #d8cfbe;
 }
-.prose b { color: """ + ACCENT + """; font-weight: 500; }
-.prose + .prose { margin-top: 12px; }
+.math-body p { margin: 0 0 14px; break-inside: avoid; }
+.math-body p:first-child::first-letter {
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 0.85;
+  float: left;
+  padding: 4px 10px 0 0;
+  color: """ + ACCENT + """;
+  font-variation-settings: 'opsz' 144, 'SOFT' 100;
+}
+.math-body b { color: """ + ACCENT + """; font-weight: 500; }
 
 /* ─── Heatmap ───────────────────────────────────────────────────── */
 
 .heatmap {
-  margin: 8px -8px 0;
+  margin: 8px 0 0;
   overflow-x: auto;
-  padding: 8px;
+  padding: 4px 0;
 }
-.heatmap svg {
-  display: block;
-  min-width: 720px;
-}
-.heatmap-meta {
-  margin-top: 28px;
-  display: flex;
-  gap: 28px;
-  flex-wrap: wrap;
-  align-items: center;
+.heatmap svg { display: block; min-width: 720px; }
+.heatmap-caption {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px dotted #d8cfbe;
+  display: flex; gap: 28px; flex-wrap: wrap; align-items: center;
   font-family: 'Geist Mono', monospace;
   font-size: 11px;
   letter-spacing: 0.04em;
   color: #8a7e6c;
 }
-.heatmap-meta .swatch-row {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-}
-.heatmap-meta .swatch {
-  display: inline-block;
-  width: 22px;
-  height: 12px;
+.swatch {
+  display: inline-block; width: 22px; height: 12px;
   border: 1px solid rgba(0,0,0,0.06);
+  vertical-align: middle;
+}
+.swatch-row { display: inline-flex; align-items: center; gap: 4px; }
+
+/* ─── Pull quote ────────────────────────────────────────────────── */
+
+.pullquote {
+  margin: 40px 0;
+  padding-left: 28px;
+  border-left: 3px solid """ + ACCENT + """;
+  font-family: 'Fraunces', Georgia, serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 1.4;
+  color: #2a241c;
+  max-width: 660px;
 }
 
 /* ─── Footer ────────────────────────────────────────────────────── */
 
 footer {
   margin-top: 80px;
-  padding-top: 32px;
-  border-top: 1px solid #e5dcc8;
+  padding-top: 24px;
+  border-top: 1px solid #1a1612;
   font-family: 'Geist Mono', monospace;
   font-size: 11px;
   letter-spacing: 0.04em;
-  color: #9a8e7a;
-  max-width: 680px;
+  color: #8a7e6c;
+  display: flex; justify-content: space-between;
 }
 
-@media (max-width: 720px) {
-  .wrap { padding: 56px 22px 80px; }
-  h1 { font-size: 44px; }
-  .lede { font-size: 19px; }
+/* ─── Responsive ────────────────────────────────────────────────── */
+
+@media (max-width: 880px) {
+  .hero { grid-template-columns: 1fr; gap: 36px; }
+  .glance { border-left: none; border-top: 1px solid #d8cfbe; padding: 28px 0 0; }
+  .hero h1 { font-size: 56px; }
+  .vocab { grid-template-columns: repeat(2, 1fr); }
+  .math-body { column-count: 1; }
+  .section-head { grid-template-columns: 1fr; }
+  .section-sub { text-align: left; }
 }
 """
 
@@ -239,8 +443,6 @@ def load_master() -> list[dict]:
 
 
 def density_heatmap_svg(rows: list[dict]) -> str:
-    """Tile-based heatmap. One accent color, opacity grades by count.
-    Empty cells nearly disappear (very faint dotted outline)."""
     matrix: dict[tuple[str, str], int] = defaultdict(int)
     sector_n: Counter[str] = Counter()
     func_n: Counter[str] = Counter()
@@ -253,20 +455,16 @@ def density_heatmap_svg(rows: list[dict]) -> str:
 
     sectors = [s for s, _ in sector_n.most_common() if s != "—"]
     functions = [f for f in FUNCTION_ORDER if func_n.get(f, 0) > 0]
-
     if not sectors or not functions:
         return "<p>No data.</p>"
 
-    # Tile dimensions — bigger and squarer than the survival heatmap
     tile_w, tile_h = 102, 64
     gap = 4
-    pad_left, pad_top = 188, 92
+    pad_left, pad_top = 188, 88
 
-    cols = len(functions)
-    rows_n = len(sectors)
-    width = pad_left + cols * (tile_w + gap) - gap + 32
-    height = pad_top + rows_n * (tile_h + gap) - gap + 24
-
+    cols, rows_n = len(functions), len(sectors)
+    width = pad_left + cols * (tile_w + gap) - gap + 24
+    height = pad_top + rows_n * (tile_h + gap) - gap + 16
     cell_max = max(matrix.values()) or 1
 
     parts: list[str] = [
@@ -274,7 +472,7 @@ def density_heatmap_svg(rows: list[dict]) -> str:
         f'preserveAspectRatio="xMinYMin meet" xmlns="http://www.w3.org/2000/svg">'
     ]
 
-    # ─── Column headers (function names) ─────────────────────────
+    # Column headers
     for j, f in enumerate(functions):
         x = pad_left + j * (tile_w + gap) + tile_w / 2
         label = FUNCTION_SHORT.get(f, f)
@@ -284,21 +482,19 @@ def density_heatmap_svg(rows: list[dict]) -> str:
             f'fill="#8a7e6c" letter-spacing="0.5">'
             f'{html.escape(label.upper())}</text>'
             f'<text x="{x}" y="{pad_top - 18}" text-anchor="middle" '
-            f'font-family="Fraunces, Georgia, serif" font-size="13" '
+            f'font-family="Fraunces, Georgia, serif" font-size="14" '
             f'font-style="italic" fill="#1a1612">{func_n[f]}</text>'
         )
 
     # Hairline between header and grid
     parts.append(
         f'<line x1="{pad_left - 16}" y1="{pad_top - 8}" '
-        f'x2="{width - 16}" y2="{pad_top - 8}" '
-        f'stroke="#e5dcc8" stroke-width="1"/>'
+        f'x2="{width - 12}" y2="{pad_top - 8}" '
+        f'stroke="#1a1612" stroke-width="1"/>'
     )
 
-    # ─── Rows ────────────────────────────────────────────────────
     for i, s in enumerate(sectors):
         y = pad_top + i * (tile_h + gap)
-        # Sector label + N
         parts.append(
             f'<text x="{pad_left - 18}" y="{y + tile_h / 2 - 2}" '
             f'text-anchor="end" font-family="Geist, sans-serif" font-size="14" '
@@ -313,17 +509,9 @@ def density_heatmap_svg(rows: list[dict]) -> str:
             cnt = matrix.get((s, f), 0)
             cx = x + tile_w / 2
             cy = y + tile_h / 2
-
             if cnt == 0:
-                # Empty cell: tiny dot only, very subtle
-                parts.append(
-                    f'<circle cx="{cx}" cy="{cy}" r="1.5" '
-                    f'fill="#d8cfbe"/>'
-                )
+                parts.append(f'<circle cx="{cx}" cy="{cy}" r="1.5" fill="#d8cfbe"/>')
                 continue
-
-            # Tile fill — opacity scales by sqrt(count / max), min 0.10 so
-            # 1-count cells are still readable.
             alpha = 0.10 + 0.80 * math.sqrt(cnt / cell_max)
             text_color = "#fff" if alpha >= 0.55 else "#1a1612"
             parts.append(
@@ -344,98 +532,142 @@ def render(rows: list[dict]) -> str:
     fy: Counter[str] = Counter()
     for r in rows:
         fy[r.get("founded_year", "?")] += 1
-
-    sector_n: Counter[str] = Counter(
-        (r.get("sector") or "—").strip() for r in rows
-    )
-    func_n: Counter[str] = Counter(
-        (r.get("functionality") or "—").strip() for r in rows
-    )
-
-    top_cell_label = ""
+    sector_n: Counter[str] = Counter((r.get("sector") or "—").strip() for r in rows)
+    func_n: Counter[str] = Counter((r.get("functionality") or "—").strip() for r in rows)
     matrix: dict[tuple[str, str], int] = defaultdict(int)
     for r in rows:
         matrix[((r.get("sector") or "—"), (r.get("functionality") or "—"))] += 1
     top_cell, top_cell_n = max(matrix.items(), key=lambda kv: kv[1])
     top_cell_label = f"{top_cell[0]} × {top_cell[1]}"
-
     cross_n = sector_n.get("Cross-industry", 0)
     today = date.today().isoformat()
     heatmap = density_heatmap_svg(rows)
 
+    # Vocabulary cards
+    vocab_cards: list[str] = []
+    for f in FUNCTION_ORDER:
+        n_f = func_n.get(f, 0)
+        share = (n_f / n * 100) if n else 0
+        vocab_cards.append(
+            f'<article class="vocab-card">'
+            f'  <div class="vocab-icon">{FUNCTION_ICONS[f]}</div>'
+            f'  <h3 class="vocab-title">{html.escape(f)}</h3>'
+            f'  <p class="vocab-count">In cohort: <b>{n_f}</b> · {share:.0f}%</p>'
+            f'  <p class="vocab-desc">{html.escape(FUNCTION_DESCRIPTIONS[f])}</p>'
+            f'</article>'
+        )
+    vocab_html = "\n".join(vocab_cards)
+
+    fy_str = ", ".join(f"{y}·{c}" for y, c in sorted(fy.items()))
+
     body = f"""
-<header>
-  <p class="eyebrow">Report · Post-ChatGPT YC AI Cohort</p>
-  <h1>Where the <em>heat</em><br>is building.</h1>
-  <p class="lede">
-    578 YC AI startups. We cut to {n} with at least one sign of life
-    in the last six months. Now we ask: which sector × functionality
-    intersections are actually heating up — by count, by activity,
-    by funding, and by recency.
-  </p>
-  <div class="meta">
-    <div class="meta-item"><span class="meta-label">Cohort</span> <span class="meta-value"><b>{n}</b> startups</span></div>
-    <div class="meta-item"><span class="meta-label">Founded</span> <span class="meta-value">{html.escape(", ".join(f"{y}·{c}" for y, c in sorted(fy.items())))}</span></div>
-    <div class="meta-item"><span class="meta-label">Densest cell</span> <span class="meta-value">{html.escape(top_cell_label)} · {top_cell_n}</span></div>
-    <div class="meta-item"><span class="meta-label">Built</span> <span class="meta-value">{today}</span></div>
+<div class="masthead">
+  <span class="title">YC AI Momentum Heatmap</span>
+  <span class="issue">Issue 01 · {today} · Step 1 of 6</span>
+</div>
+
+<header class="hero">
+  <div>
+    <h1>Where the<br><em>heat</em> is<br>building.</h1>
+    <p class="lede">
+      578 YC AI startups. We cut to {n} with at least one sign of life
+      in the last six months. Then we ask the question that matters:
+      which sector × functionality intersections are actually heating
+      up — by count, by activity, by funding, and by recency.
+    </p>
   </div>
+  <aside class="glance">
+    <p class="glance-title">At a glance</p>
+    <div class="glance-row"><span class="glance-key">Cohort</span>
+      <span class="glance-val"><span class="accent">{n}</span><small>after the cut</small></span></div>
+    <div class="glance-row"><span class="glance-key">Founded</span>
+      <span class="glance-val">2023–25<small>{html.escape(fy_str)}</small></span></div>
+    <div class="glance-row"><span class="glance-key">Densest cell</span>
+      <span class="glance-val">{html.escape(top_cell[0])}<small>× {html.escape(top_cell[1])} · {top_cell_n}</small></span></div>
+    <div class="glance-row"><span class="glance-key">Cross-industry</span>
+      <span class="glance-val">{cross_n}<small>of {n} ({cross_n / n * 100:.0f}%)</small></span></div>
+    <div class="glance-row"><span class="glance-key">Built</span>
+      <span class="glance-val" style="font-size:14px">{today}<small>step 1 / 6</small></span></div>
+  </aside>
 </header>
 
-<section class="col">
-  <p class="section-label">
-    <span>I · Cohort math</span><span class="num">how we got to {n}</span>
+<section>
+  <div class="section-head">
+    <h2 class="section-num"><span class="roman">II</span>The vocabulary.</h2>
+    <p class="section-sub">The eight functions of AI · before the data</p>
+  </div>
+  <p class="pullquote">
+    Before we ask <em>where</em> the heat is, we have to be clear about
+    <em>what</em> we're measuring. These are the eight functions every
+    company in the cohort fits into.
   </p>
-  <p class="prose">
-    We started with 578 YC AI startups. We focused on the post-ChatGPT
-    founder generation — companies <b>founded in 2023 or later</b>
-    (534 remain). We dropped companies marked dead, pivoted, or
-    dormant (–63). Finally, we dropped companies showing
-    <b>zero positive momentum signals</b> over the last 180 days (–327).
-  </p>
-  <p class="prose">
-    A positive momentum signal is one of five: recent news, a fresh
-    website (≤90 days), open job listings, recent blog posts, or
-    active GitHub commits. We require at least one. {n} companies clear
-    the bar.
-  </p>
+  <div class="vocab">
+    {vocab_html}
+  </div>
 </section>
 
 <section>
-  <p class="section-label">
-    <span>II · Density</span><span class="num">where the companies are</span>
-  </p>
-  <div class="heatmap">
-    {heatmap}
+  <div class="section-head">
+    <h2 class="section-num"><span class="roman">III</span>Cohort math.</h2>
+    <p class="section-sub">How we got to {n}</p>
   </div>
-  <div class="heatmap-meta">
-    <span class="swatch-row">
-      <span class="swatch" style="background: {ACCENT}; opacity: 0.10"></span>
-      <span class="swatch" style="background: {ACCENT}; opacity: 0.35"></span>
-      <span class="swatch" style="background: {ACCENT}; opacity: 0.70"></span>
-      <span class="swatch" style="background: {ACCENT}; opacity: 0.90"></span>
-      <span>fewer ←→ more</span>
-    </span>
-    <span>· empty cells shown as dots</span>
-    <span>· numbers are company counts</span>
+  <div class="math-body">
+    <p>We started with 578 YC AI startups in our dataset. To focus on the
+    post-ChatGPT founder generation, we filtered to companies <b>founded
+    in 2023 or later</b>. That dropped 44 pre-ChatGPT-era plays — the
+    OpenAI / Anthropic / Cohere tier — and left us with 534.</p>
+    <p>Next we cut companies marked as <b>dead, pivoted, or
+    dormant</b> in our existing signal data. That removed 63 known
+    failures and acqui-hires. 471 remained.</p>
+    <p>Finally, we cut companies showing <b>zero positive momentum
+    signals</b> over the last 180 days. Positive momentum is defined as
+    at least one of: recent press coverage, a fresh website (≤90 days),
+    open job listings, recent blog posts, or active GitHub commits. Of
+    the 471, only {n} cleared that bar. The other 327 are silent.</p>
+    <p>Silent does not always mean dead — many are heads-down building
+    — but for a <i>momentum</i> story they're noise. We're left with
+    {n} companies actually doing something we can see.</p>
   </div>
 </section>
 
-<section class="col">
-  <p class="section-label">
-    <span>III · What's next</span><span class="num">step 2 of 6</span>
-  </p>
-  <p class="prose">
-    Cross-industry is still the largest row at <b>{cross_n} of {n}</b>
-    — Step 4 cracks that open into sub-sectors. Step 2 next: layer
-    signal-strength indicators onto each tile, so the same grid starts
-    showing not just how many companies are in each cell, but how
-    active they are. Step 3 adds a funding view. Step 5 surfaces
-    problem themes and pulls findings up to the top of this page.
+<section>
+  <div class="section-head">
+    <h2 class="section-num"><span class="roman">IV</span>Density.</h2>
+    <p class="section-sub">Where the companies are · count by cell</p>
+  </div>
+  <div class="heatmap">
+    {heatmap}
+  </div>
+  <div class="heatmap-caption">
+    <span class="swatch-row">
+      <span class="swatch" style="background:{ACCENT};opacity:0.10"></span>
+      <span class="swatch" style="background:{ACCENT};opacity:0.35"></span>
+      <span class="swatch" style="background:{ACCENT};opacity:0.70"></span>
+      <span class="swatch" style="background:{ACCENT};opacity:0.95"></span>
+      <span>fewer ←→ more</span>
+    </span>
+    <span>· empty cells: dots</span>
+    <span>· numbers: company counts</span>
+  </div>
+</section>
+
+<section>
+  <div class="section-head">
+    <h2 class="section-num"><span class="roman">V</span>What's next.</h2>
+    <p class="section-sub">Step 2 of 6 · activity layer</p>
+  </div>
+  <p class="pullquote">
+    Cross-industry is still the largest row at {cross_n} of {n} —
+    Step 4 cracks that open. Step 2 layers signal-strength onto each
+    tile so the same grid starts showing how <em>active</em>, not just
+    how <em>many</em>. Step 3 adds funding. Step 5 surfaces problem
+    themes.
   </p>
 </section>
 
 <footer>
-  YC AI Momentum Heatmap · cohort built {today} from <code>data/master.csv</code> · step 1 of 6
+  <span>YC AI Momentum Heatmap</span>
+  <span>Cohort {today} · 144 companies · Step 1 of 6</span>
 </footer>
 """
 
