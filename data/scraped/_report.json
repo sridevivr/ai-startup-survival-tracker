@@ -1,0 +1,1156 @@
+{
+  "meta": {
+    "ran_at": "2026-06-04T20:30:36.120340+00:00",
+    "total": 144,
+    "ok": 0,
+    "fail": 144,
+    "thin_text": 0,
+    "ok_share": 0.0
+  },
+  "per_company": {
+    "Plume": {
+      "slug": "plume",
+      "website": "http://www.plumefinder.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Sorcerer": {
+      "slug": "sorcerer",
+      "website": "https://sorcerer.earth",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "CORE": {
+      "slug": "core",
+      "website": "https://getcore.me",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Rove": {
+      "slug": "rove",
+      "website": "https://rove.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Candle": {
+      "slug": "candle",
+      "website": "https://www.trycandle.app/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Olive": {
+      "slug": "olive",
+      "website": "https://fromolive.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "jo": {
+      "slug": "jo",
+      "website": "https://askjo.ai",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Pickle": {
+      "slug": "pickle",
+      "website": "https://www.pickle.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Eggnog": {
+      "slug": "eggnog",
+      "website": "https://www.eggnog.ai",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Lore": {
+      "slug": "lore",
+      "website": "https://joinlore.app/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Pika": {
+      "slug": "pika",
+      "website": "https://pika.art",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Shortbread": {
+      "slug": "shortbread",
+      "website": "https://www.shortbread.ai/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "AiSDR": {
+      "slug": "aisdr",
+      "website": "https://aisdr.com/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Asteroid": {
+      "slug": "asteroid",
+      "website": "https://asteroid.ai",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Automat": {
+      "slug": "automat",
+      "website": "https://www.runautomat.com/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Autosana": {
+      "slug": "autosana",
+      "website": "https://autosana.ai",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Browser Use": {
+      "slug": "browser-use",
+      "website": "https://browser-use.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Clicks": {
+      "slug": "clicks",
+      "website": "https://goclicks.ai/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Conductor": {
+      "slug": "conductor",
+      "website": "https://conductor.build",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Doe": {
+      "slug": "doe",
+      "website": "https://doe.so/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Gauge": {
+      "slug": "gauge",
+      "website": "https://withgauge.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Greptile": {
+      "slug": "greptile",
+      "website": "https://www.greptile.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Inspector": {
+      "slug": "inspector",
+      "website": "https://www.tryinspector.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Minded": {
+      "slug": "minded",
+      "website": "https://www.minded.com/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Nexus": {
+      "slug": "nexus",
+      "website": "https://agent.nexus",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Promptless": {
+      "slug": "promptless",
+      "website": "https://promptless.ai/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "SRE.ai": {
+      "slug": "sre-ai",
+      "website": "https://sre.ai",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Sim": {
+      "slug": "sim",
+      "website": "https://sim.ai",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Simple AI": {
+      "slug": "simple-ai",
+      "website": "https://www.usesimple.ai",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "StackAI": {
+      "slug": "stackai",
+      "website": "https://www.stack-ai.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "StarSling": {
+      "slug": "starsling",
+      "website": "https://www.starsling.dev/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Zeon Systems": {
+      "slug": "zeon-systems",
+      "website": "https://www.zeonsystems.ai/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Artificial Societies": {
+      "slug": "artificial-societies",
+      "website": "https://societies.io",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Human Behavior": {
+      "slug": "human-behavior",
+      "website": "https://www.humanbehavior.co/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Overstand Labs": {
+      "slug": "overstand-labs",
+      "website": "https://overstandlabs.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Percival": {
+      "slug": "percival",
+      "website": "https://percy.tech",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Upsolve AI": {
+      "slug": "upsolve-ai",
+      "website": "https://upsolve.ai/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Weave": {
+      "slug": "weave",
+      "website": "https://workweave.dev",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Pally": {
+      "slug": "pally",
+      "website": "https://pally.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Sola": {
+      "slug": "sola",
+      "website": "https://www.sola-solutions.com/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Tempo": {
+      "slug": "tempo",
+      "website": "https://www.tempo.new",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Terrain": {
+      "slug": "terrain",
+      "website": "https://onterrain.ai/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Venta AI": {
+      "slug": "venta-ai",
+      "website": "https://www.getventa.ai",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "AfterQuery": {
+      "slug": "afterquery",
+      "website": "https://afterquery.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Eden": {
+      "slug": "eden",
+      "website": "https://edenhq.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Elevate": {
+      "slug": "elevate",
+      "website": "https://www.useelevate.dev/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Ergo": {
+      "slug": "ergo",
+      "website": "https://joinergo.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Mem0": {
+      "slug": "mem0",
+      "website": "https://mem0.ai",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Outlit": {
+      "slug": "outlit",
+      "website": "https://outlit.ai/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Panels": {
+      "slug": "panels",
+      "website": "https://www.usepanels.com/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Reducto": {
+      "slug": "reducto",
+      "website": "https://reducto.ai",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Sensei": {
+      "slug": "sensei",
+      "website": "https://senseirobotics.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Mistral AI": {
+      "slug": "mistral-ai",
+      "website": "https://mistral.ai",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Poolside": {
+      "slug": "poolside",
+      "website": "https://poolside.ai",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "The Forecasting Company": {
+      "slug": "the-forecasting-company",
+      "website": "https://www.theforecastingcompany.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "xAI": {
+      "slug": "xai",
+      "website": "https://x.ai",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Alai": {
+      "slug": "alai",
+      "website": "https://getalai.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Floot": {
+      "slug": "floot",
+      "website": "https://floot.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Focal": {
+      "slug": "focal",
+      "website": "https://focalml.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Overlap": {
+      "slug": "overlap",
+      "website": "https://www.overlap.ai",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Pinch": {
+      "slug": "pinch",
+      "website": "https://startpinch.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Primer": {
+      "slug": "primer",
+      "website": "https://www.startprimer.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Reflex": {
+      "slug": "reflex",
+      "website": "https://reflex.dev",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Type": {
+      "slug": "type",
+      "website": "https://type.ai",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Willow": {
+      "slug": "willow",
+      "website": "https://willowvoice.com/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "AgentHub": {
+      "slug": "agenthub",
+      "website": "https://www.agenthublabs.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Blaxel": {
+      "slug": "blaxel",
+      "website": "https://blaxel.ai",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Bluejay": {
+      "slug": "bluejay",
+      "website": "https://getbluejay.ai/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Boundary": {
+      "slug": "boundary",
+      "website": "https://www.boundaryml.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Lucidic AI": {
+      "slug": "lucidic-ai",
+      "website": "https://lucidic.ai",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Manufact (formerly mcp-use)": {
+      "slug": "manufact-formerly-mcp-use",
+      "website": "https://manufact.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Nuanced": {
+      "slug": "nuanced",
+      "website": "https://www.nuanced.dev/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Osmosis": {
+      "slug": "osmosis",
+      "website": "https://osmosis.ai/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Raindrop": {
+      "slug": "raindrop",
+      "website": "https://www.raindrop.ai",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Respan": {
+      "slug": "respan",
+      "website": "https://respan.ai",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Thesis": {
+      "slug": "thesis",
+      "website": "https://thesislabs.ai",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Sakana AI": {
+      "slug": "sakana-ai",
+      "website": "https://sakana.ai",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Berry": {
+      "slug": "berry",
+      "website": "https://berryai.com/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Cactus": {
+      "slug": "cactus",
+      "website": "https://www.cactuscompute.com/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Certus AI": {
+      "slug": "certus-ai",
+      "website": "https://www.certus-ai.com/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Conduit": {
+      "slug": "conduit",
+      "website": "https://conduit.ai/?utm_source=referral&utm_medium=organic&utm_campaign=ycombinator",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Giga": {
+      "slug": "giga",
+      "website": "https://giga.ai/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Prox": {
+      "slug": "prox",
+      "website": "https://useprox.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Retell AI": {
+      "slug": "retell-ai",
+      "website": "https://retellai.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Risotto": {
+      "slug": "risotto",
+      "website": "https://tryrisotto.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Soff": {
+      "slug": "soff",
+      "website": "https://soff.ai",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Wildcard": {
+      "slug": "wildcard",
+      "website": "https://wild-card.ai",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Channel3": {
+      "slug": "channel3",
+      "website": "https://trychannel3.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Frizzle": {
+      "slug": "frizzle",
+      "website": "https://www.frizzle.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Scout": {
+      "slug": "scout",
+      "website": "https://scoutforschools.com/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Shepherd": {
+      "slug": "shepherd",
+      "website": "https://www.shepherd.study",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "SuperKalam": {
+      "slug": "superkalam",
+      "website": "https://superkalam.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Embedder": {
+      "slug": "embedder",
+      "website": "https://www.embedder.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Navier AI": {
+      "slug": "navier-ai",
+      "website": "http://navier.ai",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Structured AI": {
+      "slug": "structured-ai",
+      "website": "https://www.getstructured.ai/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Ohm": {
+      "slug": "ohm",
+      "website": "https://www.ohm.ai",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Trim": {
+      "slug": "trim",
+      "website": "https://trimresearch.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Cifrato": {
+      "slug": "cifrato",
+      "website": "https://cifrato.ai",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Concourse": {
+      "slug": "concourse",
+      "website": "https://concourse.co/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "CopyCat": {
+      "slug": "copycat",
+      "website": "https://runcopycat.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Corgi Insurance": {
+      "slug": "corgi-insurance",
+      "website": "https://corgi.insure",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Denki": {
+      "slug": "denki",
+      "website": "https://denki.ai",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Diligent": {
+      "slug": "diligent",
+      "website": "https://godiligent.ai",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "JustPaid": {
+      "slug": "justpaid",
+      "website": "https://www.justpaid.ai",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Kenley": {
+      "slug": "kenley",
+      "website": "https://kenley.ai/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "OffDeal": {
+      "slug": "offdeal",
+      "website": "https://offdeal.io",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Pluto": {
+      "slug": "pluto",
+      "website": "https://www.pluto.trade",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Truewind": {
+      "slug": "truewind",
+      "website": "https://www.trytruewind.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Benchmark": {
+      "slug": "benchmark",
+      "website": "https://withbenchmark.com/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "DiligenceSquared": {
+      "slug": "diligencesquared",
+      "website": "https://diligencesquared.com/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Metal": {
+      "slug": "metal",
+      "website": "https://metal.ai/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Greenboard": {
+      "slug": "greenboard",
+      "website": "https://www.greenboard.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Model ML": {
+      "slug": "model-ml",
+      "website": "https://www.modelml.com/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Pier": {
+      "slug": "pier",
+      "website": "http://www.pier-finance.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "TaxGPT": {
+      "slug": "taxgpt",
+      "website": "https://www.taxgpt.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Iliad": {
+      "slug": "iliad",
+      "website": "https://iliad.ai",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "ego": {
+      "slug": "ego",
+      "website": "https://egoai.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Diana": {
+      "slug": "diana",
+      "website": "https://getdiana.com/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Serra": {
+      "slug": "serra",
+      "website": "https://www.serra.io/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Spott": {
+      "slug": "spott",
+      "website": "https://spott.io",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Modus": {
+      "slug": "modus",
+      "website": "https://himodus.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Fuse": {
+      "slug": "fuse",
+      "website": "http://www.fuseinsight.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Hippocratic AI": {
+      "slug": "hippocratic-ai",
+      "website": "https://hippocraticai.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Locata": {
+      "slug": "locata",
+      "website": "https://www.locatahealth.com/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Planbase": {
+      "slug": "planbase",
+      "website": "https://www.joinplanbase.com/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Simbie AI": {
+      "slug": "simbie-ai",
+      "website": "http://www.simbie.ai",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Talc": {
+      "slug": "talc",
+      "website": "https://talc.ai",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Andy AI": {
+      "slug": "andy-ai",
+      "website": "https://with-andy.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Decoda Health": {
+      "slug": "decoda-health",
+      "website": "https://decodahealth.com/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Latent": {
+      "slug": "latent",
+      "website": "https://latenthealth.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Tamarind Bio": {
+      "slug": "tamarind-bio",
+      "website": "https://www.tamarind.bio",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Crimson": {
+      "slug": "crimson",
+      "website": "https://crimson.law",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "SalesPatriot": {
+      "slug": "salespatriot",
+      "website": "https://www.salespatriot.com/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Legora": {
+      "slug": "legora",
+      "website": "https://www.legora.com/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Cartage": {
+      "slug": "cartage",
+      "website": "https://cartage.ai",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Lumari": {
+      "slug": "lumari",
+      "website": "https://www.lumari.io/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Palace": {
+      "slug": "palace",
+      "website": "https://www.palace.so",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Aether": {
+      "slug": "aether",
+      "website": "https://www.tryaether.co/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "ProhostAI": {
+      "slug": "prohostai",
+      "website": "https://www.prohost.ai/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "ZeroPath": {
+      "slug": "zeropath",
+      "website": "https://zeropath.com",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Golf": {
+      "slug": "golf",
+      "website": "https://golf.dev/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Superagent": {
+      "slug": "superagent",
+      "website": "https://superagent.sh/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    },
+    "Unbound": {
+      "slug": "unbound",
+      "website": "https://getunbound.ai/",
+      "http_status": 403,
+      "error": null,
+      "text_bytes": 21,
+      "ok": false
+    }
+  }
+}

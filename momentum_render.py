@@ -1,15 +1,16 @@
 """Build output/momentum.html from data/master.csv.
 
-Magazine-spread aesthetic — denser, multi-column, text-driven.
-Opens with a vocabulary primer (the eight functions of AI, with icons)
-before showing data.
+Magazine-spread aesthetic. Opens with a vocabulary primer (the eight
+functions of AI, with icons) before showing data.
 
 Grows step by step:
-  Step 1 (current):  vocabulary primer + cohort math + density heatmap
-  Step 2 (later):    signal-strength indicators per cell
-  Step 3 (later):    view toggle for funding
-  Step 4 (later):    "Inside Cross-industry" mini-grid
-  Step 5 (later):    insights TL;DR + featured cells
+  Step 1 (done):   vocabulary primer + cohort math + density heatmap
+  Step 2 (current): activity score per company → toggle Density / Activity
+                    in the same heatmap. Section IV now contrasts the two
+                    views.
+  Step 3 (later):   view toggle for funding
+  Step 4 (later):   "Inside Cross-industry" mini-grid
+  Step 5 (later):   insights TL;DR + featured cells
 """
 from __future__ import annotations
 
@@ -44,8 +45,6 @@ FUNCTION_SHORT = {
     "Analytics & Decisioning": "Analytics",
     "Research Lab":            "Research",
 }
-
-# Short, recruiter-readable descriptions. Read like magazine micro-copy.
 FUNCTION_DESCRIPTIONS = {
     "Foundation Models":
         "Companies training the underlying models themselves — GPT-style transformers, multimodal models, specialized LLMs. Few players. Capital-intensive.",
@@ -65,14 +64,14 @@ FUNCTION_DESCRIPTIONS = {
         "Companies positioning as research orgs first, products second. Long-horizon, paper-publishing, often a talent vehicle.",
 }
 
-# Hand-drawn line-icon SVGs. Each is 40×40, stroke="currentColor"
-# so they pick up the accent or text color via CSS.
+
 def _icon(svg_body: str) -> str:
     return (
         '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" '
         'stroke-width="1.5" stroke-linecap="round" '
         f'stroke-linejoin="round" aria-hidden="true">{svg_body}</svg>'
     )
+
 
 FUNCTION_ICONS = {
     "Foundation Models": _icon(
@@ -148,7 +147,6 @@ body {
 .wrap { max-width: 1180px; margin: 0 auto; padding: 64px 36px 96px; }
 
 /* ─── Masthead ──────────────────────────────────────────────────── */
-
 .masthead {
   display: flex; justify-content: space-between; align-items: baseline;
   font-family: 'Geist Mono', monospace;
@@ -159,10 +157,8 @@ body {
   margin-bottom: 56px;
 }
 .masthead .title { color: #1a1612; font-weight: 500; }
-.masthead .issue { font-style: normal; }
 
-/* ─── Hero (two-column with sidebar) ───────────────────────────── */
-
+/* ─── Hero ──────────────────────────────────────────────────────── */
 .hero {
   display: grid;
   grid-template-columns: minmax(0, 8fr) minmax(0, 4fr);
@@ -171,28 +167,24 @@ body {
   padding-bottom: 64px;
   border-bottom: 1px solid #d8cfbe;
 }
-
 .hero h1 {
   font-family: 'Fraunces', Georgia, serif;
   font-weight: 400;
-  font-size: 96px;
-  line-height: 0.95;
+  font-size: 96px; line-height: 0.95;
   letter-spacing: -0.035em;
   margin: 0 0 36px;
   font-variation-settings: 'opsz' 144, 'SOFT' 30;
   color: #1a1612;
 }
 .hero h1 em {
-  font-style: italic;
-  font-weight: 400;
+  font-style: italic; font-weight: 400;
   color: """ + ACCENT + """;
   font-variation-settings: 'opsz' 144, 'SOFT' 100;
 }
 .hero .lede {
   font-family: 'Fraunces', Georgia, serif;
   font-weight: 300;
-  font-size: 22px;
-  line-height: 1.5;
+  font-size: 22px; line-height: 1.5;
   color: #2a241c;
   max-width: 580px;
   margin: 0;
@@ -200,31 +192,21 @@ body {
 .hero .lede::first-letter {
   font-family: 'Fraunces', Georgia, serif;
   font-weight: 500;
-  font-size: 64px;
-  line-height: 0.85;
+  font-size: 64px; line-height: 0.85;
   float: left;
   padding: 6px 12px 0 0;
   color: """ + ACCENT + """;
   font-variation-settings: 'opsz' 144, 'SOFT' 100;
 }
 
-/* sidebar / at-a-glance */
-.glance {
-  border-left: 1px solid #d8cfbe;
-  padding-left: 32px;
-}
+.glance { border-left: 1px solid #d8cfbe; padding-left: 32px; }
 .glance-title {
   font-family: 'Geist Mono', monospace;
-  font-size: 10px;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: #8a7e6c;
-  margin: 0 0 22px;
+  font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase;
+  color: #8a7e6c; margin: 0 0 22px;
 }
 .glance-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
+  display: flex; justify-content: space-between; align-items: baseline;
   padding: 14px 0;
   border-bottom: 1px dotted #d8cfbe;
   gap: 12px;
@@ -232,34 +214,24 @@ body {
 .glance-row:last-child { border-bottom: none; }
 .glance-key {
   font-family: 'Geist Mono', monospace;
-  font-size: 10px;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: #8a7e6c;
-  flex-shrink: 0;
+  font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase;
+  color: #8a7e6c; flex-shrink: 0;
 }
 .glance-val {
   font-family: 'Fraunces', Georgia, serif;
-  font-size: 19px;
-  line-height: 1.1;
-  font-weight: 500;
-  color: #1a1612;
-  text-align: right;
+  font-size: 19px; line-height: 1.1; font-weight: 500;
+  color: #1a1612; text-align: right;
   font-variation-settings: 'opsz' 36;
 }
 .glance-val .accent { color: """ + ACCENT + """; }
 .glance-val small {
   display: block;
   font-family: 'Geist Mono', monospace;
-  font-size: 10px;
-  font-weight: 400;
-  letter-spacing: 0.06em;
-  color: #8a7e6c;
-  margin-top: 4px;
+  font-size: 10px; font-weight: 400; letter-spacing: 0.06em;
+  color: #8a7e6c; margin-top: 4px;
 }
 
-/* ─── Section header ────────────────────────────────────────────── */
-
+/* ─── Sections ──────────────────────────────────────────────────── */
 section { margin-bottom: 88px; }
 .section-head {
   display: grid;
@@ -272,8 +244,7 @@ section { margin-bottom: 88px; }
 }
 .section-num {
   font-family: 'Fraunces', Georgia, serif;
-  font-style: italic;
-  font-weight: 400;
+  font-style: italic; font-weight: 400;
   font-size: 34px;
   color: """ + ACCENT + """;
   font-variation-settings: 'opsz' 144;
@@ -281,111 +252,109 @@ section { margin-bottom: 88px; }
 }
 .section-num .roman {
   font-family: 'Geist Mono', monospace;
-  font-style: normal;
-  font-size: 11px;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: #8a7e6c;
-  margin-right: 14px;
-  vertical-align: middle;
+  font-style: normal; font-size: 11px;
+  letter-spacing: 0.16em; text-transform: uppercase;
+  color: #8a7e6c; margin-right: 14px; vertical-align: middle;
 }
 .section-sub {
   font-family: 'Geist Mono', monospace;
-  font-size: 11px;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: #8a7e6c;
-  text-align: right;
+  font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase;
+  color: #8a7e6c; text-align: right;
 }
 
 /* ─── Vocabulary cards ──────────────────────────────────────────── */
-
 .vocab {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 0;
-  border-top: 1px solid #d8cfbe;
-  border-left: 1px solid #d8cfbe;
+  border-top: 1px solid #d8cfbe; border-left: 1px solid #d8cfbe;
 }
 .vocab-card {
   padding: 28px 22px;
-  border-right: 1px solid #d8cfbe;
-  border-bottom: 1px solid #d8cfbe;
-  display: flex;
-  flex-direction: column;
+  border-right: 1px solid #d8cfbe; border-bottom: 1px solid #d8cfbe;
+  display: flex; flex-direction: column;
   background: #fcfaf5;
 }
-.vocab-icon {
-  color: """ + ACCENT + """;
-  width: 36px;
-  height: 36px;
-  margin-bottom: 18px;
-}
+.vocab-icon { color: """ + ACCENT + """; width: 36px; height: 36px; margin-bottom: 18px; }
 .vocab-icon svg { width: 100%; height: 100%; display: block; }
 .vocab-title {
-  font-family: 'Geist', sans-serif;
-  font-size: 11px;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  font-weight: 600;
-  color: #1a1612;
-  margin: 0 0 4px;
+  font-family: 'Geist', sans-serif; font-size: 11px;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  font-weight: 600; color: #1a1612; margin: 0 0 4px;
 }
 .vocab-count {
   font-family: 'Fraunces', Georgia, serif;
-  font-size: 13px;
-  font-style: italic;
-  color: #8a7e6c;
-  margin-bottom: 14px;
+  font-size: 13px; font-style: italic;
+  color: #8a7e6c; margin-bottom: 14px;
   font-variation-settings: 'opsz' 36;
 }
 .vocab-count b { color: """ + ACCENT + """; font-style: normal; font-weight: 500; }
-.vocab-desc {
-  font-size: 13.5px;
-  line-height: 1.55;
-  color: #3a3128;
-  margin: 0;
-}
+.vocab-desc { font-size: 13.5px; line-height: 1.55; color: #3a3128; margin: 0; }
 
-/* ─── Cohort math (multi-column body) ──────────────────────────── */
-
+/* ─── Cohort math (two-column body) ─────────────────────────────── */
 .math-body {
-  font-size: 16px;
-  line-height: 1.7;
-  color: #2a241c;
-  column-count: 2;
-  column-gap: 48px;
+  font-size: 16px; line-height: 1.7; color: #2a241c;
+  column-count: 2; column-gap: 48px;
   column-rule: 1px solid #d8cfbe;
 }
 .math-body p { margin: 0 0 14px; break-inside: avoid; }
 .math-body p:first-child::first-letter {
-  font-family: 'Fraunces', Georgia, serif;
-  font-weight: 500;
-  font-size: 56px;
-  line-height: 0.85;
-  float: left;
-  padding: 4px 10px 0 0;
+  font-family: 'Fraunces', Georgia, serif; font-weight: 500;
+  font-size: 56px; line-height: 0.85;
+  float: left; padding: 4px 10px 0 0;
   color: """ + ACCENT + """;
   font-variation-settings: 'opsz' 144, 'SOFT' 100;
 }
 .math-body b { color: """ + ACCENT + """; font-weight: 500; }
 
-/* ─── Heatmap ───────────────────────────────────────────────────── */
-
-.heatmap {
-  margin: 8px 0 0;
-  overflow-x: auto;
-  padding: 4px 0;
+/* ─── View toggle (Step 2) ─────────────────────────────────────── */
+.view-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0;
+  margin-bottom: 28px;
+  padding: 5px;
+  background: #fcfaf5;
+  border: 1px solid #d8cfbe;
+  border-radius: 999px;
 }
+.view-chip {
+  font-family: 'Geist Mono', monospace;
+  font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase;
+  color: #8a7e6c; font-weight: 500;
+  padding: 9px 18px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  border-radius: 999px;
+  transition: all 0.18s ease;
+}
+.view-chip[aria-pressed="true"] {
+  background: #1a1612;
+  color: #faf7f2;
+}
+.view-chip[disabled] { opacity: 0.35; cursor: not-allowed; }
+.view-chip:hover:not([disabled]):not([aria-pressed="true"]) { color: """ + ACCENT + """; }
+
+.view-explain {
+  font-family: 'Fraunces', Georgia, serif;
+  font-style: italic; font-weight: 300;
+  font-size: 17px;
+  color: #3a3128;
+  margin: 0 0 24px;
+  max-width: 720px;
+}
+.view-explain b { font-style: normal; font-weight: 500; color: """ + ACCENT + """; }
+
+/* ─── Heatmap ───────────────────────────────────────────────────── */
+.heatmap { margin: 8px 0 0; overflow-x: auto; padding: 4px 0; }
+.heatmap.hidden { display: none; }
 .heatmap svg { display: block; min-width: 720px; }
 .heatmap-caption {
-  margin-top: 24px;
-  padding-top: 16px;
+  margin-top: 24px; padding-top: 16px;
   border-top: 1px dotted #d8cfbe;
   display: flex; gap: 28px; flex-wrap: wrap; align-items: center;
   font-family: 'Geist Mono', monospace;
-  font-size: 11px;
-  letter-spacing: 0.04em;
+  font-size: 11px; letter-spacing: 0.04em;
   color: #8a7e6c;
 }
 .swatch {
@@ -396,35 +365,28 @@ section { margin-bottom: 88px; }
 .swatch-row { display: inline-flex; align-items: center; gap: 4px; }
 
 /* ─── Pull quote ────────────────────────────────────────────────── */
-
 .pullquote {
   margin: 40px 0;
   padding-left: 28px;
   border-left: 3px solid """ + ACCENT + """;
   font-family: 'Fraunces', Georgia, serif;
-  font-style: italic;
-  font-weight: 300;
-  font-size: 22px;
-  line-height: 1.4;
+  font-style: italic; font-weight: 300;
+  font-size: 22px; line-height: 1.4;
   color: #2a241c;
   max-width: 660px;
 }
 
 /* ─── Footer ────────────────────────────────────────────────────── */
-
 footer {
-  margin-top: 80px;
-  padding-top: 24px;
+  margin-top: 80px; padding-top: 24px;
   border-top: 1px solid #1a1612;
   font-family: 'Geist Mono', monospace;
-  font-size: 11px;
-  letter-spacing: 0.04em;
+  font-size: 11px; letter-spacing: 0.04em;
   color: #8a7e6c;
   display: flex; justify-content: space-between;
 }
 
 /* ─── Responsive ────────────────────────────────────────────────── */
-
 @media (max-width: 880px) {
   .hero { grid-template-columns: 1fr; gap: 36px; }
   .glance { border-left: none; border-top: 1px solid #d8cfbe; padding: 28px 0 0; }
@@ -442,18 +404,39 @@ def load_master() -> list[dict]:
         return list(csv.DictReader(f))
 
 
-def density_heatmap_svg(rows: list[dict]) -> str:
-    matrix: dict[tuple[str, str], int] = defaultdict(int)
+def cell_aggregates(rows: list[dict]) -> tuple[dict, dict, dict, dict]:
+    """Return (count_per_cell, mean_activity_per_cell, sector_n, func_n)."""
+    by_cell: dict[tuple[str, str], list[float]] = defaultdict(list)
     sector_n: Counter[str] = Counter()
     func_n: Counter[str] = Counter()
     for r in rows:
         s = (r.get("sector") or "—").strip()
         f = (r.get("functionality") or "—").strip()
-        matrix[(s, f)] += 1
+        score = float(r.get("activity_score") or 0)
+        by_cell[(s, f)].append(score)
         sector_n[s] += 1
         func_n[f] += 1
+    count = {k: len(v) for k, v in by_cell.items()}
+    mean_act = {k: round(sum(v) / len(v), 1) for k, v in by_cell.items()}
+    return count, mean_act, dict(sector_n), dict(func_n)
 
-    sectors = [s for s, _ in sector_n.most_common() if s != "—"]
+
+def heatmap_svg(
+    *, view_id: str, value_map: dict, count_map: dict,
+    sector_n: dict, func_n: dict,
+    max_value: float,
+    cell_label_fn,
+    low_n_dim: bool = False,
+) -> str:
+    """Render a heatmap SVG.
+
+    view_id:        unique id for the <svg> (e.g. "hm-density-svg")
+    value_map:      (sector, function) → numeric value driving opacity
+    count_map:      (sector, function) → company count (for tooltip / N label)
+    cell_label_fn:  (value, count) → string to show inside the tile
+    low_n_dim:      if True, dim cells where count < 3 (for activity view)
+    """
+    sectors = [s for s, n in sorted(sector_n.items(), key=lambda kv: -kv[1])]
     functions = [f for f in FUNCTION_ORDER if func_n.get(f, 0) > 0]
     if not sectors or not functions:
         return "<p>No data.</p>"
@@ -465,10 +448,9 @@ def density_heatmap_svg(rows: list[dict]) -> str:
     cols, rows_n = len(functions), len(sectors)
     width = pad_left + cols * (tile_w + gap) - gap + 24
     height = pad_top + rows_n * (tile_h + gap) - gap + 16
-    cell_max = max(matrix.values()) or 1
 
     parts: list[str] = [
-        f'<svg viewBox="0 0 {width} {height}" width="100%" '
+        f'<svg id="{view_id}" viewBox="0 0 {width} {height}" width="100%" '
         f'preserveAspectRatio="xMinYMin meet" xmlns="http://www.w3.org/2000/svg">'
     ]
 
@@ -486,7 +468,6 @@ def density_heatmap_svg(rows: list[dict]) -> str:
             f'font-style="italic" fill="#1a1612">{func_n[f]}</text>'
         )
 
-    # Hairline between header and grid
     parts.append(
         f'<line x1="{pad_left - 16}" y1="{pad_top - 8}" '
         f'x2="{width - 12}" y2="{pad_top - 8}" '
@@ -506,25 +487,59 @@ def density_heatmap_svg(rows: list[dict]) -> str:
 
         for j, f in enumerate(functions):
             x = pad_left + j * (tile_w + gap)
-            cnt = matrix.get((s, f), 0)
             cx = x + tile_w / 2
             cy = y + tile_h / 2
-            if cnt == 0:
+
+            n = count_map.get((s, f), 0)
+            val = value_map.get((s, f), 0)
+
+            if n == 0:
                 parts.append(f'<circle cx="{cx}" cy="{cy}" r="1.5" fill="#d8cfbe"/>')
                 continue
-            alpha = 0.10 + 0.80 * math.sqrt(cnt / cell_max)
+
+            alpha = 0.10 + 0.80 * math.sqrt(max(0, val) / max_value) if max_value else 0.10
+            if low_n_dim and n < 3:
+                alpha *= 0.5  # de-emphasize 1-2-company cells in activity view
             text_color = "#fff" if alpha >= 0.55 else "#1a1612"
+
+            label = cell_label_fn(val, n)
+            stroke = f"{ACCENT}" if not (low_n_dim and n < 3) else "#a0958a"
+            dash = ' stroke-dasharray="2 2"' if (low_n_dim and n < 3) else ''
             parts.append(
                 f'<rect x="{x}" y="{y}" width="{tile_w}" height="{tile_h}" '
-                f'rx="2" fill="{ACCENT}" fill-opacity="{alpha:.3f}">'
-                f'<title>{html.escape(s)} · {html.escape(f)}: {cnt}</title></rect>'
+                f'rx="2" fill="{ACCENT}" fill-opacity="{alpha:.3f}" '
+                f'stroke="{stroke}" stroke-opacity="0.25" stroke-width="1"{dash}>'
+                f'<title>{html.escape(s)} · {html.escape(f)}: N={n}, value={val}</title></rect>'
                 f'<text x="{cx}" y="{cy + 8}" text-anchor="middle" '
                 f'font-family="Fraunces, Georgia, serif" font-size="26" '
-                f'font-weight="500" fill="{text_color}">{cnt}</text>'
+                f'font-weight="500" fill="{text_color}">{label}</text>'
             )
 
     parts.append("</svg>")
     return "".join(parts)
+
+
+JS = """
+(function() {
+  function setView(view) {
+    document.querySelectorAll('.heatmap').forEach(function(h) {
+      h.classList.toggle('hidden', h.dataset.view !== view);
+    });
+    document.querySelectorAll('.view-chip').forEach(function(c) {
+      c.setAttribute('aria-pressed', String(c.dataset.view === view));
+    });
+    document.querySelectorAll('.view-explain').forEach(function(e) {
+      e.style.display = (e.dataset.view === view) ? 'block' : 'none';
+    });
+    document.querySelectorAll('.view-caption').forEach(function(e) {
+      e.style.display = (e.dataset.view === view) ? 'flex' : 'none';
+    });
+  }
+  document.querySelectorAll('.view-chip').forEach(function(c) {
+    c.addEventListener('click', function() { setView(c.dataset.view); });
+  });
+})();
+"""
 
 
 def render(rows: list[dict]) -> str:
@@ -532,16 +547,37 @@ def render(rows: list[dict]) -> str:
     fy: Counter[str] = Counter()
     for r in rows:
         fy[r.get("founded_year", "?")] += 1
-    sector_n: Counter[str] = Counter((r.get("sector") or "—").strip() for r in rows)
-    func_n: Counter[str] = Counter((r.get("functionality") or "—").strip() for r in rows)
-    matrix: dict[tuple[str, str], int] = defaultdict(int)
-    for r in rows:
-        matrix[((r.get("sector") or "—"), (r.get("functionality") or "—"))] += 1
-    top_cell, top_cell_n = max(matrix.items(), key=lambda kv: kv[1])
-    top_cell_label = f"{top_cell[0]} × {top_cell[1]}"
+
+    count_map, activity_map, sector_n, func_n = cell_aggregates(rows)
+    sector_n_counter = Counter(sector_n)
+
+    # For headline meta
+    top_cell, top_cell_n = max(count_map.items(), key=lambda kv: kv[1])
+    top_act_cell, top_act_val = max(
+        ((k, v) for k, v in activity_map.items() if count_map[k] >= 3),
+        key=lambda kv: kv[1],
+    )
     cross_n = sector_n.get("Cross-industry", 0)
     today = date.today().isoformat()
-    heatmap = density_heatmap_svg(rows)
+    fy_str = ", ".join(f"{y}·{c}" for y, c in sorted(fy.items()))
+
+    # Heatmaps
+    density_svg = heatmap_svg(
+        view_id="hm-density-svg",
+        value_map=count_map, count_map=count_map,
+        sector_n=sector_n, func_n=func_n,
+        max_value=max(count_map.values()),
+        cell_label_fn=lambda v, n: str(int(v)),
+        low_n_dim=False,
+    )
+    activity_svg = heatmap_svg(
+        view_id="hm-activity-svg",
+        value_map=activity_map, count_map=count_map,
+        sector_n=sector_n, func_n=func_n,
+        max_value=100.0,
+        cell_label_fn=lambda v, n: str(int(round(v))),
+        low_n_dim=True,
+    )
 
     # Vocabulary cards
     vocab_cards: list[str] = []
@@ -558,12 +594,10 @@ def render(rows: list[dict]) -> str:
         )
     vocab_html = "\n".join(vocab_cards)
 
-    fy_str = ", ".join(f"{y}·{c}" for y, c in sorted(fy.items()))
-
     body = f"""
 <div class="masthead">
   <span class="title">YC AI Momentum Heatmap</span>
-  <span class="issue">Issue 01 · {today} · Step 1 of 6</span>
+  <span>Issue 01 · {today} · Step 2 of 6</span>
 </div>
 
 <header class="hero">
@@ -584,10 +618,10 @@ def render(rows: list[dict]) -> str:
       <span class="glance-val">2023–25<small>{html.escape(fy_str)}</small></span></div>
     <div class="glance-row"><span class="glance-key">Densest cell</span>
       <span class="glance-val">{html.escape(top_cell[0])}<small>× {html.escape(top_cell[1])} · {top_cell_n}</small></span></div>
+    <div class="glance-row"><span class="glance-key">Hottest cell</span>
+      <span class="glance-val">{html.escape(top_act_cell[0])}<small>× {html.escape(top_act_cell[1])} · avg act. {top_act_val:.0f}</small></span></div>
     <div class="glance-row"><span class="glance-key">Cross-industry</span>
       <span class="glance-val">{cross_n}<small>of {n} ({cross_n / n * 100:.0f}%)</small></span></div>
-    <div class="glance-row"><span class="glance-key">Built</span>
-      <span class="glance-val" style="font-size:14px">{today}<small>step 1 / 6</small></span></div>
   </aside>
 </header>
 
@@ -632,13 +666,38 @@ def render(rows: list[dict]) -> str:
 
 <section>
   <div class="section-head">
-    <h2 class="section-num"><span class="roman">IV</span>Density.</h2>
-    <p class="section-sub">Where the companies are · count by cell</p>
+    <h2 class="section-num"><span class="roman">IV</span>The heatmap.</h2>
+    <p class="section-sub">Density vs activity · two views, same grid</p>
   </div>
-  <div class="heatmap">
-    {heatmap}
+
+  <div class="view-toggle" role="tablist" aria-label="Heatmap view">
+    <button class="view-chip" data-view="density" aria-pressed="true">Density</button>
+    <button class="view-chip" data-view="activity" aria-pressed="false">Activity</button>
+    <button class="view-chip" data-view="funding" aria-pressed="false" disabled title="Step 3">Funding</button>
+    <button class="view-chip" data-view="recency" aria-pressed="false" disabled title="Step 5">Recency</button>
   </div>
-  <div class="heatmap-caption">
+
+  <p class="view-explain" data-view="density" style="display:block">
+    <b>Density</b> — how many companies sit in each (sector × functionality) cell.
+    Color saturation grows with count. The largest cell is
+    {html.escape(top_cell[0])} × {html.escape(top_cell[1])} at {top_cell_n}.
+  </p>
+  <p class="view-explain" data-view="activity" style="display:none">
+    <b>Activity</b> — average <i>momentum score</i> of the companies in each cell,
+    on a 0–100 scale. Driven by recent press, hiring, fresh website, blog cadence,
+    and GitHub commits. Cells with fewer than 3 companies are <i>dashed and dimmed</i>
+    because a single outlier can dominate. Hottest by activity:
+    {html.escape(top_act_cell[0])} × {html.escape(top_act_cell[1])} at {top_act_val:.0f}.
+  </p>
+
+  <div class="heatmap" data-view="density">
+    {density_svg}
+  </div>
+  <div class="heatmap hidden" data-view="activity">
+    {activity_svg}
+  </div>
+
+  <div class="view-caption heatmap-caption" data-view="density" style="display:flex">
     <span class="swatch-row">
       <span class="swatch" style="background:{ACCENT};opacity:0.10"></span>
       <span class="swatch" style="background:{ACCENT};opacity:0.35"></span>
@@ -649,25 +708,36 @@ def render(rows: list[dict]) -> str:
     <span>· empty cells: dots</span>
     <span>· numbers: company counts</span>
   </div>
+  <div class="view-caption heatmap-caption" data-view="activity" style="display:none">
+    <span class="swatch-row">
+      <span class="swatch" style="background:{ACCENT};opacity:0.10"></span>
+      <span class="swatch" style="background:{ACCENT};opacity:0.35"></span>
+      <span class="swatch" style="background:{ACCENT};opacity:0.70"></span>
+      <span class="swatch" style="background:{ACCENT};opacity:0.95"></span>
+      <span>quieter ←→ hotter</span>
+    </span>
+    <span>· numbers: 0–100 mean momentum</span>
+    <span>· dashed: N&lt;3 (low confidence)</span>
+  </div>
 </section>
 
 <section>
   <div class="section-head">
     <h2 class="section-num"><span class="roman">V</span>What's next.</h2>
-    <p class="section-sub">Step 2 of 6 · activity layer</p>
+    <p class="section-sub">Step 3 of 6 · funding layer</p>
   </div>
   <p class="pullquote">
     Cross-industry is still the largest row at {cross_n} of {n} —
-    Step 4 cracks that open. Step 2 layers signal-strength onto each
-    tile so the same grid starts showing how <em>active</em>, not just
-    how <em>many</em>. Step 3 adds funding. Step 5 surfaces problem
-    themes.
+    Step 4 cracks that open into sub-sectors. Step 3 next: fill the
+    funding column and add a third view to this toggle. Step 5
+    surfaces problem themes and pulls findings up to the top of this
+    page.
   </p>
 </section>
 
 <footer>
   <span>YC AI Momentum Heatmap</span>
-  <span>Cohort {today} · 144 companies · Step 1 of 6</span>
+  <span>Cohort {today} · {n} companies · Step 2 of 6</span>
 </footer>
 """
 
@@ -683,6 +753,7 @@ def render(rows: list[dict]) -> str:
 <main class="wrap">
 {body}
 </main>
+<script>{JS}</script>
 </body>
 </html>"""
 

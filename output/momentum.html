@@ -23,7 +23,6 @@ body {
 .wrap { max-width: 1180px; margin: 0 auto; padding: 64px 36px 96px; }
 
 /* ─── Masthead ──────────────────────────────────────────────────── */
-
 .masthead {
   display: flex; justify-content: space-between; align-items: baseline;
   font-family: 'Geist Mono', monospace;
@@ -34,10 +33,8 @@ body {
   margin-bottom: 56px;
 }
 .masthead .title { color: #1a1612; font-weight: 500; }
-.masthead .issue { font-style: normal; }
 
-/* ─── Hero (two-column with sidebar) ───────────────────────────── */
-
+/* ─── Hero ──────────────────────────────────────────────────────── */
 .hero {
   display: grid;
   grid-template-columns: minmax(0, 8fr) minmax(0, 4fr);
@@ -46,28 +43,24 @@ body {
   padding-bottom: 64px;
   border-bottom: 1px solid #d8cfbe;
 }
-
 .hero h1 {
   font-family: 'Fraunces', Georgia, serif;
   font-weight: 400;
-  font-size: 96px;
-  line-height: 0.95;
+  font-size: 96px; line-height: 0.95;
   letter-spacing: -0.035em;
   margin: 0 0 36px;
   font-variation-settings: 'opsz' 144, 'SOFT' 30;
   color: #1a1612;
 }
 .hero h1 em {
-  font-style: italic;
-  font-weight: 400;
+  font-style: italic; font-weight: 400;
   color: #C24A2C;
   font-variation-settings: 'opsz' 144, 'SOFT' 100;
 }
 .hero .lede {
   font-family: 'Fraunces', Georgia, serif;
   font-weight: 300;
-  font-size: 22px;
-  line-height: 1.5;
+  font-size: 22px; line-height: 1.5;
   color: #2a241c;
   max-width: 580px;
   margin: 0;
@@ -75,31 +68,21 @@ body {
 .hero .lede::first-letter {
   font-family: 'Fraunces', Georgia, serif;
   font-weight: 500;
-  font-size: 64px;
-  line-height: 0.85;
+  font-size: 64px; line-height: 0.85;
   float: left;
   padding: 6px 12px 0 0;
   color: #C24A2C;
   font-variation-settings: 'opsz' 144, 'SOFT' 100;
 }
 
-/* sidebar / at-a-glance */
-.glance {
-  border-left: 1px solid #d8cfbe;
-  padding-left: 32px;
-}
+.glance { border-left: 1px solid #d8cfbe; padding-left: 32px; }
 .glance-title {
   font-family: 'Geist Mono', monospace;
-  font-size: 10px;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: #8a7e6c;
-  margin: 0 0 22px;
+  font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase;
+  color: #8a7e6c; margin: 0 0 22px;
 }
 .glance-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
+  display: flex; justify-content: space-between; align-items: baseline;
   padding: 14px 0;
   border-bottom: 1px dotted #d8cfbe;
   gap: 12px;
@@ -107,34 +90,24 @@ body {
 .glance-row:last-child { border-bottom: none; }
 .glance-key {
   font-family: 'Geist Mono', monospace;
-  font-size: 10px;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: #8a7e6c;
-  flex-shrink: 0;
+  font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase;
+  color: #8a7e6c; flex-shrink: 0;
 }
 .glance-val {
   font-family: 'Fraunces', Georgia, serif;
-  font-size: 19px;
-  line-height: 1.1;
-  font-weight: 500;
-  color: #1a1612;
-  text-align: right;
+  font-size: 19px; line-height: 1.1; font-weight: 500;
+  color: #1a1612; text-align: right;
   font-variation-settings: 'opsz' 36;
 }
 .glance-val .accent { color: #C24A2C; }
 .glance-val small {
   display: block;
   font-family: 'Geist Mono', monospace;
-  font-size: 10px;
-  font-weight: 400;
-  letter-spacing: 0.06em;
-  color: #8a7e6c;
-  margin-top: 4px;
+  font-size: 10px; font-weight: 400; letter-spacing: 0.06em;
+  color: #8a7e6c; margin-top: 4px;
 }
 
-/* ─── Section header ────────────────────────────────────────────── */
-
+/* ─── Sections ──────────────────────────────────────────────────── */
 section { margin-bottom: 88px; }
 .section-head {
   display: grid;
@@ -147,8 +120,7 @@ section { margin-bottom: 88px; }
 }
 .section-num {
   font-family: 'Fraunces', Georgia, serif;
-  font-style: italic;
-  font-weight: 400;
+  font-style: italic; font-weight: 400;
   font-size: 34px;
   color: #C24A2C;
   font-variation-settings: 'opsz' 144;
@@ -156,111 +128,109 @@ section { margin-bottom: 88px; }
 }
 .section-num .roman {
   font-family: 'Geist Mono', monospace;
-  font-style: normal;
-  font-size: 11px;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: #8a7e6c;
-  margin-right: 14px;
-  vertical-align: middle;
+  font-style: normal; font-size: 11px;
+  letter-spacing: 0.16em; text-transform: uppercase;
+  color: #8a7e6c; margin-right: 14px; vertical-align: middle;
 }
 .section-sub {
   font-family: 'Geist Mono', monospace;
-  font-size: 11px;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: #8a7e6c;
-  text-align: right;
+  font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase;
+  color: #8a7e6c; text-align: right;
 }
 
 /* ─── Vocabulary cards ──────────────────────────────────────────── */
-
 .vocab {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 0;
-  border-top: 1px solid #d8cfbe;
-  border-left: 1px solid #d8cfbe;
+  border-top: 1px solid #d8cfbe; border-left: 1px solid #d8cfbe;
 }
 .vocab-card {
   padding: 28px 22px;
-  border-right: 1px solid #d8cfbe;
-  border-bottom: 1px solid #d8cfbe;
-  display: flex;
-  flex-direction: column;
+  border-right: 1px solid #d8cfbe; border-bottom: 1px solid #d8cfbe;
+  display: flex; flex-direction: column;
   background: #fcfaf5;
 }
-.vocab-icon {
-  color: #C24A2C;
-  width: 36px;
-  height: 36px;
-  margin-bottom: 18px;
-}
+.vocab-icon { color: #C24A2C; width: 36px; height: 36px; margin-bottom: 18px; }
 .vocab-icon svg { width: 100%; height: 100%; display: block; }
 .vocab-title {
-  font-family: 'Geist', sans-serif;
-  font-size: 11px;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  font-weight: 600;
-  color: #1a1612;
-  margin: 0 0 4px;
+  font-family: 'Geist', sans-serif; font-size: 11px;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  font-weight: 600; color: #1a1612; margin: 0 0 4px;
 }
 .vocab-count {
   font-family: 'Fraunces', Georgia, serif;
-  font-size: 13px;
-  font-style: italic;
-  color: #8a7e6c;
-  margin-bottom: 14px;
+  font-size: 13px; font-style: italic;
+  color: #8a7e6c; margin-bottom: 14px;
   font-variation-settings: 'opsz' 36;
 }
 .vocab-count b { color: #C24A2C; font-style: normal; font-weight: 500; }
-.vocab-desc {
-  font-size: 13.5px;
-  line-height: 1.55;
-  color: #3a3128;
-  margin: 0;
-}
+.vocab-desc { font-size: 13.5px; line-height: 1.55; color: #3a3128; margin: 0; }
 
-/* ─── Cohort math (multi-column body) ──────────────────────────── */
-
+/* ─── Cohort math (two-column body) ─────────────────────────────── */
 .math-body {
-  font-size: 16px;
-  line-height: 1.7;
-  color: #2a241c;
-  column-count: 2;
-  column-gap: 48px;
+  font-size: 16px; line-height: 1.7; color: #2a241c;
+  column-count: 2; column-gap: 48px;
   column-rule: 1px solid #d8cfbe;
 }
 .math-body p { margin: 0 0 14px; break-inside: avoid; }
 .math-body p:first-child::first-letter {
-  font-family: 'Fraunces', Georgia, serif;
-  font-weight: 500;
-  font-size: 56px;
-  line-height: 0.85;
-  float: left;
-  padding: 4px 10px 0 0;
+  font-family: 'Fraunces', Georgia, serif; font-weight: 500;
+  font-size: 56px; line-height: 0.85;
+  float: left; padding: 4px 10px 0 0;
   color: #C24A2C;
   font-variation-settings: 'opsz' 144, 'SOFT' 100;
 }
 .math-body b { color: #C24A2C; font-weight: 500; }
 
-/* ─── Heatmap ───────────────────────────────────────────────────── */
-
-.heatmap {
-  margin: 8px 0 0;
-  overflow-x: auto;
-  padding: 4px 0;
+/* ─── View toggle (Step 2) ─────────────────────────────────────── */
+.view-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0;
+  margin-bottom: 28px;
+  padding: 5px;
+  background: #fcfaf5;
+  border: 1px solid #d8cfbe;
+  border-radius: 999px;
 }
+.view-chip {
+  font-family: 'Geist Mono', monospace;
+  font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase;
+  color: #8a7e6c; font-weight: 500;
+  padding: 9px 18px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  border-radius: 999px;
+  transition: all 0.18s ease;
+}
+.view-chip[aria-pressed="true"] {
+  background: #1a1612;
+  color: #faf7f2;
+}
+.view-chip[disabled] { opacity: 0.35; cursor: not-allowed; }
+.view-chip:hover:not([disabled]):not([aria-pressed="true"]) { color: #C24A2C; }
+
+.view-explain {
+  font-family: 'Fraunces', Georgia, serif;
+  font-style: italic; font-weight: 300;
+  font-size: 17px;
+  color: #3a3128;
+  margin: 0 0 24px;
+  max-width: 720px;
+}
+.view-explain b { font-style: normal; font-weight: 500; color: #C24A2C; }
+
+/* ─── Heatmap ───────────────────────────────────────────────────── */
+.heatmap { margin: 8px 0 0; overflow-x: auto; padding: 4px 0; }
+.heatmap.hidden { display: none; }
 .heatmap svg { display: block; min-width: 720px; }
 .heatmap-caption {
-  margin-top: 24px;
-  padding-top: 16px;
+  margin-top: 24px; padding-top: 16px;
   border-top: 1px dotted #d8cfbe;
   display: flex; gap: 28px; flex-wrap: wrap; align-items: center;
   font-family: 'Geist Mono', monospace;
-  font-size: 11px;
-  letter-spacing: 0.04em;
+  font-size: 11px; letter-spacing: 0.04em;
   color: #8a7e6c;
 }
 .swatch {
@@ -271,35 +241,28 @@ section { margin-bottom: 88px; }
 .swatch-row { display: inline-flex; align-items: center; gap: 4px; }
 
 /* ─── Pull quote ────────────────────────────────────────────────── */
-
 .pullquote {
   margin: 40px 0;
   padding-left: 28px;
   border-left: 3px solid #C24A2C;
   font-family: 'Fraunces', Georgia, serif;
-  font-style: italic;
-  font-weight: 300;
-  font-size: 22px;
-  line-height: 1.4;
+  font-style: italic; font-weight: 300;
+  font-size: 22px; line-height: 1.4;
   color: #2a241c;
   max-width: 660px;
 }
 
 /* ─── Footer ────────────────────────────────────────────────────── */
-
 footer {
-  margin-top: 80px;
-  padding-top: 24px;
+  margin-top: 80px; padding-top: 24px;
   border-top: 1px solid #1a1612;
   font-family: 'Geist Mono', monospace;
-  font-size: 11px;
-  letter-spacing: 0.04em;
+  font-size: 11px; letter-spacing: 0.04em;
   color: #8a7e6c;
   display: flex; justify-content: space-between;
 }
 
 /* ─── Responsive ────────────────────────────────────────────────── */
-
 @media (max-width: 880px) {
   .hero { grid-template-columns: 1fr; gap: 36px; }
   .glance { border-left: none; border-top: 1px solid #d8cfbe; padding: 28px 0 0; }
@@ -316,7 +279,7 @@ footer {
 
 <div class="masthead">
   <span class="title">YC AI Momentum Heatmap</span>
-  <span class="issue">Issue 01 · 2026-06-04 · Step 1 of 6</span>
+  <span>Issue 01 · 2026-06-04 · Step 2 of 6</span>
 </div>
 
 <header class="hero">
@@ -337,10 +300,10 @@ footer {
       <span class="glance-val">2023–25<small>2023·43, 2024·48, 2025·53</small></span></div>
     <div class="glance-row"><span class="glance-key">Densest cell</span>
       <span class="glance-val">Cross-industry<small>× AI Agent · 20</small></span></div>
+    <div class="glance-row"><span class="glance-key">Hottest cell</span>
+      <span class="glance-val">Cross-industry<small>× Foundation Models · avg act. 81</small></span></div>
     <div class="glance-row"><span class="glance-key">Cross-industry</span>
       <span class="glance-val">65<small>of 144 (45%)</small></span></div>
-    <div class="glance-row"><span class="glance-key">Built</span>
-      <span class="glance-val" style="font-size:14px">2026-06-04<small>step 1 / 6</small></span></div>
   </aside>
 </header>
 
@@ -392,13 +355,38 @@ footer {
 
 <section>
   <div class="section-head">
-    <h2 class="section-num"><span class="roman">IV</span>Density.</h2>
-    <p class="section-sub">Where the companies are · count by cell</p>
+    <h2 class="section-num"><span class="roman">IV</span>The heatmap.</h2>
+    <p class="section-sub">Density vs activity · two views, same grid</p>
   </div>
-  <div class="heatmap">
-    <svg viewBox="0 0 1056 1120" width="100%" preserveAspectRatio="xMinYMin meet" xmlns="http://www.w3.org/2000/svg"><text x="239.0" y="52" text-anchor="middle" font-family="Geist Mono, monospace" font-size="10" fill="#8a7e6c" letter-spacing="0.5">FOUNDATION</text><text x="239.0" y="70" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="14" font-style="italic" fill="#1a1612">6</text><text x="345.0" y="52" text-anchor="middle" font-family="Geist Mono, monospace" font-size="10" fill="#8a7e6c" letter-spacing="0.5">ML INFRA</text><text x="345.0" y="70" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="14" font-style="italic" fill="#1a1612">14</text><text x="451.0" y="52" text-anchor="middle" font-family="Geist Mono, monospace" font-size="10" fill="#8a7e6c" letter-spacing="0.5">DATA INFRA</text><text x="451.0" y="70" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="14" font-style="italic" fill="#1a1612">12</text><text x="557.0" y="52" text-anchor="middle" font-family="Geist Mono, monospace" font-size="10" fill="#8a7e6c" letter-spacing="0.5">AGENT</text><text x="557.0" y="70" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="14" font-style="italic" fill="#1a1612">60</text><text x="663.0" y="52" text-anchor="middle" font-family="Geist Mono, monospace" font-size="10" fill="#8a7e6c" letter-spacing="0.5">COPILOT</text><text x="663.0" y="70" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="14" font-style="italic" fill="#1a1612">19</text><text x="769.0" y="52" text-anchor="middle" font-family="Geist Mono, monospace" font-size="10" fill="#8a7e6c" letter-spacing="0.5">GENERATIVE</text><text x="769.0" y="70" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="14" font-style="italic" fill="#1a1612">15</text><text x="875.0" y="52" text-anchor="middle" font-family="Geist Mono, monospace" font-size="10" fill="#8a7e6c" letter-spacing="0.5">ANALYTICS</text><text x="875.0" y="70" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="14" font-style="italic" fill="#1a1612">17</text><text x="981.0" y="52" text-anchor="middle" font-family="Geist Mono, monospace" font-size="10" fill="#8a7e6c" letter-spacing="0.5">RESEARCH</text><text x="981.0" y="70" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="14" font-style="italic" fill="#1a1612">1</text><line x1="172" y1="80" x2="1044" y2="80" stroke="#1a1612" stroke-width="1"/><text x="170" y="118.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">Cross-industry</text><text x="170" y="134.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=65</text><rect x="188" y="88" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.458"><title>Cross-industry · Foundation Models: 4</title></rect><text x="239.0" y="128.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">4</text><rect x="294" y="88" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.693"><title>Cross-industry · ML Infrastructure: 11</title></rect><text x="345.0" y="128.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#fff">11</text><rect x="400" y="88" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.637"><title>Cross-industry · Data Infrastructure: 9</title></rect><text x="451.0" y="128.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#fff">9</text><rect x="506" y="88" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.900"><title>Cross-industry · AI Agent: 20</title></rect><text x="557.0" y="128.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#fff">20</text><rect x="612" y="88" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.500"><title>Cross-industry · Copilot / Assistant: 5</title></rect><text x="663.0" y="128.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">5</text><rect x="718" y="88" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.637"><title>Cross-industry · Generative Product: 9</title></rect><text x="769.0" y="128.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#fff">9</text><rect x="824" y="88" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.538"><title>Cross-industry · Analytics &amp; Decisioning: 6</title></rect><text x="875.0" y="128.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">6</text><rect x="930" y="88" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279"><title>Cross-industry · Research Lab: 1</title></rect><text x="981.0" y="128.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><text x="170" y="186.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">Finance</text><text x="170" y="202.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=18</text><circle cx="239.0" cy="188.0" r="1.5" fill="#d8cfbe"/><circle cx="345.0" cy="188.0" r="1.5" fill="#d8cfbe"/><circle cx="451.0" cy="188.0" r="1.5" fill="#d8cfbe"/><rect x="506" y="156" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.693"><title>Finance · AI Agent: 11</title></rect><text x="557.0" y="196.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#fff">11</text><rect x="612" y="156" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.458"><title>Finance · Copilot / Assistant: 4</title></rect><text x="663.0" y="196.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">4</text><circle cx="769.0" cy="188.0" r="1.5" fill="#d8cfbe"/><rect x="824" y="156" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.410"><title>Finance · Analytics &amp; Decisioning: 3</title></rect><text x="875.0" y="196.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">3</text><circle cx="981.0" cy="188.0" r="1.5" fill="#d8cfbe"/><text x="170" y="254.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">Consumer</text><text x="170" y="270.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=10</text><circle cx="239.0" cy="256.0" r="1.5" fill="#d8cfbe"/><circle cx="345.0" cy="256.0" r="1.5" fill="#d8cfbe"/><rect x="400" y="224" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279"><title>Consumer · Data Infrastructure: 1</title></rect><text x="451.0" y="264.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><rect x="506" y="224" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279"><title>Consumer · AI Agent: 1</title></rect><text x="557.0" y="264.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><rect x="612" y="224" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.410"><title>Consumer · Copilot / Assistant: 3</title></rect><text x="663.0" y="264.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">3</text><rect x="718" y="224" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.458"><title>Consumer · Generative Product: 4</title></rect><text x="769.0" y="264.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">4</text><rect x="824" y="224" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279"><title>Consumer · Analytics &amp; Decisioning: 1</title></rect><text x="875.0" y="264.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><circle cx="981.0" cy="256.0" r="1.5" fill="#d8cfbe"/><text x="170" y="322.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">Healthcare</text><text x="170" y="338.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=10</text><rect x="188" y="292" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279"><title>Healthcare · Foundation Models: 1</title></rect><text x="239.0" y="332.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><rect x="294" y="292" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279"><title>Healthcare · ML Infrastructure: 1</title></rect><text x="345.0" y="332.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><circle cx="451.0" cy="324.0" r="1.5" fill="#d8cfbe"/><rect x="506" y="292" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.500"><title>Healthcare · AI Agent: 5</title></rect><text x="557.0" y="332.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">5</text><rect x="612" y="292" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.353"><title>Healthcare · Copilot / Assistant: 2</title></rect><text x="663.0" y="332.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">2</text><circle cx="769.0" cy="324.0" r="1.5" fill="#d8cfbe"/><rect x="824" y="292" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279"><title>Healthcare · Analytics &amp; Decisioning: 1</title></rect><text x="875.0" y="332.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><circle cx="981.0" cy="324.0" r="1.5" fill="#d8cfbe"/><text x="170" y="390.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">Customer Support</text><text x="170" y="406.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=9</text><circle cx="239.0" cy="392.0" r="1.5" fill="#d8cfbe"/><circle cx="345.0" cy="392.0" r="1.5" fill="#d8cfbe"/><circle cx="451.0" cy="392.0" r="1.5" fill="#d8cfbe"/><rect x="506" y="360" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.637"><title>Customer Support · AI Agent: 9</title></rect><text x="557.0" y="400.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#fff">9</text><circle cx="663.0" cy="392.0" r="1.5" fill="#d8cfbe"/><circle cx="769.0" cy="392.0" r="1.5" fill="#d8cfbe"/><circle cx="875.0" cy="392.0" r="1.5" fill="#d8cfbe"/><circle cx="981.0" cy="392.0" r="1.5" fill="#d8cfbe"/><text x="170" y="458.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">Engineering</text><text x="170" y="474.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=5</text><rect x="188" y="428" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279"><title>Engineering · Foundation Models: 1</title></rect><text x="239.0" y="468.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><circle cx="345.0" cy="460.0" r="1.5" fill="#d8cfbe"/><circle cx="451.0" cy="460.0" r="1.5" fill="#d8cfbe"/><rect x="506" y="428" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.410"><title>Engineering · AI Agent: 3</title></rect><text x="557.0" y="468.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">3</text><rect x="612" y="428" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279"><title>Engineering · Copilot / Assistant: 1</title></rect><text x="663.0" y="468.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><circle cx="769.0" cy="460.0" r="1.5" fill="#d8cfbe"/><circle cx="875.0" cy="460.0" r="1.5" fill="#d8cfbe"/><circle cx="981.0" cy="460.0" r="1.5" fill="#d8cfbe"/><text x="170" y="526.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">Education</text><text x="170" y="542.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=4</text><circle cx="239.0" cy="528.0" r="1.5" fill="#d8cfbe"/><circle cx="345.0" cy="528.0" r="1.5" fill="#d8cfbe"/><circle cx="451.0" cy="528.0" r="1.5" fill="#d8cfbe"/><circle cx="557.0" cy="528.0" r="1.5" fill="#d8cfbe"/><rect x="612" y="496" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.410"><title>Education · Copilot / Assistant: 3</title></rect><text x="663.0" y="536.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">3</text><circle cx="769.0" cy="528.0" r="1.5" fill="#d8cfbe"/><rect x="824" y="496" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279"><title>Education · Analytics &amp; Decisioning: 1</title></rect><text x="875.0" y="536.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><circle cx="981.0" cy="528.0" r="1.5" fill="#d8cfbe"/><text x="170" y="594.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">HR</text><text x="170" y="610.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=4</text><circle cx="239.0" cy="596.0" r="1.5" fill="#d8cfbe"/><circle cx="345.0" cy="596.0" r="1.5" fill="#d8cfbe"/><circle cx="451.0" cy="596.0" r="1.5" fill="#d8cfbe"/><rect x="506" y="564" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.410"><title>HR · AI Agent: 3</title></rect><text x="557.0" y="604.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">3</text><circle cx="663.0" cy="596.0" r="1.5" fill="#d8cfbe"/><circle cx="769.0" cy="596.0" r="1.5" fill="#d8cfbe"/><rect x="824" y="564" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279"><title>HR · Analytics &amp; Decisioning: 1</title></rect><text x="875.0" y="604.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><circle cx="981.0" cy="596.0" r="1.5" fill="#d8cfbe"/><text x="170" y="662.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">Security</text><text x="170" y="678.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=4</text><circle cx="239.0" cy="664.0" r="1.5" fill="#d8cfbe"/><rect x="294" y="632" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.353"><title>Security · ML Infrastructure: 2</title></rect><text x="345.0" y="672.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">2</text><circle cx="451.0" cy="664.0" r="1.5" fill="#d8cfbe"/><rect x="506" y="632" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279"><title>Security · AI Agent: 1</title></rect><text x="557.0" y="672.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><circle cx="663.0" cy="664.0" r="1.5" fill="#d8cfbe"/><circle cx="769.0" cy="664.0" r="1.5" fill="#d8cfbe"/><rect x="824" y="632" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279"><title>Security · Analytics &amp; Decisioning: 1</title></rect><text x="875.0" y="672.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><circle cx="981.0" cy="664.0" r="1.5" fill="#d8cfbe"/><text x="170" y="730.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">E-commerce</text><text x="170" y="746.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=3</text><circle cx="239.0" cy="732.0" r="1.5" fill="#d8cfbe"/><circle cx="345.0" cy="732.0" r="1.5" fill="#d8cfbe"/><rect x="400" y="700" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279"><title>E-commerce · Data Infrastructure: 1</title></rect><text x="451.0" y="740.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><rect x="506" y="700" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.353"><title>E-commerce · AI Agent: 2</title></rect><text x="557.0" y="740.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">2</text><circle cx="663.0" cy="732.0" r="1.5" fill="#d8cfbe"/><circle cx="769.0" cy="732.0" r="1.5" fill="#d8cfbe"/><circle cx="875.0" cy="732.0" r="1.5" fill="#d8cfbe"/><circle cx="981.0" cy="732.0" r="1.5" fill="#d8cfbe"/><text x="170" y="798.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">Legal</text><text x="170" y="814.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=3</text><circle cx="239.0" cy="800.0" r="1.5" fill="#d8cfbe"/><circle cx="345.0" cy="800.0" r="1.5" fill="#d8cfbe"/><circle cx="451.0" cy="800.0" r="1.5" fill="#d8cfbe"/><rect x="506" y="768" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279"><title>Legal · AI Agent: 1</title></rect><text x="557.0" y="808.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><rect x="612" y="768" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279"><title>Legal · Copilot / Assistant: 1</title></rect><text x="663.0" y="808.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><circle cx="769.0" cy="800.0" r="1.5" fill="#d8cfbe"/><rect x="824" y="768" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279"><title>Legal · Analytics &amp; Decisioning: 1</title></rect><text x="875.0" y="808.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><circle cx="981.0" cy="800.0" r="1.5" fill="#d8cfbe"/><text x="170" y="866.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">Logistics</text><text x="170" y="882.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=3</text><circle cx="239.0" cy="868.0" r="1.5" fill="#d8cfbe"/><circle cx="345.0" cy="868.0" r="1.5" fill="#d8cfbe"/><circle cx="451.0" cy="868.0" r="1.5" fill="#d8cfbe"/><rect x="506" y="836" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.353"><title>Logistics · AI Agent: 2</title></rect><text x="557.0" y="876.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">2</text><circle cx="663.0" cy="868.0" r="1.5" fill="#d8cfbe"/><circle cx="769.0" cy="868.0" r="1.5" fill="#d8cfbe"/><rect x="824" y="836" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279"><title>Logistics · Analytics &amp; Decisioning: 1</title></rect><text x="875.0" y="876.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><circle cx="981.0" cy="868.0" r="1.5" fill="#d8cfbe"/><text x="170" y="934.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">ClimateTech</text><text x="170" y="950.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=2</text><circle cx="239.0" cy="936.0" r="1.5" fill="#d8cfbe"/><circle cx="345.0" cy="936.0" r="1.5" fill="#d8cfbe"/><rect x="400" y="904" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279"><title>ClimateTech · Data Infrastructure: 1</title></rect><text x="451.0" y="944.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><circle cx="557.0" cy="936.0" r="1.5" fill="#d8cfbe"/><circle cx="663.0" cy="936.0" r="1.5" fill="#d8cfbe"/><circle cx="769.0" cy="936.0" r="1.5" fill="#d8cfbe"/><rect x="824" y="904" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279"><title>ClimateTech · Analytics &amp; Decisioning: 1</title></rect><text x="875.0" y="944.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><circle cx="981.0" cy="936.0" r="1.5" fill="#d8cfbe"/><text x="170" y="1002.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">Gaming</text><text x="170" y="1018.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=2</text><circle cx="239.0" cy="1004.0" r="1.5" fill="#d8cfbe"/><circle cx="345.0" cy="1004.0" r="1.5" fill="#d8cfbe"/><circle cx="451.0" cy="1004.0" r="1.5" fill="#d8cfbe"/><circle cx="557.0" cy="1004.0" r="1.5" fill="#d8cfbe"/><circle cx="663.0" cy="1004.0" r="1.5" fill="#d8cfbe"/><rect x="718" y="972" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.353"><title>Gaming · Generative Product: 2</title></rect><text x="769.0" y="1012.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">2</text><circle cx="875.0" cy="1004.0" r="1.5" fill="#d8cfbe"/><circle cx="981.0" cy="1004.0" r="1.5" fill="#d8cfbe"/><text x="170" y="1070.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">Real Estate</text><text x="170" y="1086.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=2</text><circle cx="239.0" cy="1072.0" r="1.5" fill="#d8cfbe"/><circle cx="345.0" cy="1072.0" r="1.5" fill="#d8cfbe"/><circle cx="451.0" cy="1072.0" r="1.5" fill="#d8cfbe"/><rect x="506" y="1040" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.353"><title>Real Estate · AI Agent: 2</title></rect><text x="557.0" y="1080.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">2</text><circle cx="663.0" cy="1072.0" r="1.5" fill="#d8cfbe"/><circle cx="769.0" cy="1072.0" r="1.5" fill="#d8cfbe"/><circle cx="875.0" cy="1072.0" r="1.5" fill="#d8cfbe"/><circle cx="981.0" cy="1072.0" r="1.5" fill="#d8cfbe"/></svg>
+
+  <div class="view-toggle" role="tablist" aria-label="Heatmap view">
+    <button class="view-chip" data-view="density" aria-pressed="true">Density</button>
+    <button class="view-chip" data-view="activity" aria-pressed="false">Activity</button>
+    <button class="view-chip" data-view="funding" aria-pressed="false" disabled title="Step 3">Funding</button>
+    <button class="view-chip" data-view="recency" aria-pressed="false" disabled title="Step 5">Recency</button>
   </div>
-  <div class="heatmap-caption">
+
+  <p class="view-explain" data-view="density" style="display:block">
+    <b>Density</b> — how many companies sit in each (sector × functionality) cell.
+    Color saturation grows with count. The largest cell is
+    Cross-industry × AI Agent at 20.
+  </p>
+  <p class="view-explain" data-view="activity" style="display:none">
+    <b>Activity</b> — average <i>momentum score</i> of the companies in each cell,
+    on a 0–100 scale. Driven by recent press, hiring, fresh website, blog cadence,
+    and GitHub commits. Cells with fewer than 3 companies are <i>dashed and dimmed</i>
+    because a single outlier can dominate. Hottest by activity:
+    Cross-industry × Foundation Models at 81.
+  </p>
+
+  <div class="heatmap" data-view="density">
+    <svg id="hm-density-svg" viewBox="0 0 1056 1120" width="100%" preserveAspectRatio="xMinYMin meet" xmlns="http://www.w3.org/2000/svg"><text x="239.0" y="52" text-anchor="middle" font-family="Geist Mono, monospace" font-size="10" fill="#8a7e6c" letter-spacing="0.5">FOUNDATION</text><text x="239.0" y="70" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="14" font-style="italic" fill="#1a1612">6</text><text x="345.0" y="52" text-anchor="middle" font-family="Geist Mono, monospace" font-size="10" fill="#8a7e6c" letter-spacing="0.5">ML INFRA</text><text x="345.0" y="70" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="14" font-style="italic" fill="#1a1612">14</text><text x="451.0" y="52" text-anchor="middle" font-family="Geist Mono, monospace" font-size="10" fill="#8a7e6c" letter-spacing="0.5">DATA INFRA</text><text x="451.0" y="70" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="14" font-style="italic" fill="#1a1612">12</text><text x="557.0" y="52" text-anchor="middle" font-family="Geist Mono, monospace" font-size="10" fill="#8a7e6c" letter-spacing="0.5">AGENT</text><text x="557.0" y="70" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="14" font-style="italic" fill="#1a1612">60</text><text x="663.0" y="52" text-anchor="middle" font-family="Geist Mono, monospace" font-size="10" fill="#8a7e6c" letter-spacing="0.5">COPILOT</text><text x="663.0" y="70" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="14" font-style="italic" fill="#1a1612">19</text><text x="769.0" y="52" text-anchor="middle" font-family="Geist Mono, monospace" font-size="10" fill="#8a7e6c" letter-spacing="0.5">GENERATIVE</text><text x="769.0" y="70" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="14" font-style="italic" fill="#1a1612">15</text><text x="875.0" y="52" text-anchor="middle" font-family="Geist Mono, monospace" font-size="10" fill="#8a7e6c" letter-spacing="0.5">ANALYTICS</text><text x="875.0" y="70" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="14" font-style="italic" fill="#1a1612">17</text><text x="981.0" y="52" text-anchor="middle" font-family="Geist Mono, monospace" font-size="10" fill="#8a7e6c" letter-spacing="0.5">RESEARCH</text><text x="981.0" y="70" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="14" font-style="italic" fill="#1a1612">1</text><line x1="172" y1="80" x2="1044" y2="80" stroke="#1a1612" stroke-width="1"/><text x="170" y="118.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">Cross-industry</text><text x="170" y="134.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=65</text><rect x="188" y="88" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.458" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Cross-industry · Foundation Models: N=4, value=4</title></rect><text x="239.0" y="128.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">4</text><rect x="294" y="88" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.693" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Cross-industry · ML Infrastructure: N=11, value=11</title></rect><text x="345.0" y="128.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#fff">11</text><rect x="400" y="88" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.637" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Cross-industry · Data Infrastructure: N=9, value=9</title></rect><text x="451.0" y="128.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#fff">9</text><rect x="506" y="88" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.900" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Cross-industry · AI Agent: N=20, value=20</title></rect><text x="557.0" y="128.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#fff">20</text><rect x="612" y="88" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.500" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Cross-industry · Copilot / Assistant: N=5, value=5</title></rect><text x="663.0" y="128.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">5</text><rect x="718" y="88" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.637" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Cross-industry · Generative Product: N=9, value=9</title></rect><text x="769.0" y="128.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#fff">9</text><rect x="824" y="88" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.538" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Cross-industry · Analytics &amp; Decisioning: N=6, value=6</title></rect><text x="875.0" y="128.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">6</text><rect x="930" y="88" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Cross-industry · Research Lab: N=1, value=1</title></rect><text x="981.0" y="128.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><text x="170" y="186.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">Finance</text><text x="170" y="202.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=18</text><circle cx="239.0" cy="188.0" r="1.5" fill="#d8cfbe"/><circle cx="345.0" cy="188.0" r="1.5" fill="#d8cfbe"/><circle cx="451.0" cy="188.0" r="1.5" fill="#d8cfbe"/><rect x="506" y="156" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.693" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Finance · AI Agent: N=11, value=11</title></rect><text x="557.0" y="196.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#fff">11</text><rect x="612" y="156" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.458" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Finance · Copilot / Assistant: N=4, value=4</title></rect><text x="663.0" y="196.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">4</text><circle cx="769.0" cy="188.0" r="1.5" fill="#d8cfbe"/><rect x="824" y="156" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.410" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Finance · Analytics &amp; Decisioning: N=3, value=3</title></rect><text x="875.0" y="196.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">3</text><circle cx="981.0" cy="188.0" r="1.5" fill="#d8cfbe"/><text x="170" y="254.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">Consumer</text><text x="170" y="270.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=10</text><circle cx="239.0" cy="256.0" r="1.5" fill="#d8cfbe"/><circle cx="345.0" cy="256.0" r="1.5" fill="#d8cfbe"/><rect x="400" y="224" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Consumer · Data Infrastructure: N=1, value=1</title></rect><text x="451.0" y="264.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><rect x="506" y="224" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Consumer · AI Agent: N=1, value=1</title></rect><text x="557.0" y="264.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><rect x="612" y="224" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.410" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Consumer · Copilot / Assistant: N=3, value=3</title></rect><text x="663.0" y="264.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">3</text><rect x="718" y="224" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.458" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Consumer · Generative Product: N=4, value=4</title></rect><text x="769.0" y="264.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">4</text><rect x="824" y="224" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Consumer · Analytics &amp; Decisioning: N=1, value=1</title></rect><text x="875.0" y="264.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><circle cx="981.0" cy="256.0" r="1.5" fill="#d8cfbe"/><text x="170" y="322.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">Healthcare</text><text x="170" y="338.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=10</text><rect x="188" y="292" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Healthcare · Foundation Models: N=1, value=1</title></rect><text x="239.0" y="332.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><rect x="294" y="292" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Healthcare · ML Infrastructure: N=1, value=1</title></rect><text x="345.0" y="332.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><circle cx="451.0" cy="324.0" r="1.5" fill="#d8cfbe"/><rect x="506" y="292" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.500" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Healthcare · AI Agent: N=5, value=5</title></rect><text x="557.0" y="332.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">5</text><rect x="612" y="292" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.353" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Healthcare · Copilot / Assistant: N=2, value=2</title></rect><text x="663.0" y="332.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">2</text><circle cx="769.0" cy="324.0" r="1.5" fill="#d8cfbe"/><rect x="824" y="292" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Healthcare · Analytics &amp; Decisioning: N=1, value=1</title></rect><text x="875.0" y="332.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><circle cx="981.0" cy="324.0" r="1.5" fill="#d8cfbe"/><text x="170" y="390.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">Customer Support</text><text x="170" y="406.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=9</text><circle cx="239.0" cy="392.0" r="1.5" fill="#d8cfbe"/><circle cx="345.0" cy="392.0" r="1.5" fill="#d8cfbe"/><circle cx="451.0" cy="392.0" r="1.5" fill="#d8cfbe"/><rect x="506" y="360" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.637" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Customer Support · AI Agent: N=9, value=9</title></rect><text x="557.0" y="400.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#fff">9</text><circle cx="663.0" cy="392.0" r="1.5" fill="#d8cfbe"/><circle cx="769.0" cy="392.0" r="1.5" fill="#d8cfbe"/><circle cx="875.0" cy="392.0" r="1.5" fill="#d8cfbe"/><circle cx="981.0" cy="392.0" r="1.5" fill="#d8cfbe"/><text x="170" y="458.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">Engineering</text><text x="170" y="474.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=5</text><rect x="188" y="428" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Engineering · Foundation Models: N=1, value=1</title></rect><text x="239.0" y="468.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><circle cx="345.0" cy="460.0" r="1.5" fill="#d8cfbe"/><circle cx="451.0" cy="460.0" r="1.5" fill="#d8cfbe"/><rect x="506" y="428" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.410" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Engineering · AI Agent: N=3, value=3</title></rect><text x="557.0" y="468.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">3</text><rect x="612" y="428" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Engineering · Copilot / Assistant: N=1, value=1</title></rect><text x="663.0" y="468.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><circle cx="769.0" cy="460.0" r="1.5" fill="#d8cfbe"/><circle cx="875.0" cy="460.0" r="1.5" fill="#d8cfbe"/><circle cx="981.0" cy="460.0" r="1.5" fill="#d8cfbe"/><text x="170" y="526.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">Education</text><text x="170" y="542.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=4</text><circle cx="239.0" cy="528.0" r="1.5" fill="#d8cfbe"/><circle cx="345.0" cy="528.0" r="1.5" fill="#d8cfbe"/><circle cx="451.0" cy="528.0" r="1.5" fill="#d8cfbe"/><circle cx="557.0" cy="528.0" r="1.5" fill="#d8cfbe"/><rect x="612" y="496" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.410" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Education · Copilot / Assistant: N=3, value=3</title></rect><text x="663.0" y="536.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">3</text><circle cx="769.0" cy="528.0" r="1.5" fill="#d8cfbe"/><rect x="824" y="496" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Education · Analytics &amp; Decisioning: N=1, value=1</title></rect><text x="875.0" y="536.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><circle cx="981.0" cy="528.0" r="1.5" fill="#d8cfbe"/><text x="170" y="594.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">HR</text><text x="170" y="610.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=4</text><circle cx="239.0" cy="596.0" r="1.5" fill="#d8cfbe"/><circle cx="345.0" cy="596.0" r="1.5" fill="#d8cfbe"/><circle cx="451.0" cy="596.0" r="1.5" fill="#d8cfbe"/><rect x="506" y="564" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.410" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>HR · AI Agent: N=3, value=3</title></rect><text x="557.0" y="604.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">3</text><circle cx="663.0" cy="596.0" r="1.5" fill="#d8cfbe"/><circle cx="769.0" cy="596.0" r="1.5" fill="#d8cfbe"/><rect x="824" y="564" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>HR · Analytics &amp; Decisioning: N=1, value=1</title></rect><text x="875.0" y="604.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><circle cx="981.0" cy="596.0" r="1.5" fill="#d8cfbe"/><text x="170" y="662.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">Security</text><text x="170" y="678.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=4</text><circle cx="239.0" cy="664.0" r="1.5" fill="#d8cfbe"/><rect x="294" y="632" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.353" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Security · ML Infrastructure: N=2, value=2</title></rect><text x="345.0" y="672.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">2</text><circle cx="451.0" cy="664.0" r="1.5" fill="#d8cfbe"/><rect x="506" y="632" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Security · AI Agent: N=1, value=1</title></rect><text x="557.0" y="672.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><circle cx="663.0" cy="664.0" r="1.5" fill="#d8cfbe"/><circle cx="769.0" cy="664.0" r="1.5" fill="#d8cfbe"/><rect x="824" y="632" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Security · Analytics &amp; Decisioning: N=1, value=1</title></rect><text x="875.0" y="672.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><circle cx="981.0" cy="664.0" r="1.5" fill="#d8cfbe"/><text x="170" y="730.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">E-commerce</text><text x="170" y="746.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=3</text><circle cx="239.0" cy="732.0" r="1.5" fill="#d8cfbe"/><circle cx="345.0" cy="732.0" r="1.5" fill="#d8cfbe"/><rect x="400" y="700" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>E-commerce · Data Infrastructure: N=1, value=1</title></rect><text x="451.0" y="740.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><rect x="506" y="700" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.353" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>E-commerce · AI Agent: N=2, value=2</title></rect><text x="557.0" y="740.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">2</text><circle cx="663.0" cy="732.0" r="1.5" fill="#d8cfbe"/><circle cx="769.0" cy="732.0" r="1.5" fill="#d8cfbe"/><circle cx="875.0" cy="732.0" r="1.5" fill="#d8cfbe"/><circle cx="981.0" cy="732.0" r="1.5" fill="#d8cfbe"/><text x="170" y="798.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">Legal</text><text x="170" y="814.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=3</text><circle cx="239.0" cy="800.0" r="1.5" fill="#d8cfbe"/><circle cx="345.0" cy="800.0" r="1.5" fill="#d8cfbe"/><circle cx="451.0" cy="800.0" r="1.5" fill="#d8cfbe"/><rect x="506" y="768" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Legal · AI Agent: N=1, value=1</title></rect><text x="557.0" y="808.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><rect x="612" y="768" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Legal · Copilot / Assistant: N=1, value=1</title></rect><text x="663.0" y="808.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><circle cx="769.0" cy="800.0" r="1.5" fill="#d8cfbe"/><rect x="824" y="768" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Legal · Analytics &amp; Decisioning: N=1, value=1</title></rect><text x="875.0" y="808.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><circle cx="981.0" cy="800.0" r="1.5" fill="#d8cfbe"/><text x="170" y="866.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">Logistics</text><text x="170" y="882.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=3</text><circle cx="239.0" cy="868.0" r="1.5" fill="#d8cfbe"/><circle cx="345.0" cy="868.0" r="1.5" fill="#d8cfbe"/><circle cx="451.0" cy="868.0" r="1.5" fill="#d8cfbe"/><rect x="506" y="836" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.353" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Logistics · AI Agent: N=2, value=2</title></rect><text x="557.0" y="876.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">2</text><circle cx="663.0" cy="868.0" r="1.5" fill="#d8cfbe"/><circle cx="769.0" cy="868.0" r="1.5" fill="#d8cfbe"/><rect x="824" y="836" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Logistics · Analytics &amp; Decisioning: N=1, value=1</title></rect><text x="875.0" y="876.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><circle cx="981.0" cy="868.0" r="1.5" fill="#d8cfbe"/><text x="170" y="934.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">ClimateTech</text><text x="170" y="950.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=2</text><circle cx="239.0" cy="936.0" r="1.5" fill="#d8cfbe"/><circle cx="345.0" cy="936.0" r="1.5" fill="#d8cfbe"/><rect x="400" y="904" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>ClimateTech · Data Infrastructure: N=1, value=1</title></rect><text x="451.0" y="944.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><circle cx="557.0" cy="936.0" r="1.5" fill="#d8cfbe"/><circle cx="663.0" cy="936.0" r="1.5" fill="#d8cfbe"/><circle cx="769.0" cy="936.0" r="1.5" fill="#d8cfbe"/><rect x="824" y="904" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.279" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>ClimateTech · Analytics &amp; Decisioning: N=1, value=1</title></rect><text x="875.0" y="944.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">1</text><circle cx="981.0" cy="936.0" r="1.5" fill="#d8cfbe"/><text x="170" y="1002.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">Gaming</text><text x="170" y="1018.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=2</text><circle cx="239.0" cy="1004.0" r="1.5" fill="#d8cfbe"/><circle cx="345.0" cy="1004.0" r="1.5" fill="#d8cfbe"/><circle cx="451.0" cy="1004.0" r="1.5" fill="#d8cfbe"/><circle cx="557.0" cy="1004.0" r="1.5" fill="#d8cfbe"/><circle cx="663.0" cy="1004.0" r="1.5" fill="#d8cfbe"/><rect x="718" y="972" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.353" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Gaming · Generative Product: N=2, value=2</title></rect><text x="769.0" y="1012.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">2</text><circle cx="875.0" cy="1004.0" r="1.5" fill="#d8cfbe"/><circle cx="981.0" cy="1004.0" r="1.5" fill="#d8cfbe"/><text x="170" y="1070.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">Real Estate</text><text x="170" y="1086.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=2</text><circle cx="239.0" cy="1072.0" r="1.5" fill="#d8cfbe"/><circle cx="345.0" cy="1072.0" r="1.5" fill="#d8cfbe"/><circle cx="451.0" cy="1072.0" r="1.5" fill="#d8cfbe"/><rect x="506" y="1040" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.353" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Real Estate · AI Agent: N=2, value=2</title></rect><text x="557.0" y="1080.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">2</text><circle cx="663.0" cy="1072.0" r="1.5" fill="#d8cfbe"/><circle cx="769.0" cy="1072.0" r="1.5" fill="#d8cfbe"/><circle cx="875.0" cy="1072.0" r="1.5" fill="#d8cfbe"/><circle cx="981.0" cy="1072.0" r="1.5" fill="#d8cfbe"/></svg>
+  </div>
+  <div class="heatmap hidden" data-view="activity">
+    <svg id="hm-activity-svg" viewBox="0 0 1056 1120" width="100%" preserveAspectRatio="xMinYMin meet" xmlns="http://www.w3.org/2000/svg"><text x="239.0" y="52" text-anchor="middle" font-family="Geist Mono, monospace" font-size="10" fill="#8a7e6c" letter-spacing="0.5">FOUNDATION</text><text x="239.0" y="70" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="14" font-style="italic" fill="#1a1612">6</text><text x="345.0" y="52" text-anchor="middle" font-family="Geist Mono, monospace" font-size="10" fill="#8a7e6c" letter-spacing="0.5">ML INFRA</text><text x="345.0" y="70" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="14" font-style="italic" fill="#1a1612">14</text><text x="451.0" y="52" text-anchor="middle" font-family="Geist Mono, monospace" font-size="10" fill="#8a7e6c" letter-spacing="0.5">DATA INFRA</text><text x="451.0" y="70" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="14" font-style="italic" fill="#1a1612">12</text><text x="557.0" y="52" text-anchor="middle" font-family="Geist Mono, monospace" font-size="10" fill="#8a7e6c" letter-spacing="0.5">AGENT</text><text x="557.0" y="70" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="14" font-style="italic" fill="#1a1612">60</text><text x="663.0" y="52" text-anchor="middle" font-family="Geist Mono, monospace" font-size="10" fill="#8a7e6c" letter-spacing="0.5">COPILOT</text><text x="663.0" y="70" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="14" font-style="italic" fill="#1a1612">19</text><text x="769.0" y="52" text-anchor="middle" font-family="Geist Mono, monospace" font-size="10" fill="#8a7e6c" letter-spacing="0.5">GENERATIVE</text><text x="769.0" y="70" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="14" font-style="italic" fill="#1a1612">15</text><text x="875.0" y="52" text-anchor="middle" font-family="Geist Mono, monospace" font-size="10" fill="#8a7e6c" letter-spacing="0.5">ANALYTICS</text><text x="875.0" y="70" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="14" font-style="italic" fill="#1a1612">17</text><text x="981.0" y="52" text-anchor="middle" font-family="Geist Mono, monospace" font-size="10" fill="#8a7e6c" letter-spacing="0.5">RESEARCH</text><text x="981.0" y="70" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="14" font-style="italic" fill="#1a1612">1</text><line x1="172" y1="80" x2="1044" y2="80" stroke="#1a1612" stroke-width="1"/><text x="170" y="118.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">Cross-industry</text><text x="170" y="134.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=65</text><rect x="188" y="88" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.820" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Cross-industry · Foundation Models: N=4, value=80.9</title></rect><text x="239.0" y="128.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#fff">81</text><rect x="294" y="88" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.771" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Cross-industry · ML Infrastructure: N=11, value=70.4</title></rect><text x="345.0" y="128.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#fff">70</text><rect x="400" y="88" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.781" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Cross-industry · Data Infrastructure: N=9, value=72.5</title></rect><text x="451.0" y="128.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#fff">72</text><rect x="506" y="88" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.744" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Cross-industry · AI Agent: N=20, value=64.8</title></rect><text x="557.0" y="128.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#fff">65</text><rect x="612" y="88" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.725" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Cross-industry · Copilot / Assistant: N=5, value=61.0</title></rect><text x="663.0" y="128.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#fff">61</text><rect x="718" y="88" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.757" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Cross-industry · Generative Product: N=9, value=67.5</title></rect><text x="769.0" y="128.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#fff">68</text><rect x="824" y="88" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.734" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Cross-industry · Analytics &amp; Decisioning: N=6, value=62.8</title></rect><text x="875.0" y="128.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#fff">63</text><rect x="930" y="88" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.434" stroke="#a0958a" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="2 2"><title>Cross-industry · Research Lab: N=1, value=92.1</title></rect><text x="981.0" y="128.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">92</text><text x="170" y="186.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">Finance</text><text x="170" y="202.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=18</text><circle cx="239.0" cy="188.0" r="1.5" fill="#d8cfbe"/><circle cx="345.0" cy="188.0" r="1.5" fill="#d8cfbe"/><circle cx="451.0" cy="188.0" r="1.5" fill="#d8cfbe"/><rect x="506" y="156" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.780" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Finance · AI Agent: N=11, value=72.2</title></rect><text x="557.0" y="196.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#fff">72</text><rect x="612" y="156" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.795" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Finance · Copilot / Assistant: N=4, value=75.5</title></rect><text x="663.0" y="196.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#fff">76</text><circle cx="769.0" cy="188.0" r="1.5" fill="#d8cfbe"/><rect x="824" y="156" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.770" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Finance · Analytics &amp; Decisioning: N=3, value=70.2</title></rect><text x="875.0" y="196.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#fff">70</text><circle cx="981.0" cy="188.0" r="1.5" fill="#d8cfbe"/><text x="170" y="254.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">Consumer</text><text x="170" y="270.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=10</text><circle cx="239.0" cy="256.0" r="1.5" fill="#d8cfbe"/><circle cx="345.0" cy="256.0" r="1.5" fill="#d8cfbe"/><rect x="400" y="224" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.331" stroke="#a0958a" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="2 2"><title>Consumer · Data Infrastructure: N=1, value=49.2</title></rect><text x="451.0" y="264.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">49</text><rect x="506" y="224" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.385" stroke="#a0958a" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="2 2"><title>Consumer · AI Agent: N=1, value=70.2</title></rect><text x="557.0" y="264.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">70</text><rect x="612" y="224" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.732" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Consumer · Copilot / Assistant: N=3, value=62.5</title></rect><text x="663.0" y="264.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#fff">62</text><rect x="718" y="224" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.760" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Consumer · Generative Product: N=4, value=68.0</title></rect><text x="769.0" y="264.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#fff">68</text><rect x="824" y="224" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.372" stroke="#a0958a" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="2 2"><title>Consumer · Analytics &amp; Decisioning: N=1, value=65.0</title></rect><text x="875.0" y="264.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">65</text><circle cx="981.0" cy="256.0" r="1.5" fill="#d8cfbe"/><text x="170" y="322.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">Healthcare</text><text x="170" y="338.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=10</text><rect x="188" y="292" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.401" stroke="#a0958a" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="2 2"><title>Healthcare · Foundation Models: N=1, value=77.2</title></rect><text x="239.0" y="332.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">77</text><rect x="294" y="292" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.372" stroke="#a0958a" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="2 2"><title>Healthcare · ML Infrastructure: N=1, value=65.0</title></rect><text x="345.0" y="332.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">65</text><circle cx="451.0" cy="324.0" r="1.5" fill="#d8cfbe"/><rect x="506" y="292" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.778" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Healthcare · AI Agent: N=5, value=71.9</title></rect><text x="557.0" y="332.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#fff">72</text><rect x="612" y="292" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.350" stroke="#a0958a" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="2 2"><title>Healthcare · Copilot / Assistant: N=2, value=56.2</title></rect><text x="663.0" y="332.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">56</text><circle cx="769.0" cy="324.0" r="1.5" fill="#d8cfbe"/><rect x="824" y="292" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.364" stroke="#a0958a" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="2 2"><title>Healthcare · Analytics &amp; Decisioning: N=1, value=61.5</title></rect><text x="875.0" y="332.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">62</text><circle cx="981.0" cy="324.0" r="1.5" fill="#d8cfbe"/><text x="170" y="390.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">Customer Support</text><text x="170" y="406.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=9</text><circle cx="239.0" cy="392.0" r="1.5" fill="#d8cfbe"/><circle cx="345.0" cy="392.0" r="1.5" fill="#d8cfbe"/><circle cx="451.0" cy="392.0" r="1.5" fill="#d8cfbe"/><rect x="506" y="360" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.761" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Customer Support · AI Agent: N=9, value=68.3</title></rect><text x="557.0" y="400.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#fff">68</text><circle cx="663.0" cy="392.0" r="1.5" fill="#d8cfbe"/><circle cx="769.0" cy="392.0" r="1.5" fill="#d8cfbe"/><circle cx="875.0" cy="392.0" r="1.5" fill="#d8cfbe"/><circle cx="981.0" cy="392.0" r="1.5" fill="#d8cfbe"/><text x="170" y="458.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">Engineering</text><text x="170" y="474.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=5</text><rect x="188" y="428" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.378" stroke="#a0958a" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="2 2"><title>Engineering · Foundation Models: N=1, value=67.3</title></rect><text x="239.0" y="468.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">67</text><circle cx="345.0" cy="460.0" r="1.5" fill="#d8cfbe"/><circle cx="451.0" cy="460.0" r="1.5" fill="#d8cfbe"/><rect x="506" y="428" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.803" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Engineering · AI Agent: N=3, value=77.2</title></rect><text x="557.0" y="468.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#fff">77</text><rect x="612" y="428" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.364" stroke="#a0958a" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="2 2"><title>Engineering · Copilot / Assistant: N=1, value=61.5</title></rect><text x="663.0" y="468.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">62</text><circle cx="769.0" cy="460.0" r="1.5" fill="#d8cfbe"/><circle cx="875.0" cy="460.0" r="1.5" fill="#d8cfbe"/><circle cx="981.0" cy="460.0" r="1.5" fill="#d8cfbe"/><text x="170" y="526.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">Education</text><text x="170" y="542.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=4</text><circle cx="239.0" cy="528.0" r="1.5" fill="#d8cfbe"/><circle cx="345.0" cy="528.0" r="1.5" fill="#d8cfbe"/><circle cx="451.0" cy="528.0" r="1.5" fill="#d8cfbe"/><circle cx="557.0" cy="528.0" r="1.5" fill="#d8cfbe"/><rect x="612" y="496" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.777" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>Education · Copilot / Assistant: N=3, value=71.6</title></rect><text x="663.0" y="536.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#fff">72</text><circle cx="769.0" cy="528.0" r="1.5" fill="#d8cfbe"/><rect x="824" y="496" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.345" stroke="#a0958a" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="2 2"><title>Education · Analytics &amp; Decisioning: N=1, value=54.5</title></rect><text x="875.0" y="536.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">54</text><circle cx="981.0" cy="528.0" r="1.5" fill="#d8cfbe"/><text x="170" y="594.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">HR</text><text x="170" y="610.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=4</text><circle cx="239.0" cy="596.0" r="1.5" fill="#d8cfbe"/><circle cx="345.0" cy="596.0" r="1.5" fill="#d8cfbe"/><circle cx="451.0" cy="596.0" r="1.5" fill="#d8cfbe"/><rect x="506" y="564" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.742" stroke="#C24A2C" stroke-opacity="0.25" stroke-width="1"><title>HR · AI Agent: N=3, value=64.4</title></rect><text x="557.0" y="604.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#fff">64</text><circle cx="663.0" cy="596.0" r="1.5" fill="#d8cfbe"/><circle cx="769.0" cy="596.0" r="1.5" fill="#d8cfbe"/><rect x="824" y="564" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.385" stroke="#a0958a" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="2 2"><title>HR · Analytics &amp; Decisioning: N=1, value=70.2</title></rect><text x="875.0" y="604.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">70</text><circle cx="981.0" cy="596.0" r="1.5" fill="#d8cfbe"/><text x="170" y="662.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">Security</text><text x="170" y="678.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=4</text><circle cx="239.0" cy="664.0" r="1.5" fill="#d8cfbe"/><rect x="294" y="632" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.368" stroke="#a0958a" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="2 2"><title>Security · ML Infrastructure: N=2, value=63.2</title></rect><text x="345.0" y="672.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">63</text><circle cx="451.0" cy="664.0" r="1.5" fill="#d8cfbe"/><rect x="506" y="632" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.372" stroke="#a0958a" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="2 2"><title>Security · AI Agent: N=1, value=65.0</title></rect><text x="557.0" y="672.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">65</text><circle cx="663.0" cy="664.0" r="1.5" fill="#d8cfbe"/><circle cx="769.0" cy="664.0" r="1.5" fill="#d8cfbe"/><rect x="824" y="632" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.385" stroke="#a0958a" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="2 2"><title>Security · Analytics &amp; Decisioning: N=1, value=70.2</title></rect><text x="875.0" y="672.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">70</text><circle cx="981.0" cy="664.0" r="1.5" fill="#d8cfbe"/><text x="170" y="730.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">E-commerce</text><text x="170" y="746.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=3</text><circle cx="239.0" cy="732.0" r="1.5" fill="#d8cfbe"/><circle cx="345.0" cy="732.0" r="1.5" fill="#d8cfbe"/><rect x="400" y="700" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.385" stroke="#a0958a" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="2 2"><title>E-commerce · Data Infrastructure: N=1, value=70.2</title></rect><text x="451.0" y="740.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">70</text><rect x="506" y="700" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.380" stroke="#a0958a" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="2 2"><title>E-commerce · AI Agent: N=2, value=67.9</title></rect><text x="557.0" y="740.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">68</text><circle cx="663.0" cy="732.0" r="1.5" fill="#d8cfbe"/><circle cx="769.0" cy="732.0" r="1.5" fill="#d8cfbe"/><circle cx="875.0" cy="732.0" r="1.5" fill="#d8cfbe"/><circle cx="981.0" cy="732.0" r="1.5" fill="#d8cfbe"/><text x="170" y="798.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">Legal</text><text x="170" y="814.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=3</text><circle cx="239.0" cy="800.0" r="1.5" fill="#d8cfbe"/><circle cx="345.0" cy="800.0" r="1.5" fill="#d8cfbe"/><circle cx="451.0" cy="800.0" r="1.5" fill="#d8cfbe"/><rect x="506" y="768" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.350" stroke="#a0958a" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="2 2"><title>Legal · AI Agent: N=1, value=56.2</title></rect><text x="557.0" y="808.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">56</text><rect x="612" y="768" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.401" stroke="#a0958a" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="2 2"><title>Legal · Copilot / Assistant: N=1, value=77.2</title></rect><text x="663.0" y="808.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">77</text><circle cx="769.0" cy="800.0" r="1.5" fill="#d8cfbe"/><rect x="824" y="768" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.350" stroke="#a0958a" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="2 2"><title>Legal · Analytics &amp; Decisioning: N=1, value=56.2</title></rect><text x="875.0" y="808.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">56</text><circle cx="981.0" cy="800.0" r="1.5" fill="#d8cfbe"/><text x="170" y="866.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">Logistics</text><text x="170" y="882.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=3</text><circle cx="239.0" cy="868.0" r="1.5" fill="#d8cfbe"/><circle cx="345.0" cy="868.0" r="1.5" fill="#d8cfbe"/><circle cx="451.0" cy="868.0" r="1.5" fill="#d8cfbe"/><rect x="506" y="836" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.368" stroke="#a0958a" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="2 2"><title>Logistics · AI Agent: N=2, value=63.2</title></rect><text x="557.0" y="876.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">63</text><circle cx="663.0" cy="868.0" r="1.5" fill="#d8cfbe"/><circle cx="769.0" cy="868.0" r="1.5" fill="#d8cfbe"/><rect x="824" y="836" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.350" stroke="#a0958a" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="2 2"><title>Logistics · Analytics &amp; Decisioning: N=1, value=56.2</title></rect><text x="875.0" y="876.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">56</text><circle cx="981.0" cy="868.0" r="1.5" fill="#d8cfbe"/><text x="170" y="934.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">ClimateTech</text><text x="170" y="950.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=2</text><circle cx="239.0" cy="936.0" r="1.5" fill="#d8cfbe"/><circle cx="345.0" cy="936.0" r="1.5" fill="#d8cfbe"/><rect x="400" y="904" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.350" stroke="#a0958a" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="2 2"><title>ClimateTech · Data Infrastructure: N=1, value=56.2</title></rect><text x="451.0" y="944.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">56</text><circle cx="557.0" cy="936.0" r="1.5" fill="#d8cfbe"/><circle cx="663.0" cy="936.0" r="1.5" fill="#d8cfbe"/><circle cx="769.0" cy="936.0" r="1.5" fill="#d8cfbe"/><rect x="824" y="904" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.401" stroke="#a0958a" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="2 2"><title>ClimateTech · Analytics &amp; Decisioning: N=1, value=77.2</title></rect><text x="875.0" y="944.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">77</text><circle cx="981.0" cy="936.0" r="1.5" fill="#d8cfbe"/><text x="170" y="1002.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">Gaming</text><text x="170" y="1018.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=2</text><circle cx="239.0" cy="1004.0" r="1.5" fill="#d8cfbe"/><circle cx="345.0" cy="1004.0" r="1.5" fill="#d8cfbe"/><circle cx="451.0" cy="1004.0" r="1.5" fill="#d8cfbe"/><circle cx="557.0" cy="1004.0" r="1.5" fill="#d8cfbe"/><circle cx="663.0" cy="1004.0" r="1.5" fill="#d8cfbe"/><rect x="718" y="972" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.368" stroke="#a0958a" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="2 2"><title>Gaming · Generative Product: N=2, value=63.2</title></rect><text x="769.0" y="1012.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">63</text><circle cx="875.0" cy="1004.0" r="1.5" fill="#d8cfbe"/><circle cx="981.0" cy="1004.0" r="1.5" fill="#d8cfbe"/><text x="170" y="1070.0" text-anchor="end" font-family="Geist, sans-serif" font-size="14" font-weight="500" fill="#1a1612">Real Estate</text><text x="170" y="1086.0" text-anchor="end" font-family="Geist Mono, monospace" font-size="10" fill="#9a8e7a">N=2</text><circle cx="239.0" cy="1072.0" r="1.5" fill="#d8cfbe"/><circle cx="345.0" cy="1072.0" r="1.5" fill="#d8cfbe"/><circle cx="451.0" cy="1072.0" r="1.5" fill="#d8cfbe"/><rect x="506" y="1040" width="102" height="64" rx="2" fill="#C24A2C" fill-opacity="0.363" stroke="#a0958a" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="2 2"><title>Real Estate · AI Agent: N=2, value=61.2</title></rect><text x="557.0" y="1080.0" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="26" font-weight="500" fill="#1a1612">61</text><circle cx="663.0" cy="1072.0" r="1.5" fill="#d8cfbe"/><circle cx="769.0" cy="1072.0" r="1.5" fill="#d8cfbe"/><circle cx="875.0" cy="1072.0" r="1.5" fill="#d8cfbe"/><circle cx="981.0" cy="1072.0" r="1.5" fill="#d8cfbe"/></svg>
+  </div>
+
+  <div class="view-caption heatmap-caption" data-view="density" style="display:flex">
     <span class="swatch-row">
       <span class="swatch" style="background:#C24A2C;opacity:0.10"></span>
       <span class="swatch" style="background:#C24A2C;opacity:0.35"></span>
@@ -409,27 +397,59 @@ footer {
     <span>· empty cells: dots</span>
     <span>· numbers: company counts</span>
   </div>
+  <div class="view-caption heatmap-caption" data-view="activity" style="display:none">
+    <span class="swatch-row">
+      <span class="swatch" style="background:#C24A2C;opacity:0.10"></span>
+      <span class="swatch" style="background:#C24A2C;opacity:0.35"></span>
+      <span class="swatch" style="background:#C24A2C;opacity:0.70"></span>
+      <span class="swatch" style="background:#C24A2C;opacity:0.95"></span>
+      <span>quieter ←→ hotter</span>
+    </span>
+    <span>· numbers: 0–100 mean momentum</span>
+    <span>· dashed: N&lt;3 (low confidence)</span>
+  </div>
 </section>
 
 <section>
   <div class="section-head">
     <h2 class="section-num"><span class="roman">V</span>What's next.</h2>
-    <p class="section-sub">Step 2 of 6 · activity layer</p>
+    <p class="section-sub">Step 3 of 6 · funding layer</p>
   </div>
   <p class="pullquote">
     Cross-industry is still the largest row at 65 of 144 —
-    Step 4 cracks that open. Step 2 layers signal-strength onto each
-    tile so the same grid starts showing how <em>active</em>, not just
-    how <em>many</em>. Step 3 adds funding. Step 5 surfaces problem
-    themes.
+    Step 4 cracks that open into sub-sectors. Step 3 next: fill the
+    funding column and add a third view to this toggle. Step 5
+    surfaces problem themes and pulls findings up to the top of this
+    page.
   </p>
 </section>
 
 <footer>
   <span>YC AI Momentum Heatmap</span>
-  <span>Cohort 2026-06-04 · 144 companies · Step 1 of 6</span>
+  <span>Cohort 2026-06-04 · 144 companies · Step 2 of 6</span>
 </footer>
 
 </main>
+<script>
+(function() {
+  function setView(view) {
+    document.querySelectorAll('.heatmap').forEach(function(h) {
+      h.classList.toggle('hidden', h.dataset.view !== view);
+    });
+    document.querySelectorAll('.view-chip').forEach(function(c) {
+      c.setAttribute('aria-pressed', String(c.dataset.view === view));
+    });
+    document.querySelectorAll('.view-explain').forEach(function(e) {
+      e.style.display = (e.dataset.view === view) ? 'block' : 'none';
+    });
+    document.querySelectorAll('.view-caption').forEach(function(e) {
+      e.style.display = (e.dataset.view === view) ? 'flex' : 'none';
+    });
+  }
+  document.querySelectorAll('.view-chip').forEach(function(c) {
+    c.addEventListener('click', function() { setView(c.dataset.view); });
+  });
+})();
+</script>
 </body>
 </html>
