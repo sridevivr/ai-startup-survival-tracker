@@ -548,20 +548,17 @@ def render(rows: list[dict]) -> str:
     for r in rows:
         fy[r.get("founded_year", "?")] += 1
 
-    count_map, activity_map, sector_n, func_n = cell_aggregates(rows)
-    sector_n_counter = Counter(sector_n)
+    count_map, _activity_map, sector_n, func_n = cell_aggregates(rows)
 
     # For headline meta
     top_cell, top_cell_n = max(count_map.items(), key=lambda kv: kv[1])
-    top_act_cell, top_act_val = max(
-        ((k, v) for k, v in activity_map.items() if count_map[k] >= 3),
-        key=lambda kv: kv[1],
-    )
     cross_n = sector_n.get("Cross-industry", 0)
     today = date.today().isoformat()
     fy_str = ", ".join(f"{y}·{c}" for y, c in sorted(fy.items()))
 
-    # Heatmaps
+    # Density heatmap only — Activity view dropped per design feedback
+    # (a numeric score is hard to read). We keep activity_score in the
+    # CSV as a backend filter signal, but don't render it on the page.
     density_svg = heatmap_svg(
         view_id="hm-density-svg",
         value_map=count_map, count_map=count_map,
@@ -569,14 +566,6 @@ def render(rows: list[dict]) -> str:
         max_value=max(count_map.values()),
         cell_label_fn=lambda v, n: str(int(v)),
         low_n_dim=False,
-    )
-    activity_svg = heatmap_svg(
-        view_id="hm-activity-svg",
-        value_map=activity_map, count_map=count_map,
-        sector_n=sector_n, func_n=func_n,
-        max_value=100.0,
-        cell_label_fn=lambda v, n: str(int(round(v))),
-        low_n_dim=True,
     )
 
     # Vocabulary cards
@@ -618,8 +607,6 @@ def render(rows: list[dict]) -> str:
       <span class="glance-val">2023–25<small>{html.escape(fy_str)}</small></span></div>
     <div class="glance-row"><span class="glance-key">Densest cell</span>
       <span class="glance-val">{html.escape(top_cell[0])}<small>× {html.escape(top_cell[1])} · {top_cell_n}</small></span></div>
-    <div class="glance-row"><span class="glance-key">Hottest cell</span>
-      <span class="glance-val">{html.escape(top_act_cell[0])}<small>× {html.escape(top_act_cell[1])} · avg act. {top_act_val:.0f}</small></span></div>
     <div class="glance-row"><span class="glance-key">Cross-industry</span>
       <span class="glance-val">{cross_n}<small>of {n} ({cross_n / n * 100:.0f}%)</small></span></div>
   </aside>
@@ -667,37 +654,14 @@ def render(rows: list[dict]) -> str:
 <section>
   <div class="section-head">
     <h2 class="section-num"><span class="roman">IV</span>The heatmap.</h2>
-    <p class="section-sub">Density vs activity · two views, same grid</p>
+    <p class="section-sub">Where the companies are · count by cell</p>
   </div>
-
-  <div class="view-toggle" role="tablist" aria-label="Heatmap view">
-    <button class="view-chip" data-view="density" aria-pressed="true">Density</button>
-    <button class="view-chip" data-view="activity" aria-pressed="false">Activity</button>
-    <button class="view-chip" data-view="funding" aria-pressed="false" disabled title="Step 3">Funding</button>
-    <button class="view-chip" data-view="recency" aria-pressed="false" disabled title="Step 5">Recency</button>
-  </div>
-
-  <p class="view-explain" data-view="density" style="display:block">
-    <b>Density</b> — how many companies sit in each (sector × functionality) cell.
-    Color saturation grows with count. The largest cell is
-    {html.escape(top_cell[0])} × {html.escape(top_cell[1])} at {top_cell_n}.
-  </p>
-  <p class="view-explain" data-view="activity" style="display:none">
-    <b>Activity</b> — average <i>momentum score</i> of the companies in each cell,
-    on a 0–100 scale. Driven by recent press, hiring, fresh website, blog cadence,
-    and GitHub commits. Cells with fewer than 3 companies are <i>dashed and dimmed</i>
-    because a single outlier can dominate. Hottest by activity:
-    {html.escape(top_act_cell[0])} × {html.escape(top_act_cell[1])} at {top_act_val:.0f}.
-  </p>
 
   <div class="heatmap" data-view="density">
     {density_svg}
   </div>
-  <div class="heatmap hidden" data-view="activity">
-    {activity_svg}
-  </div>
 
-  <div class="view-caption heatmap-caption" data-view="density" style="display:flex">
+  <div class="heatmap-caption">
     <span class="swatch-row">
       <span class="swatch" style="background:{ACCENT};opacity:0.10"></span>
       <span class="swatch" style="background:{ACCENT};opacity:0.35"></span>
@@ -708,30 +672,18 @@ def render(rows: list[dict]) -> str:
     <span>· empty cells: dots</span>
     <span>· numbers: company counts</span>
   </div>
-  <div class="view-caption heatmap-caption" data-view="activity" style="display:none">
-    <span class="swatch-row">
-      <span class="swatch" style="background:{ACCENT};opacity:0.10"></span>
-      <span class="swatch" style="background:{ACCENT};opacity:0.35"></span>
-      <span class="swatch" style="background:{ACCENT};opacity:0.70"></span>
-      <span class="swatch" style="background:{ACCENT};opacity:0.95"></span>
-      <span>quieter ←→ hotter</span>
-    </span>
-    <span>· numbers: 0–100 mean momentum</span>
-    <span>· dashed: N&lt;3 (low confidence)</span>
-  </div>
 </section>
 
 <section>
   <div class="section-head">
     <h2 class="section-num"><span class="roman">V</span>What's next.</h2>
-    <p class="section-sub">Step 3 of 6 · funding layer</p>
+    <p class="section-sub">Step 4 of 6 · cracking open Cross-industry</p>
   </div>
   <p class="pullquote">
     Cross-industry is still the largest row at {cross_n} of {n} —
-    Step 4 cracks that open into sub-sectors. Step 3 next: fill the
-    funding column and add a third view to this toggle. Step 5
-    surfaces problem themes and pulls findings up to the top of this
-    page.
+    next we crack that open into sub-sectors so we can see what
+    horizontal-AI actually means. Funding and problem themes come
+    after that.
   </p>
 </section>
 
